@@ -1,5 +1,5 @@
 #!/bin/bash
 
-say "hello"
+say "hello there"
 
 exit 0
