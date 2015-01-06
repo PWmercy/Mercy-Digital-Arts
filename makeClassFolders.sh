@@ -1,6 +1,3 @@
-# This is the Comment
-
-
 #!/bin/bash
 cd ~
 while read line
