@@ -9,14 +9,13 @@
 
 #!/bin/bash
 cd ~
-while read line
+while read className
 do
 echo "HELLO"
-echo "$line"
-class=$line
-#mkdir $class
+echo "$className"
+#mkdir $className
 #cd $class
-class=`echo $class | cut -d"-" -f1`
+class=`echo $className | cut -d"-" -f1`
 folder="Pick-up-here"
 dir=$class-$folder
 #mkdir $dir
