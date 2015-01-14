@@ -1,3 +1,32 @@
 #PSEUDOCODE
 #Read line
 #Parse Class Name
+#Posix permissions
+
+
+# This is the Comment
+
+
+#!/bin/bash
+cd ~
+while read line
+do
+echo "HELLO"
+echo "$line"
+class=$line
+#mkdir $class
+#cd $class
+class=`echo $class | cut -d"-" -f1`
+folder="Pick-up-here"
+dir=$class-$folder
+#mkdir $dir
+file="Drop-off-here"
+dir=$class-$folder
+#mkdir $dir
+file="Instructor-only"
+dir=$class-$folder
+#mkdir $dir
+file="Collaboration"
+dir=$class-$folder
+#mkdir $dir
+cd ..
