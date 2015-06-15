@@ -6,9 +6,6 @@
 # EXAMPLE
 # sudo sh /Users/sadmin/Desktop/Create-Class-Folders/Setclassfolderpermissions.sh /Volumes/Rack1HD2/MTEC-Classes /Users/sadmin/Desktop/Create-Class-Folders/2015SP-MTEC-classes.data
 
-# Sample line from data file
-# dbell	MUSI103DFA-Theory-Musicianship-I
-
 
 #PSEUDOCODE
 
@@ -20,6 +17,9 @@
 cd $1
 
 while read instructor classNumber
+
+# Sample line from data file
+# dbell	MUSI103DFA-Theory-Musicianship-I
 
 do
 
