@@ -3,9 +3,9 @@
 echo "Started"
 directoryDomain="/LDAPv3/miniserv5.digiarts.mercy"
 #	Username of a directory administrator
-directoryUsername="dadmin"
+directoryUsername="$2"
 #	Password for the above directory administrator
-directoryPassword="x4l1t0l"
+directoryPassword="$3"
 
 while	read shortname importID
 
