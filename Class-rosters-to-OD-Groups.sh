@@ -3,24 +3,22 @@
 echo "Started"
 directoryDomain="/LDAPv3/miniserv5.digiarts.mercy"
 #	Username of a directory administrator
-directoryUsername="$2"
+directoryUsername="dadmin"
 #	Password for the above directory administrator
-directoryPassword="$3"
+directoryPassword="x4l1t0l"
+class="cart110dfa"
 
-while	read shortname importID
+while	IFS=$'\t' read shortname skipme
 
 do
-if [ $shortname == "class" ]
-	then #First line is actually class name, e.g. CART123MTA
-	className=$importID
-	else
 	#shortname=`echo "${importFirstName:0:1}${importLastName:0:1}$importID" | tr "[:upper:]" "[:lower:]"`
-	echo "$shortname with student ID $importID has been added to class $className"
-	dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $className
+	echo "$shortname with student ID $importID has been added to class $class"
+	#dseditgroup -o read -u $directoryUsername -P $directoryPassword -n $directoryDomain $class
+ #	echo "dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class"
+dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class
 	#	echo $importFirstName
 	#	echo $importLastName
 	#	echo $importID
 	#	echo $importNotes
-fi
 
 done < $1
