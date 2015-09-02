@@ -1,0 +1,4 @@
+# Command to download latest updates to Adobe Update Server repository (incremental)
+# Parameters shown are specific to Digital Arts server setup as of 8/2015
+
+sudo /Library/Application\ Support/Adobe/AdobeUpdatetupTool --root=/Volumes/Server\ HD2/adobe_updates_repo --incremental

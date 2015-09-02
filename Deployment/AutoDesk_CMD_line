@@ -1,0 +1,21 @@
+# Command line to install Autodesk Maya
+# Based on Autodesk info at
+# http://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2016/ENU/Installation-Maya/files/GUID-10885D2B-D900-4DD6-BB14-B82920C2D294-htm.html
+
+
+# Mount dmg
+# NOTE: Releases will have different dmg name so check carefully
+# DMG is assumed to be on admin Desktop
+# 2016 SP1
+hdiutil mount /Users/admin/Desktop/Autodesk_Maya_2016_SP1_EN_JP_ZH_Mac_OSX.dmg
+
+# Setup is inside installer contents, so CD inside
+cd /Volumes/Install\ Maya\ 2016/Install\ Maya\ 2016.app/Contents/MacOS
+
+# Run set up with no GUI, matching Serial Number and Product Key, standalone license
+./setup --noui --serial_number=396-88318081 --product_key=793H1 --license_type=kStandalone
+
+# 2015 SP6
+# hdiutil mount /Users/admin/Desktop/Autodesk_Maya_2015_EXT1_SP6_EN_JP_ZH_MAC_OSX.dmg
+# cd /Volumes/Maya/Install\ Maya\ 2015.app/Contents/MacOS
+# ./setup --noui --serial_number=545-90177960 --product_key=793G1 --license_type=kStandalone
