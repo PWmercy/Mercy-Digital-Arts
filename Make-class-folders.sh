@@ -1,0 +1,81 @@
+#!/bin/bash
+
+#This script reads a path and a data file and creates the folder structure for a class, then sets permissions
+# Parameters are (1) Path to class folders (2) data text file with list of classes and instructors
+
+# EXAMPLE
+# sudo sh /Users/sadmin/Desktop/Create-Class-Folders/Setclassfolderpermissions.sh /Volumes/Rack1HD2/MTEC-Classes /Users/sadmin/Desktop/Create-Class-Folders/2015SP-MTEC-classes.data
+
+
+#PSEUDOCODE
+
+#Read line
+
+#Parse Class Name
+#Posix permissions
+
+cd $1
+
+while read instructor classNumber
+
+# Sample line from data file
+# dbell	MUSI103DFA-Theory-Musicianship-I
+
+do
+
+  echo "HELLO"
+  echo "$classNumber"
+  echo "$instructor"
+  class=`echo $classNumber | cut -d"-" -f1` #Strip characters after number, leaving e.g. MUSI103DFA
+  echo $class
+
+  # convert classnumber to lower case for OD group name, e.g. musi103dfa
+  classGroupName=`echo $class | tr  '[:upper:]' '[:lower:]'`
+  echo $classGroupName
+  mkdir $classNumber
+
+  # Give instructor R/W
+  chmod +a# 0 "$instructor allow list,add_file,search,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,file_inherit,directory_inherit" $classNumber
+
+  # Give students read only
+  chmod +a# 1 "$classGroupName allow read,execute,readattr,readextattr,readsecurity,file_inherit,directory_inherit" $classNumber
+
+  # Remove read permissions from Others, leaving no access
+  chmod o-r $classNumber
+
+  # cd to this new class folder then create sub-folders
+
+  cd $classNumber
+
+  folder="Pick-up-here"
+  dir=$class-$folder
+  echo $dir
+  mkdir $dir
+
+  folder="Drop-off-here"
+  dir=$class-$folder
+  echo $dir
+  mkdir $dir
+  # Remove class ACL, set Others to Write Only
+  chmod -a# 1 $dir
+  chmod o-r+w $dir
+
+  folder="Instructor-only"
+  dir=$class-$folder
+  echo $dir
+  mkdir $dir
+  # Remove class ACL so only Instructor can open
+  chmod -a# 1 $dir
+  chmod o-r $dir
+
+  folder="Collaboration"
+  dir=$class-$folder
+  echo $dir
+  mkdir $dir
+  # Remove class ACL then add back with R/W
+  chmod -a# 1 $dir
+  chmod +a# 1 "$classGroupName allow list,add_file,search,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,file_inherit,directory_inherit" $dir
+
+  cd ..
+
+done < $2
