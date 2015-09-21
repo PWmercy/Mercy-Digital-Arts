@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# This script reads a path and a data file and creates the folder structure for a class, then sets permissions
-# Needs to be simplified. Regular Posix permissions will suffice in subfolders
+# Needs to be simplified. Regular Posix permissions will suffice for some subfolders
 
 # This script reads a path and a data file, creates the folder structure for a class, then sets permissions
 # Parameters are (1) Path to class folders (2) data text file with list of classes and instructors
@@ -10,12 +9,12 @@
 # sudo sh /Users/sadmin/Desktop/Create-Class-Folders/Setclassfolderpermissions.sh /Volumes/Rack1HD2/MTEC-Classes /Users/sadmin/Desktop/Create-Class-Folders/2015SP-MTEC-classes.data
 
 
-#PSEUDOCODE
+# PSEUDOCODE
 
-#Read line
+# Read line
 
-#Parse Class Name
-#Posix permissions
+# Parse Class Name
+# Posix permissions
 
 cd $1
 
