@@ -6,10 +6,16 @@ directoryDomain="/LDAPv3/miniserv5.digiarts.mercy"
 # if running on Server use:
 # directoryDomain="/LDAPv3/127.0.0.1"
 
+read -p "Directory Admin name: " directoryUsername
+echo $directoryUsername
+
 #	Username of a directory administrator
-directoryUsername="dadmin"
+# directoryUsername="dadmin"
 #	Password for the above directory administrator
-directoryPassword="x4l1t0l"
+# directoryPassword="x4l1t0l"
+
+read -s -p "Password: " directoryPassword
+echo $directoryPassword
 
 currentclass=""
 
