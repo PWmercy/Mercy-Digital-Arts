@@ -2,7 +2,8 @@
 
 # Needs to be simplified. Regular Posix permissions will suffice for some subfolders
 
-# This script reads a path and a data file, creates the folder structure for a class, then sets permissions
+# This script reads a path and a data file, creates the folder structure for a class
+# (main folder and 4 sub-folders), then sets permissions
 # Parameters are (1) Path to class folders (2) data text file with list of classes and instructors
 
 # EXAMPLE
