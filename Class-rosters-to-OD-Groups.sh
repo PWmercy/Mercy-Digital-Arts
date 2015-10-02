@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# This script receives a tab-delimited data file of User shortnames and class group names (e.g., jdoe <TAB> CART123DFA)
+# Each line adds a user to the OD group that are for the class (e.g., CART123DFA)
+
 echo "Started"
 
 directoryDomain="/LDAPv3/miniserv5.digiarts.mercy"
-# if running on Server use:
-# directoryDomain="/LDAPv3/127.0.0.1"
+# if running on Server use: directoryDomain="/LDAPv3/127.0.0.1"
 
 read -p "Directory Admin name: " directoryUsername
 echo $directoryUsername
@@ -25,13 +27,14 @@ do
 	if [ "$class" != "$currentclass" ]
 		then
 		 currentclass=$class
-	 fi
+	fi
 
-	#shortname=`echo "${importFirstName:0:1}${importLastName:0:1}$importID" | tr "[:upper:]" "[:lower:]"`
-	echo "$shortname with student ID $importID has been added to class $currentclass"
-	#dseditgroup -o read -u $directoryUsername -P $directoryPassword -n $directoryDomain $class
- #	echo "dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class"
+# shortname=`echo "${importFirstName:0:1}${importLastName:0:1}$importID" | tr "[:upper:]" "[:lower:]"`
+echo "$shortname with student ID $importID has been added to class $currentclass"
+# dseditgroup -o read -u $directoryUsername -P $directoryPassword -n $directoryDomain $class
+#	echo "dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class"
 # dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $currentclass
+
 	#	echo $importFirstName
 	#	echo $importLastName
 	#	echo $importID
