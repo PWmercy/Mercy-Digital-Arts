@@ -6,7 +6,8 @@
 echo "Started"
 
 directoryDomain="/LDAPv3/miniserv5.digiarts.mercy"
-# if running on Server use: directoryDomain="/LDAPv3/127.0.0.1"
+# if running on Server use:
+# directoryDomain="/LDAPv3/127.0.0.1"
 
 read -p "Directory Admin name: " directoryUsername
 echo $directoryUsername
