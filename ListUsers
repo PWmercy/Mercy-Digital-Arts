@@ -1,0 +1,9 @@
+#import <OpenDirectory/OpenDirectory.h>
+ODSession *s = [ODSession defaultSession];
+ODNode *root = [ODNode nodeWithSession:s name:@"/Local/Default" error:nil];
+ODQuery *q = [ODQuery queryWithNode:root forRecordTypes:kODRecordTypeUsers attribute:nil matchType:0 queryValues:nil returnAttributes:nil maximumResults:0 error:nil];
+
+NSArray *results = [q resultsAllowingPartial:NO error:nil];
+for (ODRecord *r in results) {
+    NSLog(@"%@", [r recordName]);
+}

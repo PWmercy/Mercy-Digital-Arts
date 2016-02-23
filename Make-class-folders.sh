@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# v. 20160202.01
 # Needs to be simplified. Regular Posix permissions will suffice for some subfolders
 
 # This script reads a path and a data file, creates the folder structure for a class
@@ -16,8 +17,10 @@
 
 # Parse Class Name
 # Posix permissions
+read -p "Path to class folders: " path_to_Classes
+read -p "Path to data: " path_to_Data
 
-cd $1
+cd $path_to_Classes
 
 while read instructor classNumber
 
@@ -81,4 +84,4 @@ do
 
   cd ..
 
-done < $2
+done < $path_to_Data
