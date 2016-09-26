@@ -1,6 +1,6 @@
 #!/bin/sh
 # 20160921 As of today, ExpanDrive requires license in each user Library
-# Two files must be on /Users/admin/Desktop
+# Two files must be on /Users/admin/Desktop for this to work
 
 homeFolderlist=`ls /Users`
 
@@ -15,12 +15,12 @@ if [ $theUser != "Shared" ] && [ $theUser != "Guest" ] && [ $theUser != "qubepro
     else
       mkdir -p "/Users/$theUser/Library/Application Support/ExpanDrive/branding"
       echo "Created /Users/$theUser/Library/Application Support/ExpanDrive/branding."
+      cp /Users/admin/Desktop/configuration.js "/Users/$theUser/Library/Application Support/ExpanDrive/branding/"
+      cp /Users/admin/Desktop/ExpanDrive5.ExpanDriveLicense "/Users/$theUser/Library/Application Support/ExpanDrive/"
+      chmod -R 755 "/Users/$theUser/Library/Application Support/ExpanDrive"
+      chown -R $theUser:staff "/Users/$theUser/Library/Application Support/ExpanDrive"
+      echo "Copied and set permissions for /Users/$theUser/Library/Application Support/ExpanDrive."
     fi
 
-    cp /Users/admin/Desktop/configuration.js "/Users/$theUser/Library/Application Support/ExpanDrive/branding/"
-    cp /Users/admin/Desktop/ExpanDrive5.ExpanDriveLicense "/Users/$theUser/Library/Application Support/ExpanDrive/"
-    chmod -R 755 "/Users/$theUser/Library/Application Support/ExpanDrive"
-    chown -R $theUser:staff "/Users/$theUser/Library/Application Support/ExpanDrive"
-    echo "Copied and set permissions for /Users/$theUser/Library/Application Support/ExpanDrive."
 fi
 done
