@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# 2016.11.16
+# Created to find users that still have home folders on the former Manhattan server
+# May be useful in other contexts
+
+userList=`dscl /LDAPv3/miniserv5.digiarts.mercy -list /Users`
+
+# echo $userList
+echo "This will search the LDAP directory for home folder location."
+
+read -p "What home directory location are we looking for (part of name ok)?  " searchString
+
+for name in $userList; do
+  searchResult=`dscl /LDAPv3/miniserv5.digiarts.mercy -read /Users/$name | grep -C 1 NFSHomeDirectory | grep $searchString`
+
+if [[ -n $searchResult ]]; then echo $searchResult | sed -n -e 's/^.*\(Home-*\)/\1/p'
+  fi
+
+done
