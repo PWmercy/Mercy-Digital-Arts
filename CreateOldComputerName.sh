@@ -5,7 +5,11 @@
 #
 # In order to sort in ARD, this script puts a name in the old format in Computer Info field 2
 # For now, script relies on new format and exact length so will not work with "inst"
+<<<<<<< HEAD
 
+=======
+# Testync for s
+>>>>>>> origin/master
 # kickstart parameters from http://ss64.com/osx/kickstart.html
 
 # get current machine name, e.g., vh200mc99999mac01.local
