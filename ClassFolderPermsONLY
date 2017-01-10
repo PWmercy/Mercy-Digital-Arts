@@ -2,6 +2,12 @@
 
 # This script reads a path and a data file and creates the folder structure for a class, then sets permissions
 # Parameters are (1) Path to class folders (2) data text file with list of classes and instructors
+#
+
+#***************************************************************************************
+#************************************ IMPORTANT ****************************************
+#***************************************************************************************
+# This version has the folder creation steps (mkdir) commented out and should be used
 # when folder already exists and you want to apply correct permissions. Useful when something
 # was missed on first run, e.g. Class group or new teacher not created on server. 
 #***************************************************************************************
