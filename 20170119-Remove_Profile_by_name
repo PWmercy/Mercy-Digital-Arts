@@ -1,0 +1,14 @@
+#!/bin/bash
+
+## Get UUID of requested MDM Profile
+MDMUUID=`profiles -Lv | grep "name: $4" -4 | awk -F": " '/attribute: profileIdentifier/{print $NF}'`
+
+## Remove said profile, identified by UUID
+if [[ $MDMUUID ]]; then
+  echo "removing"
+#    profiles -R -p $MDMUUID
+else
+    echo "No Profile Found"
+fi
+
+sleep 5

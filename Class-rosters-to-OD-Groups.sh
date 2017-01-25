@@ -21,22 +21,22 @@ echo $directoryUsername
 
 read -s -p "Password: " directoryPassword
 # echo $directoryPassword
-
+#
 currentclass=""
 # IFS=$'\t' sets delimiter as TAB
 while	IFS=$'\t' read shortname class
 do
-# Following if statement is redundant now that each line of format includes class
-	if [ "$class" != "$currentclass" ]
-		then
-		 currentclass=$class
-	fi
+#  Following if statement is redundant now that each line of format includes class
+# 	if [ "$class" != "$currentclass" ]
+# 		then
+# 		 currentclass=$class
+# 	fi
 
 # shortname=`echo "${importFirstName:0:1}${importLastName:0:1}$importID" | tr "[:upper:]" "[:lower:]"`
 # dseditgroup -o read -u $directoryUsername -P $directoryPassword -n $directoryDomain $class
 #	echo "dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class"
-dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $currentclass
-echo "$shortname has been added to class $currentclass"
+dseditgroup -o edit -u $directoryUsername -P $directoryPassword -n $directoryDomain -a $shortname -t user $class
+echo "$shortname has been added to class $class"
 
 	#	echo $importFirstName
 	#	echo $importLastName
