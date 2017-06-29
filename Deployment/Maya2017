@@ -1,0 +1,96 @@
+#!/bin/bash
+################################################################################
+# https://www.jamf.com/jamf-nation/discussions/10267/packaging-autodesk-maya#responseChild139155
+################################################################################
+# Author: Scott Blake
+# Modified: 2017-02-10
+#
+# Postinstall script to install and license Autodesk Maya 2017.
+#
+################################################################################
+# Command Line Parameters for Maya Setup
+#
+# ./setup [--option[=value]]
+#
+# --help:
+#   display the argument options of the installer and quit.
+#
+# --noui:
+#   disable the UI of the installer. If not specified, installer starts with UI.
+#
+# --log=<filename>:
+#   the log filename with path. If not specified, /var/log/autodesk/<app><version>INSTALL.log is used as log file.
+#
+# --debug:
+#   create the log file with detailed debug information.
+#
+# --force:
+#   force installation of the rpm (when this option is used, --nodeps --force will be used on all rpms to install.
+#
+# --serial_number=XXX-XXXXXXXX:
+#   specify the adlm serial number.
+#
+# --product_key=<product code>:
+#   specify the adlm product key.
+#
+# --license_type=<kNetwork or kStandalone>:
+#   specify the adlm license type.
+#
+# --server_name=<name>:
+#   specify the adlm license server name.
+#
+################################################################################
+# Changelog
+#
+# Version 1.0 - Scott Blake
+#   Initial script
+#
+################################################################################
+# Variables
+#
+
+PRODUCT_KEY="657I1"
+SUITE_KEY="657I1"
+SERIAL="123-12345678"
+LICENSE_TYPE="kNetwork"  # Options: kNetwork or kStandalone
+LICENSE_SERVER="license.server.domain.com"
+
+MAYA_SETUP_LOC="/path/to/Install Maya 2017.app/Contents/MacOS/"
+MAYA_SUPPORT_PATH="$3/Library/Application Support/Autodesk/CLM/LGS/${PRODUCT_KEY}_2017.0.0.F"
+
+################################################################################
+# Code
+#
+
+# Change directory to wherever the Maya setup is located
+# The setup file is dumb and seg faults when `pwd` is not the same.
+cd "${MAYA_SETUP_LOC}"
+
+if [ "${LICENSE_TYPE}" == "kStandalone" ]; then
+  # Trigger installation
+  ./setup --noui --force --serial_number=${SERIAL} --product_key=${PRODUCT_KEY} --license_type=${LICENSE_TYPE}
+
+  # License separately since the setup binary is broken
+  # ../Resources/adlmreg -i S ${PRODUCT_KEY} ${SUITE_KEY} 2017.0.0.F ${SERIAL} /Library/Application\ Support/Autodesk/Adlm/PIT/2017/MayaConfig.pit
+
+  # Manually create random stuff since the setup binary is broken
+  mkdir "${MAYA_SUPPORT_PATH}/"
+  touch "${MAYA_SUPPORT_PATH}/LGS.data"
+  chmod 755 "${MAYA_SUPPORT_PATH}/LGS.data"
+  echo "_STANDALONE">>"${MAYA_SUPPORT_PATH}/LGS.data"
+else
+  # Trigger installation
+  ./setup --noui --force --serial_number=${SERIAL} --product_key=${PRODUCT_KEY} --license_type=${LICENSE_TYPE} --server_name=${LICENSE_SERVER}
+
+  # License separately since the setup binary is broken
+  # ../Resources/adlmreg -i N ${PRODUCT_KEY} ${SUITE_KEY} 2017.0.0.F ${SERIAL} /Library/Application\ Support/Autodesk/Adlm/PIT/2017/MayaConfig.pit
+
+  # Manually create random stuff since the setup binary is broken
+  mkdir "${MAYA_SUPPORT_PATH}"
+  touch "${MAYA_SUPPORT_PATH}/LGS.data"
+  chmod 755 "${MAYA_SUPPORT_PATH}/LGS.data"
+  echo "_NETWORK" >> "${MAYA_SUPPORT_PATH}/LGS.data"
+
+  echo "SERVER ${LICENSE_SERVER} 0" >> "${MAYA_SUPPORT_PATH}/LICPATH.lic"
+  echo "USE_SERVER" >> "${MAYA_SUPPORT_PATH}/LICPATH.lic"
+fi

@@ -26,7 +26,7 @@ currentclass=""
 # IFS=$'\t' sets delimiter as TAB
 while	IFS=$'\t' read shortname class
 do
-#  Following if statement is redundant now that each line of format includes class
+#  Following if statement is redundant now that each line of input includes class
 # 	if [ "$class" != "$currentclass" ]
 # 		then
 # 		 currentclass=$class
