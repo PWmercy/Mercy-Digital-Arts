@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# This is a postinstall script which sets up Ableton Live to use the Sassafras License server.
+# It creates settings in the main Library and deletes local User/Library prefs
+
+
+################### NOTE #####################
+### The main Library preferences folder that is installed with the pkg
+### includes the version of Live in its name, so this may need to be different with each update
+### QUESTION: Can we get current version from installed app and update in this script?
+##############################################
+
+for USER_HOME in /Users/*
+do 
+ if [ -d "${USER_HOME}"/Library/Preferences/Ableton ]
+ then
+
+ rm -r "${USER_HOME}"/Library/Preferences/Ableton
+ 
+ fi
+ done
+ 
+ # The Library.cfg file points to the following path for default installation
+ # of Live Factory Packs
+ 
+ if [ ! -d "/Users/Shared/Music/Ableton/Factory Packs/" ]
+ then 
+mkdir -p "/Users/Shared/Music/Ableton/Factory Packs/"
+fi
