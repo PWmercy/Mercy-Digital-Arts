@@ -3,7 +3,7 @@
 # Part of this process involved changing our existing machine names, e.g., "Victory-200-01"
 # to a form compatible with their 15 character limit, e.g., vh200mc99999mac01, where the 2 digits at the end are ignored
 #
-# In order to sort in ARD, this script puts a name in the old format in Computer Info field 2
+# In order to correctly sort in ARD, this script puts a name in the old format in Computer Info field 2
 # For now, script relies on new format and exact length so will not work with "inst"
 <<<<<<< HEAD
 
