@@ -14,9 +14,9 @@
 # PSEUDOCODE
 
 # Read line
-
 # Parse Class Name
 # Posix permissions
+
 read -p "Path to class folders: " path_to_Classes
 read -p "Path to data: " path_to_Data
 
