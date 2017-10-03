@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# 20170911
+# With all students using AD to log in to lab Macs, must change permissions and rename existing OD Home folders and
+# create folders for new, AD-only accounts
+
+# CD to Digiarts-Home-folders
+cd '/Users/admin/Desktop/TestPermsFix'
+
+while	IFS=$'\t' read ODname ADname
+do
+
+  # if exists folder ODname
+  if [ -d $ODname ]; then
+    echo "Found OD Name folder $ODname"
+    # set owner to ADname
+    echo "Changed owner to $ADname"
+    mv $ODname $ADname
+    echo "Renamed"
+    # else if exists folder ADname
+  elif [ -d $ADname ]; then
+    echo "Found AD Name folder $ADname"
+    echo "Set owner to $ADname and set permissions"
+  else
+    # else Create new home folder
+    echo "Out of if "
+    echo "creating $ADname"
+    mkdir $ADname
+    cd $ADname
+    mkdir "My-Stuff"
+    # Sub folders Public/Drop Box, My-Stuff
+    mkdir -p "Public/Drop Box"
+    # Set permissions
+    # chown -R
+    echo "Created new Home folder, set owner to $ADname and set permissions"
+    echo "Done"
+  fi
+  cd '/Users/admin/Desktop/TestPermsFix'
+
+  # Set owner and permissions for current folder
+  chown -R $ADname:staff $ADname
+  chmod 755 $ADname
+  chmod 700 $ADname/My-Stuff
+  chmod 733 $ADname/Public/Drop\ Box
+
+  cd '/Users/admin/Desktop/TestPermsFix'
+
+done < $1

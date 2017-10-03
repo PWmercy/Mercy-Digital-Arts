@@ -28,33 +28,33 @@ _input="/tmp/munkireport.data"
 
 # IFS=$'\t' sets delimiter as TAB
 
- while	IFS=$'\t' read serNum compName field1 field2 field3 field4
- do
-# echo $compName
- if [ "$serNum" = "$thisSerialNum" ]
- then
-   #  echo $serNum
- #    echo $compName
- #    echo $field1
- #    echo $field2
- #    echo $field3
- #    echo $field4
- 
-# Restore ARD fields
-$ksDir/kickstart -configure -computerinfo -set1 -1 "$field1"
-$ksDir/kickstart -configure -computerinfo -set2 -2 "$field2"
-$ksDir/kickstart -configure -computerinfo -set3 -3 "$field3"
-$ksDir/kickstart -configure -computerinfo -set4 -4 "$field4"
+while	IFS=$'\t' read serNum compName field1 field2 field3 field4
+do
+  # echo $compName
+  if [ "$serNum" = "$thisSerialNum" ]
+  then
+    #  echo $serNum
+    #    echo $compName
+    #    echo $field1
+    #    echo $field2
+    #    echo $field3
+    #    echo $field4
 
-# Restore computer name and host names
-/usr/sbin/scutil --set HostName $compName
-/usr/sbin/scutil --set LocalHostName $compName
-/usr/sbin/scutil --set ComputerName $compName
+    # Restore ARD fields
+    $ksDir/kickstart -configure -computerinfo -set1 -1 "$field1"
+    $ksDir/kickstart -configure -computerinfo -set2 -2 "$field2"
+    $ksDir/kickstart -configure -computerinfo -set3 -3 "$field3"
+    $ksDir/kickstart -configure -computerinfo -set4 -4 "$field4"
 
-/usr/bin/dscacheutil -flushcache
+    # Restore computer name and host names
+    /usr/sbin/scutil --set HostName $compName
+    /usr/sbin/scutil --set LocalHostName $compName
+    /usr/sbin/scutil --set ComputerName $compName
 
-# Once found, leave the read While loop
-break
+    /usr/bin/dscacheutil -flushcache
+
+    # Once found, leave the read While loop
+    break
   else
     echo "not found"
   fi
