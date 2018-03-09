@@ -1,10 +1,10 @@
 #!/bin/sh
 
 #################################################
-### Reason 10 added extra instruments and refills that by default download into User Library,
+### Reason 10 added extra instruments and refills that by default download into User Library.
 ### At first-run for each user, a download is requested and files are put
 ### into /Users/$USER/Library/Application Support/Propellerhead Software/Propellerhead Content
-### Since this seems to be the only place that Reason will find it, we first move the folder
+### Since this seems to be the only place that Reason will find these files, we first move the folder
 ### to "/Library/Application Support/Propellerhead Software/Propellerhead Content/"
 ### (This is assumed to have been done before running this script)
 ### Then this script makes a symbolic link in the current User library in Reason's expected location (~/Library/ -->> /Library/)
