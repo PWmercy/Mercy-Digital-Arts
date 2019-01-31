@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#cd to installer location (/Users/admin/Desktop in this case)
+cd /Volumes/Install\ Maya\ 2018/Install\ Maya\ 2018.app/Contents/MacOS
+sudo ./setup --noui --log=/var/log/autodesk/2018/INSTALL.log --force --serial_number=562-99943215 --product_key=657J1 --license_type=kStandalone
+
+# Using adlmreg to activate the license
+cd /Volumes/Install\ Maya\ 2018/Install\ Maya\ 2018.app/Contents/Resources/
+
+# Note 2 different product codes below
+sudo ./adlmreg -i S 657J1 657J1 2018.0.0.F 562-99943215 /Library/Application\ Support/Autodesk/Adlm/PIT/2018/MayaConfig.pit
+
+#Create and add text to LGS.data
+sudo mkdir /Library/Application\ Support/Autodesk/CLM/LGS/657J1_2018.0.0.F
+sudo touch /Library/Application\ Support/Autodesk/CLM/LGS/657J1_2018.0.0.F/LGS.data
+sudo chmod 777 /Library/Application\ Support/Autodesk/CLM/LGS/657J1_2018.0.0.F/LGS.data
+sudo echo "_STANDALONE" >> /Library/Application\ Support/Autodesk/CLM/LGS/657J1_2018.0.0.F/LGS.data

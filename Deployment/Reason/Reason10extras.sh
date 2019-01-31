@@ -20,7 +20,7 @@ then
   then
     rm -R "/Users/$USER/Music/Propellerhead Content"
   fi
-  # Then create symbolic link to central Library folder in local Music folder
+  # Then create symbolic link in local Music folder (to central Library folder)
   ln -s  "/Library/Application Support/Propellerhead Software/Propellerhead Content" "/Users/$USER/Music/Propellerhead Content"
   # chown root:admin for /Library/Application Support folder
   #chown -R root:admin "/Library/Application Support/Propellerhead Software/Propellerhead Content"
