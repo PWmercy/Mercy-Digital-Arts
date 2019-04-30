@@ -1,5 +1,13 @@
-
 #!/bin/bash
+
+# 20190430
+# Folders and files dropped off in "Drop-off-here" folders often
+# have bad permissions. This script (intended for scheduled run on Synology NAS)
+# goes through each class folder, finds Drop-off-here, adds rw to everthing, then
+# fixes write-only at top level.
+
+# TO DO: correct share name, test on NAS
+
 IFS=$'\n'
 cd 'FakeShare'
 pwd
