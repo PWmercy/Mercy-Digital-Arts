@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ADAllowMultiDomainAuth</key>
+			<true/>
+			<key>ADAllowMultiDomainAuthFlag</key>
+			<true/>
+			<key>ADCreateMobileAccountAtLogin</key>
+			<false/>
+			<key>ADCreateMobileAccountAtLoginFlag</key>
+			<true/>
+			<key>ADDefaultUserShell</key>
+			<string>/bin/bash</string>
+			<key>ADDefaultUserShellFlag</key>
+			<true/>
+			<key>ADDomainAdminGroupListFlag</key>
+			<false/>
+			<key>ADForceHomeLocal</key>
+			<true/>
+			<key>ADForceHomeLocalFlag</key>
+			<true/>
+			<key>ADMapGGIDAttributeFlag</key>
+			<false/>
+			<key>ADMapGIDAttributeFlag</key>
+			<false/>
+			<key>ADMapUIDAttributeFlag</key>
+			<false/>
+			<key>ADMountStyle</key>
+			<string>smb</string>
+			<key>ADNamespace</key>
+			<string>domain</string>
+			<key>ADNamespaceFlag</key>
+			<true/>
+			<key>ADPacketEncrypt</key>
+			<string>allow</string>
+			<key>ADPacketEncryptFlag</key>
+			<true/>
+			<key>ADPacketSign</key>
+			<string>allow</string>
+			<key>ADPacketSignFlag</key>
+			<true/>
+			<key>ADPreferredDCServerFlag</key>
+			<false/>
+			<key>ADRestrictDDNSFlag</key>
+			<false/>
+			<key>ADTrustChangePassIntervalDays</key>
+			<integer>14</integer>
+			<key>ADTrustChangePassIntervalDaysFlag</key>
+			<true/>
+			<key>ADUseWindowsUNCPath</key>
+			<true/>
+			<key>ADUseWindowsUNCPathFlag</key>
+			<true/>
+			<key>ADWarnUserBeforeCreatingMA</key>
+			<false/>
+			<key>ADWarnUserBeforeCreatingMAFlag</key>
+			<true/>
+			<key>HostName</key>
+			<string>miniserv2.digiarts.mercy</string>
+			<key>PayloadDisplayName</key>
+			<string>Directory (miniserv2.digiarts.mercy)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.miniserv2.digiarts.mercy.2a8b4f70-129b-0137-5e5b-3c0754635bf0.alacarte.directory.56869550-129b-0137-5e5c-3c0754635bf0</string>
+			<key>PayloadType</key>
+			<string>com.apple.DirectoryService.managed</string>
+			<key>PayloadUUID</key>
+			<string>56869550-129b-0137-5e5c-3c0754635bf0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Bind Mac to OD (as of 201902 used for NFS automount)</string>
+	<key>PayloadDisplayName</key>
+	<string>Settings for Digiarts OD Binding</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.miniserv2.digiarts.mercy.2a8b4f70-129b-0137-5e5b-3c0754635bf0.alacarte</string>
+	<key>PayloadOrganization</key>
+	<string>Mercy College Digital Arts</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2a8b4f70-129b-0137-5e5b-3c0754635bf0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

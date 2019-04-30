@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>ManagedInstalls</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppleSoftwareUpdatesOnly</key>
+								<false/>
+								<key>ClientIdentifier</key>
+								<string>munki_mtec_test_client</string>
+								<key>InstallAppleSoftwareUpdates</key>
+								<true/>
+								<key>InstallRequiresLogout</key>
+								<true/>
+								<key>LogFile</key>
+								<string>/Library/Managed Installs/Logs/ManagedSoftwareUpdate.log</string>
+								<key>LoggingLevel</key>
+								<string></string>
+								<key>ManagedInstallDir</key>
+								<string>/Library/Managed Installs</string>
+								<key>PackageVerificationMode</key>
+								<string>hash</string>
+								<key>SoftwareRepoURL</key>
+								<string>http://munki5.digiarts.mercy/munki_repo</string>
+								<key>SuppressAutoInstall</key>
+								<false/>
+								<key>SuppressStopButtonOnInstall</key>
+								<true/>
+								<key>SuppressUserNotification</key>
+								<true/>
+								<key>UseClientCertificate</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (ManagedInstalls)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.miniserv2.digiarts.mercy.1eff9c80-fe28-0135-f8db-3c0754635bf0.alacarte.customsettings.35dbfe80-fe28-0135-f8dd-3c0754635bf0</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>35dbfe80-fe28-0135-f8dd-3c0754635bf0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Settings for Munki-MTEC-Testing</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.miniserv2.digiarts.mercy.1eff9c80-fe28-0135-f8db-3c0754635bf0.alacarte</string>
+	<key>PayloadOrganization</key>
+	<string>Mercy College Center for Digital Arts</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1eff9c80-fe28-0135-f8db-3c0754635bf0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
