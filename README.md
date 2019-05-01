@@ -5,7 +5,7 @@ This github repository contains various scripts and documents which support the 
 
 pwhite@mercy.edu
 
-Mercy College  
+**Mercy College**  
 Design+Animation  
 Music Production+Recording Arts  
 Dobbs Ferry NY  10522  
