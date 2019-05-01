@@ -9,16 +9,34 @@
 # TO DO: correct share name, test on NAS
 
 IFS=$'\n'
-cd 'FakeShare'
+# CART
+cd '/volume1/CART-Class-folders'
 pwd
 for classFolder in `ls -d *`; do
     # pwd
     for innerFolder in `ls -d $classFolder/*`; do
-      echo $innerFolder
-      if [[ "$classFolder/$innerFolder" =~ "Drop-off" ]]; then
-        echo "found one"
-        chmod -R a+rx $classFolder/$innerFolder
-        chmod o-r+w $classFolder/$innerFolder
+#      echo $innerFolder
+      if [[ "$classFolder/$innerFolder" =~ "Drop-off-here" ]]; then
+        echo "found one at $classFolder/$innerFolder"
+#        chmod -R a+rx $classFolder/$innerFolder
+#        chmod o-r+w $classFolder/$innerFolder
+      fi
+    done
+    # cd ..
+  pwd
+done
+
+# MTEC
+cd '/volume1/MTEC-Class-folders'
+pwd
+for classFolder in `ls -d *`; do
+    # pwd
+    for innerFolder in `ls -d $classFolder/*`; do
+#      echo $innerFolder
+      if [[ "$classFolder/$innerFolder" =~ "Drop-off-here" ]]; then
+        echo "found one at $classFolder/$innerFolder"
+#        chmod -R a+rx $classFolder/$innerFolder
+#        chmod o-r+w $classFolder/$innerFolder
       fi
     done
     # cd ..
