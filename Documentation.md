@@ -29,3 +29,9 @@ Renewal calendar
   * Maya
 
 ### Music Production+Recording Arts
+
+  * Pro Tools
+  
+  * Reason
+  
+  * Logic Pro
