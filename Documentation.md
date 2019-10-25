@@ -12,13 +12,15 @@ Synology
 
 ## Software ##
 
+Renewal calendar
+
 All computers
 
-Microsoft Suite
+  Microsoft Suite
 
-ExpanDrive
+  ExpanDrive
 
-Standard App Store
+  Standard App Store
 
 Design+Animation
 
