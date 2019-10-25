@@ -44,8 +44,9 @@ Reposado/Margarita
 Software install and updates
 Munki
 
+Loops for GarageBand and Logic
 Synology
-App Center
+Package Center
 
 Management/Reporting
 
