@@ -16,12 +16,16 @@ Renewal calendar
 
 All computers
 
-  Microsoft Suite
+  * Microsoft Suite
 
-  ExpanDrive
+  * ExpanDrive
 
-  Standard App Store
+  * Standard App Store
 
 Design+Animation
+
+  * Adobe Creative Cloud
+  
+  * Maya
 
 Music Production+Recording Arts
