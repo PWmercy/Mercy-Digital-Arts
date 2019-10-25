@@ -29,6 +29,14 @@ Renewal calendar
   * Adobe Creative Cloud
   
   * Maya
+  
+  * Substance Painter
+  
+  * Marvelous Designer
+  
+  * ZBrush
+  
+  * KeyShot
 
 ### Music Production+Recording Arts
 
@@ -37,6 +45,8 @@ Renewal calendar
   * Reason
   
   * Logic Pro
+  
+  * Ableton Live
   
 ## Deployment and Maintenance
 
