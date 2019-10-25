@@ -44,6 +44,10 @@ Reposado/Margarita
 Software install and updates
 Munki
 
+Synology
+App Center
+
 Management/Reporting
 
 Munki Report
+
