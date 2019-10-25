@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# 20190430
+# 20190913
+
 # Folders and files dropped off in "Drop-off-here" folders often
-# have bad permissions. This script goes through each class folder,
-# finds # Drop-off-here, adds rw to everthing, then
+# have bad permissions for instructor. This script goes through each class folder,
+# finds Drop-off-here, adds rw to everything, then
 # fixes write-only at top level.
 
 IFS=$'\n'
@@ -11,12 +12,12 @@ IFS=$'\n'
 cd '/volume1/CART-Class-folders'
 
 for classFolder in `ls -d *`; do
-    for innerFolder in `ls -d $classFolder/*`; do
+    for innerFolder in `ls -d $classFolder/*`;  do
       if [[ $innerFolder =~ "Drop-off-here" ]]; then
-        echo "found one at $innerFolder"
-#        chmod -R a+rx $classFolder/$innerFolder
-#        chmod o-r+w $classFolder/$innerFolder
-        touch $innerFolder/foundit.txt
+      # echo "found one at $innerFolder"
+       chmod -R a+rx $classFolder/$innerFolder
+       chmod o-r+w $classFolder/$innerFolder
+        # touch $innerFolder/foundit.txt
       fi
     done
 done
@@ -27,10 +28,10 @@ cd '/volume1/MTEC-Class-folders'
 for classFolder in `ls -d *`; do
     for innerFolder in `ls -d $classFolder/*`; do
       if [[ $innerFolder =~ "Drop-off-here" ]]; then
-        echo "found one at $innerFolder"
-#        chmod -R a+rx $classFolder/$innerFolder
-#        chmod o-r+w $classFolder/$innerFolder
-        touch $innerFolder/foundit.txt
+      # echo "found one at $innerFolder"
+       chmod -R a+rx $classFolder/$innerFolder
+       chmod o-r+w $classFolder/$innerFolder
+        # touch $innerFolder/foundit.txt
       fi
     done
 done
