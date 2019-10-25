@@ -14,7 +14,7 @@ Synology
 
 Renewal calendar
 
-All computers
+### All computers
 
   * Microsoft Suite
 
@@ -22,10 +22,10 @@ All computers
 
   * Standard App Store
 
-Design+Animation
+### Design+Animation
 
   * Adobe Creative Cloud
   
   * Maya
 
-Music Production+Recording Arts
+### Music Production+Recording Arts
