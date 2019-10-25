@@ -1,4 +1,4 @@
-## Hardware ##
+## Hardware
 
 iMacs
 
@@ -8,59 +8,62 @@ iMac Pro
 
 Mac Pro (2012)
 
-Synology 
+Synology
 
 Printers
 
-## Software ##
+## Software
 
 Renewal calendar
 
 ### All computers
 
-  * Microsoft Suite
-
-  * ExpanDrive
-
-  * Standard App Store
+-   Microsoft Suite
+-   ExpanDrive
+-   Standard App Store
 
 ### Design+Animation
 
-  * Adobe Creative Cloud
-  
-  * Maya
-  
-  * Substance Painter
-  
-  * Marvelous Designer
-  
-  * ZBrush
-  
-  * KeyShot
+-   Adobe Creative Cloud
+-   Maya
+-   Substance Painter
+-   Marvelous Designer
+-   ZBrush
+-   KeyShot
+-   Quixel
+-   Houdini
+-   Nuke
+-   Vray
 
 ### Music Production+Recording Arts
 
-  * Pro Tools
-  
-  * Reason
-  
-  * Logic Pro
-  
-  * Ableton Live
-  
-## Deployment and Maintenance
+-   Pro Tools
+-   Reason
+-   Logic Pro
+-   Ableton Live
+-   Musition
+-   Native Instruments Komplete
 
-Apple updates
-Reposado/Margarita
+## Deployment and Maintenance  
 
-Software install and updates
-Munki
+#### Apple updates
 
-Loops for GarageBand and Logic
-Synology
-Package Center
+-   Reposado/Margarita
 
-Management/Reporting
+#### Software install and updates
 
-Munki Report
+-   Munki  
+    Server at munki5.digiarts.mercy
 
+#### Loops for GarageBand and Logic
+
+-   [appleloops utility](https://github.com/carlashley/appleLoops)
+
+#### Synology
+
+-   Package Center
+
+#### Management/Reporting
+
+-   Munki Report
+-   KeyServer
