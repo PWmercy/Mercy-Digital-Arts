@@ -35,3 +35,15 @@ Renewal calendar
   * Reason
   
   * Logic Pro
+  
+## Deployment and Maintenance
+
+Apple updates
+Reposado/Margarita
+
+Software install and updates
+Munki
+
+Management/Reporting
+
+Munki Report
