@@ -10,6 +10,8 @@ Mac Pro (2012)
 
 Synology 
 
+Printers
+
 ## Software ##
 
 Renewal calendar
