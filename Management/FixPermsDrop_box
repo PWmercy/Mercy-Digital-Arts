@@ -1,0 +1,8 @@
+# Files dropped in Drop-Off folders not accessible
+# This script runs regularly to correct this
+# Adds rw to folder recursively then removes r for top level
+/Volumes/MTEC-Class-folders
+chmod -R go+r MTEC210DFA-Drop-off-here/
+chmod o-r MTEC210DFA-Drop-off-here/
+chmod -R go+r MTEC210DFB-Drop-off-here/
+chmod o-r MTEC210DFB-Drop-off-here/
