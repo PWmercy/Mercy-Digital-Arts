@@ -1,4 +1,4 @@
-## Hardware
+### Hardware
 
 iMacs
 
@@ -8,21 +8,34 @@ iMac Pro
 
 Mac Pro (2012)
 
-Synology
+Synology  
+1. Synology
+ - Model RS3617RPxs
+ - Serial # 1760NTN261200
+ - 16GB
+2. Synology
+ - Model RS815RP+
+ - Serial # 1750MSN107000
+ - 6GB
+3. Synology
+ - Model RS3617RPxs
+ - Serial # 1910NTN037900
+ - 16GB
+ - High Availability Cluster Failover
 
 Printers
 
-## Software
+### Software
 
 Renewal calendar
 
-### All computers
+#### All computers
 
 -   Microsoft Suite
 -   ExpanDrive
 -   Standard App Store
 
-### Design+Animation
+#### Design+Animation
 
 -   Adobe Creative Cloud
 -   Maya
@@ -35,7 +48,7 @@ Renewal calendar
 -   Nuke
 -   Vray
 
-### Music Production+Recording Arts
+#### Music Production+Recording Arts
 
 -   Pro Tools
 -   Reason
@@ -44,7 +57,7 @@ Renewal calendar
 -   Musition
 -   Native Instruments Komplete
 
-## Deployment and Maintenance  
+### __Deployment and Maintenance__  
 
 #### Apple updates
 
@@ -57,7 +70,7 @@ Renewal calendar
 
 #### Loops for GarageBand and Logic
 
--   [appleloops utility](https://github.com/carlashley/appleLoops)
+-   #### [appleloops utility](https://github.com/carlashley/appleLoops)
 
 #### Synology
 
@@ -67,3 +80,5 @@ Renewal calendar
 
 -   Munki Report
 -   KeyServer
+-   Mosyle MDM
+-   Apple School Manager
