@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# v. 2010904.01
+# v. 20200113.01
 # 2019FA - All AD users are now in MERCY domain, so no longer special user name
 # for instructors
 
