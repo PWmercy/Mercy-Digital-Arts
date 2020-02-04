@@ -17,7 +17,7 @@
 								<key>AppleSoftwareUpdatesOnly</key>
 								<false/>
 								<key>ClientIdentifier</key>
-								<string>munki_cart_production_client</string>
+								<string>munki_mtec_production_client</string>
 								<key>InstallAppleSoftwareUpdates</key>
 								<true/>
 								<key>InstallRequiresLogout</key>
@@ -60,7 +60,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Settings for Munki-CART-Prod</string>
+	<string>Settings for Munki-MTEC-Prod</string>
 	<key>PayloadEnabled</key>
 	<true/>
 	<key>PayloadIdentifier</key>

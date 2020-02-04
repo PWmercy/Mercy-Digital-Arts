@@ -17,7 +17,7 @@
 								<key>AppleSoftwareUpdatesOnly</key>
 								<false/>
 								<key>ClientIdentifier</key>
-								<string>munki_cart_production_client</string>
+								<string>munki_mtec_production_client_204</string>
 								<key>InstallAppleSoftwareUpdates</key>
 								<true/>
 								<key>InstallRequiresLogout</key>
@@ -50,21 +50,21 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.mdm.miniserv2.digiarts.mercy.be207e70-9bf0-0135-f8c0-3c0754635bf0.alacarte.customsettings.902e3bd0-9bf1-0135-f8c2-3c0754635bf0</string>
+			<string>com.apple.mdm.miniserv2.digiarts.mercy.FFFCA2D6-EDA9-421C-9D61-D0FA454C84CA.alacarte.customsettings.902e3bd0-9bf1-0135-f8c2-3c0754635bf0</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>902e3bd0-9bf1-0135-f8c2-3c0754635bf0</string>
+			<string>39B473C5-3948-4E72-91FA-1F34EB19FBAF</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Settings for Munki-CART-Prod</string>
+	<string>Settings for Munki-MTEC-Prod-204</string>
 	<key>PayloadEnabled</key>
 	<true/>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.mdm.miniserv2.digiarts.mercy.be207e70-9bf0-0135-f8c0-3c0754635bf0.alacarte</string>
+	<string>com.apple.mdm.miniserv2.digiarts.mercy.FFFCA2D6-EDA9-421C-9D61-D0FA454C84CA.alacarte</string>
 	<key>PayloadOrganization</key>
 	<string>Mercy College Center for Digital Arts</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -74,7 +74,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>be207e70-9bf0-0135-f8c0-3c0754635bf0</string>
+	<string>FFFCA2D6-EDA9-421C-9D61-D0FA454C84CA</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

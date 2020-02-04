@@ -25,7 +25,7 @@
 								<key>LogFile</key>
 								<string>/Library/Managed Installs/Logs/ManagedSoftwareUpdate.log</string>
 								<key>LoggingLevel</key>
-								<string></string>
+								<integer>1</integer>
 								<key>ManagedInstallDir</key>
 								<string>/Library/Managed Installs</string>
 								<key>PackageVerificationMode</key>

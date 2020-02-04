@@ -1,3 +1,165 @@
+# Product list for Komplete 12
+
+# 02/2020 Additional packages included with Ultimate added by pwhite@mercy.edu
+
+# Lines starting with '#' are ignored.
+
+# Everything before a final comma is also ignored.
+
+# The processor uses the UPIDs in this file to find out which products
+# you want to package, but looks up all other information from the
+# Native Instruments API - the product *names* in this file are
+# for reference only and will NOT affect the names of your packaged products.
+
+# Native Access needs to be downloaded from elsewhere
+# Native Access,569049f8-b2dc-477f-973a-8c8c7a95a43e
+
+Abbey Road 50s Drummer,0a170919-0e5f-4eb2-8413-4980bf88e3c4
+Abbey Road 60S Drummer,36e6e129-e11a-4262-b2d0-42e1e436c518
+Abbey Road 70s Drummer,ab5f576d-8118-4abd-83c2-41164e4ca816
+Abbey Road 80s Drummer,0423091f-a635-43db-9ec3-351847e91fda
+Abbey Road Modern Drummer,3b5cbb5e-e387-4a9e-bd40-0ac2675c747d
+Abbey Road Vintage Drummer,6d078fc5-5048-474e-a323-e7916e70b2f7
+Absynth 5,00b224af-b357-4dfe-9929-414bbdf97d6f
+Action Strikes,64732b4a-568f-4621-a13f-e205dcd23849
+Action Strings,0a214a82-c47b-4061-aaad-96133af7ab0b
+Analog Dreams,1fa61f53-e11f-4089-a587-c192fb00051f
+Alicias Keys,f0ec2a5d-bf70-4deb-8a77-e811fa151f47
+Analog Dreams,1fa61f53-e11f-4089-a587-c192fb00051f
+Analog Strings,3309e074-60f4-42e2-91d2-8ee930e28cb0
+Astral Flutter,5e003c1f-08ec-4a2b-89f7-839e510dca38
+Balinese Gamelan,cb8873f8-e516-41a0-89ee-386e116e3e78
+Battery 4,c6b8ce64-9c20-49bb-96a7-4a13e3b2edfd
+Battery 4 Factory Library,ebd03fa6-bb2d-4275-bfb7-778c24d712b2
+Bite,db5fcbb3-a8cc-4bca-a036-160f1d764d1d
+Blocks Base,75cd0d82-4d4d-4772-86f3-8a6591de9920
+Blocks Primes,29114da5-b287-47c0-b6c0-38a52eba09f4
 Byte Riot,8af57a92-43ad-4452-b113-88ec2d0b0303
+Choral (Mod Pack),b1912dcd-be75-44a8-b68c-dd1fe89d62f1
 Caribbean Current,90bf537b-cf87-41b7-97cb-39fda45bcd7e
-Cavern Floor,564d736a-f016-4010-8703-3ad7ea93ad1c</UPID>
+Cavern Floor,564d736a-f016-4010-8703-3ad7ea93ad1c
+Creator Tools,d4eabebb-c95b-4d71-bb1f-c8cd98d9e64a
+Damage,0a9027ba-078e-4dc3-8a8b-98af30bc6ebe
+Decoded Forms,aa857fb1-bd33-4e3b-a66a-6c8c451d492a
+Deep Matter,00837220-a6e0-4a39-a999-dba8ff396241
+Dirt,a3c96c1a-6add-40bd-b87e-87cb66145529
+Driver,27522c8a-4430-4369-969e-a944757ece34
+Drop Squad,cb6a2846-1878-4088-a738-9a633b3e78a5
+Drumlab,4a602cbe-9e7e-43e5-957c-50e85acf0b6d
+Elastic Thump,2886d8e3-8677-49d3-9bb5-9b0cc34e590b
+Emotive Strings,c6bf08d5-58b3-4348-b984-7a5ef9fcfa7d
+Enhanced EQ,745ca5ad-9da0-45c0-938c-808cc70ab992
+Ethereal Earth,de47beb8-ff89-4ba6-b7ab-059f5260a727
+Evolve Mutations,fd39836e-302c-4892-8cd3-249c4fdaccbf
+Evolve Mutations 2,cc61c7fa-f45b-4748-8958-567ec187e930
+Evolve R2,b6bd7064-80c2-4d4a-a266-3acf025c47ad
+EXHALE,b72ee277-929c-4a10-a2b5-70e9df5d833f
+Flair,ef252b51-bffb-4743-b412-9ee028577323
+Flesh,6486b4d0-08ba-48e0-83d9-0bc9e4dc443d
+FM8,f1e4c3f3-300a-413f-983e-cb8fb758397e
+Form,87151caa-811c-436b-84b5-c7d0510d4aca
+Freak,1e6e66f7-e482-4911-a15f-9dce35a7ce64
+George Duke Soul Treasures,1dc1f6cd-b759-4742-ad7e-f6631f803343
+Golden Kingdom,dde952dd-f6f4-4728-82f1-6decfe0ee181
+Guitar Rig 5 Pro,5c7426db-e6cb-4074-aba6-22ebf03934a1
+Halcyon Sky,7a8385ae-2c1d-4a8a-88fe-d0287bb83935
+Hybrid Keys,5f68476d-23c0-4b4d-a73c-74a850546f4f
+India,9b71b5fd-1c06-412a-9f17-83be07c1ea35
+Kinetic Metal,9a53fb08-ac38-4757-9eef-f017b9797618
+Kinetic Toys,bdf9dbd9-6c7a-4e44-a76a-fe4174914c24
+# Komplete Kontrol,cf11c1f6-1d76-432f-aece-52ef5305a14d
+
+# This is the same as native access - typo?
+# Komplete Kontrol,569049f8-b2dc-477f-973a-8c8c7a95a43e
+
+# pwhite: KompleteKontrol 1.6.1.xml contains a bunch of products and
+# UPIDs, many redundant. What's the deal?
+
+Kontakt (Kontakt 6),68cffbb8-7b20-4e9a-bee5-1dab962049ff
+Kontakt 5,3cede7e3-b10d-4c72-a6cb-fe5217399507
+Kontakt Factory Library,a0ebfb22-988b-40d8-b050-27b40c5ab653
+Kontakt 6,68cffbb8-7b20-4e9a-bee5-1dab962049ff
+Kontour,df57aef4-9e82-4e78-b46c-dfb2a1f03a37
+Lazer Dice,dacb000d-9c82-4d59-b088-5583da535518
+London Grit,175c383e-6fdb-4d66-80fc-488be6c3bf08
+Lucid Mission,0469794a-cd9d-4beb-998b-889f448fb709
+Marble Rims,08bf6a40-7770-4020-b73b-416444002468
+Maschine Drum Selection,c5805413-cf11-4277-9097-bfc07210c709
+Massive,02cf2683-8802-4ccc-b7c4-78c89f7d3fad
+Massive X,41ce4ac2-34f7-469b-beb8-59a8ad7a8a67
+Massive X Factory Library,0b408693-bbb8-46a7-8a1d-bdc5fd3bcf66
+Middle East,5a25a85f-3a20-4c0a-8216-685fb64727c1
+Molekular,e961f500-2fef-48c7-971c-28c48e1c68a1
+Molten Veil,8e683553-b17a-43bb-bdca-080a430c2bdc
+Monark,b6668dfe-ccfa-43a1-b3fa-dd8bf0dbbcfd
+Neon Drive,f93be045-e265-46b9-bcac-5e82b2fa6040
+Passive EQ,c9dce308-b253-4c73-9f09-b24c7f72e81b
+Phasis,90f226a1-3cad-4bd7-a047-fc0609afcbab
+Platinum Bounce,b3848a7d-529f-48ff-ad38-ef83c589e075
+Polyplex,52c1cbc7-e22c-4dd8-b310-700de064999a
+Previews,b43b661c-8d44-40a5-a6fe-8c1cab8c2089
+Prism,4c87b5ed-5b02-4a1e-aab9-ecfe505b8ab6
+Queensbridge Story,40c0bae5-e484-4447-9893-51faf44b45c9
+Rammfire,e39d9afa-4457-43a5-bc1e-f6e87426075b
+RAUM,f1e6f5c6-c39a-4722-b59d-7c9e26f4a075
+Razor,ba9563b5-8e86-430d-a1a4-d82a71118f96
+RC 24,6d3fd1bd-afb7-47a3-ae92-e540cd68a337
+RC 48,cb44cc3f-6e5e-46d6-86cd-7e619c06d840
+Reaktor 5,7fa92dc1-2eb7-439f-9c3e-66af0ef70c3b
+Reaktor 6,39232cc5-01ba-4404-b5aa-00af0c82b92e
+Reaktor Blocks,65a280f7-c9b3-4ae2-b9ce-b945cfa4dcae
+Reaktor Factory Library,f1131a56-9fc2-4ec3-a042-1e3eae7d6661
+Reflektor,904ce876-6b5c-45de-b3f5-79c1ce2793d6
+Replika,618d261a-6459-4189-8dcf-bace3b0a364c
+Retro Machines Mk2,b4c9758d-87b0-4c3a-9062-eadd03df8857
+Rise and Hit,a1fc9f8c-6065-426e-8f77-1d99bb41692b
+Rounds,6276d356-7151-490f-822c-6fbf497e4a17
+Scarbee Funk Guitarist,d7f9ea6b-27cf-4c11-a589-efac543212a8
+Scarbee Jay-Bass,87428fa0-ebcd-4102-9935-64f932b2fdf7
+Scarbee MM-Bass,8f244475-49f2-4548-93a4-f8e24539901d
+Scarbee MM-Bass Amped,77845bfc-d1e1-4d9a-a4e7-012e1a702207
+Scarbee Pre-Bass,d8e0fb5c-68ab-4859-b96e-e6f7f01ea35d
+Scarbee Pre-Bass Amped,e49a740d-6c84-419c-877c-94add64861aa
+Scarbee Rickenbacker Bass,a0781748-0129-4fd4-abf0-b8314d5fbd3a
+Scarbee Vintage Keys,e21acc84-ce2e-4601-b820-add29eeb56a8
+Session Guitarist - Electric Sunburst,75feeb92-22a0-4c83-87e9-6affb8bb4d06
+Session Guitarist - Strummed Acoustic,27cf9287-ad1e-4877-9ca9-43a143069290
+Session Guitarist - Strummed Acoustic 2,a8b3e422-5eaa-4cdf-b9ab-bcc70b6988a2
+Session Horns,07c2ce64-1477-405c-a6da-eec6d4283afa
+Session Strings,9f7e5f3c-dee3-45aa-88ec-005e0f441a56
+Session Strings 2,f5ac26a3-a05e-4555-a596-e0ecf3fedcc2
+Signal,409a3aac-6225-4163-9063-355531fb0553
+Skanner XT,6513439a-0e67-4754-994f-657e2438de1e
+Solid Bus Comp FX,9181966c-399d-4028-af70-51b9b3626e44
+Solid Dynamics FX,ecea4995-a1db-4eb8-a731-1c783df1ba91
+Solid EQ FX,e2398f2f-ce52-4c7e-aa58-f76b9668cf42
+Spark,2665347d-14a1-4fbd-896b-961c554adc9a
+Studio Drummer,709661c3-0f2e-432e-a22c-2ece8af86b68
+Supercharger,45b33149-83fb-4ed0-b716-fa3cb49ed0c2
+Symphony Essentials Brass Ensemble,3866a73e-aa64-4439-84c7-99eb6fac8c82
+Symphony Essentials Brass Solo,c7d638f7-afea-4f20-a760-c029a9156ea5
+Symphony Essentials Percussion,1bc3e81d-9a38-431c-964b-93df366af02b
+Symphony Essentials String Ensemble,a4653e61-f8e8-4b70-b557-5f9d080c5709
+Symphony Essentials Woodwind Ensemble,43cb54c6-9071-4a8c-8264-07f077bef6e6
+Symphony Essentials Woodwind Solo,368c8da4-7abe-483f-abb6-29930e1bd83b
+The Finger,fb4b8d73-b9b1-46d3-add1-9cda22f83dc1
+The Gentleman,45711249-0863-47d4-a951-7df3c09c107f
+The Giant,a379f93a-d657-471a-9539-24c093bdd5e1
+The Grandeur,e612c6f8-d7ea-428c-ab30-6059c7797d16
+The Maverick,cbb449a1-5808-4675-ba14-3439ad235eab
+The Mouth,832f1c60-3766-49ef-9e36-df98c05bd56a
+Thrill,67963537-d601-47fa-a989-4276b51de74c
+Traktors 12,41c9f7cf-0a44-4459-8291-5ba86ffef5fd
+Transient Master FX,84111eb8-03eb-4afc-8da4-425cb1a7d310
+TRK-01,5c56fb19-2e15-43c3-acfe-0c218a4289b5
+TRK-01 Bass,01efe047-b70d-49d0-a435-eeaca3ec3db0
+TRK-01 Kick,a611725b-a68f-41a7-83a4-23fceff62e24
+True School,3233cb4b-426f-4c17-bf3a-010cc495a18f
+Una Corda,dd548265-9323-4a49-b4fa-0cf43b2d9647
+Vari Comp,8447efa2-f35c-4336-87d4-8e106ec72107
+VC 160 FX,6e3319d8-5ba9-40eb-a369-7736bb61b972
+VC 2A FX,7c44fc7b-4e88-41e8-9ddc-611f7b96ddbf
+VC 76 FX,b9b40429-b4a0-4c4e-87d6-e4218e5fd914
+Velvet Lounge,aaa74177-b546-40c2-b25b-393672e4d05c
+Vintage Organs,d61654f3-8059-43dd-91c3-424cda8fbabc
+West Africa,7aea8f0e-b5be-4394-8f23-8d04091890e8
