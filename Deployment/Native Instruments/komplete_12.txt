@@ -135,6 +135,7 @@ Solid Dynamics FX,ecea4995-a1db-4eb8-a731-1c783df1ba91
 Solid EQ FX,e2398f2f-ce52-4c7e-aa58-f76b9668cf42
 Spark,2665347d-14a1-4fbd-896b-961c554adc9a
 Studio Drummer,709661c3-0f2e-432e-a22c-2ece8af86b68
+SUBSTANCE,61fef145-b909-48c7-878a-cb144b8e031c
 Supercharger,45b33149-83fb-4ed0-b716-fa3cb49ed0c2
 Symphony Essentials Brass Ensemble,3866a73e-aa64-4439-84c7-99eb6fac8c82
 Symphony Essentials Brass Solo,c7d638f7-afea-4f20-a760-c029a9156ea5
