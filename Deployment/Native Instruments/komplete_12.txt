@@ -39,6 +39,7 @@ Choral (Mod Pack),b1912dcd-be75-44a8-b68c-dd1fe89d62f1
 Caribbean Current,90bf537b-cf87-41b7-97cb-39fda45bcd7e
 Cavern Floor,564d736a-f016-4010-8703-3ad7ea93ad1c
 Creator Tools,d4eabebb-c95b-4d71-bb1f-c8cd98d9e64a
+Cuba,d67d59a2-0a55-4574-8577-99c5220b96fb
 Damage,0a9027ba-078e-4dc3-8a8b-98af30bc6ebe
 Decoded Forms,aa857fb1-bd33-4e3b-a66a-6c8c451d492a
 Deep Matter,00837220-a6e0-4a39-a999-dba8ff396241
