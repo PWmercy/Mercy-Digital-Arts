@@ -78,7 +78,7 @@ Renewal calendar
 
 #### Management/Reporting
 
--   Munki Report
+-   [Munki Report](http://munki5.digiarts.mercy/report/)
 -   [KeyServer](http://license2.digiarts.mercy:8081/software)
 -   [Mosyle MDM](https://mybusiness.mosyle.com)
 -   [Apple School Manager](https://school.apple.com)
