@@ -113,6 +113,8 @@ Reaktor Factory Library,f1131a56-9fc2-4ec3-a042-1e3eae7d6661
 Reflektor,904ce876-6b5c-45de-b3f5-79c1ce2793d6
 Replika,618d261a-6459-4189-8dcf-bace3b0a364c
 Retro Machines Mk2,b4c9758d-87b0-4c3a-9062-eadd03df8857
+REV,482a7976-d1c3-404f-9ec9-8f0bd6c1310f
+REV X-LOOPS,518a0585-6230-49a0-87bf-8808bc665598
 Rise and Hit,a1fc9f8c-6065-426e-8f77-1d99bb41692b
 Rounds,6276d356-7151-490f-822c-6fbf497e4a17
 Scarbee Funk Guitarist,d7f9ea6b-27cf-4c11-a589-efac543212a8
@@ -129,6 +131,8 @@ Session Guitarist - Strummed Acoustic 2,a8b3e422-5eaa-4cdf-b9ab-bcc70b6988a2
 Session Horns,07c2ce64-1477-405c-a6da-eec6d4283afa
 Session Strings,9f7e5f3c-dee3-45aa-88ec-005e0f441a56
 Session Strings 2,f5ac26a3-a05e-4555-a596-e0ecf3fedcc2
+Session Strings Pro,b6b0554d-4782-4dbe-8049-6a976dac7e2b
+Session Strings Pro 2,95204c83-1398-4e15-a258-ac388677aa14
 Signal,409a3aac-6225-4163-9063-355531fb0553
 Skanner XT,6513439a-0e67-4754-994f-657e2438de1e
 Solid Bus Comp FX,9181966c-399d-4028-af70-51b9b3626e44
@@ -137,7 +141,7 @@ Solid EQ FX,e2398f2f-ce52-4c7e-aa58-f76b9668cf42
 Spark,2665347d-14a1-4fbd-896b-961c554adc9a
 Studio Drummer,709661c3-0f2e-432e-a22c-2ece8af86b68
 SUBSTANCE,61fef145-b909-48c7-878a-cb144b8e031c
-Supercharger,45b33149-83fb-4ed0-b716-fa3cb49ed0c2
+Supercharger GT,74304c10-d9ef-4a6c-9b2d-267353276e30
 Symphony Essentials Brass Ensemble,3866a73e-aa64-4439-84c7-99eb6fac8c82
 Symphony Essentials Brass Solo,c7d638f7-afea-4f20-a760-c029a9156ea5
 Symphony Essentials Percussion,1bc3e81d-9a38-431c-964b-93df366af02b
