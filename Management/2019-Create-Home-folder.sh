@@ -1,4 +1,3 @@
-```
 #!/bin/bash
 
 # 20190809 Update for new Domain, MERCY (STUDENT no longer in use)
@@ -51,4 +50,3 @@ for homeFolder in `ls -d *`; do
  cd '/Users/pwhite/Desktop/TestPermsFix'
 done
 # done < $1
-```
