@@ -1,0 +1,48 @@
+version:     '3'
+
+services:
+
+  passboltdb:
+    image:  mariadb
+    volumes:
+      - ./passbolt/passboltdb:/var/lib/mysql
+    #command: '/usr/bin/mysqladmin' -u root -h  password 'NA3BJKRTBzRET'
+    # ports:
+      # - '3306:3306'
+    networks:
+      - passbolt_network
+    environment:
+      - MYSQL_ROOT_PASSWORD=NA3BJKRTBzRET
+      - MYSQL_DATABASE=passbolt_db
+      - MYSQL_USER=passboltdb_user
+      - MYSQL_PASSWORD=pDkuAfpcce{7p
+
+  passbolt:
+    image:   passbolt/passbolt:latest
+    # volumes:
+    depends_on:
+      - passboltdb
+    ports:
+      - '449:443'
+      - '85:80'
+    networks:
+      - passbolt_network
+    environment:
+      - DATASOURCES_DEFAULT_HOST=passboltdb
+      - DATASOURCES_DEFAULT_PASSWORD=pDkuAfpcce{7p
+      - DATASOURCES_DEFAULT_USERNAME=passboltdb_user
+      - DATASOURCES_DEFAULT_DATABASE=passbolt_db
+      - APP_FULL_BASE_URL=http://localhost:85
+
+networks:
+  passbolt_network:
+
+# Following Docker command creates an admin user within a running Passbolt container
+#
+# docker exec passbolt_container_name su -m -c "/var/www/passbolt/bin/cake \
+# passbolt register_user \
+# -u music@mercy.edu \
+# -f FName \
+# -l LName \
+# -r admin" -s /bin/sh www-data
+# ### -r user for non-admin ###

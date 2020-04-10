@@ -111,7 +111,7 @@ Reaktor 6,39232cc5-01ba-4404-b5aa-00af0c82b92e
 Reaktor Blocks,65a280f7-c9b3-4ae2-b9ce-b945cfa4dcae
 Reaktor Factory Library,f1131a56-9fc2-4ec3-a042-1e3eae7d6661
 Reflektor,904ce876-6b5c-45de-b3f5-79c1ce2793d6
-Replika,618d261a-6459-4189-8dcf-bace3b0a364c
+Replika XT,2dc1237d-eb98-4f8c-9f3f-4bfe5e0586e6
 Retro Machines Mk2,b4c9758d-87b0-4c3a-9062-eadd03df8857
 REV,482a7976-d1c3-404f-9ec9-8f0bd6c1310f
 REV X-LOOPS,518a0585-6230-49a0-87bf-8808bc665598
@@ -128,9 +128,7 @@ Scarbee Vintage Keys,e21acc84-ce2e-4601-b820-add29eeb56a8
 Session Guitarist - Electric Sunburst,75feeb92-22a0-4c83-87e9-6affb8bb4d06
 Session Guitarist - Strummed Acoustic,27cf9287-ad1e-4877-9ca9-43a143069290
 Session Guitarist - Strummed Acoustic 2,a8b3e422-5eaa-4cdf-b9ab-bcc70b6988a2
-Session Horns,07c2ce64-1477-405c-a6da-eec6d4283afa
-Session Strings,9f7e5f3c-dee3-45aa-88ec-005e0f441a56
-Session Strings 2,f5ac26a3-a05e-4555-a596-e0ecf3fedcc2
+Session Horns Pro,83e6153a-b3c4-414f-b5e7-a5eee9e5bdc6
 Session Strings Pro,b6b0554d-4782-4dbe-8049-6a976dac7e2b
 Session Strings Pro 2,95204c83-1398-4e15-a258-ac388677aa14
 Signal,409a3aac-6225-4163-9063-355531fb0553

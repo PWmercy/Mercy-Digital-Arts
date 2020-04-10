@@ -47,7 +47,11 @@ rm -R "/Library/Application Support/Native Instruments/Service Center/$prodname.
 
 # Content such as KONTAKT, BATTERY, SESSION STRINGS, etc. will also have a library folder that can be deleted. It is located in the content directory you chose during installation. By default that is:
 
+##### Folder may be named #####
 rm -R "/Users/Shared/$prodname"
+##### OR #####
+rm -R "/Users/Shared/$prodname Library"
+
 
 # You can find all the content products with their parent applications in this list."
 
