@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Development/GitHub/Mercy-Digital-Arts/PyCharm"
+VIRTUAL_ENV="/Volumes/Macintosh HD/Development/GitHub/Mercy-Digital-Arts/PyCharm"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

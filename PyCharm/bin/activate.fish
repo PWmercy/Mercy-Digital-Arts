@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Development/GitHub/Mercy-Digital-Arts/PyCharm"
+set -gx VIRTUAL_ENV "/Volumes/Macintosh HD/Development/GitHub/Mercy-Digital-Arts/PyCharm"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

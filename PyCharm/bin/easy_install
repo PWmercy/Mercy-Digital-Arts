@@ -1,4 +1,6 @@
-#!/Development/GitHub/Mercy-Digital-Arts/PyCharm/bin/python
+#!/bin/sh
+'''exec' "/Volumes/Macintosh HD/Development/GitHub/Mercy-Digital-Arts/PyCharm/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
