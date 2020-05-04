@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # 20191210
 
 # This script has been added to Task Scheduler on CATA-NAS1
@@ -13,7 +13,7 @@ IFS=$'\n'
 # CART
 cd '/volume1/CART-Class-folders'
 
-for classFolder in `ls -d *`; do
+for classFolder in $(ls -d ./*); do
     for innerFolder in `ls -d $classFolder/*`;  do
       if [[ $innerFolder =~ "Drop-off-here" ]]; then
       # echo "found one at $innerFolder"
@@ -23,7 +23,6 @@ for classFolder in `ls -d *`; do
       fi
     done
 done
-
 # MTEC
 cd '/volume1/MTEC-Class-folders'
 
