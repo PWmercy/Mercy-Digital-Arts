@@ -1,0 +1,116 @@
+:toc: left
+:toc-levels: 4
+:toc-title: Contents
+
+= Documentation
+
+.AsciiDoc history
+****
+AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing professional documents like DocBook and LaTeX.
+****
+
+:sectnums!:
+== Overview
+
+.Optional Title
+
+Some stuff and some more stuff
+
+:sectnums:
+:sectnumlevels: 2
+
+== Hardware
+
+iMacs
+
+Mac Mini
+
+iMac Pro
+
+Mac Pro (2012)
+
+Synology
+
+. Synology
+ ** Model RS3617RPxs
+ ** Serial # 1760NTN261200
+ ** 16GB
+. Synology
+ ** Model RS815RP+
+ ** Serial # 1750MSN107000
+ ** 6GB
+. Synology
+ ** Model RS3617RPxs
+ ** Serial # 1910NTN037900
+ ** 16GB
+ ** High Availability Cluster Failover
+
+Printers
+
+== Software
+
+Renewal calendar
+
+=== All computers
+
+* Microsoft Suite
+* ExpanDrive
+* Standard App Store
+
+=== Design+Animation
+
+* Adobe Creative Cloud
+* Maya
+* Substance Painter
+* Marvelous Designer
+* ZBrush
+* KeyShot
+* Quixel
+* Houdini
+* Nuke
+* Vray
+
+=== Music Production+Recording Arts
+
+* Pro Tools
+* Reason
+* Logic Pro
+* Ableton Live
+* Musition
+* Native Instruments Komplete
+
+== Deployment and Maintenance
+
+=== Apple updates
+
+* Reposado/Margarita
+
+Also see <<Hardware>>
+
+=== Software install and updates
+
+* Munki Server at munki5.digiarts.mercy
+
+* Loops for GarageBand and Logic
+
+* https://github.com/carlashley/appleLoops[appleloops utility]
+
+=== Synology
+
+* ((Package Center))
+
+=== Management/Reporting
+
+* http://munki5.digiarts.mercy/report/[Munki Report]
+* http://license2.digiarts.mercy:8081/software[KeyServer]
+* https://mybusiness.mosyle.com[Mosyle MDM]
+* https://school.apple.com[Apple School Manager]
+
+==== Links
+
+Here are some.
+
+[index]
+== Index
