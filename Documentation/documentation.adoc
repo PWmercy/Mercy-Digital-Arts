@@ -1,6 +1,6 @@
 
 :author:    Phil White
-:email:     pwhite@mercy.edu
+:author_email:     pwhite@mercy.edu
 :revdate:   August 6, 2020
 :revnumber: 1
 
@@ -9,8 +9,7 @@
 :toc-title: Contents
 
 = Documentation
-
-last revision {revdate}
+last revision {revdate} question? email {author_email}
 
 .Testing AsciiDoc image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
 ****
