@@ -11,6 +11,26 @@ It was designed from the start to be a shorthand syntax
 for producing professional documents like DocBook and LaTeX.
 ****
 
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> HTTP response body
+
+[source,xml]
+----
+<section>
+  <title>Section Title</title> <!--1-->
+</section>
+----
+<1> The section title is required.
+
 :sectnums!:
 == Overview
 
@@ -18,6 +38,19 @@ for producing professional documents like DocBook and LaTeX.
 
 Some stuff and some more stuff
 
+link:++https://example.org/?q=[a b]++[URL with special characters]
+
+link:https://example.org/?q=%5Ba%20b%5D[URL with special characters]
+
+[[bookmark-a, inline]]Inline anchors make arbitrary content referenceable.
+
+[#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+
+anchor:bookmark-c[]Use a cross reference to link to this location.
+
+[[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
+
+See <<bookmark-a>> to learn how to write paragraphs.
 :sectnums:
 :sectnumlevels: 2
 
@@ -91,11 +124,11 @@ Also see <<Hardware>>
 
 === Software install and updates
 
-* Munki Server at munki5.digiarts.mercy
+* http://munki5.digiarts.mercy/[Munki Server on local server]
 
 * Loops for GarageBand and Logic
 
-* https://github.com/carlashley/appleLoops[appleloops utility]
+** https://github.com/carlashley/appleLoops[appleloops utility]
 
 === Synology
 
@@ -103,8 +136,8 @@ Also see <<Hardware>>
 
 === Management/Reporting
 
-* http://munki5.digiarts.mercy/report/[Munki Report]
-* http://license2.digiarts.mercy:8081/software[KeyServer]
+* http://munki5.digiarts.mercy/report/[Munki Report on local server]
+* http://license2.digiarts.mercy:8081/software[KeyServer on local server]
 * https://mybusiness.mosyle.com[Mosyle MDM]
 * https://school.apple.com[Apple School Manager]
 

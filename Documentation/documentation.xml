@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Documentation</title>
+<date>2020-08-05</date>
+</info>
+<section xml:id="_overview">
+<title>Overview</title>
+<formalpara>
+<title>Optional Title</title>
+<para>Some stuff and some more stuff</para>
+</formalpara>
+</section>
+<section xml:id="_hardware">
+<title>Hardware</title>
+<simpara>iMacs</simpara>
+<simpara>Mac Mini</simpara>
+<simpara>iMac Pro</simpara>
+<simpara>Mac Pro (2012)</simpara>
+<simpara>Synology</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Synology</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Model RS3617RPxs</simpara>
+</listitem>
+<listitem>
+<simpara>Serial # 1760NTN261200</simpara>
+</listitem>
+<listitem>
+<simpara>16GB</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Synology</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Model RS815RP+</simpara>
+</listitem>
+<listitem>
+<simpara>Serial # 1750MSN107000</simpara>
+</listitem>
+<listitem>
+<simpara>6GB</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Synology</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Model RS3617RPxs</simpara>
+</listitem>
+<listitem>
+<simpara>Serial # 1910NTN037900</simpara>
+</listitem>
+<listitem>
+<simpara>16GB</simpara>
+</listitem>
+<listitem>
+<simpara>High Availability Cluster Failover</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</orderedlist>
+<simpara>Printers</simpara>
+</section>
+<section xml:id="_software">
+<title>Software</title>
+<simpara>Renewal calendar</simpara>
+<section xml:id="_all_computers">
+<title>All computers</title>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft Suite</simpara>
+</listitem>
+<listitem>
+<simpara>ExpanDrive</simpara>
+</listitem>
+<listitem>
+<simpara>Standard App Store</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_designanimation">
+<title>Design+Animation</title>
+<itemizedlist>
+<listitem>
+<simpara>Adobe Creative Cloud</simpara>
+</listitem>
+<listitem>
+<simpara>Maya</simpara>
+</listitem>
+<listitem>
+<simpara>Substance Painter</simpara>
+</listitem>
+<listitem>
+<simpara>Marvelous Designer</simpara>
+</listitem>
+<listitem>
+<simpara>ZBrush</simpara>
+</listitem>
+<listitem>
+<simpara>KeyShot</simpara>
+</listitem>
+<listitem>
+<simpara>Quixel</simpara>
+</listitem>
+<listitem>
+<simpara>Houdini</simpara>
+</listitem>
+<listitem>
+<simpara>Nuke</simpara>
+</listitem>
+<listitem>
+<simpara>Vray</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_music_productionrecording_arts">
+<title>Music Production+Recording Arts</title>
+<itemizedlist>
+<listitem>
+<simpara>Pro Tools</simpara>
+</listitem>
+<listitem>
+<simpara>Reason</simpara>
+</listitem>
+<listitem>
+<simpara>Logic Pro</simpara>
+</listitem>
+<listitem>
+<simpara>Ableton Live</simpara>
+</listitem>
+<listitem>
+<simpara>Musition</simpara>
+</listitem>
+<listitem>
+<simpara>Native Instruments Komplete</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_deployment_and_maintenance">
+<title>Deployment and Maintenance</title>
+<section xml:id="_apple_updates">
+<title>Apple updates</title>
+<itemizedlist>
+<listitem>
+<simpara>Reposado/Margarita</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_software_install_and_updates">
+<title>Software install and updates</title>
+<itemizedlist>
+<listitem>
+<simpara>Munki Server at munki5.digiarts.mercy</simpara>
+</listitem>
+<listitem>
+<simpara>Loops for GarageBand and Logic</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://github.com/carlashley/appleLoops">appleloops utility</link></simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_synology">
+<title>Synology</title>
+<itemizedlist>
+<listitem>
+<simpara><indexterm>
+<primary>Package Center</primary>
+</indexterm>Package Center</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_managementreporting">
+<title>Management/Reporting</title>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="http://munki5.digiarts.mercy/report/">Munki Report</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="http://license2.digiarts.mercy:8081/software">KeyServer</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://mybusiness.mosyle.com">Mosyle MDM</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://school.apple.com">Apple School Manager</link></simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_links">
+<title>Links</title>
+<simpara>Here are some.</simpara>
+</section>
+</section>
+</section>
+<index xml:id="_index">
+<title>Index</title>
+
+</index>
+</article>
