@@ -10,7 +10,7 @@ AsciiDoc User Manual
 :toc-title: Contents
 
 = Documentation
-
+last revision 
 .AsciiDoc history
 ****
 AsciiDoc was first released in Nov 2002 by Stuart Rackham.
