@@ -1,9 +1,8 @@
-AsciiDoc User Manual
-====================
-:author:    Stuart Rackham
-:email:     srackham@gmail.com
-:revdate:   April 23, 2004
-:revnumber: 5.1.1
+
+:author:    Phil White
+:email:     pwhite@mercy.edu
+:revdate:   August 6, 2020
+:revnumber: 1
 
 :toc: left
 :toc-levels: 4
