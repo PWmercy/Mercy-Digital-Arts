@@ -1,11 +1,22 @@
+
+:author:    Phil White
+:author_email:     pwhite@mercy.edu
+:revdate:   August 6, 2020
+:revnumber: 1
+
 :toc: left
 :toc-levels: 4
 :toc-title: Contents
 
 = Documentation
 
-.AsciiDoc history
+last revision {revdate} question? email {author_email}
+
+.Testing AsciiDoc image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
 ****
+This document contains some text that is only for the purpose of
+testing Asciidoc.
+
 AsciiDoc was first released in Nov 2002 by Stuart Rackham.
 It was designed from the start to be a shorthand syntax
 for producing professional documents like DocBook and LaTeX.
