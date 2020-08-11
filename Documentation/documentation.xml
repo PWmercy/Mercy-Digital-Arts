@@ -1,17 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?asciidoc-toc?>
 <?asciidoc-numbered?>
-<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>Documentation</title>
-<date>2020-08-05</date>
+<date>August 10, 2020</date>
+<author>
+<personname>
+<firstname>Phil</firstname>
+<surname>White</surname>
+</personname>
+</author>
+<authorinitials>PW</authorinitials>
+<revhistory>
+<revision>
+<revnumber>1</revnumber>
+<date>August 10, 2020</date>
+<authorinitials>PW</authorinitials>
+</revision>
+</revhistory>
 </info>
+<simpara>last revision August 10, 2020</simpara>
+<simpara>question? email <link xl:href="mailto:pwhite@mercy.edu">pwhite@mercy.edu</link></simpara>
+<sidebar>
+<title>Testing AsciiDoc <inlinemediaobject>
+<imageobject>
+<imagedata fileref="https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg" contentwidth="5%"/>
+</imageobject>
+<textobject><phrase>asciidoctor.5b44175</phrase></textobject>
+</inlinemediaobject></title>
+<simpara>This document contains some text that is only for the purpose of
+testing Asciidoc.</simpara>
+<simpara>AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing professional documents like DocBook and LaTeX.</simpara>
+</sidebar>
+<screen>Synology
+1. Synology
+ - Model RS3617RPxs
+ - Serial # 1760NTN261200
+ - 16GB
+2. Synology
+ - Model RS815RP+
+ - Serial # 1750MSN107000
+ - 6GB
+3. Synology
+ - Model RS3617RPxs
+ - Serial # 1910NTN037900
+ - 16GB
+ - High Availability Cluster Failover
+
+Printers
+
+### Software
+
+Renewal calendar
+
+#### All computers
+
+-   Microsoft Suite
+-   ExpanDrive
+-   Standard App Store
+
+#### Design+Animation
+
+-   Adobe Creative Cloud
+-   Maya
+-   Substance Painter
+-   Marvelous Designer
+-   ZBrush
+-   KeyShot
+-   Quixel
+-   Houdini
+-   Nuke
+-   Vray
+
+#### Music Production+Recording Arts
+
+-   Pro Tools
+-   Reason
+-   Logic Pro
+-   Ableton Live
+-   Musition
+-   Native Instruments Komplete
+
+### __Deployment and Maintenance__
+
+#### Apple updates
+
+-   Reposado/Margarita
+
+#### Software install and updates
+
+-   Munki
+    Server at munki5.digiarts.mercy
+
+#### Loops for GarageBand and Logic
+
+-   #### [appleloops utility](https://github.com/carlashley/appleLoops)
+
+#### Synology
+
+-   Package Center
+
+#### Management/Reporting
+
+-   [Munki Report](http://munki5.digiarts.mercy/report/)
+-   [KeyServer](http://license2.digiarts.mercy:8081/software)
+-   [Mosyle MDM](https://mybusiness.mosyle.com)
+-   [Apple School Manager](https://school.apple.com)</screen>
+<programlisting language="xml" linenumbering="unnumbered">&lt;section&gt;
+  &lt;title&gt;Section Title&lt;/title&gt; <co xml:id="CO1-1"/>
+&lt;/section&gt;</programlisting>
+<calloutlist>
+<callout arearefs="CO1-1">
+<para>The section title is required.</para>
+</callout>
+</calloutlist>
 <section xml:id="_overview">
 <title>Overview</title>
 <formalpara>
 <title>Optional Title</title>
 <para>Some stuff and some more stuff</para>
 </formalpara>
+<simpara><link xl:href="https://example.org/?q=[a b]">URL with special characters</link></simpara>
+<simpara><link xl:href="https://example.org/?q=%5Ba%20b%5D">URL with special characters</link></simpara>
+<simpara><anchor xml:id="bookmark-a" xreflabel="inline"/>Inline anchors make arbitrary content referenceable.</simpara>
+<simpara><anchor xml:id="bookmark-b" xreflabel="Inline anchors can be applied to a phrase like this one."/>Inline anchors can be applied to a phrase like this one.</simpara>
+<simpara><anchor xml:id="bookmark-c" xreflabel="[bookmark-c]"/>Use a cross reference to link to this location.</simpara>
+<simpara><anchor xml:id="bookmark-d" xreflabel="last paragraph"/>The xreflabel attribute will be used as link text in the cross-reference link.</simpara>
+<simpara>See <xref linkend="bookmark-a"/> to learn how to write paragraphs.
+See <xref linkend="bookmark-d"/> to go to elsewhere.</simpara>
 </section>
 <section xml:id="_hardware">
 <title>Hardware</title>
@@ -154,18 +272,21 @@
 <simpara>Reposado/Margarita</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Also see <xref linkend="_hardware"/></simpara>
 </section>
 <section xml:id="_software_install_and_updates">
 <title>Software install and updates</title>
 <itemizedlist>
 <listitem>
-<simpara>Munki Server at munki5.digiarts.mercy</simpara>
+<simpara><link xl:href="http://munki5.digiarts.mercy/">Munki Server on local server</link></simpara>
 </listitem>
 <listitem>
 <simpara>Loops for GarageBand and Logic</simpara>
-</listitem>
+<itemizedlist>
 <listitem>
 <simpara><link xl:href="https://github.com/carlashley/appleLoops">appleloops utility</link></simpara>
+</listitem>
+</itemizedlist>
 </listitem>
 </itemizedlist>
 </section>
@@ -183,10 +304,10 @@
 <title>Management/Reporting</title>
 <itemizedlist>
 <listitem>
-<simpara><link xl:href="http://munki5.digiarts.mercy/report/">Munki Report</link></simpara>
+<simpara><link xl:href="http://munki5.digiarts.mercy/report/">Munki Report on local server</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="http://license2.digiarts.mercy:8081/software">KeyServer</link></simpara>
+<simpara><link xl:href="http://license2.digiarts.mercy:8081/software">KeyServer on local server</link></simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://mybusiness.mosyle.com">Mosyle MDM</link></simpara>

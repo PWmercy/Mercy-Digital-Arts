@@ -9,6 +9,7 @@ iMac Pro
 Mac Pro (2012)
 
 Synology  
+
 1. Synology
  - Model RS3617RPxs
  - Serial # 1760NTN261200
