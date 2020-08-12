@@ -4,8 +4,7 @@
 
 :icons: font
 
-
-:author:    Phil White
+:author: Phil White
 :author_email: pwhite@mercy.edu
 :revdate: August 12, 2020
 :revnumber: 2.0
@@ -24,7 +23,6 @@
 This page is regularly updated. Last updated *{revdate}*
 =====
 
-
 Author: {author_email}
 
 _Originally prepared as presentation notes (Feb 19, 2020)_
@@ -38,9 +36,7 @@ CAUTION: Many links in this document are private and only available when on Dobb
 
 === Recent Changes
 
-There have been many major changes over the last few semesters
-
-* Redundancy redundancy redundancy
+* Redundancy... redundancy... redundancy...
  ** http://172.31.48.200:5000[Synology High Availability Cluster] (IT has password if needed)
   *** Two identical Synology devices act in tandem. They are each independently connected to the network switch, but share a single IP address (Primary cluster interface).
   *** One is "Active" the other "Passive". Synchronization is continuous via a direct-connect ethernet "heartbeat" interface.
@@ -75,21 +71,22 @@ There have been many major changes over the last few semesters
 ==== Synology NAS
 
 . Synology
- ** Model RS3617RPxs
- ** Serial # 1760NTN261200
- ** 16GB
+** Model RS3617RPxs
+** Serial # 1760NTN261200
+** 16GB
 . Synology
- ** Specs
- ** Model RS815RP+
- ** Serial # 1750MSN107000
- ** 6GB
- ** Services
- ** Backup
+** Model RS3617RPxs
+** Serial # 1910NTN037900
+** 16GB
+** High Availability Cluster Failover
 . Synology
- ** Model RS3617RPxs
- ** Serial # 1910NTN037900
- ** 16GB
- ** High Availability Cluster Failover
+** Specs
+** Model RS815RP+
+** Serial # 1750MSN107000
+** 6GB
+** Services
+** Backup
+
 
 ==== Mac Mini servers
 
