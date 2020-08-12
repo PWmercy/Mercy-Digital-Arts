@@ -1,38 +1,42 @@
-=== General Documentation
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
+++++
 
-*This page is regularly updated.* | _*updated 7/16/2020*_
--------- | ---------:
+:icons: font
 
-*_pwhite&#064;mercy.edu_*
+
+:author:    Phil White
+:author_email: pwhite@mercy.edu
+:revdate: August 12, 2020
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Contents
+
+:sectnumlevels: 2
+
+== General Documentation
+
+:sectnums!:
+
+=====
+This page is regularly updated. Last updated *{revdate}*
+=====
+
+
+Author: {author_email}
 
 _Originally prepared as presentation notes (Feb 19, 2020)_
 
 This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.
 
-*_NOTE_*: Many links in this document are private and only available on campus.
+CAUTION: Many links in this document are private and only available when on Dobbs Ferry campus.
 
-==== Sections
+:sectnums:
+== Overview
 
-* {blank}
-+
-===== <<OVERVIEW,Overview>>
-* {blank}
-+
-===== <<RECENT_CHANGES,Recent changes>>
-* {blank}
-+
-===== <<SERVERS,Servers>>
-* {blank}
-+
-===== <<SOFTWARE,Lab Software>>
-
-+++<a name="OVERVIEW">++++++</a>+++
-
-===== Overview
-
-+++<a name="RECENT_CHANGES">++++++</a>+++
-
-===== Recent Changes
+=== Recent Changes
 
 There have been many major changes over the last few semesters
 
@@ -64,9 +68,11 @@ There have been many major changes over the last few semesters
   *** During COVID closure, made campus server files available to students and faculty from home.
   *** New OneDrive space created by IT for this purpose
 
-+++<a name="SERVERS">++++++</a>+++
+== Hardware
 
-===== Servers
+=== Servers
+
+==== Synology NAS
 
 . Synology
  ** Model RS3617RPxs
@@ -84,28 +90,40 @@ There have been many major changes over the last few semesters
  ** Serial # 1910NTN037900
  ** 16GB
  ** High Availability Cluster Failover
- ** Mac Mini servers
 
-===== Lab Computers
+==== Mac Mini servers
+
+==== Lab Computers
 
 * iMacs
 * Mac Minis
 * Mac Pro (2013)
 
-===== Peripheral devices
+==== Recording Studios
 
+==== Peripheral devices
+
+* Printers
 * Wacom Tablets
 
-+++<a name="SOFTWARE">++++++</a>+++
+== Software
+=== Renewal calendar
 
-* {blank}
-+
-===== Software
-* For All
+=== License servers
+ ** http://172.31.48.93:22352[Reason]
+ ** http://172.31.48.93:5054/home.asp[ZBrush]
+ ** Keyshot
+ ** http://172.31.48.94:30304/#/[VRay]
+ ** Musition (cloud)
+  *** Students and Faculty need an account set up locally through the Musition Cloud app.
+
+=== Standard Software
+==== For All
  ** Microsoft Suite
  ** ExpanDrive
  ** Standard App Store
-* For Design+Animation
+
+==== For Design+Animation
  ** Adobe Creative Cloud
  ** Maya
  ** Substance Painter
@@ -117,7 +135,8 @@ There have been many major changes over the last few semesters
  ** Nuke
  ** Vray
  ** https://www.pipelinefx.com[Qube] Render Farm
-* For Music Production+Recording Arts
+
+==== For Music Production+Recording Arts
  ** Pro Tools
  ** Reason
  ** Logic Pro
@@ -125,34 +144,18 @@ There have been many major changes over the last few semesters
  ** Musition
  ** Native Instruments Komplete
 
-=== Hardware
-
-iMacs
-
-Mac Mini
-
-iMac Pro
-
-Mac Pro (2012)
-
-Printers
-
-=== Software
-
-Renewal calendar
-
 ==== All computers
 
-=== *Deployment and Maintenance*
+== Deployment and Maintenance
 
-==== Apple updates
+=== Deployment tools
+ ** Munki
+  *** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
+  *** Customization and Branding
+
+=== Apple updates
 
 * Reposado/Margarita
-
-==== Software install and updates
-
-* Munki +
-Server at munki5.digiarts.mercy
 
 ==== Loops for GarageBand and Logic
 
@@ -162,22 +165,19 @@ Server at munki5.digiarts.mercy
 
 * Package Center
 
-==== Management/Reporting
+== Management/Reporting
 
 * http://munki5.digiarts.mercy/report/[Munki Report]
 * http://license2.digiarts.mercy:8081/software[KeyServer]
 * https://mybusiness.mosyle.com[Mosyle MDM]
 * https://school.apple.com[Apple School Manager]
-* Licensing - each administered differenlty
- ** Adobe changes
- ** Multiple license servers
-  *** http://172.31.48.93:22352[Reason]
-  *** http://172.31.48.93:5054/home.asp[ZBrush]
-  *** Keyshot
-  *** http://172.31.48.94:30304/#/[VRay]
-  *** Musition (cloud)
-   **** Students and Faculty need an account set up locally through the Musition Cloud app.
-* Many servers/many services
+* Licensing - each administered differently
+** Adobe changes
+** http://172.31.48.93:8081/maps[KeyServer]
+*** Heat maps
+
+
+== Many servers/many services
  ** Synology
   *** Private DNS
  ** Docker
@@ -196,15 +196,12 @@ Server at munki5.digiarts.mercy
    **** https://booked.mercy.edu[Web access]
    **** https://www.bookedscheduler.com[Product support]
 * Management tools
- ** https://mybusiness.mosyle.com[MDM]
- ** http://172.31.48.93:8081/maps[KeyServer]
-  *** Heat maps
  ** http://172.31.48.124:5000[Docker]
   *** http://172.31.48.124:8089[Margarita/Reposado]
   *** Private support http://172.31.48.124:8081[web site]
-* Deployment tools
- ** Munki
-  *** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
-  *** Customization and Branding
+
+
+== Admin Resources
 * MacAdmins
  ** Slack channel
+ ** YouTube channel
