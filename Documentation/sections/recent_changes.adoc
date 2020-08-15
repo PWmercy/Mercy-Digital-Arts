@@ -1,0 +1,28 @@
+* Redundancy... redundancy... redundancy...footnote:[Testing footnote from included file.]
+ ** http://172.31.48.200:5000[Synology High Availability Cluster] (IT has password if needed)
+  *** Two identical Synology devices act in tandem. They are each independently connected to the network switch, but share a single IP address (Primary cluster interface).
+  *** One is "Active" the other "Passive". Synchronization is continuous via a direct-connect ethernet "heartbeat" interface.
+  *** If active device fails, the passive device takes over and service availabilty is restored within minutes.
+ ** Backupsfootnote:[Clarification about this statement.]
+  *** Historical (with retention schedule)
+   **** Uses Synology Hyper Backup
+  *** Folder Sync
+   **** Uses built-in "Shared Folder Sync" in Control Panel
+   **** Live mirror of Class Folders
+* https://github.com/PWmercy/Mercy-Digital-Arts[Github] and https://gist.github.com/PWmercy[Gists]
+ ** Repositories for scripts (mostly Bash) and other useful info used for management of lab macs and servers.
+ ** Longer code in Github, code snippets and documentation (like the one you're reading now) in Gists.
+ ** Using plugin these can be displayed inside a Wordpress web page
+* New Apple requirements
+** MDM
+*** https://support.apple.com/guide/mdm/mdm-overview-mdmbf9e668/web[Apple Description]
+*** We use https://mybusiness.mosyle.com[Mosyle Device Manager]
+*** Includes Macs, iPads, iPhones, AppleTVs
+** https://school.apple.com[Apple School Manager]
+** Privacy/Security
+*** Tighter with each OS release
+*** Examples: microphone, Wacom tablets, Adobe and Autodesk software
+* Sync to cloud
+** Sync to OneDrive
+*** During COVID closure, made campus server files available to students and faculty from home.
+*** New OneDrive space created by IT for this purpose
