@@ -436,65 +436,97 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
+<div id="toc" class="toc2">
+<div id="toctitle">Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_general_documentation">General Documentation</a></li>
+<li><a href="#_overview">1. Overview</a>
+<ul class="sectlevel2">
+<li><a href="#_recent_changes">1.1. Recent Changes</a></li>
+</ul>
+</li>
+<li><a href="#_hardware">2. Hardware</a>
+<ul class="sectlevel2">
+<li><a href="#_servers">2.1. Servers</a></li>
+</ul>
+</li>
+<li><a href="#_software">3. Software</a>
+<ul class="sectlevel2">
+<li><a href="#_renewal_calendar">3.1. Renewal calendar</a></li>
+<li><a href="#_license_servers">3.2. License servers</a></li>
+<li><a href="#_standard_software">3.3. Standard Software</a></li>
+</ul>
+</li>
+<li><a href="#_deployment_and_maintenance">4. Deployment and Maintenance</a>
+<ul class="sectlevel2">
+<li><a href="#_deployment_tools">4.1. Deployment tools</a></li>
+<li><a href="#_apple_updates">4.2. Apple updates</a></li>
+</ul>
+</li>
+<li><a href="#_managementreporting">5. Management/Reporting</a></li>
+<li><a href="#_many_serversmany_services">6. Many servers/many services</a></li>
+<li><a href="#_admin_resources">7. Admin Resources</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="sect2">
-<h3 id="_general_documentation">General Documentation</h3>
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
+<div class="sect1">
+<h2 id="_general_documentation">General Documentation</h2>
+<div class="sectionbody">
+<div class="exampleblock">
+<div class="content">
 <div class="paragraph">
-<p><em>This page is regularly updated.</em> | <strong><em>updated 7/16/2020</em></strong>
------------- | -------------:</p>
+<p>This page is regularly updated. Last updated <strong>August 13, 2020</strong></p>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p><strong><em>pwhite&#064;mercy.edu</em></strong></p>
+<p><a href="https://www.mercy.edu/liberal-arts/communication-and-arts">Web Site</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Originally prepared as presentation notes (Feb 19, 2020)</strong></p>
+<p>Author: <a href="mailto:pwhite@mercy.edu">pwhite@mercy.edu</a></p>
+</div>
+<div class="paragraph">
+<p><em>Originally prepared as presentation notes (Feb 19, 2020)</em></p>
 </div>
 <div class="paragraph">
 <p>This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.</p>
 </div>
-<div class="paragraph">
-<p><strong><em>NOTE</em></strong>: Many links in this document are private and only available on campus.</p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Many links in this document are private and only available when on Dobbs Ferry campus.
+</td>
+</tr>
+</table>
 </div>
-<div class="sect3">
-<h4 id="_sections">Sections</h4>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_overview">1. Overview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is a test.</p>
+</div>
+<div class="sect2">
+<h3 id="_recent_changes">1.1. Recent Changes</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><mark><mark></mark> [Overview](#OVERVIEW) <mark></mark></mark></p>
-</li>
-<li>
-<p><mark><mark></mark> [Recent changes](#RECENT_CHANGES) <mark></mark></mark></p>
-</li>
-<li>
-<p><mark><mark></mark> [Servers](#SERVERS) <mark></mark></mark></p>
-</li>
-<li>
-<p><mark><mark></mark> [Lab Software](#SOFTWARE) <mark></mark></mark></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>&lt;a name="OVERVIEW"&gt;&lt;/a&gt;
-<mark><mark></mark> Overview <mark></mark></mark></p>
-</div>
-<div class="paragraph">
-<p>&lt;a name="RECENT_CHANGES"&gt;&lt;/a&gt;
-<mark><mark></mark> Recent Changes <mark></mark></mark></p>
-</div>
-<div class="paragraph">
-<p>There have been many major changes over the last few semesters</p>
-</div>
+<p>Redundancy&#8230;&#8203; redundancy&#8230;&#8203; redundancy&#8230;&#8203;<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
 <div class="ulist">
 <ul>
 <li>
-<p>Redundancy redundancy redundancy</p>
-</li>
-<li>
-<p>[Synology High Availability Cluster](<a href="http://172.31.48.200:5000" class="bare">http://172.31.48.200:5000</a>) (IT has password if needed)</p>
-</li>
+<p><a href="http://172.31.48.200:5000">Synology High Availability Cluster</a> (IT has password if needed)</p>
+<div class="ulist">
+<ul>
 <li>
 <p>Two identical Synology devices act in tandem. They are each independently connected to the network switch, but share a single IP address (Primary cluster interface).</p>
 </li>
@@ -504,27 +536,46 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>If active device fails, the passive device takes over and service availabilty is restored within minutes.</p>
 </li>
-<li>
-<p>Backups</p>
+</ul>
+</div>
 </li>
+<li>
+<p>Backups<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+<div class="ulist">
+<ul>
 <li>
 <p>Historical (with retention schedule)</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Uses Synology Hyper Backup</p>
 </li>
+</ul>
+</div>
+</li>
 <li>
 <p>Folder Sync</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Uses built-in "Shared Folder Sync" in Control Panel</p>
 </li>
 <li>
 <p>Live mirror of Class Folders</p>
 </li>
-<li>
-<p>[Github](<a href="https://github.com/PWmercy/Mercy-Digital-Arts" class="bare">https://github.com/PWmercy/Mercy-Digital-Arts</a>) and [Gists](<a href="https://gist.github.com/PWmercy" class="bare">https://gist.github.com/PWmercy</a>)</p>
+</ul>
+</div>
 </li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="https://github.com/PWmercy/Mercy-Digital-Arts">Github</a> and <a href="https://gist.github.com/PWmercy">Gists</a></p>
+<div class="ulist">
+<ul>
 <li>
 <p>Repositories for scripts (mostly Bash) and other useful info used for management of lab macs and servers.</p>
 </li>
@@ -534,36 +585,56 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>Using plugin these can be displayed inside a Wordpress web page</p>
 </li>
+</ul>
+</div>
+</li>
 <li>
 <p>New Apple requirements</p>
+<div class="ulist">
+<ul>
+<li>
+<p>MDM</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://support.apple.com/guide/mdm/mdm-overview-mdmbf9e668/web">Apple Description</a></p>
 </li>
 <li>
-<p>[MDM](<a href="https://mybusiness.mosyle.com" class="bare">https://mybusiness.mosyle.com</a>)</p>
+<p>We use <a href="https://mybusiness.mosyle.com">Mosyle Device Manager</a></p>
 </li>
 <li>
-<p>Mosyle Device Manager</p>
+<p>Includes Macs, iPads, iPhones, AppleTVs</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p>[Apple School Manager](<a href="https://mybusiness.mosyle.com" class="bare">https://mybusiness.mosyle.com</a>)</p>
-</li>
-<li>
-<p>Includes iPads</p>
+<p><a href="https://school.apple.com">Apple School Manager</a></p>
 </li>
 <li>
 <p>Privacy/Security</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Tighter with each OS release</p>
 </li>
 <li>
 <p>Examples: microphone, Wacom tablets, Adobe and Autodesk software</p>
 </li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
 <li>
 <p>Sync to cloud</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Sync to OneDrive</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>During COVID closure, made campus server files available to students and faculty from home.</p>
 </li>
@@ -572,10 +643,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>&lt;a name="SERVERS"&gt;&lt;/a&gt;
-<mark><mark></mark> Servers <mark></mark></mark></p>
+</li>
+</ul>
 </div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hardware">2. Hardware</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_servers">2.1. Servers</h3>
+<div class="sect3">
+<h4 id="_synology_nas">Synology NAS</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -590,6 +673,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>16GB</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Synology</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Model RS3617RPxs</p>
+</li>
+<li>
+<p>Serial # 1910NTN037900</p>
+</li>
+<li>
+<p>16GB</p>
+</li>
+<li>
+<p>High Availability Cluster Failover</p>
 </li>
 </ul>
 </div>
@@ -619,32 +721,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </li>
-<li>
-<p>Synology</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Model RS3617RPxs</p>
-</li>
-<li>
-<p>Serial # 1910NTN037900</p>
-</li>
-<li>
-<p>16GB</p>
-</li>
-<li>
-<p>High Availability Cluster Failover</p>
-</li>
-<li>
-<p>Mac Mini servers</p>
-</li>
-</ul>
-</div>
-</li>
 </ol>
 </div>
-<div class="sect4">
-<h5 id="_lab_computers">Lab Computers</h5>
+</div>
+<div class="sect3">
+<h4 id="_mac_mini_servers">Mac Mini servers</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_lab_computers">Lab Computers</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -659,40 +744,124 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_peripheral_devices">Peripheral devices</h5>
+<div class="sect3">
+<h4 id="_recording_studios">Recording Studios</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_peripheral_devices">Peripheral devices</h4>
 <div class="ulist">
 <ul>
+<li>
+<p>Printers</p>
+</li>
 <li>
 <p>Wacom Tablets</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>&lt;a name="SOFTWARE"&gt;&lt;/a&gt;
-- <mark><mark></mark> Software <mark></mark></mark>
-- For All
-   -   Microsoft Suite
-   -   ExpanDrive
-   -   Standard App Store
-- For Design+Animation
-   -   Adobe Creative Cloud
-   -   Maya
-   -   Substance Painter
-   -   Marvelous Designer
-   -   ZBrush
-   -   KeyShot
-   -   Quixel
-   -   Houdini
-   -   Nuke
-   -   Vray
-   -   [Qube](<a href="https://www.pipelinefx.com" class="bare">https://www.pipelinefx.com</a>) Render Farm</p>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_software">3. Software</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_renewal_calendar">3.1. Renewal calendar</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_license_servers">3.2. License servers</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>For Music Production+Recording Arts</p>
+<p><a href="http://172.31.48.93:22352">Reason</a></p>
 </li>
+<li>
+<p><a href="http://172.31.48.93:5054/home.asp">ZBrush</a></p>
+</li>
+<li>
+<p>Keyshot</p>
+</li>
+<li>
+<p><a href="http://172.31.48.94:30304/#/">VRay</a></p>
+</li>
+<li>
+<p>Musition (cloud)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Students and Faculty need an account set up locally through the Musition Cloud app.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_standard_software">3.3. Standard Software</h3>
+<div class="sect3">
+<h4 id="_for_all">For All</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Microsoft Suite</p>
+</li>
+<li>
+<p>ExpanDrive</p>
+</li>
+<li>
+<p>Standard App Store</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_for_designanimation">For Design+Animation</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Adobe Creative Cloud</p>
+</li>
+<li>
+<p>Maya</p>
+</li>
+<li>
+<p>Substance Painter</p>
+</li>
+<li>
+<p>Marvelous Designer</p>
+</li>
+<li>
+<p>ZBrush</p>
+</li>
+<li>
+<p>KeyShot</p>
+</li>
+<li>
+<p>Quixel</p>
+</li>
+<li>
+<p>Houdini</p>
+</li>
+<li>
+<p>Nuke</p>
+</li>
+<li>
+<p>Vray</p>
+</li>
+<li>
+<p><a href="https://www.pipelinefx.com">Qube</a> Render Farm</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_for_music_productionrecording_arts">For Music Production+Recording Arts</h4>
+<div class="ulist">
+<ul>
 <li>
 <p>Pro Tools</p>
 </li>
@@ -714,40 +883,38 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_hardware">Hardware</h3>
-<div class="paragraph">
-<p>iMacs</p>
-</div>
-<div class="paragraph">
-<p>Mac Mini</p>
-</div>
-<div class="paragraph">
-<p>iMac Pro</p>
-</div>
-<div class="paragraph">
-<p>Mac Pro (2012)</p>
-</div>
-<div class="paragraph">
-<p>Printers</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_software">Software</h3>
-<div class="paragraph">
-<p>Renewal calendar</p>
-</div>
 <div class="sect3">
 <h4 id="_all_computers">All computers</h4>
 
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_deployment_and_maintenance">4. Deployment and Maintenance</h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="_deployment_and_maintenance"><em>Deployment and Maintenance</em></h3>
-<div class="sect3">
-<h4 id="_apple_updates">Apple updates</h4>
+<h3 id="_deployment_tools">4.1. Deployment tools</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Munki</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default">Munki report</a></p>
+</li>
+<li>
+<p>Customization and Branding</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_apple_updates">4.2. Apple updates</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -755,24 +922,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_software_install_and_updates">Software install and updates</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Munki
-Server at munki5.digiarts.mercy</p>
-</li>
-</ul>
-</div>
-</div>
 <div class="sect3">
 <h4 id="_loops_for_garageband_and_logic">Loops for GarageBand and Logic</h4>
 <div class="ulist">
 <ul>
 <li>
-<p>[appleloops utility](<a href="https://github.com/carlashley/appleLoops" class="bare">https://github.com/carlashley/appleLoops</a>)</p>
+<p><a href="https://github.com/carlashley/appleLoops">appleloops utility</a></p>
 </li>
 </ul>
 </div>
@@ -787,64 +942,72 @@ Server at munki5.digiarts.mercy</p>
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_managementreporting">Management/Reporting</h4>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_managementreporting">5. Management/Reporting</h2>
+<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>[Munki Report](<a href="http://munki5.digiarts.mercy/report/" class="bare">http://munki5.digiarts.mercy/report/</a>)</p>
+<p><a href="http://munki5.digiarts.mercy/report/">Munki Report</a></p>
 </li>
 <li>
-<p>[KeyServer](<a href="http://license2.digiarts.mercy:8081/software" class="bare">http://license2.digiarts.mercy:8081/software</a>)</p>
+<p><a href="http://license2.digiarts.mercy:8081/software">KeyServer</a></p>
 </li>
 <li>
-<p>[Mosyle MDM](<a href="https://mybusiness.mosyle.com" class="bare">https://mybusiness.mosyle.com</a>)</p>
+<p><a href="https://mybusiness.mosyle.com">Mosyle MDM</a></p>
 </li>
 <li>
-<p>[Apple School Manager](<a href="https://school.apple.com" class="bare">https://school.apple.com</a>)</p>
+<p><a href="https://school.apple.com">Apple School Manager</a></p>
 </li>
 <li>
-<p>Licensing - each administered differenlty</p>
-</li>
+<p>Licensing - each administered differently</p>
+<div class="ulist">
+<ul>
 <li>
 <p>Adobe changes</p>
 </li>
 <li>
-<p>Multiple license servers</p>
-</li>
+<p><a href="http://172.31.48.93:8081/maps">KeyServer</a></p>
+<div class="ulist">
+<ul>
 <li>
-<p>[Reason](<a href="http://172.31.48.93:22352" class="bare">http://172.31.48.93:22352</a>)</p>
+<p>Heat maps</p>
 </li>
-<li>
-<p>[ZBrush](<a href="http://172.31.48.93:5054/home.asp" class="bare">http://172.31.48.93:5054/home.asp</a>)</p>
+</ul>
+</div>
 </li>
-<li>
-<p>Keyshot</p>
+</ul>
+</div>
 </li>
-<li>
-<p>[VRay](<a href="http://172.31.48.94:30304/#/" class="bare">http://172.31.48.94:30304/#/</a>)</p>
-</li>
-<li>
-<p>Musition (cloud)</p>
-</li>
-<li>
-<p>Students and Faculty need an account set up locally through the Musition Cloud app.</p>
-</li>
-<li>
-<p>Many servers/many services</p>
-</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_many_serversmany_services">6. Many servers/many services</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
 <li>
 <p>Synology</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Private DNS</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>Docker</p>
 </li>
 <li>
 <p>Mac minis</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Mini Server 1 RETIRED</p>
 </li>
@@ -856,81 +1019,113 @@ Server at munki5.digiarts.mercy</p>
 </li>
 <li>
 <p>Mini Server 4</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Out of service - New HD?</p>
 </li>
+</ul>
+</div>
+</li>
 <li>
 <p>Mini Server 5</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Munki</p>
 </li>
 <li>
 <p>Munki Report</p>
 </li>
+</ul>
+</div>
+</li>
 <li>
 <p>Mini Server 6</p>
 </li>
+</ul>
+</div>
+</li>
 <li>
 <p>IT-managed VMs</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Booked scheduling system</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://booked.mercy.edu">Web access</a></p>
 </li>
 <li>
-<p>[Web access](<a href="https://booked.mercy.edu" class="bare">https://booked.mercy.edu</a>)</p>
-</li>
-<li>
-<p>[Product support](<a href="https://www.bookedscheduler.com" class="bare">https://www.bookedscheduler.com</a>)</p>
-</li>
+<p><a href="https://www.bookedscheduler.com">Product support</a></p>
+<div class="ulist">
+<ul>
 <li>
 <p>Management tools</p>
 </li>
-<li>
-<p>[MDM](<a href="https://mybusiness.mosyle.com" class="bare">https://mybusiness.mosyle.com</a>)</p>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p>[KeyServer](<a href="http://172.31.48.93:8081/maps" class="bare">http://172.31.48.93:8081/maps</a>)</p>
+<p><a href="http://172.31.48.124:5000">Docker</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://172.31.48.124:8089">Margarita/Reposado</a></p>
 </li>
 <li>
-<p>Heat maps</p>
+<p>Private support <a href="http://172.31.48.124:8081">web site</a></p>
 </li>
-<li>
-<p>[Docker](<a href="http://172.31.48.124:5000" class="bare">http://172.31.48.124:5000</a>)</p>
+</ul>
+</div>
 </li>
-<li>
-<p>[Margarita/Reposado](<a href="http://172.31.48.124:8089" class="bare">http://172.31.48.124:8089</a>)</p>
-</li>
-<li>
-<p>Private support [web site](<a href="http://172.31.48.124:8081" class="bare">http://172.31.48.124:8081</a>)</p>
-</li>
-<li>
-<p>Deployment tools</p>
-</li>
-<li>
-<p>Munki</p>
-</li>
-<li>
-<p>[Munki report](<a href="http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default" class="bare">http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default</a>)</p>
-</li>
-<li>
-<p>Customization and Branding</p>
-</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_admin_resources">7. Admin Resources</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
 <li>
 <p>MacAdmins</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Slack channel</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/user/psumacconf">YouTube channel</a></p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 </div>
 </div>
 </div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. Testing footnote from included file.
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Clarification about this statement.
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-08-11 16:12:34 -0400
+Version 2.0<br>
+Last updated 2020-08-14 16:42:55 -0400
 </div>
 </div>
 </body>
