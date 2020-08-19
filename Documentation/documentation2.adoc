@@ -1,6 +1,6 @@
 :author: Phil White
 :author_email: pwhite@mercy.edu
-:revdate: August 13, 2020
+:revdate: August 19, 2020
 :revnumber: 2.0
 
 :toc: left
@@ -8,7 +8,6 @@
 :toc-title: Contents
 
 :sectnumlevels: 2
-
 
 ifdef::env-github[]
 :tip-caption: :bulb:
@@ -22,6 +21,7 @@ endif::[]
 <link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
 ++++
 
+:stylesheet: gazette.css
 :icons: font
 
 include::incl/variables.adoc[]
@@ -43,13 +43,36 @@ This will be expanded, updated and changed over time. Keep checking back. Sugges
 
 IMPORTANT: Many links in this document are private and only available when on Dobbs Ferry campus.
 
+---
+****
+#Testing Asciidoctor# image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
+
+This document is being prepared using https://asciidoc.org[AsciiDoc] and http://asciidoctor.org[Asciidoctor] formatting.
+As of {revdate} it contains some text that has been inserted only for testing purposes.
+This text will eventually be removed.
+
+****
+---
 :sectnums:
+
+[qanda]
+.Q&A TEST
+How many?::
+More than you thunk.
+Will there be more?::
+Perhaps yes, perhaps no.
+Is this an example of `[qanda]` in Asciidoc?::
+Why yes, yes it is.
+
 == Overview
 include::sections/overview.adoc[]
 
-=== Recent Changes
+== Recent Changes
+:leveloffset: -1
 
 include::sections/recent_changes.adoc[]
+
+:leveloffset: +1
 
 == Hardware
 
@@ -80,21 +103,26 @@ include::sections/recent_changes.adoc[]
 . Mini Server 2
 . Mini Server 3
 . Mini Server 4
- * Out of service - New HD?
+* Out of service - New HD?
 . Mini Server 5
- * Munki
- * Munki Report
+* Munki
+* Munki Report
 . Mini Server 6
 
-==== Lab Computers
+=== Lab Computers
 
 * iMacs
 * Mac Minis
 * Mac Pro (2013)
 
-==== Recording Studios
+=== Recording Studios
+:leveloffset: -1
 
-==== Peripheral devices
+include::sections/recordingstudios.adoc[tag=recstudiocomputers]
+
+:leveloffset: +1
+
+=== Peripheral devices
 
 * Printers
 * Wacom Tablets
@@ -137,8 +165,6 @@ include::sections/recent_changes.adoc[]
 ** Musition
 ** Native Instruments Komplete
 
-==== All computers
-
 == Deployment and Maintenance
 
 === Deployment tools
@@ -152,7 +178,7 @@ include::sections/recent_changes.adoc[]
 
 ==== Loops for GarageBand and Logic
 
-* https://github.com/carlashley/appleLoops[appleloops utility]
+* https://github.com/carlashley/appleLoops[Appleloops utility]
 
 ==== Synology
 
@@ -171,21 +197,21 @@ include::sections/recent_changes.adoc[]
 
 
 == Many servers/many services
- ** Synology
-  *** Private DNS
- ** Docker
- ** Mac minis
+** Synology
+*** Private DNS
+** Docker
+** Mac minis
 
- ** IT-managed VMs
-  *** Booked scheduling system
-   **** https://booked.mercy.edu[Web access]
-   **** https://www.bookedscheduler.com[Product support]
+** IT-managed VMs
+*** Booked scheduling system
+**** https://booked.mercy.edu[Web access]
+**** https://www.bookedscheduler.com[Product support]
 * Management tools
- ** http://172.31.48.124:5000[Docker]
-  *** http://172.31.48.124:8089[Margarita/Reposado]
-  *** Private support http://172.31.48.124:8081[web site]
+** http://172.31.48.124:5000[Docker]
+*** http://172.31.48.124:8089[Margarita/Reposado]
+*** Private support http://172.31.48.124:8081[web site]
 
 == Admin Resources
 * MacAdmins
- ** Slack channel
- ** https://www.youtube.com/user/psumacconf[YouTube channel]
+** Slack channel
+** https://www.youtube.com/user/psumacconf[YouTube channel]
