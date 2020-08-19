@@ -25,7 +25,7 @@ More stuff
 
 .Testing Asciidoctor image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
 ****
-This document contains some text that has been inserted only for the purpose of
+As of {revdate} this document contains some text that has been inserted only for the purpose of
 testing https://asciidoc.org[AsciiDoc] and http://asciidoctor.org[Asciidoctor].
 
 AsciiDoc was first released in Nov 2002 by Stuart Rackham.
