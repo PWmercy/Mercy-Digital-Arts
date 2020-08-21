@@ -1,0 +1,27 @@
+:author: Phil White
+:author_email: pwhite@mercy.edu
+:revdate: August 15, 2020
+
+
+== Computers
+
+// tag::recstudiocomputers[]
+
+=== Studio A
+. iMac Pro
+
+=== Studio B
+. iMac
+
+=== Studio C
+. iMac
+
+=== Studio D
+. Mac Mini
+
+// end::recstudiocomputers[]
+
+== Other Equipment
+Mixer
+
+Ethernet audio

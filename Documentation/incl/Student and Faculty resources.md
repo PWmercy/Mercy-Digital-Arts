@@ -1,6 +1,6 @@
 
 <a name="TOP"></a>
-__This page will be updated as new information becomes available.__| Updated _8/10/2020_|
+__This page will be updated as new information becomes available.__| Updated _8/20/2020_|
 ------------ | -------------:
 
 Home Study Resources for:
@@ -15,7 +15,7 @@ Home Study Resources for:
 __Files on campus server__
 -   These have been copied to a OneDrive cloud drive
     - Connect [here](https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej-2GJoqok9Hu4EB_Xgbh4ABeMRkLaihEtgU1auaez6V1g?e=t4KaDw).
-    
+
      Use your Mercy email to log in. Once you have, the folder will appear in your OneDrive in the _Shared with me_ folder.
        - If this link fails to work, email pwhite&#064;mercy.edu right away.
     - All Class folders, except the "Instructor-Only" folder are available.
@@ -23,9 +23,8 @@ __Files on campus server__
     - You can add files to these folders and they will be available in labs on campus when you return. Continue to __make your own backup copies of your work__.
 
 __Remote Support from Phil__
-- For a quick chat, you can use Skype button from Mercy email page when logged in ( <img src=https://upload.wikimedia.org/wikipedia/commons/c/c3/Microsoft_Skype_for_Business_logo.svg  alt="Skype Button" width=20> button, upper right). 
-- For more complete chat and screen sharing, download [Skype for Business](https://products.office.com/en-us/skype-for-business/download-app). Log in using _mercy.edu_ account.
-- Since Mercy's Skype settings do not allow for audio, [Zoom](https://mercy.zoom.us) will be used when text chat is not sufficient.
+- Login to Zoom using your Mercy email account
+- Connect to Zoom Meeting Room [here](https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09)
 
 __Microsoft Office__
 - Free for students and faculty
@@ -44,10 +43,10 @@ __Booking time in studios and lab__
 ---
 <a name="DANDA"></a>
 [Return to Top](#TOP)
-## Design+Animation Students ## 
+## Design+Animation Students ##
 __Autodesk Maya__
 - Free for students [details here](https://www.autodesk.com/education/free-software/maya)
-  
+
   - __IMPORTANT: Do NOT USE__ the link on that page that says "_Not a student or educator? Get the free trial_"
   - Create an account if you don't already have one and login to download.
 
@@ -60,7 +59,7 @@ __ZBrush__ (EXPIRED)
 
 __KeyShot__
 - email pwhite&#064;mercy.edu for a 60-day license code
-    
+
 __Foundry__ (Nuke, Mari, etc.)
 
 - [Free student account](https://www.foundry.com/education/apply/student) (1 year)
@@ -73,7 +72,7 @@ __Other Software__
 ---
 <a name="MPRA"></a>
 [Return to Top](#TOP)
-## Music Production+Recording Arts Students ## 
+## Music Production+Recording Arts Students ##
 
 __Pro Tools__
 - Sam has distributed licenses to students.
@@ -83,8 +82,8 @@ __Pro Tools__
 __Musition__
 - Installers for Mac and Windows [here](https://www.risingsoftware.com/cloudsupport/downloads)
   - __NOTE:__ If you have version 5 you must download the version 6 upgrade.
-- Alternativiely (and for mobile devices) log in to cloud version [here](https://musition.cloud) 
-  - use same account and password as in lab. 
+- Alternativiely (and for mobile devices) log in to cloud version [here](https://musition.cloud)
+  - use same account and password as in lab.
 - School Code is __MERCYCOLLEGE__ (no space)
 
 __Ableton Live Suite__ including Max For Live
@@ -136,9 +135,9 @@ __Other Software__
   - email sstauff&#064;mercy.edu for redemption code then redeem [here](https://www.groove3.com/redeem)
 
 - [The Recording Engineer's Handbook – Bobby Owsinsk](https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3)
- 
+
 - [Zen and the Art of Recording - Mixerman](https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3)
-  
+
 - [Recording Unhinged Sylvia Massy](https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1)
 
 - iZotope - Has an amazing [free video series](https://www.youtube.com/user/izotopeinc/featured) on Mastering
