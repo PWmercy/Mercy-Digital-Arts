@@ -1,4 +1,4 @@
-= Documentation
+= Classroom and Home Study Resources
 :source-highlighter: rouge
 
 :author: Phil White
@@ -15,7 +15,6 @@
 +++<a name="TOP">++++++</a>+++
 *This page will be updated as new information becomes available.* Updated {revdate}|
 
-Home Study Resources for:
 
 == All Students
 
@@ -49,12 +48,6 @@ Once you have, the folder will appear in your OneDrive in the _Shared with me_ f
 
 * Free for students and faculty
  ** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
-
-
-
-
-+++<a name="DANDA">++++++</a>+++
-<<TOP,Return to Top>>
 
 == Design+Animation Students
 === Software
@@ -103,8 +96,11 @@ Once you have, the folder will appear in your OneDrive in the _Shared with me_ f
 *Musition*
 
 * Installers for Mac and Windows https://www.risingsoftware.com/cloudsupport/downloads[here]
- ** *NOTE:* If you have version 5 you must download the version 6 upgrade.
+ 
+NOTE: If you have version 5 you must download the version 6 upgrade.
+
 * Alternatively (and for mobile devices) log in to cloud version https://musition.cloud[here]
+
  ** use same account and password as in lab.
 * School Code is *MERCYCOLLEGE* (no space)
 
