@@ -13,11 +13,7 @@
 :icons: font
 :sectnumlevels: 2
 
-+++<a name="TOP">++++++</a>+++
 *This page will be updated as new information becomes available.* Updated {revdate}|
-
-+++<del>+++Eventually we will have instructions on how to make it specific to
-perl6 filetypes and make it apply globally+++</del>+++
 
 == All Students
 
@@ -66,10 +62,12 @@ Once you have, the folder will appear in your OneDrive in the _Shared with me_ f
 
 *ZBrush* (EXPIRED)
 
-. ~~ Register for the ZBrush 2020 Trial version https://pixologic.com/zbrush/trial/[here]. Please *use your mercy.edu email*. ~~
++++<del>+++
 . Install and activate ZBrush.
 . Email pwhite&#064;mercy.edu, confirming the email address you used to register for the Trial.
 . You will then receive a temporary license code.
+
++++</del>+++
 
 *KeyShot*
 
