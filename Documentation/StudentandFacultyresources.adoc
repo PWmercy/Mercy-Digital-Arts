@@ -153,9 +153,9 @@ NOTE: If you have version 5 you must download the version 6 upgrade.
 * https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording - Mixerman]
 * https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged Sylvia Massy]
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
-* iZotope - https://pae.izotope.com/[Pro Audio Essentials] 
-
-[quote, Sam Stauff] GREAT RESOURCE
+* iZotope - https://pae.izotope.com/[Pro Audio Essentials]
+[quote, Sam Stauff]
+GREAT RESOURCE!
 
 * Great Video Podcast about production - https://www.pensadosplace.tv/[Pensado's Place]
 * https://www.pro-tools-expert.com/[Pro Tools Expert]
