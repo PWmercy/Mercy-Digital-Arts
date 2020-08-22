@@ -104,7 +104,7 @@ Once you have, the folder will appear in your OneDrive in the _Shared with me_ f
 
 * Installers for Mac and Windows https://www.risingsoftware.com/cloudsupport/downloads[here]
  ** *NOTE:* If you have version 5 you must download the version 6 upgrade.
-* Alternativiely (and for mobile devices) log in to cloud version https://musition.cloud[here]
+* Alternatively (and for mobile devices) log in to cloud version https://musition.cloud[here]
  ** use same account and password as in lab.
 * School Code is *MERCYCOLLEGE* (no space)
 
