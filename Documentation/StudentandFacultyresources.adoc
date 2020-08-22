@@ -16,6 +16,8 @@
 +++<a name="TOP">++++++</a>+++
 *This page will be updated as new information becomes available.* Updated {revdate}|
 
++++<del>+++Eventually we will have instructions on how to make it specific to
+perl6 filetypes and make it apply globally+++</del>+++
 
 == All Students
 
