@@ -10,6 +10,7 @@
 :toc-levels: 2
 :toc-title: Contents
 
+:icons: font
 :sectnumlevels: 2
 
 +++<a name="TOP">++++++</a>+++
