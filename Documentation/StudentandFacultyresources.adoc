@@ -116,7 +116,7 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 * 90-day free trial https://www.apple.com/logic-pro/trial/[here].
 
 ==== Other Software
-
+aa
 * ProjectSAM free orchestral sound library
 ** Uses free Kontakt Player
 ** Requires creating account https://projectsam.com/libraries/the-free-orchestra/[here]
@@ -136,7 +136,7 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
 [quote, Practical Show Tech]
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
-aa
+
 * _Groove 3_ video tutorials for Logic Pro X, Pro Tools, Studio One, Ableton Live, Reason, Plug-Ins, Mixing and Mastering and more   *Full library temporarily free*
  ** email sstauff&#064;mercy.edu for redemption code then redeem https://www.groove3.com/redeem[here]
 
