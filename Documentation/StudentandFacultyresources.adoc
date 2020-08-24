@@ -117,13 +117,6 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 
 ==== Other Software
 
-* Soundtoys Effect Rack# EXPIRED
-** [.line-through]#Free through June 30 http://www.soundtoys.com/rack-relief/?fbclid=IwAR10Oej5IFuXcKZCXCAiZbcxtS1WcOJ0OWgt25vJ-Bw0FxDUVPYeAokj9pI[fill in form here]#
-* East West (Multiple Sample Libraries)
-** free 90 day ComposerCloud X EDU subscription
-*** sign up http://www.soundsonline.com/stay-at-home-trial[here]
-** NOTE: takes up hundreds of gigs of space on your hard drive so make sure you have the space available before signing up.
-** Contact sstauff&#064;mercy.edu with any questions.
 * ProjectSAM free orchestral sound library
 ** Uses free Kontakt Player
 ** Requires creating account https://projectsam.com/libraries/the-free-orchestra/[here]
@@ -131,7 +124,6 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 ** https://www.fabfilter.com/covid19[Evaluation extension]
 * Final Cut Pro (Mac-only)
 ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
-* https://www.engadget.com/2020-03-14-moog-and-korg-free-synth-apps.html[Moog and Korg Software Synths]
 * Headphone Mixing EXPIRED
 ** [.line-through]#https://www.sonarworks.com/reference/downloads[Sonarworks Reference plug-in] - email sstauff&#064;mercy.edu for a code#
 
@@ -143,14 +135,19 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
  ** FREE for 90 days. SIgn up https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[here].
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
 [quote, Practical Show Tech]
-"...we are making use of social distancing time by sharing knowledge of live show production via live webcasts."
-
+...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
+aa
 * _Groove 3_ video tutorials for Logic Pro X, Pro Tools, Studio One, Ableton Live, Reason, Plug-Ins, Mixing and Mastering and more   *Full library temporarily free*
  ** email sstauff&#064;mercy.edu for redemption code then redeem https://www.groove3.com/redeem[here]
+
 * https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3[The Recording Engineer's Handbook -- Bobby Owsinsk]
+
 * https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording - Mixerman]
+
 * https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged Sylvia Massy]
+
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
+
 * iZotope - https://pae.izotope.com/[Pro Audio Essentials]
 [quote, Sam Stauff]
 This is a GREAT RESOURCE!
