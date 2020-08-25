@@ -35,7 +35,10 @@ TIP: Use your Mercy email to log in.
 
 === Remote Support from Phil
 
-Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
+* Via email: pwhite&#064;mercy.edu
+
+* Via Zoom
+** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
 
 NOTE: Login to Zoom using your Mercy email account
 
