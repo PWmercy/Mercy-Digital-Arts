@@ -3,7 +3,7 @@
 
 :author: Phil White
 :author_email: pwhite@mercy.edu
-:revdate: August 20, 2020
+:revdate: August 25, 2020
 :revnumber: 2.0
 
 :toc: left
