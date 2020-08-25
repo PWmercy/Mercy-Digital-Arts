@@ -15,7 +15,7 @@
 
 = Classroom and Home Study Resources
 
-*This page will be updated as new information becomes available.* Updated {revdate}|
+*This page will be updated as new information becomes available.* Updated {revdate}
 
 == For All Students
 
@@ -116,7 +116,7 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 * 90-day free trial https://www.apple.com/logic-pro/trial/[here].
 
 ==== Other Software
-aa
+
 * ProjectSAM free orchestral sound library
 ** Uses free Kontakt Player
 ** Requires creating account https://projectsam.com/libraries/the-free-orchestra/[here]
