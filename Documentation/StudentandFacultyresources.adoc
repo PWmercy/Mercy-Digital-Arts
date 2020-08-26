@@ -41,11 +41,11 @@ TIP: Use your Mercy email to log in.
  ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
  ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
 
-=== Remote Support from Phil
+=== Get Help 
 
 * Via email: pwhite&#064;mercy.edu
 
-* Via Zoom
+* Live Help via Zoom
 ** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
 
 NOTE: Login to Zoom using your Mercy email account
