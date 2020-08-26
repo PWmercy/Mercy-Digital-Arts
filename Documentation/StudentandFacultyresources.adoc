@@ -9,7 +9,7 @@
 :toc: left
 :toc-levels: 2
 :toc-title: Contents
-
+a
 :icons: font
 :sectnumlevels: 2
 
@@ -23,7 +23,9 @@ endif::[]
 
 = Classroom and Home Study Resources
 
-*This page will be updated as new information becomes available.* Updated {revdate}
+
+*This page is updated as new information becomes available.*
+Last updated {revdate}
 
 == For All Students
 
@@ -32,14 +34,16 @@ endif::[]
 * These have been copied to a OneDrive cloud drive
 ** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej-2GJoqok9Hu4EB_Xgbh4ABeMRkLaihEtgU1auaez6V1g?e=t4KaDw[here].
 
-TIP: Use your Mercy email to log in.
+NOTE: Use your Mercy email to log in.
 
 ** Once you have, the folder will appear in your OneDrive in the _Shared with me_ folder.
 
  ** If this link fails to work, email pwhite&#064;mercy.edu right away.
  ** All Class folders, except the "Instructor-Only" folder are available.
  ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
- ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
+ ** You can add files to these folders and they will be available in labs on campus when you return.
+
+IMPORTANT: Always make your own backup copies of your work.
 
 === Remote Support from Phil
 
@@ -52,6 +56,9 @@ NOTE: Login to Zoom using your Mercy email account
 
 === Booking time in computer labs
 
+To facilitate safety, all time spent in classroom/labs must be reserved
+
+
 * *CURRENTLY NOT AVAILABLE*
  ** https://booked.mercy.edu[Booked Scheduler] _Closed Notice_ added to login page
 
@@ -62,7 +69,7 @@ NOTE: Login to Zoom using your Mercy email account
 * Free for students and faculty
 ** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
 
-== For Design+Animation Students
+== For Design+Animation
 === Software
 
 ==== Adobe Creative Cloud
@@ -71,7 +78,9 @@ Details to come
 ==== Autodesk Maya
 
 * Free for students https://www.autodesk.com/education/free-software/maya[details here]
-** *IMPORTANT:* DO *NOT* USE the link on that page that says "_Not a student or educator? Get the free trial_"
+
+IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
+
 ** Create an account if you don't already have one and login to download.
 
 ==== ZBrush (EXPIRED)
@@ -95,7 +104,7 @@ Details to come
 * Final Cut Pro (Mac-only)
  ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 
-== For Music Production+Recording Arts Students
+== For Music Prod+Recording Arts
 === Software
 ==== Pro Tools
 
@@ -106,11 +115,11 @@ Details to come
 
 * Installers for Mac and Windows https://www.risingsoftware.com/cloudsupport/downloads[here]
 
-IMPORTANT: If you have version 5 you must download the version 6 upgrade.
+IMPORTANT: If you have version 5 you must download the https://www.risingsoftware.com/cloudsupport/downloads[version 6 upgrade].
 
 * Alternatively (as well as for mobile devices) log in to cloud version https://musition.cloud[here]
 
-** use same account and password as in lab.
+** use same account and password as you do to access Musition in lab.
 * School Code is *MERCYCOLLEGE* (no space)
 
 *Ableton Live Suite* including Max For Live
