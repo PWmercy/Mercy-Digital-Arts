@@ -7,9 +7,9 @@
 :revnumber: 2.0
 
 :toc: left
-:toc-levels: 2
+:toc-levels: 1
 :toc-title: Contents
-a
+
 :icons: font
 :sectnumlevels: 2
 
@@ -21,13 +21,17 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-= Classroom and Home Study Resources
+= Classroom and Home Study Resources:
+
+For Students and Faculty of Design+Animation, Music Production+Recording Arts
 
 
-*This page is updated as new information becomes available.*
+This page is updated as new information becomes available.
 Last updated {revdate}
 
-== For All Students
+:sectnums:
+
+== For Both Programs
 
 === Files on campus server
 
@@ -56,11 +60,11 @@ NOTE: Login to Zoom using your Mercy email account
 
 === Booking time in computer labs
 
-To facilitate safety, all time spent in classroom/labs must be reserved
+To facilitate safety, all time spent in classroom/labs must be reserved using an online scheduler.
 
+NOTE: NOT active as of {revdate}
 
-* *CURRENTLY NOT AVAILABLE*
- ** https://booked.mercy.edu[Booked Scheduler] _Closed Notice_ added to login page
+https://booked.mercy.edu[Booked Scheduler] _Closed Notice_ added to login page
 
 === Software
 
