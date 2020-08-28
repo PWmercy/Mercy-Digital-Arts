@@ -3,7 +3,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: August 25, 2020
+:revdate: August 28, 2020
 :revnumber: 2.0
 
 :toc: left
@@ -25,11 +25,31 @@ endif::[]
 
 For Students and Faculty of _Design+Animation_ and _Music Production+Recording Arts_
 
-*This page will be updated as new information becomes available.* Updated {revdate}
+*This page is updated as new information becomes available.* Updated {revdate}
 
 :sectnums:
 
 == For All Students
+
+=== Get Help
+
+.Via email
+* Phil White - {author_email}
+
+.Via Zoom
+** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
+*** Passcode: 274751
+
+NOTE: Login to Zoom using your Mercy email account
+
+.Music Lab help
+* Call [green]*914-674-7767* (or dial [green]*7767* from wall phone in lab)
+
+** There is always someone available to help
+
+.IT Help Desk
+* email helpdesk@mercy.edu
+** For issues such as email, resetting password, PC labs
 
 === Files on campus server
 
@@ -45,33 +65,12 @@ TIP: Use your Mercy email to log in.
  ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
  ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
 
-=== Get Help
-
-.Via email
-* pwhite&#064;mercy.edu
-
-.Via Zoom
-** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
-*** Passcode: 274751
-
-NOTE: Login to Zoom using your Mercy email account
-
-.Music Lab help
-* Call 914-674-7767 (or 7767 from wall phone in lab)
-
-** There is always someone available to help
-
-.IT Help Desk
-* email helpdesk@mercy.edu
-** For issues such as email, resetting password, PC labs
-
 === Booking time in computer labs
 
-To facilitate safety, all time spent in classroom/labs must be reserved using an online scheduler.
+IMPORTANT: NOT active as of {revdate}
 
-NOTE: NOT active as of {revdate}
-
-https://booked.mercy.edu[Booked Scheduler]
+* To facilitate safety, all time spent in classroom/labs when classes are not in session must be reserved using our https://booked.mercy.edu[online scheduler].
+* Strict limits on room occupancy will be enforced.
 
 === Software
 
