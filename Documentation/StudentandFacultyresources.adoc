@@ -41,7 +41,7 @@ TIP: Use your Mercy email to log in.
  ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
  ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
 
-=== Get Help 
+=== Get Help
 
 * Via email: pwhite&#064;mercy.edu
 
@@ -113,10 +113,10 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 ** use same account and password as in lab.
 * School Code is *MERCYCOLLEGE* (no space)
 
-*Ableton Live Suite* including Max For Live
+==== Ableton Live Suite* including Max For Live
 
-* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 30 days but Ableton will extend that an additional 30 days as needed.
- ** Use the https://www.ableton.com/en/contact-us/[Ableton Contact Us Page] to request a longer trial around the 30-day mark.
+* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 90 days but Ableton will extend that an additional 30 days as needed.
+ ** Use the https://www.ableton.com/en/contact-us/[Ableton Contact Us Page] to request a longer trial around the 90-day mark.
 
 ==== Native Instruments
 
