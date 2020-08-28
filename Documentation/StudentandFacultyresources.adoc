@@ -3,11 +3,11 @@
 
 :author: Phil White
 :author_email: pwhite@mercy.edu
-:revdate: August 26, 2020
+:revdate: August 25, 2020
 :revnumber: 2.0
 
 :toc: left
-:toc-levels: 1
+:toc-levels: 2
 :toc-title: Contents
 
 :icons: font
@@ -23,58 +23,37 @@ endif::[]
 
 = Classroom and Home Study Resources
 
-For Students and Faculty of _Design+Animation_ and _Music Production+Recording Arts_
+*This page will be updated as new information becomes available.* Updated {revdate}
 
-This page is updated as new information becomes available.
-Last updated {revdate}
-
-:sectnums:
-
-== For Both Programs
+== For All Students
 
 === Files on campus server
 
 * These have been copied to a OneDrive cloud drive
 ** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej-2GJoqok9Hu4EB_Xgbh4ABeMRkLaihEtgU1auaez6V1g?e=t4KaDw[here].
 
-NOTE: Use your Mercy email to log in.
+TIP: Use your Mercy email to log in.
 
 ** Once you have, the folder will appear in your OneDrive in the _Shared with me_ folder.
 
  ** If this link fails to work, email pwhite&#064;mercy.edu right away.
  ** All Class folders, except the "Instructor-Only" folder are available.
  ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
- ** You can add files to these folders and they will be available in labs on campus when you return.
+ ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
 
-IMPORTANT: Always make your own backup copies of your work.
+=== Get Help 
 
-=== Get Help
+* Via email: pwhite&#064;mercy.edu
 
-.Via email
-* pwhite&#064;mercy.edu
-
-.Via Zoom
+* Live Help via Zoom
 ** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
-*** Passcode: 274751
 
 NOTE: Login to Zoom using your Mercy email account
 
-.Music Lab help
-* Call 914-674-7767 (or 7767 from wall phone in lab)
-
-** There is always someone available to help
-
-.IT Help Desk
-* email helpdesk@mercy.edu
-** For issues such as email, resetting password, PC labs
-
 === Booking time in computer labs
 
-To facilitate safety, all time spent in classroom/labs must be reserved using an online scheduler.
-
-NOTE: NOT active as of {revdate}
-
-https://booked.mercy.edu[Booked Scheduler]
+* *CURRENTLY NOT AVAILABLE*
+ ** https://booked.mercy.edu[Booked Scheduler] _Closed Notice_ added to login page
 
 === Software
 
@@ -83,7 +62,7 @@ https://booked.mercy.edu[Booked Scheduler]
 * Free for students and faculty
 ** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
 
-== For Design+Animation
+== For Design+Animation Students
 === Software
 
 ==== Adobe Creative Cloud
@@ -92,9 +71,7 @@ Details to come
 ==== Autodesk Maya
 
 * Free for students https://www.autodesk.com/education/free-software/maya[details here]
-
-IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
-
+** *IMPORTANT:* DO *NOT* USE the link on that page that says "_Not a student or educator? Get the free trial_"
 ** Create an account if you don't already have one and login to download.
 
 ==== ZBrush (EXPIRED)
@@ -113,18 +90,12 @@ IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educat
 
 * https://www.foundry.com/education/apply/student[Free student account] (1 year)
 
-==== Substance Painter/Designer
-
-* https://www.substance3d.com/education/[Free for students and faculty]
-
-NOTE: Requires creating an account
-
 ==== Other Software
 
 * Final Cut Pro (Mac-only)
  ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 
-== For Music Prod+Recording Arts
+== For Music Production+Recording Arts Students
 === Software
 ==== Pro Tools
 
@@ -135,21 +106,21 @@ NOTE: Requires creating an account
 
 * Installers for Mac and Windows https://www.risingsoftware.com/cloudsupport/downloads[here]
 
-IMPORTANT: If you have version 5 you must download the https://www.risingsoftware.com/cloudsupport/downloads[version 6 upgrade].
+IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 
 * Alternatively (as well as for mobile devices) log in to cloud version https://musition.cloud[here]
-** use same account and password as you do to access Musition in lab.
 
+** use same account and password as in lab.
 * School Code is *MERCYCOLLEGE* (no space)
 
-==== Ableton Live Suite including Max For Live
+*Ableton Live Suite* including Max For Live
 
-* Register for the https://www.ableton.com/en/trial/[Ableton Trial].  The trial is good for 30 days but Ableton will extend that an additional 30 days as needed.
+* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 30 days but Ableton will extend that an additional 30 days as needed.
  ** Use the https://www.ableton.com/en/contact-us/[Ableton Contact Us Page] to request a longer trial around the 30-day mark.
 
 ==== Native Instruments
 
-* _Native Instruments Komplete Start_ (small set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
+* Native Instruments Komplete Start (small set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
 
 ==== Logic X (Mac-only)
 
@@ -167,19 +138,12 @@ IMPORTANT: If you have version 5 you must download the https://www.risingsoftwar
 * Headphone Mixing EXPIRED
 ** [.line-through]#https://www.sonarworks.com/reference/downloads[Sonarworks Reference plug-in] - email sstauff&#064;mercy.edu for a code#
 
-=== Books
-
-* https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3[The Recording Engineer's Handbook] by Bobby Owsinski
-
-* https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording] by Mixerman
-
-* https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged] by Sylvia Massy
-
-=== Online Video
+[discrete]
+==== Books and Online Video
 
 * Professor Stauff's Mix Videos https://www.youtube.com/channel/UCLsifVEtEEqmyyINXtA4h-g[Youtube Channel]
 * Slate Digital _Secrets of Music Production_
- ** FREE for 90 days. Sign up https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[here].
+ ** FREE for 90 days. SIgn up https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[here].
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
 [quote, Practical Show Tech]
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
@@ -187,15 +151,19 @@ IMPORTANT: If you have version 5 you must download the https://www.risingsoftwar
 * _Groove 3_ video tutorials for Logic Pro X, Pro Tools, Studio One, Ableton Live, Reason, Plug-Ins, Mixing and Mastering and more   *Full library temporarily free*
  ** email sstauff&#064;mercy.edu for redemption code then redeem https://www.groove3.com/redeem[here]
 
+* https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3[The Recording Engineer's Handbook -- Bobby Owsinsk]
+
+* https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording - Mixerman]
+
+* https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged Sylvia Massy]
+
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
 
 * iZotope - https://pae.izotope.com/[Pro Audio Essentials]
 [quote, Sam Stauff]
 This is a GREAT RESOURCE!
 
-* https://www.pensadosplace.tv/[Pensado's Place]
-[quote]
-Great Video Podcast about production
+* Great Video Podcast about production - https://www.pensadosplace.tv/[Pensado's Place]
 * https://www.pro-tools-expert.com/[Pro Tools Expert]
 * http://songexploder.net/[Song Exploder]
 * https://www.workingclassaudio.com/[Working Class Audio Podcast]
@@ -205,15 +173,4 @@ Great Video Podcast about production
 * https://www.youtube.com/user/WarrenHuartRecording[Produce Like A Pro] on Youtube
 * https://www.youtube.com/user/songstowearpantsto/featured[Andrew Huang]
 * https://www.waves.com/magazine[Waves]
-* Documentaries on Netflix, Hulu and Amazon
-
-=== Audio Engineering Society Resources
-
-NOTE: Requires membership
-
-https://www.aes.org/journal/[AES Journal]:: The latest in audio research
-
-https://www.aes.org/e-lib/[AES eLibrary]::
-Searchable database of 17,000 papers, journal articles, briefs and other items on the progression of audio research since 1953.
-
-https://www.aes.org/live/[AES Live]:: Repository of videos on conference presentations, workshops, demonstrations, how-to's, oral histories of notable engineers and producers, and so much more.
+* Documentaries on Netflix(R), Hulu(R) and Amazon(R)!
