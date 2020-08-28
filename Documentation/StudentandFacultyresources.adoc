@@ -2,7 +2,7 @@
 :source-highlighter: rouge
 
 :author: Phil White
-:author_email: pwhite@mercy.edu
+:author_email: pwhite&#064;mercy.edu
 :revdate: August 25, 2020
 :revnumber: 2.0
 
@@ -47,8 +47,18 @@ TIP: Use your Mercy email to log in.
 
 * Live Help via Zoom
 ** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
-
+*** Passcode: 274751
 NOTE: Login to Zoom using your Mercy email account
+
+.Music Lab help
+* Call 914-674-7767 (or 7767 from wall phone in lab)
+
+** There is always someone available to help
+
+.IT Help Desk
+* email helpdesk@mercy.edu
+** For issues such as email, resetting password, PC labs
+
 
 === Booking time in computer labs
 
