@@ -3,12 +3,13 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: August 28, 2020
+:revdate: August 31, 2020
 :revnumber: 2.0
 
 :toc: left
 :toc-levels: 2
-:toc-title: Contents
+:toc-title: For Design+Anim, Music Prod+Rec Arts
+
 
 :icons: font
 :sectnumlevels: 2
@@ -29,7 +30,7 @@ For Students and Faculty of _Design+Animation_ and _Music Production+Recording A
 
 :sectnums:
 
-== For All Students
+== For Both Programs
 
 === Get Help
 
@@ -45,11 +46,16 @@ NOTE: Login to Zoom using your Mercy email account
 .Music Lab help
 * Call [green]*914-674-7767* (or dial [green]*7767* from wall phone in lab)
 
-** There is always someone available to help
+** There is always someone available to help during lab hours
 
 .IT Help Desk
 * email helpdesk@mercy.edu
 ** For issues such as email, resetting password, PC labs
+
+=== Using classrooms/labs
+
+Click link:labs.html[here] for instructions
+
 
 === Files on campus server
 
@@ -79,11 +85,16 @@ IMPORTANT: NOT active as of {revdate}
 * Free for students and faculty
 ** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
 
-== For Design+Animation Students
+== For Design+Animation
 === Software
 
 ==== Adobe Creative Cloud
-Details to come
+All Design+Animation majors will receive a license.
+You should receive an email from Adobe confirming.
+
+Download and install from...
+
+More Details to come
 
 ==== Autodesk Maya
 
@@ -120,7 +131,7 @@ NOTE: Requires creating an account
 * Final Cut Pro (Mac-only)
  ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 
-== For Music Production+Recording Arts Students
+== For Music Production+Recording Arts
 === Software
 ==== Pro Tools
 
@@ -175,8 +186,8 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 === Online Video
 
 * Professor Stauff's Mix Videos https://www.youtube.com/channel/UCLsifVEtEEqmyyINXtA4h-g[Youtube Channel]
-* Slate Digital _Secrets of Music Production_
- ** FREE for 90 days. Sign up https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[here].
+* https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[Slate Digital _Secrets of Music Production_]
+ ** FREE for 90 days.
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
 [quote, Practical Show Tech]
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.

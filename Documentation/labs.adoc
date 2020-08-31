@@ -1,0 +1,126 @@
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+:revdate: August 31, 2020
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Contents
+
+:icons: font
+:sectnumlevels: 1
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Using Classroom Labs TEST
+
+:sectnums:
+== Rules
+
+. {blank}
++
+
+NO food or drink at the workstation.:: (You may keep a capped water bottle on the floor if you'd like. Food may be eaten in the cafeteria or in the hall.)
+
+. {blank}
++
+Fully log out of the computer when leaving:: Unsaved projects or documents will prevent logout from completing. You should see the main login screen before you go.
+
+. {blank}
++
+
+Leave the workstation in a clean state:: You are sharing this workstation with others. Remove any paper or other materials.
+. {blank}
++
+Remember to retrieve any USB drives or cables that belong to you::
+
+. {blank}
++
+Make sure any *utility blades* (X-acto knives) are kept sheathed when not in use.
+. {blank}
++
+
+Report any technical problems you encounter promptly::
+ to Phil White mailto:(pwhite@mercy.edu[([.underline]:author_email:]
+
+== Logging in
+
+*STUDENTS and FACULTY* should use their Mercy email user name and password to access the computers in Digital Arts labs (Victory Hall 122, 203, 204, 208) as well as satellite stations (Victory 209, 215, Hudson Hall 214, Dorm NW133).
+
+.If you see this, just click the *Connect* button
+image:media/image1.jpeg[image,width=60%,height=60% alt="If you see a Connect button just click"]
+
+Once logged in, you should see the following three drives on the desktop. If you don’t see instructions on next page.
+
+image:media/image2.jpeg[image,width=106,height=288]image:media/image3.jpeg[image]
+
+==== Digiarts-Home-folders
+
+Within this shared drive you will find a private folder for each student. To find yours, look for your Mercy user name.
+
+image:media/image4.jpeg[image]
+Within your personal folder, you will find a “My-Stuff” folder (See picture on right). Store _all_ school work inside this folder. It will be available throughout your stay in the major. This is the ONLY area that is private to you. Anything that is left outside this folder is visible to every student and faculty member and could potentially be deleted.
+
+===== MTEC-Classes (Music Production)
+
+===== CART-Classes (Design+Animation)
+
+In these shared drives, you should find a folder for each lab class. Choose the drive that matches your major.
+
+You should have access to the folder for each class in which you are enrolled. If you do not, please notify pwhite@mercy.edu right away. Indicate your Mercy Mavericks login name and the class that you are having a problem with.
+
+_Within each class folder_, you will find additional folders. The use of these folders is up to each instructor.
+
+*Pick-up-here*::
+Your instructor may place assignments, media, test prep, etc.
+
+*Drop-off-here*:: Your instructor may ask you to deposit homework, projects, etc. in here. Note that this folder is a "drop box" (not to be confused with _DropBox_ accounts). This means that you can drop files in but may not open the folder or see what’s inside. You will receive a warning to that effect when you drop a file. This is normal. +
++
+If there is more than one section for a class (A, B, C), there will be a separate Drop-off-here folder for each section.
+
+*Instructor-only*::
+Private folder for the instructor. Not accessible to students.
+
+*Collaboration*::
+This is a folder that is wide open to all and may be used for group projects and collaboration with classmates or with your instructor.
+
+image:media/image5.jpeg[image]
+
+NOTE: [red]*_IF YOU DON’T SEE_* the above drives and folders, +
+choose “Network” from menu or from any open window, then DOUBLE-Click on “cata‑nas‑ha” and log in as above.
+
+image:media/image6.png[image,width=210,height=97] +
+ +
+
+
+==== Microsoft OneDrive (and other cloud services)
+
+Your Mercy account includes a free large (1TB) Microsoft OneDrive cloud drive. Log in with your user ID and password using the web (or see _ExpanDrive_, below).
+
+If you want access to files from anywhere outside the labs, get used to copying to this drive before you leave a workstation.
+
+==== ExpanDrive
+____
+image:media/image7.jpeg[image]This software allows OneDrive (or Google Drive or Dropbox) to appear on your computer desktop as if it were a thumb drive or portable hard drive. It can be found in the Applications folder on your machine's hard drive (in Macintosh HD/Applications/ExpanDrive). Run the program and choose OneDrive (you may also connect to DropBox, etc.). Add your account and password to connect. Your account folder will show up on your computer desktop.
+
+When running, ExpanDrive shows a 5-petal flower in the upper right of the screen. image:media/image8.png[image,width=36,height=30]
+____
+
+image:media/image9.png[image,width=397,height=130] image:media/image10.png[image,width=126,height=121]
+
+[cols=",,",]
+|===
+a|
+==== Contact info:
+
+====
+
+|Phil White, Technology Manager | pwhite@mercy.edu +
+914.674.7139 +
+Victory Hall Room 201
