@@ -29,9 +29,9 @@ endif::[]
 
 include::incl/variables.adoc[]
 
-== General Documentation
-
 :sectnums!:
+
+== General Documentation
 
 =====
 This page is regularly updated. Last updated *{revdate}*

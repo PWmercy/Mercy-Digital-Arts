@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# v. 20200113.01
+# v. 20200908.02
 # 2019FA - All AD users are now in MERCY domain, so no longer special user name
 # for instructors
 
@@ -30,9 +30,9 @@ cd $path_to_Classes
 
 while read instructor classNumber
 
+# IMPORTANT NOTE: Data file must be TAB-Delimited
 # Sample line from data file
-# jdoeteach    MUSI103DFA-Theory-Musicianship-I
-
+# jdoeteach<TAB>MUSI103DFA-Theory-Musicianship-I
 do
 
   echo "HELLO"
@@ -86,10 +86,10 @@ do
   dir=$class-$folder
   echo $dir
   mkdir $dir
-  # Remove class ACL then add back with R/W
+  # R/W for Others
   chmod o+rw $dir
 
   cd ..
-chown -R "$ADinstructor" $classNumber
-chgrp -R administrators $classNumber
+chown -R "$ADinstructor" "$classNumber"
+chgrp -R administrators "$classNumber"
 done < $path_to_Data

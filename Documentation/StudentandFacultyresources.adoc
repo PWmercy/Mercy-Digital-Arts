@@ -3,13 +3,12 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: August 31, 2020
+:revdate: September 10, 2020
 :revnumber: 2.0
 
 :toc: left
 :toc-levels: 2
 :toc-title: For Design+Anim, Music Prod+Rec Arts
-
 
 :icons: font
 :sectnumlevels: 2
@@ -22,11 +21,15 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+include::incl/variables.adoc[]
+
+:sectnums!:
+
 = Classroom and Home Study Resources
 
 For Students and Faculty of _Design+Animation_ and _Music Production+Recording Arts_
 
-*This page is updated as new information becomes available.* Updated {revdate}
+*This page is updated as new information becomes available.* Last updated {revdate}
 
 :sectnums:
 
@@ -38,7 +41,8 @@ For Students and Faculty of _Design+Animation_ and _Music Production+Recording A
 * Phil White - {author_email}
 
 .Via Zoom
-** Connect to Zoom Meeting Room https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09[here]
+** Connect to Zoom Meeting Room {pwhite-zoom-room}[here, window="_blank"]
+
 *** Passcode: 274751
 
 NOTE: Login to Zoom using your Mercy email account
@@ -54,26 +58,32 @@ NOTE: Login to Zoom using your Mercy email account
 
 === Using classrooms/labs
 
-Click link:labs.html[here] for instructions
+include::labs.adoc[tag=overview]
 
+Click <<labs.adoc#,here>> for instructions
 
 === Files on campus server
 
-* These have been copied to a OneDrive cloud drive
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej-2GJoqok9Hu4EB_Xgbh4ABeMRkLaihEtgU1auaez6V1g?e=t4KaDw[here].
+<<labs.adoc#_accessing_files,General Information on Accessing Files Here>>
+
+* As of March 2020, the class folders are automatically synchronized with a OneDrive cloud. This allows you to have access when not on campus.
+** Files added or changed in the lab will be there when you are home and vice-versa.
+** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EiUbRLkBcP5LhOXE2nBjQKkB1sOTPFDOXP9PTe6eAVqUiQ?e=qr0fur[here].
 
 TIP: Use your Mercy email to log in.
 
-** Once you have, the folder will appear in your OneDrive in the _Shared with me_ folder.
+** Once you have connected to this OneDrive shared folder, the folder should appear in your own OneDrive in _Shared with me_.
 
  ** If this link fails to work, email pwhite&#064;mercy.edu right away.
  ** All Class folders, except the "Instructor-Only" folder are available.
- ** Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
- ** You can add files to these folders and they will be available in labs on campus when you return. Continue to *make your own backup copies of your work*.
+
+IMPORTANT: Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
+
+Continue to *make your own backup copies of your files*.
 
 === Booking time in computer labs
 
-IMPORTANT: NOT active as of {revdate}
+IMPORTANT: *NOT* active yet as of {revdate}
 
 * To facilitate safety, all time spent in classroom/labs when classes are not in session must be reserved using our https://booked.mercy.edu[online scheduler].
 * Strict limits on room occupancy will be enforced.
@@ -89,8 +99,8 @@ IMPORTANT: NOT active as of {revdate}
 === Software
 
 ==== Adobe Creative Cloud
-All Design+Animation majors will receive a license.
-You should receive an email from Adobe confirming.
+* All Design+Animation majors receive a license.
+** You should have already received a notice from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
 
 Download and install from...
 
@@ -98,11 +108,14 @@ More Details to come
 
 ==== Autodesk Maya
 
-* Free for students https://www.autodesk.com/education/free-software/maya[details here]
+* Free for students https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[details here]
+** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility[]
 
 IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_"
 
 ** Create an account if you don't already have one and login to download.
+
+NOTE: Autodesk will ask for proof of your academic status.
 
 ==== ZBrush (EXPIRED)
 
