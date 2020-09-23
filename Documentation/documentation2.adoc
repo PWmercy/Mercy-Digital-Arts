@@ -50,9 +50,9 @@ IMPORTANT: Some links in this document are private and only available when on Do
 ****
 #Testing Asciidoctor# image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
 
-This document is being prepared using https://asciidoc.org[AsciiDoc] and http://asciidoctor.org[Asciidoctor] syntax.
+This document is being prepared using http://asciidoctor.org[Asciidoctor] syntax.
 As of {revdate} it contains some text that has been inserted only for testing purposes.
-These tests will eventually be removed.
+This test text will eventually be removed.
 
 ****
 ---
@@ -142,6 +142,10 @@ Monitor:: Displays information in visual form using text and graphics.
 CPU:: The brain of the computer.
 Hard drive:: Permanent storage for operating system and/or user files.
 RAM:: Temporarily stores information the CPU uses during operation.
+
+
+She spells her name with an "`h`", as in Sara[red]**h**.
+
 
 == Overview
 include::sections/overview.adoc[]

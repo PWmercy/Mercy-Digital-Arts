@@ -1,0 +1,8 @@
+
+= Wacom resources
+
+// tag::22HDlink[]
+* Cintiq 22HD
+
+** https://www.wacom.com/en-us/getting-started/cintiq22[22HD How-to Videos]
+// end::22HDlink[]

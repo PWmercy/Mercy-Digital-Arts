@@ -1,2 +1,8 @@
 :cata_website: https://www.mercy.edu/liberal-arts/communication-and-arts
-:pwhite-zoom-room: https://mercy.zoom.us/j/3180193694?pwd=eklVNHZlemQ1WnlydHhQeTh0eXFNZz09
+:pwhite-blackboard: https://mercy.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=_67680_1&cmp_tab_id=_118416_1&mode=view#
+:pwhite-zoom-room: https://mercy.zoom.us/j/99779795744?pwd=WEViT1VEczMxVUUyVGladGF5Vmhkdz09
+:pwhite-zoom-room-passcode: 440801
+:booked_site: https://booked.mercy.edu
+:gists:
+:resources_page: https://./index.html
+:style_switcher: <script src="https://darshandsoni.com/asciidoctor-skins/switcher.js" type="text/javascript"></script>

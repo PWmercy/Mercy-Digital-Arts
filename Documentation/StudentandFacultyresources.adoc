@@ -3,7 +3,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 10, 2020
+:revdate: September 21, 2020
 :revnumber: 2.0
 
 :toc: left
@@ -29,7 +29,9 @@ include::incl/variables.adoc[]
 
 For Students and Faculty of _Design+Animation_ and _Music Production+Recording Arts_
 
-*This page is updated as new information becomes available.* Last updated {revdate}
+*This page is updated regularly.* Last updated {revdate}
+
+Please email suggestions or corrections to {author_email}.
 
 :sectnums:
 
@@ -37,15 +39,18 @@ For Students and Faculty of _Design+Animation_ and _Music Production+Recording A
 
 === Get Help
 
-.Via email
+==== Via email
 * Phil White - {author_email}
 
-.Via Zoom
-** Connect to Zoom Meeting Room {pwhite-zoom-room}[here, window="_blank"]
+==== Via Zoom
 
-*** Passcode: 274751
+* Look for __Office Hours and Support Meeting Room__ on Blackboard.
 
-NOTE: Login to Zoom using your Mercy email account
+** Or connect {pwhite-blackboard}[here].
+
+** Passcode: {pwhite-zoom-room-passcode}
+
+NOTE: You can log in to Zoom through Blackboard.
 
 .Music Lab help
 * Call [green]*914-674-7767* (or dial [green]*7767* from wall phone in lab)
@@ -54,25 +59,31 @@ NOTE: Login to Zoom using your Mercy email account
 
 .IT Help Desk
 * email helpdesk@mercy.edu
-** For issues such as email, resetting password, PC labs
+** For email problems, resetting password, Windows PCs, Wifi
 
 === Using classrooms/labs
 
+Click <<labs.adoc#,here>> for detailed instructions and policies.
+
 include::labs.adoc[tag=overview]
 
-Click <<labs.adoc#,here>> for instructions
+include::scheduler.adoc[tag=overview]
 
 === Files on campus server
 
 <<labs.adoc#_accessing_files,General Information on Accessing Files Here>>
 
-* As of March 2020, the class folders are automatically synchronized with a OneDrive cloud. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you are home and vice-versa.
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EiUbRLkBcP5LhOXE2nBjQKkB1sOTPFDOXP9PTe6eAVqUiQ?e=qr0fur[here].
+* As of March 2020, the class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
+** Files added or changed in the lab will be there when you get home and vice-versa.
+** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EiUbRLkBcP5LhOXE2nBjQKkB1sOTPFDOXP9PTe6eAVqUiQ?e=n7CqKV[here].
 
 TIP: Use your Mercy email to log in.
 
 ** Once you have connected to this OneDrive shared folder, the folder should appear in your own OneDrive in _Shared with me_.
+
+[.thumb]
+.OneDrive share
+image:media/onedrive_shared_with_me.png[OneDrive, 50%]
 
  ** If this link fails to work, email pwhite&#064;mercy.edu right away.
  ** All Class folders, except the "Instructor-Only" folder are available.
@@ -83,10 +94,7 @@ Continue to *make your own backup copies of your files*.
 
 === Booking time in computer labs
 
-IMPORTANT: *NOT* active yet as of {revdate}
-
-* To facilitate safety, all time spent in classroom/labs when classes are not in session must be reserved using our https://booked.mercy.edu[online scheduler].
-* Strict limits on room occupancy will be enforced.
+include::scheduler.adoc[tag=overview]
 
 === Software
 
@@ -99,19 +107,19 @@ IMPORTANT: *NOT* active yet as of {revdate}
 === Software
 
 ==== Adobe Creative Cloud
-* All Design+Animation majors receive a license.
-** You should have already received a notice from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
+* All Design+Animation majors receive a license to the Creative Cloud Suite.
+** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
 
-Download and install from...
+* If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here] (the download will begin immediately).
 
-More Details to come
+NOTE: Use your _mercy.edu_ email and password to log in to Adobe Creative Cloud.
 
 ==== Autodesk Maya
 
 * Free for students https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[details here]
-** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility[]
+** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility]
 
-IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_"
+IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
 
 ** Create an account if you don't already have one and login to download.
 
@@ -144,7 +152,19 @@ NOTE: Requires creating an account
 * Final Cut Pro (Mac-only)
  ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 
+=== Hardware
+
+==== Wacom Tablets
+
+include::wacom.adoc[tag=22HDlink]
+
+
 == For Music Production+Recording Arts
+
+=== Booking time in Recording Studios
+
+* Along with classroom/labs, all time in recording studios must be reserved using our {booked_site}[online scheduler].
+
 === Software
 ==== Pro Tools
 
@@ -153,15 +173,19 @@ NOTE: Requires creating an account
 
 ==== Musition (music theory)
 
-* Installers for Mac and Windows https://www.risingsoftware.com/cloudsupport/downloads[here]
+* Always access Musition through Blackboard. Consult your instructor if necessary.
+
+** If you don't have an existing account, choose 'New User' , which creates and account through your Blackboard login.
+
+** You may be given the option to use the web-based version or to launch the Windows or Mac app.
+
+*** Downloads for Mac and Windows will be offered when you log in.
+
+* You can practice on your own or do assignments and test for your instructor.
 
 IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 
-* Alternatively (as well as for mobile devices) log in to cloud version https://musition.cloud[here]
-
-** use same account and password you use to access Musition in lab.
-
-* School Code is *MERCYCOLLEGE* (no space)
+NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 ==== Ableton Live Suite including Max For Live
 
@@ -202,7 +226,7 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 * https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[Slate Digital _Secrets of Music Production_]
  ** FREE for 90 days.
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
-[quote, Practical Show Tech]
+[verse, Practical Show Tech]
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
 
 * _Groove 3_ video tutorials for Logic Pro X, Pro Tools, Studio One, Ableton Live, Reason, Plug-Ins, Mixing and Mastering and more   *Full library temporarily free*
@@ -211,11 +235,11 @@ IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
 
 * iZotope - https://pae.izotope.com/[Pro Audio Essentials]
-[quote, Sam Stauff]
+[verse, Sam Stauff]
 This is a GREAT RESOURCE!
 
 * https://www.pensadosplace.tv/[Pensado's Place]
-[quote]
+[verse]
 Great Video Podcast about production
 * https://www.pro-tools-expert.com/[Pro Tools Expert]
 * http://songexploder.net/[Song Exploder]

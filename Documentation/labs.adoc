@@ -1,6 +1,6 @@
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 10, 2020
+:revdate: September 16, 2020
 :revnumber: 2.0
 
 :toc: left
@@ -20,15 +20,20 @@ endif::[]
 
 include::incl/variables.adoc[]
 
-= Using Classroom Labs
-
 :sectnums!:
+
+= Using Classroom Labs
 
 == Summary
 
 // tag::overview[]
 
-[blue]*Summary to come*.
+* Because of the requirement for social distancing, [red]*use only the computers that are designated for that purpose*. +
+
+The login screen will read:
+****
+*THIS MACHINE MAY BE USED FOR SOCIAL DISTANCING*
+****
 
 // end::overview[]
 
@@ -53,7 +58,7 @@ Fully log out of the computer when leaving:: Unsaved projects or documents will 
 Leave the workstation in a clean state:: You are sharing this workstation with others. Remove any paper or other materials.
 . {blank}
 +
-Remember to retrieve any USB drives or cables that belong to you::
+Remember to retrieve any USB drives or cables that belong to you.::
 
 . {blank}
 +
@@ -114,7 +119,7 @@ image:media/classsubfolders.jpeg[image]
 Your instructor may place assignments, media, test prep, etc.
 
 *Drop-off-here*:: Your instructor may ask you to deposit homework, projects, etc. in here. Note that this folder is a "drop box" (not to be confused with _DropBox_ accounts). This means that you can drop files in but may not open the folder or see what’s inside. You will receive a warning to that effect when you drop a file. This is normal. +
-
++
 If there is more than one section for a class (A, B, C), there will be a separate Drop-off-here folder for each section.
 
 *Instructor-only*::
@@ -149,6 +154,12 @@ When running, ExpanDrive shows a 5-petal flower in the upper right of the screen
 image:media/expandrivemenu.png[image,width=36,height=30]
 
 image:media/image9.png[image,width=397,height=130] image:media/image10.png[image,width=126,height=121]
+
+:sectnums!:
+
+{resources_page}[Return to main Resources page]
+<<StudentandFacultyresources.adoc#,Return to main Resources page>>
+
 
 ****
 Contact info:

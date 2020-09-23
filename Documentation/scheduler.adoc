@@ -1,0 +1,37 @@
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+:revdate: September 15, 2020
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Online Scheduler
+
+:icons: font
+:sectnumlevels: 2
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+include::incl/variables.adoc[]
+
+
+
+= Booking time in Classroom/Labs and Recording Studios
+
+// tag::overview[]
+
+* To facilitate safety, when classes are not in session, *all time spent in classroom/labs (as well as recording studios) must be reserved* using our {booked_site}[online scheduler].
+
+** Strict limits on room occupancy will be enforced.
+
+NOTE: https://youtu.be/5cl2wxJ2Rg0[Here is a video] on how to use the scheduling system.
+
+// tag::overview[]
+
+:sectnums:
