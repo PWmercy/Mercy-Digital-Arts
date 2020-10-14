@@ -24,18 +24,19 @@ include::incl/variables.adoc[]
 
 = Using Classroom Labs
 
-== Summary
+== COVID Safety
 
-// tag::overview[]
+// tag::safety[]
 
-* Because of the requirement for social distancing, [red]*use only the computers that are designated for that purpose*. +
+* Because of the requirement for social distancing, [red]*use only the computers that are designated* for that purpose.
 
-The login screen will read:
+** The login screen will read:
+
 ****
 *THIS MACHINE MAY BE USED FOR SOCIAL DISTANCING*
 ****
 
-// end::overview[]
+// end::safety[]
 
 :sectnums:
 
@@ -80,12 +81,22 @@ image:media/connect.png[image, alt="If you see a Connect button just click"]
 
 === Campus File Server
 
-Once logged in, you should see the following three drives on the desktop. If you don’t see instructions on next page.
+Once logged in, you should see the following three drives on the desktop.
+
+[NOTE]
+.*_IF YOU DON’T SEE_* the above drives and folders
+====
+. Choose “Network” from menu or from any open window, +
+. DOUBLE-Click on “cata‑nas‑ha” (see picture below) and log in as described above.
+
+[.thumb]
+.Connecting to the server
+image:media/networkcatanasha.png[image]
+====
 
 [.thumb]
 .Server folders
 image:media/drives.jpeg[image]
-
 
 Digiarts-Home-folders::
 
@@ -93,9 +104,12 @@ Digiarts-Home-folders::
 .Home folders
 image:media/homefolder.jpeg[image]
 
-Within this shared drive you will find a private folder for each student. To find yours, look for your Mercy user name. +
-+
-Within your personal folder, you will find a “My-Stuff” folder (See picture on right). Store _all_ school work inside this folder. It will be available throughout your stay in the major. This is the ONLY area that is private to you. Anything that is left outside this folder is visible to every student and faculty member and could potentially be deleted.
+Within this shared drive you will find a private folder for each student. To find yours, look for your Mercy user name.
+
+Within your personal folder, you will find a “My-Stuff” folder (See picture on right). Store _all_ school work inside this folder. It will be available throughout your stay in the major.
+
+WARNING: The __
+My-Stuff__ folder is the ONLY area that is private to you. Anything that is left outside this folder is visible to anyone and could potentially be deleted.
 
 MTEC-Classes (Music Production)::
 
@@ -128,11 +142,6 @@ Private folder for the instructor. Not accessible to students.
 *Collaboration*::
 This is a folder that is wide open to all and may be used for group projects and collaboration with classmates or with your instructor.
 
-NOTE: [red]*_IF YOU DON’T SEE_* the above drives and folders, +
-choose “Network” from menu or from any open window, +
-then DOUBLE-Click on “cata‑nas‑ha” and log in as above.
-
-image:media/networkcatanasha.png[image,width=210,height=97]
 
 === Files in the Cloud
 
@@ -148,9 +157,18 @@ If you want access to files from anywhere outside the labs, get used to copying 
 .Expandrive app
 image:media/expandriveapp.jpeg[image]
 
-This software allows OneDrive (or Google Drive or Dropbox) to appear on your computer desktop as if it were a thumb drive or portable hard drive. It can be found in the Applications folder on your machine's hard drive (in Macintosh HD/Applications/ExpanDrive). Run the program and choose OneDrive (you may also connect to DropBox, etc.). Add your account and password to connect. Your account folder will show up on your computer desktop.
+This software allows OneDrive (or Google Drive or Dropbox) to appear on your computer desktop as if it were a thumb drive or portable hard drive. +
 
+It can be found in the Applications folder on your machine's hard drive (in Macintosh HD/Applications/ExpanDrive).
+
+. Run the program and choose OneDrive (you may also connect to DropBox, etc.).
+. Add your account and password to connect. Your account folder will show up on your computer desktop.
+// Add instructions to add shares after first run
+
+
+[TIP]
 When running, ExpanDrive shows a 5-petal flower in the upper right of the screen. +
+ +
 image:media/expandrivemenu.png[image,width=36,height=30]
 
 image:media/image9.png[image,width=397,height=130] image:media/image10.png[image,width=126,height=121]
@@ -158,8 +176,6 @@ image:media/image9.png[image,width=397,height=130] image:media/image10.png[image
 :sectnums!:
 
 {resources_page}[Return to main Resources page]
-<<StudentandFacultyresources.adoc#,Return to main Resources page>>
-
 
 ****
 Contact info:

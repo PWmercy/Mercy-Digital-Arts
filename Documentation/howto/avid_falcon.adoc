@@ -1,0 +1,54 @@
+:doctitle: How to: Avid Falcon (plugin for Pro Tools)
+
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+
+:icons: font
+
+:!toc:
+
+How to set up UVI Falcon at home if you own Pro Tools.
+
+
+== Setup UVI Falcon instrument (Pro Tools)
+
+== Adding the libraries
+
+=== Downloads
+
+. Go to https://www.avid.com/[Avid Site]
+** Sign in with your username and password.
+. Go to https://my.avid.com/products#MyProducts[My Products]
+** View my products Choose Pro Tools
+** Choose VIEW software Download Link & Product Details.  Here, the last download is UVI Plug-Ins.
+. Download Falcon Avid (Mac)
+. Download Falcon Factory
+. Download Plugsound Avid Edition (USF)
+
+=== Install Falcon Avid
+
+NOTE: You will need to download The Unarchiver https://theunarchiver.com/ this will unzip the Falcon Factory.rar file.  Right click on the Falcon Factory.rar file. and open with The Unarchiver.  Once the The Unarchiver extracts the file it will become Falcon Factory.ufs.
+
+You will need to create a folder to place the sound libraries in.
+Go to Macintosh HD/Library/Application Support/
+
+In the Application Support folder create a new folder (Command Shift N) or (File New Folder) this will require the admin password of your computer.  Name the new folder UVISoundBanks
+
+[NOTE]
+The folder must be named exactly _UVISoundBanks_ with the same letters capitalized +
+ +
+Also note there is another folder in the Application Support Folder that is called _UVI_. Leave that folder alone.
+
+Take the Falcon Factory.ufs and Plugsound_Avid_Edition.ufs files and place them in the following location on your hardrive:
+
+`Macintosh HD/Library/Application Support/UVISoundBanks`
+
+Login into your iLok account. http://ilok.com/
+
+You would have had to download the iLok license manager to use Pro Tools.  Log into your iLok License Manager and place your Avid Falcon AAX license onto your ilok key or authorize your computer to use falcon.
+
+Launch Pro Tools, Create an Instrument track. Load Falcon and the SoundBanks should show up automatically like this.
+
+[.thumb]
+.Load the libraries
+image:../media/falcon_2.png[image]

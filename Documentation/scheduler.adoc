@@ -24,14 +24,14 @@ include::incl/variables.adoc[]
 
 = Booking time in Classroom/Labs and Recording Studios
 
-// tag::overview[]
+// tag::safety[]
 
-* To facilitate safety, when classes are not in session, *all time spent in classroom/labs (as well as recording studios) must be reserved* using our {booked_site}[online scheduler].
+* To facilitate safety, when classes are not in session, [red]*all time spent in classroom/labs* (as well as recording studios) [red]*must be reserved* using our {booked_site}[online scheduler].
 
 ** Strict limits on room occupancy will be enforced.
 
 NOTE: https://youtu.be/5cl2wxJ2Rg0[Here is a video] on how to use the scheduling system.
 
-// tag::overview[]
+// tag::safety[]
 
 :sectnums:

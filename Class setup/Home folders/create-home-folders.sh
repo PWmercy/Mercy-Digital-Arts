@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 20190809 Update for new Domain, MERCY (STUDENT no longer in use)
+# 20200929 Sync github version with CATA-NAS-HA Scripts version
+# 20190828 Update for new Domain, MERCY (STUDENT no longer in use)
 
 # CD to Digiarts-Home-folders
 cd '/volume1/Digiarts-Home-folders'
@@ -36,7 +37,7 @@ do
     echo "Done"
   fi
   # cd '/Users/pwhite/Desktop/TestPermsFix'
-
+cd '/volume1/Digiarts-Home-folders'
   # Set owner and permissions for current folder
   chown -R $ADname:administrators $studentName
   chmod 755 $studentName

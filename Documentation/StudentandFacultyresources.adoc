@@ -1,9 +1,8 @@
-
-:source-highlighter: rouge
+:doctitle: Student and Faculty Resources
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 21, 2020
+:revdate: October 13, 2020
 :revnumber: 2.0
 
 :toc: left
@@ -21,6 +20,8 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+:stylesheet: stylesheets/clean.css
+
 include::incl/variables.adoc[]
 
 :sectnums!:
@@ -29,7 +30,7 @@ include::incl/variables.adoc[]
 
 For Students and Faculty of _Design+Animation_ and _Music Production+Recording Arts_
 
-*This page is updated regularly.* Last updated {revdate}
+*This page is updated regularly.* Last updated {docdate}
 
 Please email suggestions or corrections to {author_email}.
 
@@ -44,36 +45,44 @@ Please email suggestions or corrections to {author_email}.
 
 ==== Via Zoom
 
-* Look for __Office Hours and Support Meeting Room__ on Blackboard.
+IMPORTANT: You must first log in to Blackboard.
+
+* In Blackboard, look in your course list for __Office Hours and Support Meeting Room__.
+
+NOTE: Although it is listed as a Music Production class, this is for _both_ programs.
 
 ** Or connect {pwhite-blackboard}[here].
 
 ** Passcode: {pwhite-zoom-room-passcode}
 
-NOTE: You can log in to Zoom through Blackboard.
+==== Music Lab help
+* There is always someone available to help during lab hours
+** <<studentworkers.adoc#,Student Worker schedule>>
 
-.Music Lab help
-* Call [green]*914-674-7767* (or dial [green]*7767* from wall phone in lab)
+* Call [green]*icon:phone[]{nbsp}914-674-7767* (or dial [green]*icon:phone[]{nbsp}7767* from wall phone in lab)
 
-** There is always someone available to help during lab hours
-
-.IT Help Desk
-* email helpdesk@mercy.edu
+==== IT Help Desk
 ** For email problems, resetting password, Windows PCs, Wifi
+** email helpdesk@mercy.edu or call [green]*icon:phone[]{nbsp}914-674-7526*
+
+==== How-to Pages (work-in-progress not available yet)
+* [.line-through]#Click here for software and hardware tips and instructions.#
 
 === Using classrooms/labs
 
-Click <<labs.adoc#,here>> for detailed instructions and policies.
+* <<labs.adoc#,Read these>> instructions and policies _first_.
 
-include::labs.adoc[tag=overview]
+include::labs.adoc[tag=safety]
 
-include::scheduler.adoc[tag=overview]
+==== Scheduling time in labs/classrooms
+
+include::scheduler.adoc[tag=safety]
 
 === Files on campus server
 
-<<labs.adoc#_accessing_files,General Information on Accessing Files Here>>
+* General Information on Accessing Files <<labs.adoc#_accessing_files,Here>>
 
-* As of March 2020, the class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
+* Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 ** Files added or changed in the lab will be there when you get home and vice-versa.
 ** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EiUbRLkBcP5LhOXE2nBjQKkB1sOTPFDOXP9PTe6eAVqUiQ?e=n7CqKV[here].
 
@@ -88,13 +97,11 @@ image:media/onedrive_shared_with_me.png[OneDrive, 50%]
  ** If this link fails to work, email pwhite&#064;mercy.edu right away.
  ** All Class folders, except the "Instructor-Only" folder are available.
 
-IMPORTANT: Your personal folder (the folder with your login name that contains My-Stuff) is *not* on the cloud drive by default. This can be made available upon request. Email pwhite&#064;mercy.edu
+.Personal Folder (including My-Stuff)
+[NOTE]
+Your private folder (with your login name) is *not* on the cloud drive by default, but can be made available upon request. Email _{author_email}_
 
-Continue to *make your own backup copies of your files*.
-
-=== Booking time in computer labs
-
-include::scheduler.adoc[tag=overview]
+WARNING: Always *make your own backup copies of your files*.
 
 === Software
 
@@ -102,6 +109,18 @@ include::scheduler.adoc[tag=overview]
 
 * Free for students and faculty
 ** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
+
+==== Adobe Spark
+
+* Online app, free for students and faculty
+
+[NOTE]
+From Adobe: +
+ +
+_Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
+You can create Pages, Posts, and Videos or use the formats together.
+
+** Login https://spark.adobe.com/[here] using your Mercy email and password
 
 == For Design+Animation
 === Software
@@ -116,7 +135,7 @@ NOTE: Use your _mercy.edu_ email and password to log in to Adobe Creative Cloud.
 
 ==== Autodesk Maya
 
-* Free for students https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[details here]
+* Free for students. https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[Details here.]
 ** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility]
 
 IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
@@ -125,17 +144,15 @@ IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educat
 
 NOTE: Autodesk will ask for proof of your academic status.
 
-==== ZBrush (EXPIRED)
+==== [.line-through]#ZBrush# (EXPIRED)
 
-+++<del>+++
-. Install and activate ZBrush.
-. Email pwhite&#064;mercy.edu, confirming the email address you used to register for the Trial.
-. You will then receive a temporary license code.
-+++</del>+++
+. [.line-through]#Install and activate ZBrush#.
+. [.line-through]#Email pwhite&#064;mercy.edu, confirming the email address you used to register for the Trial#.
+. [.line-through]#You will then receive a temporary license code#.
 
-==== KeyShot (EXPIRED)
+==== [.line-through]#KeyShot# (EXPIRED)
 
-* [.line-through]*email pwhite&#064;mercy.edu for a 60-day license code*
+* [.line-through]#email pwhite&#064;mercy.edu for a 60-day license code#
 
 ==== Foundry (Nuke, Mari, etc.)
 
@@ -168,14 +185,14 @@ include::wacom.adoc[tag=22HDlink]
 === Software
 ==== Pro Tools
 
-* Sam has distributed licenses to students.
- ** if you haven't received yours email sstauff&#064;mercy.edu
+* Licenses are distributed to all majors.
+ ** If you haven't received yours, email sstauff&#064;mercy.edu
 
 ==== Musition (music theory)
 
 * Always access Musition through Blackboard. Consult your instructor if necessary.
 
-** If you don't have an existing account, choose 'New User' , which creates and account through your Blackboard login.
+** If you don't have an existing account, choose 'New User' , which creates an account through your Blackboard login.
 
 ** You may be given the option to use the web-based version or to launch the Windows or Mac app.
 
@@ -209,8 +226,14 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 ** https://www.fabfilter.com/covid19[Evaluation extension]
 * Final Cut Pro (Mac-only)
 ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
-* Headphone Mixing EXPIRED
-** [.line-through]#https://www.sonarworks.com/reference/downloads[Sonarworks Reference plug-in] - email sstauff&#064;mercy.edu for a code#
+* Headphone Mixing
+** _Sonarworks_ has been kind enough to provide free codes that will last until 12/31/20 for their Sonarworks Reference 4 Studio Edition software.
+. Email sstauff&#064;mercy.edu for a code
+. https://www.sonarworks.com/reference/downloads[Download] the Sonarworks Reference plug-in.
+. Launch Reference 4 Installer
+*** In the installer click the left side -- _Reference 4 Studio Edition_
+*** You'll see _Got An Activation Key? Activate License_. Paste the code you were sent.
+*** You can use any email you like.
 
 === Books
 

@@ -26,7 +26,7 @@
 read -p "Path to class folders: " path_to_Classes
 read -p "Path to data: " path_to_Data
 
-cd $path_to_Classes
+cd $path_to_Classes || exit
 
 while read instructor classNumber
 
@@ -60,7 +60,7 @@ do
 
   # cd to this new class folder then create sub-folders
 
-  cd $classNumber
+  cd "$classNumber" || exit
 
   folder="Pick-up-here"
   dir=$class-$folder

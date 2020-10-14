@@ -1,0 +1,10 @@
+:doctitle: Student Workers
+
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+:revdate: September 24, 2020
+:revnumber: 1.0
+
+Last updated {docdate}
+
+image:media/sw_schedule.jpg[image, align="center" page="_blank"]

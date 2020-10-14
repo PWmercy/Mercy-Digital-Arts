@@ -20,11 +20,6 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-++++
-<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
-++++
-
-:stylesheet: gazette.css
 :icons: font
 
 include::incl/variables.adoc[]
@@ -34,118 +29,18 @@ include::incl/variables.adoc[]
 == General Documentation
 
 =====
-This page is regularly updated. Last updated *{revdate}*
+This page is regularly updated. Last updated *{docdate}*
 =====
+
 {cata_website}[Web Site]
 
 Author: {author_email}
 
-_Originally prepared as presentation notes (Feb 19, 2020)_
+_This document began as presentation notes (Feb 19, 2020)_
 
 This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.
 
 IMPORTANT: Some links in this document are private and only available when on Dobbs Ferry campus.
-
----
-****
-#Testing Asciidoctor# image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
-
-This document is being prepared using http://asciidoctor.org[Asciidoctor] syntax.
-As of {revdate} it contains some text that has been inserted only for testing purposes.
-This test text will eventually be removed.
-
-****
----
-****
-Symbol characters
-
-(C)
-(TM)
-(R)
-em -- dash
-...
-->
-=>
-<-
-<=
-****
-****
-.LISTS
-* Apples
-* Oranges
-
-//-
-
-* Walnuts
-* Almonds
-****
-****
-.Numbered list start other than 1
-[start=4]
-. Step four
-. Step five
-. Step six
-****
-****
-[%reversed]
-.Parts of an atom (reverse list) using +++[%reversed]+++
-. Protons
-. Electrons
-. Neutrons
-****
-****
-[upperroman, start=5]
-. Five
-. Six
-[loweralpha]
-.. a
-.. b
-.. c
-. Seven
-****
-....
-Literal text test
-....
-
-.CODE Test app.rb
-[source,ruby]
-----
-require 'sinatra'
-
-get '/hi' do
-  "Hello World!"
-end
-----
-
-:sectnums:
-
-[qanda]
-.Q&A TEST
-How many?::
-More than you thunk.
-Will there be more?::
-Perhaps yes, perhaps no.
-Is this an example of `[qanda]` in Asciidoc?::
-Why yes, yes it is.
-
-
----
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
-RAM:: Temporarily stores information the CPU uses during operation.
-Keyboard:: Used to enter text or control items on the screen.
-Mouse:: Used to point to and select items on your computer screen.
-Monitor:: Displays information in visual form using text and graphics.
----
-[horizontal]
-.Horizontal
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
-RAM:: Temporarily stores information the CPU uses during operation.
-
-
-She spells her name with an "`h`", as in Sara[red]**h**.
-
 
 == Overview
 include::sections/overview.adoc[]
@@ -302,4 +197,4 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 == Admin Resources
 * MacAdmins
 ** Slack channel
-** https://www.youtube.com/user/psumacconf[YouTube channel]
+** https://www.youtube.com/user/psumacconf[YouTube MacAdmins Conference channel]

@@ -1,0 +1,27 @@
+= Source highlight lines
+
+:source-highlighter: coderay
+:icons: font
+
+== Creating an application
+
+To create a simple Ratpack application we write
+the following code:
+
+
+.Simple Groovy Ratpack application
+[source,groovy,linenums,highlight='7-9']
+----
+package com.mrhaki
+
+import static ratpack.groovy.Groovy.ratpack
+
+ratpack {
+    handlers {
+        get {
+            render "Hello World!" // <1>
+        }
+    }
+}
+----
+<1> Render output
