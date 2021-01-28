@@ -34,7 +34,7 @@ for producing professional documents like DocBook and LaTeX.
 ****
 
 ----
-include::./Sections/Student and Faculty resources.md[lines=10..20]
+include::StudentandFacultyresources.adoc[lines=50..60]
 ----
 
 [source,xml]
@@ -124,6 +124,8 @@ Renewal calendar
 
 * Pro Tools
 * Reason
+  Multi-license
+  Codemeter
 * Logic Pro
 * Ableton Live
 * Musition

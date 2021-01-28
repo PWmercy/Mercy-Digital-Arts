@@ -143,6 +143,10 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 ==== For Music Production+Recording Arts
 ** Pro Tools
 ** Reason
+***   Multi-license
+****  Codemeter
+*** Additional Content
+**** Script for relocating content
 ** Logic Pro
 ** Ableton Live
 ** Musition

@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: December 16, 2020
+:revdate: January 19, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -20,7 +20,10 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-:stylesheet: stylesheets/clean.css
+// Disable last updated text.
+// :last-update-label!:
+
+// :stylesheet: stylesheets/asciidoc-classic.css
 
 include::incl/variables.adoc[]
 
@@ -34,26 +37,67 @@ For Students and Faculty of _Design+Animation_ and _Music Production+Recording A
 
 Please email suggestions or corrections to {author_email}.
 
+TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
+
+
 :sectnums:
 
 == For Both Programs
+
+=== Software
+
+==== Microsoft Office
+
+* [green]*FREE* for students and faculty
+** Download from https://www.office.com/[here] when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
+
+==== Adobe Spark
+
+[NOTE]
+From Adobe: +
+ +
+_Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
+You can create Pages, Posts, and Videos or use the formats together.
+
+** Login https://spark.adobe.com/[here] using your Mercy email and password
+
+==== Sound Effects for video, audio and multimedia projects
+
+* http://bbcsfx.acropolis.org.uk[ BBC Sound Effects Archive]
+** [green]*FREE* for non-commercial use
+** Searchable
+** Downloadable in WAV format
+
+==== How-to Pages (work-in-progress not available yet)
+* [.line-through]#Click here for software and hardware tips and instructions.#
+
 
 === Get Help
 
 ==== Via email
 * Phil White - {author_email}
 
-==== Via Zoom
+==== Via Zoom image:media/ZoomLogoSM.png[Zoom]
 
-IMPORTANT: You must first log in to Blackboard.
+IMPORTANT: You must first log in to Blackboard. image:media/blackboard_logo_sm.jpg[Blackboard Logo]
 
 * In Blackboard, look in your course list for __Office Hours and Support Meeting Room__.
 
-NOTE: Although it is listed as a Music Production class, this is for _both_ programs.
+NOTE: Although listed as a Music Production class, this is for _both_ programs.
 
 ** Or connect {pwhite-blackboard}[here].
 
 ** Passcode: {pwhite-zoom-room-passcode}
+
+==== Music Lab help
+* There is always someone available to help during lab hours
+** <<studentworkers.adoc#,Student Worker schedule>>
+
+* Call [green]*icon:phone[]{nbsp}914-674-7767* (or dial [green]*icon:phone[]{nbsp}7767* from wall phone in lab)
+
+==== IT Help Desk
+** For email problems, resetting password, Windows PCs, Wifi
+** email helpdesk@mercy.edu or call [green]*icon:phone[]{nbsp}914-674-7526*
 
 ==== Music Lab help
 * There is always someone available to help during lab hours
@@ -84,7 +128,7 @@ include::scheduler.adoc[tag=safety]
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 ** Files added or changed in the lab will be there when you get home and vice-versa.
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EiUbRLkBcP5LhOXE2nBjQKkB1sOTPFDOXP9PTe6eAVqUiQ?e=n7CqKV[here].
+** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EjxDQoaqJ3JIkk3EZulXCsABUCMREc9TGMAf-domXRrEtA?e=Idojul[here].
 
 TIP: Use your Mercy email to log in.
 
@@ -101,7 +145,7 @@ image:media/onedrive_shared_with_me.png[OneDrive, 50%]
 [NOTE]
 Your private folder (with your login name) is *not* on the cloud drive by default, but can be made available upon request. Email _{author_email}_
 
-WARNING: Always *make your own backup copies of your files*.
+WARNING: Always *keep backup copies of your files*.
 
 === Software
 
@@ -126,7 +170,7 @@ You can create Pages, Posts, and Videos or use the formats together.
 === Software
 
 ==== Adobe Creative Cloud
-* All Design+Animation majors receive a license to the Creative Cloud Suite.
+* All Design+Animation majors receive a [green]*FREE* license to the Creative Cloud Suite.
 ** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
 
 * If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here] (the download will begin immediately).
@@ -135,18 +179,23 @@ NOTE: Use your _mercy.edu_ email and password to log in to Adobe Creative Cloud.
 
 ==== Autodesk Maya
 
-* Free for students. https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[Details here.]
+* [green]*FREE* for students. https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[Details here.]
 ** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility]
 
-IMPORTANT: *DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
+IMPORTANT: [red]*DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
 
 ** Create an account if you don't already have one and login to download.
 
 NOTE: Autodesk will ask for proof of your academic status.
 
-==== [.line-through]#ZBrush# (EXPIRED)
+==== ZBrush
 
-. [.line-through]#Install and activate ZBrush#.
+
+. Download the trial https://pixologic.com/zbrush/trial/[here]
+
+NOTE: Requires creating a free account.
+
+. Install ZBrush.
 . [.line-through]#Email pwhite&#064;mercy.edu, confirming the email address you used to register for the Trial#.
 . [.line-through]#You will then receive a temporary license code#.
 
@@ -156,8 +205,7 @@ NOTE: Autodesk will ask for proof of your academic status.
 
 ==== Foundry (Nuke, Mari, etc.)
 
-* https://www.foundry.com/education/apply/student[Free student account] (1 year)
-
+* https://www.foundry.com/education/apply/student[[green]*FREE* student account] (1 year)
 ==== Substance Painter/Designer
 
 * https://www.substance3d.com/education/[Free for students and faculty]
@@ -167,7 +215,7 @@ NOTE: Requires creating an account
 ==== Other Software
 
 * Final Cut Pro (Mac-only)
- ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
+** 90 Day [green]*FREE TRIAL* https://www.apple.com/final-cut-pro/trial/[here]
 
 === Hardware
 
@@ -185,7 +233,7 @@ include::wacom.adoc[tag=22HDlink]
 === Software
 ==== Pro Tools
 
-* Licenses are distributed to all majors.
+* Licenses are available to all majors.
  ** If you haven't received yours, email sstauff&#064;mercy.edu
 
 ==== Musition (music theory)
@@ -198,7 +246,7 @@ include::wacom.adoc[tag=22HDlink]
 
 *** Downloads for Mac and Windows will be offered when you log in.
 
-* You can practice on your own or do assignments and test for your instructor.
+* You can practice on your own or complete assignments and tests for your instructor.
 
 IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 
@@ -227,7 +275,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 * Final Cut Pro (Mac-only)
 ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 * Headphone Mixing
-** _Sonarworks_ has been kind enough to provide free codes that will last until 12/31/20 for their Sonarworks Reference 4 Studio Edition software.
+** _Sonarworks_ has been kind enough to provide free codes that will last *until 12/31/20* for their Sonarworks Reference 4 Studio Edition software.
 . Email sstauff&#064;mercy.edu for a code
 . https://www.sonarworks.com/reference/downloads[Download] the Sonarworks Reference plug-in.
 . Launch Reference 4 Installer
@@ -277,7 +325,9 @@ Great Video Podcast about production
 
 === Audio Engineering Society Resources
 
-NOTE: Requires membership
+[NOTE]
+These require AES membership. +
+For membership info, email sward&#064;mercy.edu
 
 https://www.aes.org/journal/[AES Journal]:: The latest in audio research
 
@@ -285,3 +335,9 @@ https://www.aes.org/e-lib/[AES eLibrary]::
 Searchable database of 17,000 papers, journal articles, briefs and other items on the progression of audio research since 1953.
 
 https://www.aes.org/live/[AES Live]:: Repository of videos on conference presentations, workshops, demonstrations, how-to's, oral histories of notable engineers and producers, and so much more.
+
+=== Other Music Production Resources
+
+
+https://www.grammy.com/sites/com/files/pages/DAWGuidelineLong.pdf[Digital Audio Workstation Guidelines for Music Production]::
+_The Recording Academy Producers and Engineers Wing_ recommended best practices when using a digital audio workstation (DAW) for music production.

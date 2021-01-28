@@ -1,7 +1,7 @@
 #!/bin/sh
 
-docs_folder="/Volumes/Macintosh HD/Development/GitHub/Mercy-Digital-Arts/Documentation"
-web_folder="/Volumes/Macintosh HD/Development/GitHub/TestRepo/Testweb"
+docs_folder="/Users/pwhite/Development/GitHub/Mercy-Digital-Arts/Documentation"
+web_folder="/Users/pwhite/Development/GitHub/TestRepo/Testweb"
 
 cd "$docs_folder" || exit
 
