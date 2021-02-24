@@ -84,7 +84,7 @@ image:media/connect.png[image, alt="If you see a Connect button just click"]
 Once logged in, you should see the following three drives on the desktop.
 
 [NOTE]
-.*_IF YOU DON’T SEE_* the above drives and folders
+.*_IF YOU DON’T SEE_* these drives and folders
 ====
 . Choose “Network” from menu or from any open window, +
 . DOUBLE-Click on “cata‑nas‑ha” (see picture below) and log in as described above.
@@ -108,8 +108,7 @@ Within this shared drive you will find a private folder for each student. To fin
 
 Within your personal folder, you will find a “My-Stuff” folder (See picture on right). Store _all_ school work inside this folder. It will be available throughout your stay in the major.
 
-WARNING: The __
-My-Stuff__ folder is the ONLY area that is private to you. Anything that is left outside this folder is visible to anyone and could potentially be deleted.
+WARNING: The __My-Stuff__ folder is the ONLY area that is private to you. Anything that is left outside this folder is visible to anyone and could potentially be deleted.
 
 MTEC-Classes (Music Production)::
 
@@ -142,6 +141,7 @@ Private folder for the instructor. Not accessible to students.
 *Collaboration*::
 This is a folder that is wide open to all and may be used for group projects and collaboration with classmates or with your instructor.
 
+====
 
 === Files in the Cloud
 

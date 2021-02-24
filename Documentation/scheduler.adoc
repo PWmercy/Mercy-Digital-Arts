@@ -1,6 +1,6 @@
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 15, 2020
+:revdate: February 24, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -23,6 +23,8 @@ include::incl/variables.adoc[]
 
 
 = Booking time in Classroom/Labs and Recording Studios
+
+Music Production+Recording Arts students and faculty should receive an invitation to create an account. If you have not received the invitations, check your Spam or Junk folder first and then email {author_email}.
 
 // tag::safety[]
 

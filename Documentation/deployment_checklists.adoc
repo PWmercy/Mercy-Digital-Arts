@@ -1,0 +1,38 @@
+= Documentation
+:source-highlighter: rouge
+
+:author: Phil White
+:author_email: pwhite@mercy.edu
+:revdate: February 4, 2021
+:revnumber: 1.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Contents
+
+:sectnumlevels: 2
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:icons: font
+
+include::incl/variables.adoc[]
+
+:sectnums!:
+
+
+Servers
+
+Lab Macs
+
+All
+
+Music Production+Recording Arts Only
+
+Design+Animation Only

@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: January 19, 2021
+:revdate: January 29, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -44,34 +44,6 @@ TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 
 == For Both Programs
 
-=== Software
-
-==== Microsoft Office
-
-* [green]*FREE* for students and faculty
-** Download from https://www.office.com/[here] when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
-
-==== Adobe Spark
-
-[NOTE]
-From Adobe: +
- +
-_Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
-You can create Pages, Posts, and Videos or use the formats together.
-
-** Login https://spark.adobe.com/[here] using your Mercy email and password
-
-==== Sound Effects for video, audio and multimedia projects
-
-* http://bbcsfx.acropolis.org.uk[ BBC Sound Effects Archive]
-** [green]*FREE* for non-commercial use
-** Searchable
-** Downloadable in WAV format
-
-==== How-to Pages (work-in-progress not available yet)
-* [.line-through]#Click here for software and hardware tips and instructions.#
-
-
 === Get Help
 
 ==== Via email
@@ -88,16 +60,6 @@ NOTE: Although listed as a Music Production class, this is for _both_ programs.
 ** Or connect {pwhite-blackboard}[here].
 
 ** Passcode: {pwhite-zoom-room-passcode}
-
-==== Music Lab help
-* There is always someone available to help during lab hours
-** <<studentworkers.adoc#,Student Worker schedule>>
-
-* Call [green]*icon:phone[]{nbsp}914-674-7767* (or dial [green]*icon:phone[]{nbsp}7767* from wall phone in lab)
-
-==== IT Help Desk
-** For email problems, resetting password, Windows PCs, Wifi
-** email helpdesk@mercy.edu or call [green]*icon:phone[]{nbsp}914-674-7526*
 
 ==== Music Lab help
 * There is always someone available to help during lab hours
@@ -128,7 +90,7 @@ include::scheduler.adoc[tag=safety]
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 ** Files added or changed in the lab will be there when you get home and vice-versa.
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EjxDQoaqJ3JIkk3EZulXCsABUCMREc9TGMAf-domXRrEtA?e=Idojul[here].
+** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EjxDQoaqJ3JIkk3EZulXCsABUCMREc9TGMAf-domXRrEtA[here].
 
 TIP: Use your Mercy email to log in.
 
@@ -151,12 +113,10 @@ WARNING: Always *keep backup copies of your files*.
 
 ==== Microsoft Office
 
-* Free for students and faculty
-** Download from email page when logged in or check https://www.microsoft.com/en-us/education/products/office[here]
+* [green]*FREE* for students and faculty
+** Download from https://www.office.com/[here] when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
 
 ==== Adobe Spark
-
-* Online app, free for students and faculty
 
 [NOTE]
 From Adobe: +
@@ -165,6 +125,13 @@ _Adobe Spark_ enables you to tell stories and share ideas quickly and beautifull
 You can create Pages, Posts, and Videos or use the formats together.
 
 ** Login https://spark.adobe.com/[here] using your Mercy email and password
+
+==== Sound Effects for video, audio and multimedia projects
+
+* http://bbcsfx.acropolis.org.uk[BBC Sound Effects Archive]
+** [green]*FREE* for non-commercial use
+** Searchable
+** Downloadable in WAV format
 
 == For Design+Animation
 === Software
@@ -190,13 +157,11 @@ NOTE: Autodesk will ask for proof of your academic status.
 
 ==== ZBrush
 
-
 . Download the trial https://pixologic.com/zbrush/trial/[here]
 
 NOTE: Requires creating a free account.
 
 . Install ZBrush.
-. [.line-through]#Email pwhite&#064;mercy.edu, confirming the email address you used to register for the Trial#.
 . [.line-through]#You will then receive a temporary license code#.
 
 ==== [.line-through]#KeyShot# (EXPIRED)
@@ -230,6 +195,8 @@ include::wacom.adoc[tag=22HDlink]
 
 * Along with classroom/labs, all time in recording studios must be reserved using our {booked_site}[online scheduler].
 
+* Music Production+Recording Arts students and faculty should receive an invitation to create an account. If you have not received the invitations, check your Spam or Junk folder first and then email {author_email}.
+
 === Software
 ==== Pro Tools
 
@@ -247,8 +214,6 @@ include::wacom.adoc[tag=22HDlink]
 *** Downloads for Mac and Windows will be offered when you log in.
 
 * You can practice on your own or complete assignments and tests for your instructor.
-
-IMPORTANT: If you have version 5 you must download the version 6 upgrade.
 
 NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
@@ -272,16 +237,20 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 ** Requires creating account https://projectsam.com/libraries/the-free-orchestra/[here]
 * FabFilter (mixing and mastering plugins)
 ** https://www.fabfilter.com/covid19[Evaluation extension]
+* https://www.orchestraltools.com/sinefactory[Orchestral Tools SINEfactory Free instruments]
+** Requires free account
 * Final Cut Pro (Mac-only)
 ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
 * Headphone Mixing
-** _Sonarworks_ has been kind enough to provide free codes that will last *until 12/31/20* for their Sonarworks Reference 4 Studio Edition software.
-. Email sstauff&#064;mercy.edu for a code
+** _Sonarworks_ has been kind enough to provide free codes that will last for their Sonarworks Reference 4 Studio Edition software.
+. You should receive an email with a code directly from Sonarworks. If you haven't, email sstauff&#064;mercy.edu
 . https://www.sonarworks.com/reference/downloads[Download] the Sonarworks Reference plug-in.
 . Launch Reference 4 Installer
 *** In the installer click the left side -- _Reference 4 Studio Edition_
 *** You'll see _Got An Activation Key? Activate License_. Paste the code you were sent.
 *** You can use any email you like.
+* https://labs.spitfireaudio.com/#category=&search=&new=true[Spitfire Labs] free software instruments, made by musicians and sampling experts in London.
+** Custom plug-in compatible with any DAW.
 
 === Books
 
