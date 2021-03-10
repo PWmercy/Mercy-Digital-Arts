@@ -165,6 +165,8 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 
 * Reposado/Margarita
 
+CAUTION: MacOS 11 may kill this off.
+
 ==== Loops for GarageBand and Logic
 
 * https://github.com/carlashley/appleLoops[Appleloops utility]
