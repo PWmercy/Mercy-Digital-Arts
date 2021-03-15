@@ -151,6 +151,7 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 ** Ableton Live
 ** Musition
 ** Native Instruments Komplete
+*** https://docs.google.com/spreadsheets/d/1FuwkqEc7CqMwjRVjgcy2KhJlkVl3jTT3Ze1RsVFvzC4/edit#gid=0[Version comparison]
 
 == Deployment and Maintenance
 
