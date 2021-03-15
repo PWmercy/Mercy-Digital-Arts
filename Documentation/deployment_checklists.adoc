@@ -26,20 +26,29 @@ include::incl/variables.adoc[]
 
 :sectnums!:
 
+
 == Servers
-* OS Updates
-* Run Diagnostics
+[%interactive]
+* [ ] OS Updates
+* [ ] Run Diagnostics
 
 == Lab Macs
+[%interactive]
+* [ ] Wipe Drive (annual)
+* [ ] OS Updates
+* [ ] Run Diagnostics
 
 == Students
 === All Students
-* Class folders
-* User folders
-* Add users to Blackboard Tech Support room
+[%interactive]
+* [ ] Class folders
+* [ ] User folders
+* [ ] Add users to Blackboard Tech Support room
 
 === Music Prod+Rec Arts Students Only
-* Invite new users to Scheduler
+[%interactive]
+* [ ] Invite new users to Scheduler
 
 === Design+Animation Students Only
-* Add new users to Adobe
+[%interactive]
+* [ ] Add new users to Adobe
