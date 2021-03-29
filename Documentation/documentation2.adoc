@@ -59,21 +59,27 @@ include::sections/recent_changes.adoc[]
 ==== Synology NAS
 
 . CATA NAS 1
-** Synology Model RS3617RPxs
+* Synology Model RS3617RPxs
 ** Serial # 1760NTN261200
 ** 16GB
-** High Availability Cluster Failover
+* High Availability Cluster Failover
+* Services
+** SMB File Services
 . CATA NAS 3
-** Synology Model RS3617RPxs
+* Synology Model RS3617RPxs
 ** Serial # 1910NTN037900
 ** 16GB
-** High Availability Cluster Failover
+* High Availability Cluster Failover
 . CATA NAS 2
-** Model RS815RP+
+* IP 172.31.48.124
+* Model RS815RP+
 ** Serial # 1750MSN107000
 ** 6GB
-** Services
-*** Backup
+* Services
+** Backup
+** DNS
+** Web
+*** Munki Repo
 
 ==== Mac Mini servers
 
@@ -83,7 +89,7 @@ include::sections/recent_changes.adoc[]
 . Mini Server 4
 * Out of service - New HD?
 . Mini Server 5
-* Munki
+* Munki Admin
 * Munki Report
 . Mini Server 6
 
@@ -178,7 +184,7 @@ CAUTION: MacOS 11 may kill this off.
 
 == Management/Reporting
 
-* http://munki5.digiarts.mercy/report/[Munki Report]
+* https://munki6.digiarts.mercy[Munki Report]
 * http://license2.digiarts.mercy:8081/software[KeyServer]
 * https://mybusiness.mosyle.com[Mosyle MDM]
 * https://school.apple.com[Apple School Manager]
