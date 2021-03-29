@@ -17,7 +17,7 @@
 								<key>AppleSoftwareUpdatesOnly</key>
 								<false/>
 								<key>ClientIdentifier</key>
-								<string>munki_shared_production_client</string>
+								<string>munki_server_production_client</string>
 								<key>InstallAppleSoftwareUpdates</key>
 								<true/>
 								<key>InstallRequiresLogout</key>
@@ -30,22 +30,16 @@
 								<string>/Library/Managed Installs</string>
 								<key>PackageVerificationMode</key>
 								<string>hash</string>
-								<key>PerformAuthRestarts</key>
-								<false/>
 								<key>SoftwareRepoURL</key>
-								<string>http://munki.digiarts.mercy/</string>
+								<string>http://munki.digiarts.mercy</string>
 								<key>SuppressAutoInstall</key>
 								<false/>
-								<key>SuppressLoginwindowInstall</key>
-								<false/>
 								<key>SuppressStopButtonOnInstall</key>
-								<false/>
-								<key>UnattendedAppleUpdates</key>
+								<true/>
+								<key>SuppressUserNotification</key>
 								<true/>
 								<key>UseClientCertificate</key>
 								<false/>
-								<key>UseNotificationCenterDays</key>
-								<string></string>
 							</dict>
 						</dict>
 					</array>
@@ -56,21 +50,21 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.mdm.munki.digiarts.mercy.4920C1D0-5AD6-47AA-BF9F-B84C7102FF4C.alacarte.customsettings.10E85895-693C-4D25-B994-9ECEFC321E7B</string>
+			<string>com.apple.mdm.miniserv6.digiarts.mercy.6B526820-E85F-4D69-809C-BD7853C570E7.alacarte.customsettings.5B66D94E-7AF8-4790-8531-2F864A73B539</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>10E85895-693C-4D25-B994-9ECEFC321E7B</string>
+			<string>5B66D94E-7AF8-4790-8531-2F864A73B539</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Settings for Munki-Shared-Production</string>
+	<string>Settings for Munki-Server-Prod</string>
 	<key>PayloadEnabled</key>
 	<true/>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.mdm.munki.digiarts.mercy.4920C1D0-5AD6-47AA-BF9F-B84C7102FF4C.alacarte</string>
+	<string>com.apple.mdm.miniserv6.digiarts.mercy.6B526820-E85F-4D69-809C-BD7853C570E7.alacarte</string>
 	<key>PayloadOrganization</key>
 	<string>Mercy College Center for Digital Arts</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -80,7 +74,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>4920C1D0-5AD6-47AA-BF9F-B84C7102FF4C</string>
+	<string>6B526820-E85F-4D69-809C-BD7853C570E7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
