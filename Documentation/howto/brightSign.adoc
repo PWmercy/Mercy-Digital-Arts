@@ -1,0 +1,21 @@
+@ -0,0 +1,20 @@
+:doctitle: How to: BrightSign
+
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+
+:icons: font
+
+:!toc:
+
+= BrightSign Digital Signage Media Players
+
+== Model
+
+Location:: Hallway outside Victory 208
+
+http://172.31.90.15/index.html[Web link]
+
+== Model
+
+Location:: Victory 210
