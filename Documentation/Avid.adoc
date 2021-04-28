@@ -1,0 +1,5 @@
+Pro tools
+
+Troubleshooting
+
+https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[ShoeTool]
