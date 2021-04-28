@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: April 1, 2021
+:revdate: April 20, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -251,6 +251,20 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 *** You can use any email you like.
 * https://labs.spitfireaudio.com/#category=&search=&new=true[Spitfire Labs] free software instruments, made by musicians and sampling experts in London.
 ** Custom plug-in compatible with any DAW.
+* https://vital.audio/​[Vital]
+* https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-generator/pendulate[Pendulate]
+* https://www.pianobook.co.uk/[​Pianobook]
+* https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-discover[Spitfire BBC Discover]
+* https://www.decentsamples.com/product/decent-sampler-plugin/[Decent Sampler]
+* https://stevenslatedrums.com/ssd5/​Steven[Slate Drums Free]
+* https://www.amplesound.net/en/pro-pd.asp?id=19​[Ample Bass P II Lite]
+* https://www.amplesound.net/en/pro-pd.asp?id=7[Ample Guitar M II Lite]
+* https://valhalladsp.com/shop/reverb/valhalla-supermassive/Valhalla[Supermassive]
+* https://polyversemusic.com/products/wider/Polyverse[Wider]
+* https://hvoyaaudio.itch.io/ribs​[Hyova Audio Ribs]
+* https://www.meldaproduction.com[Melda]
+* https://www.airwindows.com/​[Airwindows]
+* https://xferrecords.com/freeware​[Xfer OTT]
 
 === Books
 
