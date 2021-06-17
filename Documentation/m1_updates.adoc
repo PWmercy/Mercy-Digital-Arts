@@ -1,7 +1,7 @@
 https://www.waves.com/support/waves-with-apple-m1-processors[Waves]
 
-https://help.uaudio.com/hc/en-us/articles/360057137692-Apple-Silicon-M1-Compatibility-Info
+https://help.uaudio.com/hc/en-us/articles/360057137692-Apple-Silicon-M1-Compatibility-Info[Universal Audio]
 
-https://support.native-instruments.com/hc/en-us/articles/360014683497-Apple-Silicon-Compatibility-News
+https://support.native-instruments.com/hc/en-us/articles/360014683497-Apple-Silicon-Compatibility-News[Native Instruments]
 
-https://spitfireaudio.zendesk.com/hc/en-us/articles/360019055957-Apple-Silicon-M1-Compatibility-Chart-for-Spitfire-Audio-Libraries
+https://spitfireaudio.zendesk.com/hc/en-us/articles/360019055957-Apple-Silicon-M1-Compatibility-Chart-for-Spitfire-Audio-Libraries[Spitfire]
