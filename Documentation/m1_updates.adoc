@@ -1,3 +1,6 @@
+
+*** Latest news on M1 compatibility 
+
 https://www.waves.com/support/waves-with-apple-m1-processors[Waves]
 
 https://help.uaudio.com/hc/en-us/articles/360057137692-Apple-Silicon-M1-Compatibility-Info[Universal Audio]
