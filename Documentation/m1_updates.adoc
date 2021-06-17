@@ -1,5 +1,5 @@
 
-*** Latest news on M1 compatibility 
+### Latest news on M1 compatibility 
 
 https://www.waves.com/support/waves-with-apple-m1-processors[Waves]
 
