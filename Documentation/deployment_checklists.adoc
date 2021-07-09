@@ -52,3 +52,4 @@ include::incl/variables.adoc[]
 === Design+Animation Students Only
 [%interactive]
 * [ ] Add new users to Adobe
+* [ ] Remove graduates and non-current faculty
