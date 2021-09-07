@@ -141,7 +141,6 @@ Private folder for the instructor. Not accessible to students.
 *Collaboration*::
 This is a folder that is wide open to all and may be used for group projects and collaboration with classmates or with your instructor.
 
-====
 
 === Files in the Cloud
 

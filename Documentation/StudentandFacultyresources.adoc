@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: April 20, 2021
+:revdate: September 7, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -78,11 +78,11 @@ NOTE: Although listed as a Music Production class, this is for _both_ programs.
 
 * <<labs.adoc#,Read these>> instructions and policies _first_.
 
-include::labs.adoc[tag=safety]
+// include::labs.adoc[tag=safety]
 
 ==== Scheduling time in labs/classrooms
 
-include::scheduler.adoc[tag=safety]
+// include::scheduler.adoc[tag=safety]
 
 === Files on campus server
 
@@ -90,7 +90,7 @@ include::scheduler.adoc[tag=safety]
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 ** Files added or changed in the lab will be there when you get home and vice-versa.
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EjxDQoaqJ3JIkk3EZulXCsABUCMREc9TGMAf-domXRrEtA[here].
+** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EpaCTdeJkWZNqXgsSeA2UYgB7JnwTEAGj3b_n_TjE04IYw?e=mqu5EF[here].
 
 TIP: Use your Mercy email to log in.
 
