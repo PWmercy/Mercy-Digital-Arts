@@ -105,7 +105,9 @@ image:media/onedrive_shared_with_me.png[OneDrive, 50%]
 
 .Personal Folder (including My-Stuff)
 [NOTE]
-Your private folder (with your login name) is *not* on the cloud drive by default, but can be made available upon request. Email _{author_email}_
+Your private folder (with your login name) is *not* on the cloud drive, but can be made available in an emergency by request. +
+(You should always back up your work to your own OneDrive space and to thumb drives or hard drives, so this should ONLY be done in an emergency. +
+Email _{author_email}_
 
 WARNING: Always *keep backup copies of your files*.
 
