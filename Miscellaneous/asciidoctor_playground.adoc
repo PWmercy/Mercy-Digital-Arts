@@ -240,3 +240,62 @@ She spells her name with an "`h`", as in Sara[red]**h**.
      |          Lots of work             |
      +-----------------------------------+
 ....
+
+
+
+/ A single-line comment
+last revision {revdate}
+
+question? email {author_email}
+
+Multi line +
+Comment of +
+More stuff
+
+[%hardbreaks]
+Multi line
+Comment of
+More stuff
+
+.Testing Asciidoctor image:https://www.ahus1.de/_nuxt/img/asciidoctor.5b44175.svg[width="5%" title="Asciidoctor logo"]
+****
+As of {revdate} this document contains some text that has been inserted only for the purpose of
+testing https://asciidoc.org[AsciiDoc] and http://asciidoctor.org[Asciidoctor].
+
+AsciiDoc was first released in Nov 2002 by Stuart Rackham.
+It was designed from the start to be a shorthand syntax
+for producing professional documents like DocBook and LaTeX.
+****
+
+----
+include::StudentandFacultyresources.adoc[lines=50..60]
+----
+
+[source,xml]
+----
+<section>
+  <title>Section Title</title> <!--1-->
+</section>
+----
+<1> The section title is required.
+
+:sectnums!:
+== Overview
+
+.Optional Title
+---
+
+NOTE: Some stuff and some more stuff
+
+link:++https://example.org/?q=[a b]++[URL with special characters]
+
+link:https://example.org/?q=%5Ba%20b%5D[URL with special characters]
+
+[[bookmark-a, inline]]Inline anchors make arbitrary content referenceable.
+
+[#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+
+anchor:bookmark-c[]Use a cross reference to link to this location.
+
+See <<bookmark-a>> to learn how to write paragraphs.
+See <<bookmark-d>> to go to elsewhere.

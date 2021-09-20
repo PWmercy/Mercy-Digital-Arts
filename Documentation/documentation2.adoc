@@ -1,5 +1,4 @@
-= Documentation
-:source-highlighter: rouge
+:doctitle: Technical Documentation
 
 :author: Phil White
 :author_email: pwhite@mercy.edu
@@ -12,6 +11,8 @@
 
 :sectnumlevels: 2
 
+:icons: font
+
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -19,8 +20,6 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-
-:icons: font
 
 include::incl/variables.adoc[]
 
@@ -36,7 +35,7 @@ This page is regularly updated. Last updated *{docdate}*
 
 Author: {author_email}
 
-_This document began as presentation notes (Feb 19, 2020)_
+_This document began as notes for a presentation given on Feb 19, 2020_
 
 This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.
 
@@ -49,6 +48,13 @@ include::sections/overview.adoc[]
 :leveloffset: -1
 
 include::sections/recent_changes.adoc[]
+
+=== Student/Faculty Resource Page
+
+* Created during Covid emergency as a central repository of instructions, links and other resources
+* Regularly maintained
+** Implemented using https://pages.github.com[GitHub Pages]
+** Accessible on the web https://pwmercy.github.io/resources/[here]
 
 :leveloffset: +1
 
@@ -89,8 +95,7 @@ include::sections/recent_changes.adoc[]
 . Mini Server 4
 * Out of service - New HD?
 . Mini Server 5
-* Munki Admin
-* Munki Report
+* Out of service - New HD?
 . Mini Server 6
 
 === Lab Computers
@@ -111,10 +116,12 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 * Printers
 
 * Wacom Tablets
-** 22HD
-** 22HD Touch
+** Cintiq 22HD
+** Cintiq 22HD Touch
+** Cintiq 22
 
 * 3D Printer
+** MakerBot Replicator+
 
 == Software
 === Renewal calendar
@@ -125,13 +132,13 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 ** Keyshot
 ** http://172.31.48.94:30304/#/[VRay]
 ** Musition (cloud)
-*** Students and Faculty need an account set up locally through the Musition Cloud app.
+*** Students and Faculty need a Musition Cloud account set up through the Blackboard.
 
 === Standard Software
 ==== For All
 ** Microsoft Suite
 ** ExpanDrive
-** Standard App Store
+** Standard from Apple App Store
 
 ==== For Design+Animation
 ** Adobe Creative Cloud

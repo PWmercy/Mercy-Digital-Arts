@@ -22,7 +22,7 @@ do
     # set owner to ADname
   else
     # else Create new home folder
-    echo "Out of if "
+    echo "$studentName not found."
     echo "creating $studentName"
     mkdir $studentName
     cd $studentName

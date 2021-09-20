@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This is a postinstall script which sets up Ableton Live to use the Sassafras License server.
-# It creates settings in the main Library and deletes local User/Library prefs
+# It creates settings in the main Library and deletes LOCAL_USER/Library prefs
 
 
 ################### NOTE #####################
@@ -11,19 +11,23 @@
 ##############################################
 
 for USER_HOME in /Users/*
-do 
+do
  if [ -d "${USER_HOME}"/Library/Preferences/Ableton ]
  then
 
  rm -r "${USER_HOME}"/Library/Preferences/Ableton
- 
+
  fi
  done
- 
+
+#  Set permissions for the Library/Preferences/Ableton folder
+chmod -R a+rx "/Library/Preferences/Ableton"
+
  # The Library.cfg file points to the following path for default installation
  # of Live Factory Packs
- 
+
  if [ ! -d "/Users/Shared/Music/Ableton/Factory Packs/" ]
- then 
-mkdir -p "/Users/Shared/Music/Ableton/Factory Packs/"
+ then
+   mkdir -p "/Users/Shared/Music/Ableton/Factory Packs/"
 fi
+chmod -R a+w "/Users/Shared/Music/Ableton/"

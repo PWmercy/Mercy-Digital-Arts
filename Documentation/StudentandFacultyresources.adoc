@@ -35,7 +35,7 @@ For Students and Faculty of _Design+Animation_ and _Music Production+Recording A
 
 *This page is updated regularly.* Last updated {docdate}
 
-Please email suggestions or corrections to {author_email}.
+[green]*Please email suggestions or corrections to {author_email}.*
 
 TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 
@@ -76,7 +76,7 @@ NOTE: Although listed as a Music Production class, this is for _both_ programs.
 
 === Using classrooms/labs
 
-* <<labs.adoc#,Read these>> instructions and policies _first_.
+IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
 // include::labs.adoc[tag=safety]
 
@@ -86,7 +86,7 @@ NOTE: Although listed as a Music Production class, this is for _both_ programs.
 
 === Files on campus server
 
-* General Information on Accessing Files <<labs.adoc#_accessing_files,Here>>
+* General information on accessing files <<labs.adoc#_accessing_files,here>>
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 ** Files added or changed in the lab will be there when you get home and vice-versa.
@@ -200,8 +200,7 @@ include::wacom.adoc[tag=22HDlink]
 === Software
 ==== Pro Tools
 
-* Licenses are available to all majors.
- ** If you haven't received yours, email sstauff&#064;mercy.edu
+* Student discounts available at major resellers.
 
 ==== Musition (music theory)
 
@@ -219,8 +218,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 ==== Ableton Live Suite including Max For Live
 
-* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 90 days but Ableton will extend that an additional 30 days as needed.
- ** Use the https://www.ableton.com/en/contact-us/[Ableton Contact Us Page] to request a longer trial around the 90-day mark.
+* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 30 days but Ableton will extend that an additional 30 days as needed.
 
 ==== Native Instruments
 
@@ -283,9 +281,6 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 * https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
 [verse, Practical Show Tech]
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
-
-* _Groove 3_ video tutorials for Logic Pro X, Pro Tools, Studio One, Ableton Live, Reason, Plug-Ins, Mixing and Mastering and more   *Full library temporarily free*
- ** email sstauff&#064;mercy.edu for redemption code then redeem https://www.groove3.com/redeem[here]
 
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
 

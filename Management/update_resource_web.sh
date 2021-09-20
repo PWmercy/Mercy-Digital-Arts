@@ -9,14 +9,14 @@ cd "$docs_folder" || exit
 /usr/local/bin/asciidoctor labs.adoc
 /usr/local/bin/asciidoctor wacom.adoc
 /usr/local/bin/asciidoctor studentworkers.adoc
-/usr/local/bin/asciidoctor "howto/avid_falcon.adoc"
+/usr/local/bin/asciidoctor documentation2.adoc
 
 
 mv StudentandFacultyresources.html "$web_folder"/index.html
 mv labs.html "$web_folder"/labs.html
 mv wacom.html "$web_folder"/wacom.html
 mv studentworkers.html "$web_folder"/studentworkers.html
-mv "howto/avid_falcon.html" "$web_folder"/howto/avid_falcon.html
+mv documentation2.html "$web_folder"/documentation2.html
 
 cd "$web_folder" || exit
 
