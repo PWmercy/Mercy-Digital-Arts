@@ -116,7 +116,8 @@ WARNING: Always *keep backup copies of your files*.
 ==== Microsoft Office
 
 * [green]*FREE* for students and faculty
-** Download from https://www.office.com/[here] when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
+** Download from https://www.office.com/[here]
+when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
 
 ==== Adobe Spark
 
