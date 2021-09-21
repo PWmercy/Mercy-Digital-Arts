@@ -7,4 +7,4 @@
 
 Last updated {docdate}
 
-image:media/sw_schedule.jpg[image, align="center" page="_blank"]
+image:media/2021FA_Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
