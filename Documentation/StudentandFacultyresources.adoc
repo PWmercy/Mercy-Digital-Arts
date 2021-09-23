@@ -174,9 +174,10 @@ NOTE: Requires creating a free account.
 ==== Foundry (Nuke, Mari, etc.)
 
 * https://www.foundry.com/education/apply/student[[green]*FREE* student account] (1 year)
+
 ==== Substance Painter/Designer
 
-* https://www.substance3d.com/education/[Free for students and faculty]
+* Included with Adobe Creative Cloud Student account
 
 NOTE: Requires creating an account
 
