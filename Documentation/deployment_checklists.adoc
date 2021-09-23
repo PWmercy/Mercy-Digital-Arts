@@ -33,10 +33,36 @@ include::incl/variables.adoc[]
 * [ ] Run Diagnostics
 
 == Lab Macs
+=== All
 [%interactive]
+
 * [ ] Wipe Drive (annual)
 * [ ] OS Updates
 * [ ] Run Diagnostics
+
+=== MPRA
+==== Pro Tools
+[%interactive]
+* [ ] Falcon Libraries
+** [ ] Folder
+** [ ] Permissions on Libraries
+*** `chmod a+rx`
+
+==== Reason
+[%interactive]
+* [ ] Outset Script for Reason
+* [ ] Copy Reason Content
+** [ ] Permissions on Libraries
+*** `chmod a+rx`
+
+==== Ableton
+[%interactive]
+* [ ] Check Packs location
+
+=== DA
+==== Zbrush
+[%interactive]
+* [ ] License and permissions
 
 == Students
 === All Students
