@@ -143,7 +143,7 @@ You can create Pages, Posts, and Videos or use the formats together.
 * All Design+Animation majors receive a [green]*FREE* license to the Creative Cloud Suite.
 ** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
 
-* If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here] (the download will begin immediately).
+* If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here].
 
 NOTE: Use your _mercy.edu_ email and password to log in to Adobe Creative Cloud.
 
