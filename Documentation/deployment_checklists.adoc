@@ -40,6 +40,15 @@ include::incl/variables.adoc[]
 * [ ] OS Updates
 * [ ] Run Diagnostics
 
+==== Enrollment/Initial Setup
+[%interactive]
+
+* [ ] Auto-enroll
+* Add to groups
+** [ ] Munki
+** [ ] Refresh Room number group
+* [ ] Run Network script - http://172.31.48.94:8090/Scripts[download]
+
 === MPRA
 ==== Pro Tools
 [%interactive]
@@ -50,14 +59,18 @@ include::incl/variables.adoc[]
 
 ==== Reason
 [%interactive]
-* [ ] Outset Script for Reason
-* [ ] Copy Reason Content
+* [ ] Copy Outset Script for Reason to `/usr/local/outset/login-once`
+* [ ] Copy Reason Content to `/Library/Application Support/Propellerhead Software/Propellerhead Content`
 ** [ ] Permissions on Libraries
 *** `chmod a+rx`
 
 ==== Ableton
 [%interactive]
 * [ ] Check Packs location
+
+Users' Ableton folder may need to be deleted again
+
+Focusrite
 
 === DA
 ==== Zbrush
