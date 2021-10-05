@@ -3,7 +3,7 @@
 
 https://www.toolfarm.com/news/apple-silicon-compatibility/[Regularly Updated Compiled List]
 
-[Avid]
+https://avid.secure.force.com/pkb/articles/compatibility/macOS-Big-Sur-Support[Avid]
 
 https://www.waves.com/support/waves-with-apple-m1-processors[Waves]
 
