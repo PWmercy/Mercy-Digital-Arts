@@ -24,17 +24,17 @@ include::incl/variables.adoc[]
 
 = Using Classroom Labs
 
-== COVID Safety
+// == COVID Safety
 
 // tag::safety[]
 
-* Because of the requirement for social distancing, [red]*use only the computers that are designated* for that purpose.
-
-** The login screen will read:
-
-****
-*THIS MACHINE MAY BE USED FOR SOCIAL DISTANCING*
-****
+// * Because of the requirement for social distancing, [red]*use only the computers that are designated* for that purpose.
+//
+// ** The login screen will read:
+//
+// ****
+// *THIS MACHINE MAY BE USED FOR SOCIAL DISTANCING*
+// ****
 
 // end::safety[]
 
@@ -146,31 +146,31 @@ This is a folder that is wide open to all and may be used for group projects and
 
 ==== Microsoft OneDrive (and other cloud services)
 
-Your Mercy account includes a free large (1TB) Microsoft OneDrive cloud drive. Log in with your user ID and password using the web (or see _ExpanDrive_, below).
+Your Mercy account includes a free large (1TB) Microsoft OneDrive cloud drive. Log in on to OneDrive on the web with your user ID and password (or a OneDrive app on your personal Mac, PC, phone or tablet).
 
-If you want access to files from anywhere outside the labs, get used to copying to this drive before you leave a workstation.
+IMPORTANT: If you want access to files from anywhere outside the labs, get used to copying to your OneDrive before you leave a workstation.
 
-==== ExpanDrive
+// ==== ExpanDrive
 
-[.thumb]
-.Expandrive app
-image:media/expandriveapp.jpeg[image]
-
-This software allows OneDrive (or Google Drive or Dropbox) to appear on your computer desktop as if it were a thumb drive or portable hard drive. +
-
-It can be found in the Applications folder on your machine's hard drive (in Macintosh HD/Applications/ExpanDrive).
-
-. Run the program and choose OneDrive (you may also connect to DropBox, etc.).
-. Add your account and password to connect. Your account folder will show up on your computer desktop.
-// Add instructions to add shares after first run
-
-
-[TIP]
-When running, ExpanDrive shows a 5-petal flower in the upper right of the screen. +
- +
-image:media/expandrivemenu.png[image,width=36,height=30]
-
-image:media/image9.png[image,width=397,height=130] image:media/image10.png[image,width=126,height=121]
+// [.thumb]
+// .Expandrive app
+// image:media/expandriveapp.jpeg[image]
+//
+// This software allows OneDrive (or Google Drive or Dropbox) to appear on your computer desktop as if it were a thumb drive or portable hard drive. +
+//
+// It can be found in the Applications folder on your machine's hard drive (in Macintosh HD/Applications/ExpanDrive).
+//
+// . Run the program and choose OneDrive (you may also connect to DropBox, etc.).
+// . Add your account and password to connect. Your account folder will show up on your computer desktop.
+// // Add instructions to add shares after first run
+//
+//
+// [TIP]
+// When running, ExpanDrive shows a 5-petal flower in the upper right of the screen. +
+//  +
+// image:media/expandrivemenu.png[image,width=36,height=30]
+//
+// image:media/image9.png[image,width=397,height=130] image:media/image10.png[image,width=126,height=121]
 
 :sectnums!:
 
