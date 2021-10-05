@@ -141,7 +141,7 @@ You can create Pages, Posts, and Videos or use the formats together.
 
 ==== Adobe Creative Cloud
 * All Design+Animation majors receive a [green]*FREE* license to the Creative Cloud Suite.
-** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you haven't, contact {author_email}
+** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you don't receive this email, contact {author_email}
 
 * If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here].
 
@@ -163,13 +163,6 @@ NOTE: Autodesk will ask for proof of your academic status.
 . Download the trial https://pixologic.com/zbrush/trial/[here]
 
 NOTE: Requires creating a free account.
-
-. Install ZBrush.
-. [.line-through]#You will then receive a temporary license code#.
-
-==== [.line-through]#KeyShot# (EXPIRED)
-
-* [.line-through]#email pwhite&#064;mercy.edu for a 60-day license code#
 
 ==== Foundry (Nuke, Mari, etc.)
 
