@@ -1,0 +1,15 @@
+== Using Epson Perfection Scanner
+
+// tag::scanning[]
+
+* Epson Perfection V19
+
+These can be connected as needed to any lab computer.
+
+. Connect the scanner to the computer using a provided USB cable. Micro (small end) to USB-A (larger rectangular end)
+
+. Open the scanning software **Epson Scan 2** in the Applications folder in Epson Software
+
+TIP: Instructions on using the software and scanner can be found by opening (double-clicking) **Using Epson Scan 2** in the same folder.
+
+// end::scanning[]
