@@ -10,6 +10,6 @@ These can be connected as needed to any lab computer.
 
 . Open the scanning software **Epson Scan 2** in the Applications folder in Epson Software
 
-TIP: Instructions on using the software and scanner can be found by opening (double-clicking) **Using Epson Scan 2** in the same folder.
+TIP: Instructions on using the software and scanner can be found by opening (double-clicking) _**Using Epson Scan 2**_ in the same folder.
 
 // end::scanning[]

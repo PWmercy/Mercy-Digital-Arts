@@ -193,7 +193,7 @@ include::scanning.adoc[tag=scanning]
 
 === Booking time in Recording Studios
 
-* Along with classroom/labs, all time in recording studios must be reserved using our {booked_site}[online scheduler].
+* All time in recording studios must be reserved using our {booked_site}[online scheduler].
 
 * Music Production+Recording Arts students and faculty should receive an invitation to create an account. If you have not received the invitations, check your Spam or Junk folder first and then email {author_email}.
 
