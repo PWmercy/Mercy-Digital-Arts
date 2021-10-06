@@ -6,3 +6,11 @@
 
 ** https://www.wacom.com/en-us/getting-started/cintiq22[22HD How-to Videos]
 // end::22HDlink[]
+
+* Cintiq 22
+
+https://www.youtube.com/embed/1R2WmPQfYiE[Setup Video]
+
+https://www.youtube.com/embed/PL2JkayP7OI[Using the tablet]
+
+https://www.youtube.com/embed/h5WE_gL3y_A[On-screen Controls]

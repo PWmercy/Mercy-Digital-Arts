@@ -179,12 +179,15 @@ NOTE: Requires creating an account
 * Final Cut Pro (Mac-only)
 ** 90 Day [green]*FREE TRIAL* https://www.apple.com/final-cut-pro/trial/[here]
 
-=== Hardware
+=== Tablets, Printers and Scanners
 
-==== Wacom Tablets
+==== Wacom Cintiq Tablets
 
 include::wacom.adoc[tag=22HDlink]
 
+==== Scanners
+
+include::scanning.adoc[tag=scanning]
 
 == For Music Production+Recording Arts
 
