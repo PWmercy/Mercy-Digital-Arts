@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Install or update Apple packages for Logic and Garageband (and )
+# Install or update Apple packages for Logic and Garageband (and MainStage if installed)
 
 # Assumes install and location of appleloops and managedpython https://github.com/macadmins/python
 # Assumes location of content on http server
