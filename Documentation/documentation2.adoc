@@ -183,7 +183,11 @@ CAUTION: MacOS 11 may kill this off.
 
 ==== Loops for GarageBand and Logic
 
+Auto downloads Apple Sound Library to local machine or server.
+
 * https://github.com/carlashley/appleLoops[Appleloops utility]
+
+** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 server run by MDS.
 
 ==== Synology
 
@@ -218,5 +222,7 @@ CAUTION: MacOS 11 may kill this off.
 
 == Admin Resources
 * MacAdmins
-** Slack channel
+** https://macadmins.slack.com/[Slack channel]
 ** https://www.youtube.com/user/psumacconf[YouTube MacAdmins Conference channel]
+
+* https://scriptingosx.com[Scripting OS X]
