@@ -6,9 +6,13 @@
 
 These can be connected as needed to any lab computer.
 
-. Connect the scanner to the computer using a provided USB cable. Micro (small end) to USB-A (larger rectangular end)
+. Connect the scanner to the computer using a provided USB cable.
 
-. Open the scanning software **Epson Scan 2** in the Applications folder in Epson Software
+.. The Micro-USB (small end) connects to the back of the scanner.
+
+.. The USB-A (larger rectangular end) connects to the Mac (on newer machines, connect to the USB hub in the back.)
+
+. Open the scanning software **Epson Scan 2** in the Applications folder in a folder called Epson Software
 
 TIP: Instructions on using the software and scanner can be found by opening (double-clicking) _**Using Epson Scan 2**_ in the same folder.
 
