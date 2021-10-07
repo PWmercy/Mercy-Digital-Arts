@@ -5,7 +5,7 @@ This repository contains various scripts and documents which support the managem
 
 pwhite@mercy.edu
 
-**Mercy College**  
-Design+Animation  
-Music Production+Recording Arts  
+[**Mercy College**](http://www.mercy.edu)  
+[Design+Animation](https://www.mercy.edu/academics/programs/design-animation)  
+[Music Production+Recording Arts](https://www.mercy.edu/academics/programs/bs-music-production)  
 Dobbs Ferry NY  10522  
