@@ -19,7 +19,7 @@
 								<key>ClientIdentifier</key>
 								<string>munki_mtec_studio_client</string>
 								<key>InstallAppleSoftwareUpdates</key>
-								<true/>
+								<false/>
 								<key>InstallRequiresLogout</key>
 								<true/>
 								<key>LogFile</key>
@@ -33,9 +33,9 @@
 								<key>SoftwareRepoURL</key>
 								<string>http://munki.digiarts.mercy</string>
 								<key>SuppressAutoInstall</key>
-								<false/>
-								<key>SuppressStopButtonOnInstall</key>
 								<true/>
+								<key>SuppressStopButtonOnInstall</key>
+								<false/>
 								<key>SuppressUserNotification</key>
 								<true/>
 								<key>UseClientCertificate</key>
