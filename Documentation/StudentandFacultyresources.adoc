@@ -310,12 +310,12 @@ Great Video Podcast about production
 These require AES membership. +
 For membership info, email sward&#064;mercy.edu
 
-https://www.aes.org/journal/[AES Journal]:: The latest in audio research
+https://www.aes.org/journal/[AES Journal]:: The latest in audio research.
 
 https://www.aes.org/e-lib/[AES eLibrary]::
 Searchable database of 17,000 papers, journal articles, briefs and other items on the progression of audio research since 1953.
 
-https://www.aes.org/live/[AES Live]:: Repository of videos on conference presentations, workshops, demonstrations, how-to's, oral histories of notable engineers and producers, and so much more.
+https://www.aes.org/live/[AES Live]:: Repository of videos of conference presentations, workshops, demonstrations, how-to's, oral histories of notable engineers and producers, and so much more.
 
 === Other Music Production Resources
 

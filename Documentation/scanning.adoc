@@ -10,7 +10,7 @@ These can be connected as needed to any lab computer.
 
 .. The Micro-USB (small end) connects to the back of the scanner.
 
-.. The USB-A (larger rectangular end) connects to the Mac (on newer machines, connect to the USB hub in the back.)
+.. The USB-A (larger rectangular end) connects to the Mac (on newer machines, connect it to the USB hub in the back.)
 
 . Open the scanning software **Epson Scan 2** in the Applications folder in a folder called _Epson Software_
 
