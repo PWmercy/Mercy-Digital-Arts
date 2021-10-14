@@ -1,4 +1,4 @@
-= Documentation
+= Deployment Checklists
 :source-highlighter: rouge
 
 :author: Phil White
@@ -26,6 +26,7 @@ include::incl/variables.adoc[]
 
 :sectnums!:
 
+// tag::checklists[]
 
 == Servers
 [%interactive]
@@ -44,7 +45,8 @@ include::incl/variables.adoc[]
 [%interactive]
 
 * [ ] Auto-enroll
-* Add to groups
+
+* [ ] Add to groups
 ** [ ] Munki
 ** [ ] Refresh Room number group
 * [ ] Run Network script - http://172.31.48.94:8090/Scripts[download]
@@ -92,3 +94,5 @@ Focusrite
 [%interactive]
 * [ ] Add new users to Adobe
 * [ ] Remove graduates and non-current faculty
+
+// end::checklists[]

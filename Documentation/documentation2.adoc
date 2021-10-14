@@ -142,8 +142,14 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 
 ==== For Design+Animation
 ** Adobe Creative Cloud
+*** Updates
+User can update from Creative Cloud App
+
+Admin can update remotely using https://helpx.adobe.com/enterprise/using/using-remote-update-manager.html[Remote Update Manager]
+
 ** Maya
 ** Substance Painter
+*** Now part of Adobe Creative Cloud
 ** Marvelous Designer
 ** ZBrush
 ** KeyShot
@@ -170,6 +176,13 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 
 === Deployment Checklists
 
+:leveloffset: +3
+
+include::deployment_checklists.adoc[tag=checklists]
+
+:leveloffset: -3
+
+
 === Deployment tools
 ** Munki
 *** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
@@ -179,7 +192,7 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 
 * Reposado/Margarita
 
-CAUTION: MacOS 11 may kill this off.
+CAUTION: MacOS 11 killed this off.
 
 ==== Loops for GarageBand and Logic
 
@@ -195,7 +208,7 @@ Auto downloads Apple Sound Library to local machine or server.
 
 == Management/Reporting
 
-* https://munki6.digiarts.mercy[Munki Report]
+* https://munki6.digiarts.mercy:8881/[Munki Report]
 * http://license2.digiarts.mercy:8081/software[KeyServer]
 * https://mybusiness.mosyle.com[Mosyle MDM]
 * https://school.apple.com[Apple School Manager]
@@ -215,10 +228,10 @@ Auto downloads Apple Sound Library to local machine or server.
 *** Booked scheduling system
 **** https://booked.mercy.edu[Web access]
 **** https://www.bookedscheduler.com[Product support]
+
 * Management tools
 ** http://172.31.48.124:5000[Docker]
-*** http://172.31.48.124:8089[Margarita/Reposado]
-*** Private support http://172.31.48.124:8081[web site]
+
 
 == Admin Resources
 * MacAdmins
