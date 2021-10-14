@@ -36,4 +36,15 @@ NOTE: https://youtu.be/5cl2wxJ2Rg0[Here is a video] on how to use the scheduling
 
 // tag::safety[]
 
+// tag::newaccount[]
+
+. Go to https://scheduler.labarchives.com/
+. Input your Mercy email address and click "next"
+. You will be prompted to login using your Mercy single sign-on credentials.
+. When brought to the LabArchives Login setup page, input your Mercy email address and click "Create New Account"
+. When asked “Do you want to create a new LabArchives account?” Click “Yes.”
+. After this, your LabArchives account will be connected to the Single Sign-On for Mercy. Each time you login through the Single Sign-On you will be brought directly to your account.
+
+// end::newaccount[]
+
 :sectnums:
