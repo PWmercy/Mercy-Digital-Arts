@@ -40,6 +40,17 @@ As of {revdate} this document contains text that has been inserted only for the 
 testing https://asciidoc.org[AsciiDoc] and http://asciidoctor.org[Asciidoctor].
 ****
 
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+
+* Item 1
++
+Continuation text for the previous list item.
+
 Multi line +
 Hard Breaks +
 More stuff
