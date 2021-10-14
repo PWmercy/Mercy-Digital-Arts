@@ -1,0 +1,15 @@
+= Printer resources
+
+// tag::printing[]
+
+* Printing to the correct paper tray.
+
+****
+IMPORTANT: The Automatic paper feed setting often doesn't work as expected, so additional steps should be take when preparing to print.
+****
+
+
+
+* Printing from Adobe applications
+
+// end::printing[]
