@@ -78,12 +78,6 @@ NOTE: Although listed as a Music Production class, this is for _both_ programs.
 
 IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
-// include::labs.adoc[tag=safety]
-
-==== Scheduling time in labs/classrooms
-
-// include::scheduler.adoc[tag=safety]
-
 === Files on campus server
 
 * General information on accessing files <<labs.adoc#_accessing_files,here>>
@@ -189,13 +183,20 @@ include::wacom.adoc[tag=22HDlink]
 
 include::scanning.adoc[tag=scanning]
 
+==== Printers
+
+include::printing.adoc[tag=printing]
+
+
 == For Music Production+Recording Arts
 
 === Booking time in Recording Studios
 
 * All time in recording studios must be reserved using our {booked_site}[online scheduler].
 
-* Music Production+Recording Arts students and faculty should receive an invitation to create an account. If you have not received the invitations, check your Spam or Junk folder first and then email {author_email}.
+* If you don't already have one, create an account
+
+include::scheduler.adoc[tag=newaccount]
 
 === Software
 ==== Pro Tools
