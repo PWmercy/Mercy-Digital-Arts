@@ -115,12 +115,12 @@ when logged in to Mercy email or check https://www.microsoft.com/en-us/education
 
 ==== Adobe Spark
 
-[NOTE]
+=====
 From Adobe: +
  +
 _Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
 You can create Pages, Posts, and Videos or use the formats together.
-
+=====
 ** Login https://spark.adobe.com/[here] using your Mercy email and password
 
 ==== Sound Effects for video, audio and multimedia projects
@@ -285,13 +285,11 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 ...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
 
 * iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
-
 * iZotope - https://pae.izotope.com/[Pro Audio Essentials]
 [verse, Sam Stauff]
 This is a GREAT RESOURCE!
 
 * https://www.youtube.com/playlist?list=PLnYFZbm0f2qsFKq9BvLb4WVax2WDMMnit[Structure and Arrangement in Electronic Music]
-
 * https://www.pensadosplace.tv/[Pensado's Place]
 [verse]
 Great Video Podcast about production
@@ -321,7 +319,7 @@ https://www.aes.org/live/[AES Live]:: Repository of videos of conference present
 
 === Other Music Production Resources
 
-http://recordinghacks.com/microphones[Recording Hacks Microphone Database]
+http://recordinghacks.com/microphones[Recording Hacks Microphone Database]::
 
 https://www.grammy.com/sites/com/files/pages/DAWGuidelineLong.pdf[Digital Audio Workstation Guidelines for Music Production]::
 _The Recording Academy Producers and Engineers Wing_ recommended best practices when using a digital audio workstation (DAW) for music production.
