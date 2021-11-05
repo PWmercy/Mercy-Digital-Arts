@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 7, 2021
+// :revdate: September 7, 2021
 :revnumber: 2.0
 
 :toc: left
@@ -42,7 +42,7 @@ TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 
 :sectnums:
 
-== For Both Programs
+== For All Students
 
 === Get Help
 
@@ -55,7 +55,7 @@ IMPORTANT: You must first log in to Blackboard. image:media/blackboard_logo_sm.j
 
 * In Blackboard, look in your course list for __Office Hours and Support Meeting Room__.
 
-NOTE: Although listed as a Music Production class, this is for _both_ programs.
+NOTE: Although listed as a Music Production class, this Zoom room is for _both_ programs.
 
 ** Or connect {pwhite-blackboard}[here].
 
@@ -223,7 +223,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 ==== Native Instruments
 
-* _Native Instruments Komplete Start_ (small set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
+* _Native Instruments Komplete Start_ (starter set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
 
 ==== Logic X (Mac-only)
 
