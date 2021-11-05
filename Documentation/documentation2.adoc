@@ -188,6 +188,10 @@ include::deployment_checklists.adoc[tag=checklists]
 *** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
 *** Customization and Branding
 
+** https://eclecticlight.co/lockrattler-systhist/[Silnite]
+
+** https://github.com/scriptingosx/diskspace[diskspace]
+
 === Apple updates
 
 * Reposado/Margarita
