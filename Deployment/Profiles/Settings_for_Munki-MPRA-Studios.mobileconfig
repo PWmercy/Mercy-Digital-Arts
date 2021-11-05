@@ -60,7 +60,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Settings for Munki-MTEC-Prod</string>
+	<string>Settings for Munki-MTEC-Studios</string>
 	<key>PayloadEnabled</key>
 	<true/>
 	<key>PayloadIdentifier</key>
