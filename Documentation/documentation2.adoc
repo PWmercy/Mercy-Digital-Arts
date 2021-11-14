@@ -144,9 +144,9 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 ** Adobe Creative Cloud
 *** Updates
 
-*** User can update from Creative Cloud App
+**** User can update from Creative Cloud App
 
-*** Admin can update remotely using https://helpx.adobe.com/enterprise/using/using-remote-update-manager.html[Remote Update Manager]
+**** Admin can update remotely using https://helpx.adobe.com/enterprise/using/using-remote-update-manager.html[Remote Update Manager]
 
 ** Maya
 ** Substance Painter
