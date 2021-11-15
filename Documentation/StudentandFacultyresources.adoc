@@ -121,14 +121,16 @@ From Adobe: +
 _Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
 You can create Pages, Posts, and Videos or use the formats together.
 =====
-** Login https://spark.adobe.com/[here] using your Mercy email and password
+** Login https://spark.adobe.com/[here] using your Mercy email and password.
+
+NOTE: If this login fails, email pwhite@mercy.edu to create your account.
 
 ==== Sound Effects for video, audio and multimedia projects
 
 * http://bbcsfx.acropolis.org.uk[BBC Sound Effects Archive]
 ** [green]*FREE* for non-commercial use
 ** Searchable
-** Downloadable in WAV format
+** Downloadable in WAV or mp3 format
 
 == For Design+Animation
 === Software
