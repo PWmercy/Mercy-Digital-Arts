@@ -26,11 +26,11 @@ endif::[]
 
 == Crowdstrike as example of interaction of several tools
 * MDM
-. First Boot Enrollment into
+. First Boot Enrollment
 .. Capture Mercy Inventory ID
 .. Add machine-specific Tags (Department, Peripherals, CPU)
-.. MDM Installs Munki
-.. MD Install Trust Profiles for Crowdstrike permissions
+.. MDM installs Munki
+.. MDM installs Trust Profiles for Crowdstrike permissions
 ... M1 and Intel versions (created from Crowdstrike download and good documentation)
 * Munki
 . installs Crowdstrike
@@ -95,6 +95,8 @@ endif::[]
 * Offsite https://scheduler.labarchives.com[Scheduler] (Labarchives)
 
 == Other tools
+
+* Autopkg
 
 * Sassafras (http://172.31.48.93:8081[private site])
 ** Acquired for license management of one product but has many other capabilities
