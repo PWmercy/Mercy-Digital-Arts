@@ -1,0 +1,112 @@
+:doctitle: Meeting/Demo November 16, 2021
+
+:author: Phil White
+:author_email: pwhite@mercy.edu
+:revdate: March 15, 2021
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Contents
+
+:sectnumlevels: 2
+
+:icons: font
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Meeting/Demo
+
+
+== Crowdstrike as example of interaction of several tools
+* MDM
+. First Boot Enrollment into
+.. Capture Mercy Inventory ID
+.. Add machine-specific Tags (Department, Peripherals, CPU)
+.. MDM Installs Munki
+.. MD Install Trust Profiles for Crowdstrike permissions
+... M1 and Intel versions (created from Crowdstrike download and good documentation)
+* Munki
+. installs Crowdstrike
+.. Crowdstrike installer imported
+.. Post Install script adds license
+* https://172.31.48.94:8881/index.php?/auth/login#tab_munki[Munki Report] updated
+
+== Automation in general
+
+* an absolute necessity to do the job
+
+== MDM
+
+* Auto-enroll based on purchase
+
+* Security Compliance options
+
+* Only current way to update OS remotely
+
+== Local repos
+
+* Logic, Munki, Native Instruments
+** Reduces Internet traffic
+
+* Adobe local repo available via RUM (not currently in use).
+
+* MacOS local repo deprecated. No redirection of software update server.
+
+== Munki
+. Install mechanism
+.. pkgs
+.. manifests
+.. catalogs
+. Self-Service
+. Branding
+
+== Github and Gists
+
+* https://github.com/PWmercy/Mercy-Digital-Arts[Github]
+
+** Documentation
+
+*** Institutional Memory
+
+*** https://pwmercy.github.io/resources/[Student and Faculty Resources]
+
+*** https://pwmercy.github.io/resources/documentation2.html[Technical Documentation]
+
+* https://gist.github.com/PWmercy[Gisthub]
+
+** Scripts and short commands used in deployment and management
+
+== Department-specific
+* License servers
+** Zbrush
+** Ableton
+
+* Adobe
+** Management console at Adobe.com
+** Remote Update Manager
+
+* Offsite https://scheduler.labarchives.com[Scheduler] (Labarchives)
+
+== Other tools
+
+* Sassafras (http://172.31.48.93:8081[private site])
+** Acquired for license management of one product but has many other capabilities
+** Classroom maps
+** Heat Map
+
+* Asciidoctor
+** "Documentation as code" - multipurpose documents
+*** Variables, includes
+** Post-processing to PDF, HTML, others.
+
+* Docker
+
+* VMs of apple updates
+** Apple Seed program
