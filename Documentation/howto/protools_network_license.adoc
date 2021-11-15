@@ -1,0 +1,23 @@
+Open iLok License Manager (found in the Applications folder)
+
+There is no need to Sign in to iLok
+
+[app icon]
+
+Choose Preferences
+
+[screen]
+
+select license server
+MPRA Pro Tools Server
+[screen]
+
+click gear
+
+[screen]
+
+Choose Connect
+
+[screen]
+
+Green 
