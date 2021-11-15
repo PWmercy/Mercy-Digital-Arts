@@ -2,4 +2,30 @@ Pro tools
 
 Troubleshooting
 
-https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[ShoeTool]
+====
+[red]*Problem*::
+ShoeTool error
+
+#_An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly._#
+
+
+
+[green]*Solution*::
+See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[Avid Support page]
+====
+====
+[red]*Problem*:: Can't get Pro Tools license in lab
+
+[green]*Solution*::
+. Open ilok License Manager
+
+. Choose File...Preferences
+
+. Choose Network... My Connections
+
+. Select license server MPRA_Pro_Tools_Server
+
+. Click gear button below the server to right of the minus sign
+
+.. Choose Connect
+====
