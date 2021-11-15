@@ -6,6 +6,6 @@
 # Assumes location of content on http server
 
 # Use sudo if outside of this script
-/usr/local/bin/managed_python3 /usr/local/bin/appleloops --deployment --pkg-server http://munki6.digiarts.mercy:8090/appleloops_content --mandatory --optional
+/usr/local/bin/managed_python3 /usr/local/bin/appleloops --deployment --pkg-server https://munki6.digiarts.mercy:8090/appleloops_content --mandatory --optional
 
 exit 0
