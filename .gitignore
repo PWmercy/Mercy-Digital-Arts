@@ -7,6 +7,7 @@
 thumbs.db
 Thumbs.db
 *.pkg
+*.pdf
 Deployment/Reason/Reason Content pkg/
 Management/Munki site_default/Munki_banners.psd
 Gists/
