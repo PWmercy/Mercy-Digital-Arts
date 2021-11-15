@@ -2,8 +2,8 @@
 
 // tag::scanning[]
 
-* Epson Perfection V19
-
+* Epson Perfection V19 +
++
 These can be connected as needed to any lab computer.
 
 . Connect the scanner to the computer using a provided USB cable.
