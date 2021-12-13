@@ -35,12 +35,6 @@ This page is regularly updated. Last updated *{docdate}*
 
 Author: {author_email}
 
-_This document began as notes for a presentation given on Feb 19, 2020_
-
-This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.
-
-IMPORTANT: Some links in this document are private and only available when on Dobbs Ferry campus.
-
 == Overview
 include::sections/overview.adoc[]
 
@@ -66,7 +60,7 @@ include::sections/recent_changes.adoc[]
 
 . CATA NAS 1
 * Synology Model RS3617RPxs
-** Serial # 1760NTN261200
+** Serial # 1931NTN238300 (REPLACED # 1760NTN261200 on 12/8/2021)
 ** 16GB
 * High Availability Cluster Failover
 * Services
@@ -101,8 +95,11 @@ include::sections/recent_changes.adoc[]
 === Lab Computers
 
 * iMacs
+** Intel
+** M1
 * Mac Minis
-* Mac Pro (2013)
+** Intel
+** M1
 
 === Recording Studios
 :leveloffset: +1
@@ -132,13 +129,13 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 ** Keyshot
 ** http://172.31.48.94:30304/#/[VRay]
 ** Musition (cloud)
-*** Students and Faculty need a Musition Cloud account set up through the Blackboard.
+*** Students and Faculty need a Musition Cloud account set up through Blackboard.
 
 === Standard Software
 ==== For All
 ** Microsoft Suite
 ** ExpanDrive
-** Standard from Apple App Store
+** Standard apps from Apple App Store
 
 ==== For Design+Animation
 ** Adobe Creative Cloud
@@ -153,12 +150,17 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 *** Now part of Adobe Creative Cloud
 ** Marvelous Designer
 ** ZBrush
+
+---
+.Not currently in use
 ** KeyShot
 ** Quixel
 ** Houdini
 ** Nuke
 ** Vray
 ** https://www.pipelinefx.com[Qube] Render Farm
+
+---
 
 ==== For Music Production+Recording Arts
 ** Pro Tools
