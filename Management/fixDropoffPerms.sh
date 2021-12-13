@@ -1,7 +1,7 @@
 #!/bin/bash
 # 20191210
 
-# This script has been added to Task Scheduler on CATA-NAS1
+# This script has been added to Task Scheduler on CATA-NAS-HA
 
 # Folders and files dropped off in "Drop-off-here" folders often
 # have bad permissions for instructor. This script goes through
