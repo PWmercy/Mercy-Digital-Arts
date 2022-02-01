@@ -1,6 +1,6 @@
 // Comments
 
-:cata_website: https://www.mercy.edu/liberal-arts/communication-and-arts
+:cata_website: https://www.mercy.edu/academics/school-liberal-arts/department-communication-arts
 :pwhite-blackboard: https://mercy.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=_67680_1&cmp_tab_id=_118416_1&mode=view#
 :pwhite-zoom-room: https://mercy.zoom.us/j/99779795744?pwd=WEViT1VEczMxVUUyVGladGF5Vmhkdz09
 :pwhite-zoom-room-passcode: 440801

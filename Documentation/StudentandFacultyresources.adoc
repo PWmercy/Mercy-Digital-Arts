@@ -83,10 +83,9 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 * General information on accessing files <<labs.adoc#_accessing_files,here>>
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you get home and vice-versa.
-** Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EpaCTdeJkWZNqXgsSeA2UYgB7JnwTEAGj3b_n_TjE04IYw?e=mqu5EF[here].
+** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej5MB-ILIW9Om1UcEY97iT8BxSaYbzfZgeZRoUAZ5bPAXQ?e=Qcqyfu[here].
 
-TIP: Use your Mercy email to log in.
+TIP: Use your full Mercy email to log in.
 
 ** Once you have connected to this OneDrive shared folder, the folder should appear in your own OneDrive in _Shared with me_.
 
@@ -100,8 +99,11 @@ image:media/onedrive_shared_with_me.png[OneDrive, 50%]
 .Personal Folder (including My-Stuff)
 [NOTE]
 Your private folder (with your login name) is *not* on the cloud drive, but can be made available in an emergency by request. +
-(You should always back up your work to your own OneDrive space and to thumb drives or hard drives, so this should ONLY be done in an emergency. +
-Email _{author_email}_
+ +
+Email _{author_email}_ +
+ +
+(You should always back up your work to your own OneDrive space and to thumb drives or hard drives, so this should ONLY be needed in an emergency.) +
+
 
 WARNING: Always *keep backup copies of your files*.
 
@@ -113,15 +115,16 @@ WARNING: Always *keep backup copies of your files*.
 ** Download from https://www.office.com/[here]
 when logged in to Mercy email or check https://www.microsoft.com/en-us/education/products/office[here]
 
-==== Adobe Spark
+==== Adobe Creative Cloud Express
+_(formerly Adobe Spark)_
 
 =====
 From Adobe: +
  +
-_Adobe Spark_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
+_Adobe Creative Cloud Express_ enables you to tell stories and share ideas quickly and beautifully. Spark lets you create three types of content:
 You can create Pages, Posts, and Videos or use the formats together.
 =====
-** Login https://spark.adobe.com/[here] using your Mercy email and password.
+** Login https://express.adobe.com/[here] using your Mercy email and password.
 
 NOTE: If this login fails, email pwhite@mercy.edu to create your account.
 

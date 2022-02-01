@@ -1,0 +1,47 @@
+== Install and Uninstall Desktop Central Agent Mac
+
+==== Installing Mac Agent
+
+Mac agents can be installed manually in the computers that need to be managed. If a previous version of  Desktop Central agent is already installed in the client computer, then uninstall it before installing the latest agent.
+
+To install the agent, login to the computer as an administrator and follow the steps mentioned below:
+
+. Login into the Mac computer as administrator and navigate to the location where the agent is downloaded.
+. Extract the zip file and  locate DesktopCentral_MacAgent.pkg and serverinfo.plist file.
+. Double click to install the agent. Ensure that the extracted folder contains both the files in the same location, serverinfo.plist and DesktopCentral_MacAgent.pkg
+. Enter administrators password when prompted to complete installation.
+
+Once the agent is installed successfully, the Mac computer will be listed in the SoM page in the Desktop Central web console.
+
+==== Uninstalling Mac agent
+
+To uninstall the agent from the managed computer, follow the steps mentioned below:
+
+. Login into the computer as administrator and open the terminal.
+. Navigate to the directory /Library/DesktopCentral_Agent/uninstall
+. Type sudo chmod 744 uninstall.sh, and enter administrator password when prompted.
+. Type the command sudo ./uninstall.sh, this command removes all the files except logs.
+
+You have successfully uninstalled the agent from the managed MAC computer.
+
+==== Installing Mac Agent Using SSH
+Installing Mac agents in computers can be done easily through SSH. Using a Mac computer you can remotely connect to other computers and install the Mac agents. To know about installing agents follow the steps mentioned below.
+
+. Login into the Mac computer as administrator
+. Copy the downloaded Mac agent
+
+Open the terminal
+
+Navigate to the location where the agent is downloaded.
+
+Type scp DCMacAgent.zip adminusername@hostname: to copy the agent to the target computer.
+where adminusername - administrator user name of the remote computer & hostname - local host name of the remote computer
+Agent is copied in the location ~/Users/adminusername in target computer
+
+. Install the agent in the remote computer
+
+To login into the target computer using SSH type ssh adminusername@hostname
+Navigate to the location where the agent is copied, Unzip the agent zip file by typing `unzip -oq DCMacAgent.zip`
+Install the agent using the command `sudo installer  -pkg  DesktopCentral_MacAgent.pkg  -target  /`
+Enter the administrator password when prompted to complete agent installation.
+Once the agent is installed successfully, the Mac computer will be listed in the SoM page in the Desktop Central web console.

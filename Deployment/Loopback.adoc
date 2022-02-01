@@ -1,0 +1,3 @@
+== Troubleshooting
+
+https://rogueamoeba.com/support/knowledgebase/?showArticle=ACE-BigSur-Install-Troubleshooting[ACE installation issues on MacOS 11 (Big Sur) and MacOS 12 (Monterey)]

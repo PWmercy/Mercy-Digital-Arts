@@ -49,7 +49,7 @@ include::incl/variables.adoc[]
 * [ ] Add to groups
 ** [ ] Munki
 ** [ ] Refresh Room number group
-* [ ] Run Network script - http://172.31.48.94:8090/Scripts[download]
+* [ ] Run Network script - https://172.31.48.94:8090/Scripts[download]
 
 === MPRA
 ==== Pro Tools
@@ -72,7 +72,8 @@ include::incl/variables.adoc[]
 
 Users' Ableton folder may need to be deleted again
 
-Focusrite
+* Focusrite
+** [ ] First-run Focusrite Control to update firmware and get out of demo mode
 
 === DA
 ==== Zbrush

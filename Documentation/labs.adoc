@@ -70,7 +70,7 @@ Report technical problems promptly to {author_email} or via Zoom room.
 
 == Logging in to stations
 
-*STUDENTS and FACULTY* should use their Mercy email user name and password to access the computers in Digital Arts labs (Victory Hall 122, 203, 204, 208) as well as satellite stations (Victory 209, 215, Hudson Hall 214, Dorm NW133).
+*STUDENTS and FACULTY* should use their Mercy email user name (*without* the _@mercy.edu_ part) and password to access the computers in Digital Arts labs (Victory Hall 122, 203, 204, 208) as well as satellite stations (Victory 209, 215, Hudson Hall 214, Dorm NW133).
 
 [.thumb]
 .If you see this, just click the *Connect* button
@@ -83,6 +83,11 @@ image:media/connect.png[image, alt="If you see a Connect button just click"]
 
 Once logged in, you should see the following three drives on the desktop.
 
+[.thumb]
+.Server folders
+image:media/drives.jpeg[image]
+
+
 [NOTE]
 .*_IF YOU DON’T SEE_* these drives and folders
 ====
@@ -93,10 +98,6 @@ Once logged in, you should see the following three drives on the desktop.
 .Connecting to the server
 image:media/networkcatanasha.png[image]
 ====
-
-[.thumb]
-.Server folders
-image:media/drives.jpeg[image]
 
 Digiarts-Home-folders::
 
