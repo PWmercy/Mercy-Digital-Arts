@@ -2,9 +2,9 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 24, 2020
-:revnumber: 202110.1
+:revdate: February 3, 2022
+:revnumber: 202202.1
 
 Last updated {docdate}
 
-image:media/2021FA-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
+image:media/2022SP-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
