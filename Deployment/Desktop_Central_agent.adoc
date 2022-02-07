@@ -32,7 +32,7 @@ where `adminusername` = administrator user name of the remote computer and `host
 
 .. To login into the target computer using SSH type `ssh adminusername@hostname`
 .. Navigate to the location where the agent is copied, Unzip the agent zip file by typing `unzip -oq DCMacAgent.zip`
-.. Install the agent using the command `sudo installer  -pkg  DesktopCentral_MacAgent.pkg  -target  /``
+.. Install the agent using the command `sudo installer  -pkg  DesktopCentral_MacAgent.pkg  -target  /`
 .. Enter the administrator password when prompted to complete agent installation.
 
 Once the agent is installed successfully, the Mac computer will be listed in the SoM page in the Desktop Central web console.
