@@ -11,7 +11,7 @@ error=0
 ## Checks if the variable has been provided
 days=$4
 if [[ -z $days ]]; then
-	read -p "Profile Age:" days
+	read -rp "Profile Age:" days
 fi
 
 ## new shorter bash method to get logged in user
@@ -24,26 +24,26 @@ permanent=("/Users/Shared" "/Users/$loggedInUser" "/Users/student" "/Users/admin
 if [[ $UID -ne 0 ]]; then echo "$0 must be run as root." && exit 1; fi
 
 ## Users that have not been active in the specified number of days
-allusers=`/usr/bin/find /Users -type d -maxdepth 1 -mindepth 1 -not -name "." -mtime +$days`
+allusers=$(/usr/bin/find /Users -type d -maxdepth 1 -mindepth 1 -not -name "." -mtime +"$days")
 
 echo "deleting inactive users"
 
 ## Iterate through each inactive user, check if they are in the permanent list, then delete
 for username in $allusers; do
-	if ! [[ ${permanent[*]} =~ "$username" ]]; then
-		echo "Deleting inactive (over $days days) account" $username
+	if ! [[ ${permanent[*]} =~ $username ]]; then
+		echo "Deleting inactive (over ""$days"" days) account" "$username"
 
 		# Delete user
 		# /usr/bin/dscl . delete $username > /dev/null 2>&1
 
 		# Find and delete home folder (in case it is not in /Users/)
-		home=$(dscl . read '$username' NFSHomeDirectory | awk '{print $2}')
-		/bin/rm -rf $home
+		home=$(dscl . read "$username" NFSHomeDirectory | awk '{print $2}')
+		/bin/rm -rf "$home"
 	# echo $username
-	echo $home
+	echo "$home"
 	continue
 	else
-		echo "skip" $username
+		echo "skip" "$username"
 	fi
 done
 
