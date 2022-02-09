@@ -65,11 +65,13 @@ include::sections/recent_changes.adoc[]
 * High Availability Cluster Failover
 * Services
 ** SMB File Services
+
 . CATA NAS 3
 * Synology Model RS3617RPxs
 ** Serial # 1910NTN037900
 ** 16GB
-* High Availability Cluster Failover
+* High Availability Cluster
+
 . CATA NAS 2
 * IP 172.31.48.124
 * Model RS815RP+
