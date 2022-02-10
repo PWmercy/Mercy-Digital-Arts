@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite@mercy.edu
-:revdate: March 15, 2021
+:revdate: February 10, 2022
 :revnumber: 2.0
 
 :toc: left
@@ -57,6 +57,8 @@ include::sections/recent_changes.adoc[]
 === Servers
 
 ==== Synology NAS
+
+NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 
 . CATA NAS 1
 * Synology Model RS3617RPxs
@@ -136,8 +138,8 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 === Standard Software
 ==== For All
 ** Microsoft Suite
-** ExpanDrive
 ** Standard apps from Apple App Store
+** VLC
 
 ==== For Design+Animation
 ** Adobe Creative Cloud
