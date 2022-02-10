@@ -10,7 +10,8 @@
 # echo "What is the name of the product?"
 
 
-declare -a StringArray=("Abbey Road 50s Drummer"
+declare -a StringArray=(
+"Abbey Road 50s Drummer"
 "Abbey Road 60s Drummer"
 "Abbey Road 70s Drummer"
 "Abbey Road 80s Drummer"
@@ -47,6 +48,7 @@ declare -a StringArray=("Abbey Road 50s Drummer"
 "Reaktor 5"
 "Reflektor"
 "Replika XT"
+"REV X-LOOPS"
 "Rounds"
 "Sasha"
 "Scarbee Jay-Bass"
