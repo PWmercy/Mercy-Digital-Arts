@@ -272,40 +272,21 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 === Books
 
-* https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3[The Recording Engineer's Handbook] by Bobby Owsinski
-
-* https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording] by Mixerman
-
-* https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged] by Sylvia Massy
-
+* https://www.amazon.com/Recording-Engineers-Handbook-4th/dp/0998503304/ref=sr_1_3?crid=1FHDYHJGR4BCU&keywords=bobby+owsinski&qid=1563379510&s=books&sprefix=bobby+ow%2Cstripbooks%2C123&sr=1-3[The Recording Engineer's Handbook] by _Bobby Owsinski_
+* https://www.amazon.com/gp/product/1480387436/ref=dbs_a_def_rwt_bibl_vppi_i3[Zen and the Art of Recording] by _Mixerman_
+* https://www.amazon.com/Recording-Unhinged-Creative-Unconventional-Techniques/dp/1495011275/ref=sr_1_1?crid=3GVV8MYIW8ZFG&keywords=recording+unhinged+sylvia+massy&qid=1563379344&s=gateway&sprefix=recording+unh%2Caps%2C125&sr=8-1[Recording Unhinged] by _Sylvia Massy_
 * https://www.amazon.com/Blackbird-Academy-Foundations-Must-Know-Principles/dp/1495069346[Blackbird Academy Foundations: Must-Know Audio and Recording Principles]
-
 * https://www.amazon.com/Need-Know-About-Music-Business/dp/1501122185[All You Need to Know About the Music Business: 10th Edition]
- 
 * https://www.amazon.com/gp/product/B07P75SJJL/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0[How To Make It in the New Music Business: Practical Tips on Building a Loyal Following and Making a Living as a Musician (Second Edition)]
- 
 * https://www.amazon.com/Game-Audio-Strategy-Guide-Practical-dp-1138498343/dp/1138498343/ref=mt_other?_encoding=UTF8&me=&qid=[The Game Audio Strategy Guide: A Practical Course]
- 
-* https://www.routledge.com/Mastering-Audio-The-Art-and-the-Science/Katz/p/book/9780240818962[Mastering Audio, Third Edition: The Art and the Science 3rd Edition] by Bob Katz
+* https://www.routledge.com/Mastering-Audio-The-Art-and-the-Science/Katz/p/book/9780240818962[Mastering Audio, Third Edition: The Art and the Science 3rd Edition] by _Bob Katz_
 
-=== Online Video
+=== Online Video and Podcasts
 
-* Professor Stauff's Mix Videos https://www.youtube.com/channel/UCLsifVEtEEqmyyINXtA4h-g[Youtube Channel]
-* https://app.slatedigital.com/authenticate/sign-up?redirect=%2Fmy-academy[Slate Digital _Secrets of Music Production_]
- ** FREE for 90 days.
-* https://practicalshowtechcom.squarespace.com[Practical Show Tech] - Live webcast about comms, rf, and audio.
-[verse, Practical Show Tech]
-...we are making use of social distancing time by sharing knowledge of live show production via live webcasts.
-
-* iZotope - Has an amazing https://www.youtube.com/user/izotopeinc/featured[free video series] on Mastering
-* iZotope - https://pae.izotope.com/[Pro Audio Essentials]
-[verse, Sam Stauff]
-This is a GREAT RESOURCE!
-
-* https://www.youtube.com/playlist?list=PLnYFZbm0f2qsFKq9BvLb4WVax2WDMMnit[Structure and Arrangement in Electronic Music]
-* https://www.pensadosplace.tv/[Pensado's Place]
-[verse]
-Great Video Podcast about production
+* https://www.youtube.com/user/izotopeinc/featured[Free video series] on Mastering from iZotope
+* https://pae.izotope.com/[Pro Audio Essentials] from iZotope. Great resource!
+* https://www.youtube.com/playlist?list=PLnYFZbm0f2qsFKq9BvLb4WVax2WDMMnit[Structure and Arrangement in Electronic Music] online course
+* https://www.pensadosplace.tv/[Pensado's Place] Great Video Podcast about production
 * https://www.pro-tools-expert.com/[Pro Tools Expert]
 * http://songexploder.net/[Song Exploder]
 * https://www.workingclassaudio.com/[Working Class Audio Podcast]
@@ -315,6 +296,14 @@ Great Video Podcast about production
 * https://www.youtube.com/user/WarrenHuartRecording[Produce Like A Pro] on Youtube
 * https://www.youtube.com/user/songstowearpantsto/featured[Andrew Huang]
 * https://www.waves.com/magazine[Waves]
+* https://www.youtube.com/playlist?list=PLLqZD2_F1XvVkfeZTshQ2xO0SB1Te4DR2[Show Us Your Junk Videos] by EarthQuaker Devices
+* https://www.youtube.com/c/Producelikeapro[Produce Like A Pro]
+* https://www.youtube.com/channel/UC0zzmN5qzSBt1GxHQ6N1_mg[Mix Bus TV]
+* https://www.youtube.com/channel/UCJ7QbJQgJSSdd_v-VxdO6Gg[Spitfire Audio]
+* https://attackandreleaseshow.fireside.fm/[Attack and Release Show] Podcast
+* https://www.youtube.com/channel/UCEAAeXdhcR8lsAbIqhyPRWg[Mercy College Music] YouTube channel
+* https://tapeop.com/[Tape Op]
+* https://www.soundonsound.com/[Sound On Sound]
 * Documentaries on Netflix, Hulu and Amazon
 
 === Audio Engineering Society Resources
