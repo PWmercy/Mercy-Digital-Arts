@@ -69,7 +69,7 @@ NOTE: Although listed as a Music Production class, this Zoom room is for _both_ 
 
 ==== IT Help Desk
 ** For email problems, resetting password, Windows PCs, Wifi
-** email helpdesk@mercy.edu or call [green]*icon:phone[]{nbsp}914-674-7526*
+** email  @mercy.edu or call [green]*icon:phone[]{nbsp}914-674-7526*
 
 // ==== How-to Pages (work-in-progress not available yet)
 // * [.line-through]#Click here for software and hardware tips and instructions.#
@@ -225,8 +225,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 ==== Ableton Live Suite including Max For Live
 
-* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 30 days but Ableton will extend that an additional 30 days as needed.
-
+* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 90 days.
 ==== Native Instruments
 
 * _Native Instruments Komplete Start_ (starter set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
