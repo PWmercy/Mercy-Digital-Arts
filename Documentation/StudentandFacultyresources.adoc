@@ -122,10 +122,10 @@ _(formerly Adobe Spark)_
 
 =====
 From Adobe: +
-_Adobe Creative Cloud Express_ enables you to tell stories and share ideas quickly and beautifully. It lets you create three types of content:
+_https://www.adobe.com/express/[Adobe Creative Cloud Express]_ enables you to tell stories and share ideas quickly and beautifully. It lets you create three types of content:
 You can create Pages, Posts, and Videos or use the formats together.
 =====
-** Login https://express.adobe.com/[here] using your Mercy email and password.
+** Log in https://express.adobe.com/[here] using your Mercy email and password. Use _Log in with school account_
 
 NOTE: If this login fails, email pwhite@mercy.edu to create your account.
 
