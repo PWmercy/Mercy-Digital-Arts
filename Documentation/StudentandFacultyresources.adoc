@@ -231,7 +231,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 * _Native Instruments Komplete Start_ (starter set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
 
-==== Logic X (Mac-only)
+==== Logic X (MacOS-only)
 
 * 90-day free trial https://www.apple.com/logic-pro/trial/[here].
 
