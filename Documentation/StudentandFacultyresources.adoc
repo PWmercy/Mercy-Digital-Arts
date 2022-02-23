@@ -226,6 +226,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 ==== Ableton Live Suite including Max For Live
 
 * Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 90 days.
+
 ==== Native Instruments
 
 * _Native Instruments Komplete Start_ (starter set of instruments) is free https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/[here]
