@@ -1,7 +1,9 @@
 #!/bin/sh
 ## postinstall
 
+# EDITS 202202 by pwhite@mercy.edu
 # Based on script for Pro Tools 12 found on Slack #musicsupport
+
 # The package has some post-install scripts that assume a user is logged in, let's spoof it.
 
 # Set the following variable to the name of the Pro Tools installer package.
@@ -59,7 +61,7 @@ PHT_SHOETOOL="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
 /usr/sbin/chown root:wheel $PHT_SHOETOOL
 bin/chmod 544 $PHT_SHOETOOL
 
-# Create the Launch Deamon Plist for com.avid.bsd.ShoeTool
+# Create the Launch Daemon Plist for com.avid.bsd.ShoeTool
 PLIST="/Library/LaunchDaemons/com.avid.bsd.shoetoolv120.plist"
 FULL_PATH="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
 
