@@ -3,7 +3,7 @@
 # 20211004
 
 # Create friendly computer name from Computer Name
-# Assumes format vh999mc99999mac99
+# Assumes format vh123mc45678mac99 ==> Victory-123-99
 
 name=$(scutil --get ComputerName)
 asset_id=${name:5:7}
@@ -16,6 +16,7 @@ echo "$friendly_name"
 echo "$uc_asset_id"
 
 # Uncomment below to set ARD fields
+
 # Field 1 is used for Asset Tag
 # /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -configure -computerinfo -set1 -1 $uc_asset_id
 
