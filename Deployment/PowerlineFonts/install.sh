@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 # Set source and target directories
@@ -13,7 +12,7 @@ if test "$(uname)" = "Darwin" ; then
 else
   # Linux
   font_dir="$HOME/.local/share/fonts"
-  mkdir -p $font_dir
+  mkdir -p "$font_dir"
 fi
 
 # Copy all fonts to user fonts directory
