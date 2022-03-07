@@ -2,12 +2,9 @@
 ## postinstall
 
 # EDITS 202202 by pwhite@mercy.edu
+# Some items were renamed and fall under Avid Link
+
 # Based on script for Pro Tools 12 found on Slack #musicsupport
-
-# The package has some post-install scripts that assume a user is logged in, let's spoof it.
-
-# Set the following variable to the name of the Pro Tools installer package.
-PTPKG="Avid_Pro_Tools_12.8.1.pkg"
 
 # Uninstall Avid Application Manager
 
@@ -26,23 +23,6 @@ pkgutil --forget com.avid.ApplicationManager.Uninstaller.pkg
 
 #!/bin/bash
 
-# Install the Avid AIR Instruments and Plugins from their original disk images, which should be cached by the Jamf Pro policy running this script. InstallPKG is required.
-
-# Install them!
-
-/usr/local/bin/installpkg -ih "/Library/Application Support/JAMF/Waiting Room/Avid_First_AIR_Effects_Bundle_12.0_Mac.dmg"
-/usr/local/bin/installpkg -ih "/Library/Application Support/JAMF/Waiting Room/Avid_First_AIR_Instruments_Bundle_12.0_Mac.dmg"
-/usr/local/bin/installpkg -ih "/Library/Application Support/JAMF/Waiting Room/Avid_Xpand_II_12.0_Mac.dmg"
-
-# Install the Avid Additional Value Content (some extra plugins woohoo!) which should be cached by the Jamf Pro policy running this script.
-# Note that this DMG has been created by us from a folder containing the original installer packages from Avid. It does not come from them like this. InstallPKG is required.
-
-/usr/local/bin/installpkg -ih "/Library/Application Support/JAMF/Waiting Room/Avid_Pro_Tools_Additional_Value_Content_12.1.dmg"
-
-# Clean up
-
-/bin/rm -rf "/Library/Application Support/JAMF/Waiting Room/Avid*"
-
 # Set content paths for AIR Instruments
 
 /usr/bin/defaults write /Library/Preferences/com.airmusictech.Boom Content -string "/Applications/AIR Music Technology/Boom"
@@ -52,7 +32,9 @@ pkgutil --forget com.avid.ApplicationManager.Uninstaller.pkg
 /bin/chmod 644 /Library/Preferences/com.airmusictech.Mini\ Grand.plist
 /bin/chmod 644 /Library/Preferences/com.airmusictech.Xpand\!2.plist
 
-# This part installs a privileged helper that would otherwise ask for admin privileges when Pro Tools is launched for the first time.
+######
+## This part installs a privileged helper that would otherwise ask for admin privileges when Pro Tools is launched for the first time.
+######
 
 # Copy the com.avid.bsd.ShoeTool Helper Tool
 PHT_SHOETOOL="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
@@ -86,8 +68,8 @@ mkdir -p "/Library/Application Support/Avid/Audio/Plug-Ins (Unused)"
 chmod a+w "/Library/Application Support/Avid/Audio/Plug-Ins"
 chmod a+w "/Library/Application Support/Avid/Audio/Plug-Ins (Unused)"
 
-mkdir /Users/Shared/Pro\ Tools
-mkdir /Users/Shared/AvidVideoEngine
+mkdir "/Users/Shared/Pro Tools"
+mkdir "/Users/Shared/AvidVideoEngine"
 
 chown -R root:wheel /Users/Shared/Pro\ Tools
 chmod -R a+rw /Users/Shared/Pro\ Tools
