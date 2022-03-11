@@ -3,6 +3,8 @@
 
 # EDITS 202202 by pwhite@mercy.edu
 # Some items were renamed and fall under Avid Link
+# Purpose: avoid requirement for admin password when helper tool installs.
+#		       Remove avid link and avid cloud
 
 # Based on script for Pro Tools 12 found on Slack #musicsupport
 
@@ -33,7 +35,8 @@ pkgutil --forget com.avid.ApplicationManager.Uninstaller.pkg
 /bin/chmod 644 /Library/Preferences/com.airmusictech.Xpand\!2.plist
 
 ######
-## This part installs a privileged helper that would otherwise ask for admin privileges when Pro Tools is launched for the first time.
+## This part installs a privileged helper that would otherwise ask for
+## admin privileges when Pro Tools is launched for the first time.
 ######
 
 # Copy the com.avid.bsd.ShoeTool Helper Tool
