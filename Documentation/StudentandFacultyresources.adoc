@@ -305,6 +305,7 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 * https://www.youtube.com/channel/UCEAAeXdhcR8lsAbIqhyPRWg[Mercy College Music] YouTube channel
 * https://tapeop.com/[Tape Op]
 * https://www.soundonsound.com/[Sound On Sound]
+* Synapse Audio https://youtu.be/LkQfqj04yyA[Tutorial] on designing sounds in https://www.synapse-audio.com/dune3.html[Dune 3] Soft Synth
 * Documentaries on Netflix, Hulu and Amazon
 
 === Audio Engineering Society Resources
