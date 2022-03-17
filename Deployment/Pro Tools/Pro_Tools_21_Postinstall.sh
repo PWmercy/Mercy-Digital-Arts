@@ -3,25 +3,33 @@
 
 # EDITS 202202 by pwhite@mercy.edu
 # Some items were renamed and fall under Avid Link
-# Purpose: avoid requirement for admin password when helper tool installs.
-#		       Remove avid link and avid cloud
+# Purpose: Avoid requirement for admin password when helper tool installs.
+#          Remove avid link and avid cloud
 
 # Based on script for Pro Tools 12 found on Slack #musicsupport
 
 # Uninstall Avid Application Manager
 
 # Bye bye Avid Application Manager
+rm -rf "/Applications/Avid/Application Manager/AvidApplicationManager.app"
 launchctl unload -F "/Library/LaunchAgents/com.avid.avidlink.plist"
 killall AvidLink
-rm -rf "/Applications/Avid/Application Manager"
 rm -rf "/Applications/Avid/Avid Link"
 rm -rf "/Library/Application Support/Avid/AvidLink"
 rm -rf "/Library/LaunchAgents/com.avid.avidlink.plist"
+rm -rf "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
+rm -rf "/Library/Application Support/Avid/Cloud Client Services"
+
 pkgutil --forget com.avid.installer.osx.ProToolsApplicationAppMan
+pkgutil --forget com.avid.cloudservices.pkg
+pkgutil --forget com.avid.AvidLink.component.pkg
 
 # Bye bye Application Manager Uninstaller
-rm -rf "/Applications/Avid_Uninstallers/Application Manager"
-pkgutil --forget com.avid.ApplicationManager.Uninstaller.pkg
+rm -rf "/Applications/Avid_Uninstallers/Avid Link/Avid Link Uninstaller.app"
+rm -rf "/Applications/Avid_Uninstallers/Cloud Client Services Uninstaller.app"
+rm -rf "/Applications/Avid_Uninstallers"
+pkgutil --forget com.avid.AvidLink.uninstaller.pkg
+pkgutil --forget com.avid.CloudClientServicesUninstaller
 
 #!/bin/bash
 
