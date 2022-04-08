@@ -12,11 +12,15 @@
 
 # Bye bye Avid Application Manager
 rm -rf "/Applications/Avid/Application Manager/AvidApplicationManager.app"
-launchctl unload -F "/Library/LaunchAgents/com.avid.avidlink.plist"
+launchctl unload -F "/Library/LaunchAgents/com.avid.link.plist"
+launchctl unload -F "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
+launchctl unload -F "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
+
 killall AvidLink
 rm -rf "/Applications/Avid/Avid Link"
 rm -rf "/Library/Application Support/Avid/AvidLink"
-rm -rf "/Library/LaunchAgents/com.avid.avidlink.plist"
+rm -rf "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
+rm -rf "/Library/LaunchAgents/com.avid.link.plist"
 rm -rf "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
 rm -rf "/Library/Application Support/Avid/Cloud Client Services"
 
