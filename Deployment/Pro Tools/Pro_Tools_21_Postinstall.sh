@@ -20,9 +20,10 @@ killall AvidLink
 rm -rf "/Applications/Avid/Avid Link"
 rm -rf "/Library/Application Support/Avid/AvidLink"
 rm -rf "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
-rm -rf "/Library/LaunchAgents/com.avid.link.plist"
+rm -rf "/Library/LaunchAgents/com.avid.avidlink.plist"
 rm -rf "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
 rm -rf "/Library/Application Support/Avid/Cloud Client Services"
+rm -rf "/Library/LaunchAgents/com.avid.transport.client.plist"
 
 pkgutil --forget com.avid.installer.osx.ProToolsApplicationAppMan
 pkgutil --forget com.avid.cloudservices.pkg
