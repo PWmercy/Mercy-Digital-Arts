@@ -6,7 +6,7 @@
 ** http://172.31.48.200:5000[Synology High Availability Cluster] (IT has password if needed)
 *** Two identical Synology devices act in tandem. They are each independently connected to the network switch, but share a single IP address (Primary cluster interface).
 *** One is "Active" the other "Passive". Synchronization is continuous via a direct-connect ethernet "heartbeat" interface.
-*** If active device fails, the passive device takes over and service availabilty is restored within minutes.
+*** If active device fails, the passive device takes over and service availability is restored within minutes.
 ** Backupsfootnote:[Clarification about this statement.]
 *** Historical (with retention schedule)
 **** Uses Synology Hyper Backup
