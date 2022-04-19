@@ -31,7 +31,7 @@ include::incl/variables.adoc[]
 This page is regularly updated. Last updated *{docdate}*
 =====
 
-{cata_website}[Web Site]
+{cata_website}[Communication and the Arts on Mercy Web Site]
 
 Author: {author_email}
 
