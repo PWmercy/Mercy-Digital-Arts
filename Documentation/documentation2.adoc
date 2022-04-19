@@ -64,7 +64,7 @@ NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 * Synology Model RS3617RPxs
 ** Serial # 1931NTN238300 (REPLACED # 1760NTN261200 on 12/8/2021)
 ** 16GB
-* High Availability Cluster Failover
+* High Availability Cluster with CATA NAS 3
 * Services
 ** SMB File Services
 
@@ -72,7 +72,7 @@ NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 * Synology Model RS3617RPxs
 ** Serial # 1910NTN037900
 ** 16GB
-* High Availability Cluster
+* High Availability Cluster with CATA NAS 1
 
 . CATA NAS 2
 * IP 172.31.48.124
