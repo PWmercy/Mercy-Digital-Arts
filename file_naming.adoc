@@ -1,0 +1,21 @@
+File naming
+
+*<* (less than),
+
+&gt; (greater than),
+
+*:* (colon),
+
+*"* (double quote),
+
+/ (forward slash),
+
+\ (backslash),
+
+| (vertical bar or pipe),
+
+? (question mark),
+
+* (asterisk)
+
+8.3 Rule
