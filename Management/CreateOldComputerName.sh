@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 # In Fall 2016, worked with IT to add Macs to AD.
 #
 # Part of this process involved changing our existing machine names, e.g., "Victory-200-01"
@@ -9,7 +12,7 @@
 # kickstart parameters from http://ss64.com/osx/kickstart.html
 
 	# get current machine name, e.g., vh200mc99999mac01.local
-	sharename=`scutil --get ComputerName`
+	sharename=$(scutil --get ComputerName)
 	# grab room number from new format name
 	start="Victory-"${sharename:2:3}
 	# grab last 2 digits
@@ -17,4 +20,4 @@
 	fullname=$start$end
 	# echo $fullname
 	# ARD kickstart to set Field 2
-	/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -configure -computerinfo -set2 -2 $fullname
+	"/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -configure -computerinfo -set2 -2 $fullname"
