@@ -44,7 +44,7 @@
 	        # echo "$home"
 	        continue
 	    else
-	        echo "skip" "$username"
+	        echo "Skipping" "$username"
 	    fi
 	done
 
