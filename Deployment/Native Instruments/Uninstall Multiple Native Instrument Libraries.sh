@@ -49,6 +49,7 @@ declare -a StringArray=(
 "Reflektor"
 "Replika XT"
 "REV X-LOOPS"
+"REV"
 "Rounds"
 "Sasha"
 "Scarbee Jay-Bass"
