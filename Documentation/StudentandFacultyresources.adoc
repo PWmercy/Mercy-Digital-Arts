@@ -164,9 +164,9 @@ NOTE: Autodesk will ask for proof of your academic status.
 
 ==== Maxon One
 
-* Available https://onthehub.com/products/cfa42a1a-b4e7-ea11-812e-000d3af41938[here].
-* Currently [green]*FREE* for students and faculty (as of 9/1/2022)
 * Includes _Cinema 4D_, _Red Giant_, _Redshift_, _Universe_ and _ZBrush_
+* Six-month license currently [green]*FREE* for students and faculty (as of 9/1/2022)
+* Available https://onthehub.com/products/cfa42a1a-b4e7-ea11-812e-000d3af41938[here].
 
 NOTE: Requires creating a free account.
 
