@@ -87,7 +87,7 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 * General information on accessing files <<labs.adoc#_accessing_files,here>>.
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Ej5MB-ILIW9Om1UcEY97iT8BxSaYbzfZgeZRoUAZ5bPAXQ?e=Qcqyfu[here].
+** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EgZdAQXJkKNLlL9r0MOfGiIBiVKZb7Kj0CuvMJfOg5ck9w?e=ZlrRDl[here].
 
 TIP: Use your full Mercy email to log in.
 
@@ -162,9 +162,11 @@ IMPORTANT: [red]*DO NOT* use the link on that page that says _Not a student or e
 
 NOTE: Autodesk will ask for proof of your academic status.
 
-==== ZBrush
+==== Maxon One
 
-. Download the trial https://pixologic.com/zbrush/trial/[here]
+* Available https://onthehub.com/products/cfa42a1a-b4e7-ea11-812e-000d3af41938[here].
+* Currently [green]*FREE* for students and faculty (as of 9/1/2022)
+* Includes _Cinema 4D_, _Red Giant_, _Redshift_, _Universe_ and _ZBrush_
 
 NOTE: Requires creating a free account.
 
@@ -175,8 +177,6 @@ NOTE: Requires creating a free account.
 ==== Substance Painter/Designer
 
 * Included with Adobe Creative Cloud Student account
-
-NOTE: Requires creating an account
 
 ==== Other Software
 
@@ -197,7 +197,6 @@ include::scanning.adoc[tag=scanning]
 
 include::printing.adoc[tag=printing]
 
-
 == For Music Production+Recording Arts
 
 === Booking time in Recording Studios
@@ -212,20 +211,6 @@ include::scheduler.adoc[tag=newaccount]
 ==== Pro Tools
 
 * Student discounts available at major resellers.
-
-==== Musition (music theory)
-
-* Always access Musition through Blackboard. Consult your instructor if necessary.
-
-** If you don't have an existing account, choose 'New User' , which creates an account through your Blackboard login.
-
-** You may be given the option to use the web-based version or to launch the Windows or Mac app.
-
-*** Downloads for Mac and Windows will be offered when you log in.
-
-* You can practice on your own or complete assignments and tests for your instructor.
-
-NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 
 ==== Ableton Live Suite including Max For Live
 
@@ -260,20 +245,15 @@ NOTE: If needed, School Code is *MERCYCOLLEGE* (no space)
 *** You can use any email you like.
 * https://labs.spitfireaudio.com/#category=&search=&new=true[Spitfire Labs] free software instruments, made by musicians and sampling experts in London.
 ** Custom plug-in compatible with any DAW.
-* https://vital.audio/​[Vital]
 * https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-generator/pendulate[Pendulate]
 * https://www.pianobook.co.uk/[​Pianobook]
 * https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-discover[Spitfire BBC Discover]
 * https://www.decentsamples.com/product/decent-sampler-plugin/[Decent Sampler]
-* https://stevenslatedrums.com/ssd5/​Steven[Slate Drums Free]
 * https://www.amplesound.net/en/pro-pd.asp?id=19​[Ample Bass P II Lite]
 * https://www.amplesound.net/en/pro-pd.asp?id=7[Ample Guitar M II Lite]
 * https://valhalladsp.com/shop/reverb/valhalla-supermassive/Valhalla[Supermassive]
 * https://polyversemusic.com/products/wider/Polyverse[Wider]
-* https://hvoyaaudio.itch.io/ribs​[Hyova Audio Ribs]
 * https://www.meldaproduction.com[Melda]
-* https://www.airwindows.com/​[Airwindows]
-* https://xferrecords.com/freeware​[Xfer OTT]
 
 === Books
 

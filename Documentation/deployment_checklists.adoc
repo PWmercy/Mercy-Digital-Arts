@@ -46,7 +46,8 @@ include::incl/variables.adoc[]
 
 * [ ] Auto-enroll
 
-* [ ] Add to groups
+* Add to groups
+[%interactive]
 ** [ ] Munki
 ** [ ] Refresh Room number group
 * [ ] Run Network script - https://172.31.48.94:8090/Scripts[download]
@@ -55,9 +56,9 @@ include::incl/variables.adoc[]
 ==== Pro Tools
 [%interactive]
 * [ ] Falcon Libraries
-** [ ] Folder
+** [ ] Copy to folder `/Library/Application Support/UVISoundBanks/`
 ** [ ] Permissions on Libraries
-*** `chmod a+rx`
+*** `chmod -R a+rx`
 
 ==== Reason
 [%interactive]
