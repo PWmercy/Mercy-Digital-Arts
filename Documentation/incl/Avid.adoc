@@ -2,20 +2,22 @@
 
 Troubleshooting
 
-====
 [red]*Problem*::
-ShoeTool error
 
-#_An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly._#
+ShoeTool error +
+`#_An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly._#`
 
-
-[green]*Solution*::
+.[green]*Solution*
+[%collapsible]
+====
 See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[Avid Support page]
 ====
-====
+
 [red]*Problem*:: Can't get Pro Tools license in lab
 
-[green]*Solution*::
+.[green]*Solution*
+[%collapsible]
+====
 . Open ilok License Manager
 
 . Choose File...Preferences
