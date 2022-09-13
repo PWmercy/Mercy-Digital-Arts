@@ -7,4 +7,4 @@
 
 Last updated {docdate}
 
-image:media/2022SP-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
+image:media/2022FA-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
