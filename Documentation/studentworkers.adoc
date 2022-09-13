@@ -2,8 +2,8 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: February 3, 2022
-:revnumber: 202202.1
+:revdate: September 13, 2022
+:revnumber: 202209.1
 
 Last updated {docdate}
 
