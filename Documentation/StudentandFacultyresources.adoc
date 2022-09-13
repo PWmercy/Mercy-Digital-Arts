@@ -295,9 +295,9 @@ include::scheduler.adoc[tag=newaccount]
 
 === Complimentary Magazine Subscriptions
 
-https://www.b2bmediaportal.com/dynamicregister/register.aspx?fid=MIXF[Mix]
+* https://www.b2bmediaportal.com/dynamicregister/register.aspx?fid=MIXF[Mix]
 
-https://foh.magserv.com/cgi-bin/subscribe?qt=new&Keyed_effort=W2022[Front Of House Magazine]
+* https://foh.magserv.com/cgi-bin/subscribe?qt=new&Keyed_effort=W2022[Front Of House Magazine]
 
 === Audio Engineering Society Resources
 
