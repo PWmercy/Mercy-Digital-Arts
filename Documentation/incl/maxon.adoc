@@ -1,0 +1,11 @@
+==== Maxon (Cinema4D) errors
+
+[red]*Problem*::
+
+Can't get license for Cinema4d
+
+.[green]*Click for Solution*
+[%collapsible]
+====
+See this https://support.maxon.net/hc/en-us/articles/1500006335021-How-do-I-release-the-license-on-one-machine-so-I-can-use-it-on-the-other-[Maxon Support page]
+====

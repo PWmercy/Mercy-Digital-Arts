@@ -78,9 +78,13 @@ TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 
 include::incl/avid.adoc[]
 
+include::incl/maxon.adoc[]
+
 === Using classrooms/labs
 
 IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
+
+
 
 === Files on campus server
 
