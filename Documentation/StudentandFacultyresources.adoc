@@ -158,13 +158,14 @@ NOTE: Use your _mercy.edu_ email and password to log in to Adobe Creative Cloud.
 ==== Autodesk Maya
 
 * [green]*FREE* for students. https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1[Details here.]
-** https://www.youtube.com/embed/UCMM8kE7QQ4[Video on education eligibility]
 
 IMPORTANT: [red]*DO NOT* use the link on that page that says _Not a student or educator? Get the free trial_
 
 ** Create an account if you don't already have one and login to download.
 
-NOTE: Autodesk will ask for proof of your academic status.
+NOTE: Autodesk will ask for proof of your academic status. +
+https://www.youtube.com/embed/UCMM8kE7QQ4[Click for video on eligibility]
+
 
 ==== Maxon One
 
