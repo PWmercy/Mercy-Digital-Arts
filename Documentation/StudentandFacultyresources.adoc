@@ -59,8 +59,6 @@ NOTE: Although listed as a Music Production class, this Zoom room is for _both_ 
 
 ** Or connect {pwhite-blackboard}[here].
 
-** Passcode: {pwhite-zoom-room-passcode}
-
 ==== Music Lab help
 * There is always someone available to help during lab hours
 ** <<studentworkers.adoc#,Student Worker schedule>>

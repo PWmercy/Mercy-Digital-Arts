@@ -3,7 +3,6 @@
 :cata_website: https://www.mercy.edu/academics/school-liberal-arts/department-communication-arts
 :pwhite-blackboard: https://mercy.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=_67680_1&cmp_tab_id=_118416_1&mode=view#
 :pwhite-zoom-room: https://mercy.zoom.us/j/99779795744?pwd=WEViT1VEczMxVUUyVGladGF5Vmhkdz09
-:pwhite-zoom-room-passcode: 440801
 :booked_site: https://scheduler.labarchives.com
 :resources_page: https://pwmercy.github.io/resources/
 :style_switcher: <script src="https://darshandsoni.com/asciidoctor-skins/switcher.js" type="text/javascript"></script>
