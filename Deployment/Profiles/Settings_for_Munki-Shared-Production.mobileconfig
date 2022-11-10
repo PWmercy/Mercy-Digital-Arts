@@ -19,7 +19,7 @@
 								<key>ClientIdentifier</key>
 								<string>munki_shared_production_client</string>
 								<key>InstallAppleSoftwareUpdates</key>
-								<true/>
+								<false/>
 								<key>InstallRequiresLogout</key>
 								<true/>
 								<key>LogFile</key>

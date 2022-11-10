@@ -19,7 +19,7 @@
 								<key>ClientIdentifier</key>
 								<string>munki_mtec_test_client_204</string>
 								<key>InstallAppleSoftwareUpdates</key>
-								<true/>
+								<false/>
 								<key>InstallRequiresLogout</key>
 								<true/>
 								<key>LogFile</key>

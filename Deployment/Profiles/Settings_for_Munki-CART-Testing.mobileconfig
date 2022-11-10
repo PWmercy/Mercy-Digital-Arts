@@ -19,7 +19,7 @@
 								<key>ClientIdentifier</key>
 								<string>munki_cart_test_client</string>
 								<key>InstallAppleSoftwareUpdates</key>
-								<true/>
+								<false/>
 								<key>InstallRequiresLogout</key>
 								<true/>
 								<key>LogFile</key>
