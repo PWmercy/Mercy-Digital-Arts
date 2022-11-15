@@ -199,6 +199,13 @@ include::deployment_checklists.adoc[tag=checklists]
 
 ** https://github.com/scriptingosx/diskspace[diskspace]
 
+=== Signing packages
+:leveloffset: +3
+
+include::sections/signing_pkg.adoc[]
+
+:leveloffset: -3
+
 === Apple updates
 
 * Reposado/Margarita
