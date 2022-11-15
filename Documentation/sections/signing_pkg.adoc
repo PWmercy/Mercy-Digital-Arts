@@ -14,18 +14,18 @@ For this example, we will use the `productsign` command.
 
 . Open Keychain Access within macOS and locate the certificate. If using an Apple certificate, the name of the certificate should start with “Developer ID Installer:”, followed by your Apple Developer account name, and ending with some serial number in parenthesis – take note of this information.
 
-. Open Terminal. The command to sign the package should look similar to this:
-
-`productsign --sign "Developer ID Installer: Your Developer Name (1A2B3C4D5E)" ~/Desktop/example.pkg ~/Desktop/signed-example.pkg`
-
+. Open Terminal. The command to sign the package should look similar to this: +
++
+`productsign --sign "Developer ID Installer: Your Developer Name (1A2B3C4D5E)" ~/Desktop/example.pkg ~/Desktop/signed-example.pkg` +
++
 The value in quotes following the “–sign” tag should be the Common Name of your certificate. The first argument (‘~/Desktop/example.pkg’) is the current location on your computer of the unsigned package. The second argument (‘~/Desktop/signed-example.pkg’) is the destination that you want to save your signed package.
 
-Run the command. If it is successful, you should see something similar to the following printed out in Terminal:
------
-productsign: using timestamp authority for signature
+. Run the command. If it is successful, you should see something similar to the following printed out in Terminal: +
++
+`productsign: using timestamp authority for signature
 productsign: signing product with identity "Developer ID Installer: Your Developer Name (1A2B3C4D5E)" from keychain /Users/sdeveloper/Library/Keychains/login.keychain-db
 productsign: adding certificate "Developer ID Certification Authority"
 productsign: adding certificate "Apple Root CA"
-productsign: Wrote signed product archive to /Users/sdeveloper/Downloads/munkitools_signed-3.2.0.3476.pkg
------
-Verify that the signed package is located at the destination you specified.
+productsign: Wrote signed product archive to /Users/sdeveloper/Downloads/munkitools_signed-3.2.0.3476.pkg`
+
+. Verify that the signed package is located at the destination you specified.
