@@ -10,3 +10,21 @@
 
 ==== Outside Victory Hall 208 (in hallway)
 
+---
+
+Name:	Vic-208-Hall +
+Description:	Victory Hall outside 208 +
+Model:	HD222 +
+Unique ID:	77D65H000225
+
+---
+
+==== Outside Victory Hall 210 (Drawing studio)
+---
+
+Name: +
+Description:	Victory Hall outside 210 +
+Model: +
+Unique ID:	
+
+---

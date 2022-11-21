@@ -12,10 +12,12 @@ if [[ $cpu_type =~ ""Intel"" ]]; then
 
      ./osx-x86_64 --mode unattended
 
-elif [[ $cpu_type =~ ""Apple"" ]]; then
+  elif [[ $cpu_type =~ ""Apple"" ]]; then
 
 	./osx-arm64 --mode unattended
 
-fi
+  fi
+  
 
 fi
+
