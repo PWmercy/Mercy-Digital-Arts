@@ -1,6 +1,6 @@
-File naming
+=== File naming
 
-*<* (less than),
+&lt; (less than),
 
 &gt; (greater than),
 
@@ -16,6 +16,7 @@ File naming
 
 ? (question mark),
 
-* (asterisk)
+*pass:[*]* (asterisk)
+
 
 8.3 Rule

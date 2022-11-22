@@ -83,7 +83,6 @@ include::incl/maxon.adoc[]
 IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
 
-
 === Files on campus server
 
 * General information on accessing files <<labs.adoc#_accessing_files,here>>.

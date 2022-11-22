@@ -52,7 +52,7 @@
 PRODUCT_KEY="657I1"
 SUITE_KEY="657I1"
 SERIAL="123-12345678"
-LICENSE_TYPE="kNetwork"  # Options: kNetwork or kStandalone
+LICENSE_TYPE="kNetwork" # Options: kNetwork or kStandalone
 LICENSE_SERVER="license.server.domain.com"
 
 MAYA_SETUP_LOC="/path/to/Install Maya 2017.app/Contents/MacOS/"
@@ -77,7 +77,7 @@ if [ "${LICENSE_TYPE}" == "kStandalone" ]; then
   mkdir "${MAYA_SUPPORT_PATH}/"
   touch "${MAYA_SUPPORT_PATH}/LGS.data"
   chmod 755 "${MAYA_SUPPORT_PATH}/LGS.data"
-  echo "_STANDALONE">>"${MAYA_SUPPORT_PATH}/LGS.data"
+  echo "_STANDALONE" >>"${MAYA_SUPPORT_PATH}/LGS.data"
 else
   # Trigger installation
   ./setup --noui --force --serial_number=${SERIAL} --product_key=${PRODUCT_KEY} --license_type=${LICENSE_TYPE} --server_name=${LICENSE_SERVER}
@@ -89,8 +89,8 @@ else
   mkdir "${MAYA_SUPPORT_PATH}"
   touch "${MAYA_SUPPORT_PATH}/LGS.data"
   chmod 755 "${MAYA_SUPPORT_PATH}/LGS.data"
-  echo "_NETWORK" >> "${MAYA_SUPPORT_PATH}/LGS.data"
+  echo "_NETWORK" >>"${MAYA_SUPPORT_PATH}/LGS.data"
 
-  echo "SERVER ${LICENSE_SERVER} 0" >> "${MAYA_SUPPORT_PATH}/LICPATH.lic"
-  echo "USE_SERVER" >> "${MAYA_SUPPORT_PATH}/LICPATH.lic"
+  echo "SERVER ${LICENSE_SERVER} 0" >>"${MAYA_SUPPORT_PATH}/LICPATH.lic"
+  echo "USE_SERVER" >>"${MAYA_SUPPORT_PATH}/LICPATH.lic"
 fi

@@ -1,6 +1,6 @@
-### Installing Mac Agent
+## Installing Mac Agent
 
-#### Manual Install
+### Manual Install
 
 Mac agents can be installed manually in the computers that need to be managed.
 
@@ -15,7 +15,7 @@ To install the agent, follow these steps:
 
 Once the agent is installed successfully, the Mac computer will be listed in the SoM page in the Desktop Central web console.
 
-#### Installing Mac Agent Using SSH
+### Installing Mac Agent Using SSH
 
 Installing Mac agents in computers can be done easily through SSH. Using a Mac computer you can remotely connect to other computers and install the Mac agents.
 
@@ -37,7 +37,7 @@ where `adminusername` = administrator user name of the remote computer and `host
 
 Once the agent is installed successfully, the Mac computer will be listed in the SoM page in the Desktop Central web console.
 
-### Uninstalling
+## Uninstalling
 
 To uninstall the agent from the managed computer, follow the steps mentioned below:
 

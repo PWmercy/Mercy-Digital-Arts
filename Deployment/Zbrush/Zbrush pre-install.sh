@@ -1,4 +1,6 @@
 #!/bin/sh
+# IMPORTANT: Before using this script, check to see if the Uninstaller contains arm and Intel versions.
+
 
 if  [[ -e "/Applications/ZBrush 2022 FL/Uninstall/Uninstall ZBrush 2022.app" ]]; then
 

@@ -36,12 +36,15 @@ This page is regularly updated. Last updated *{docdate}*
 Author: {author_email}
 
 == Overview
+
 include::sections/overview.adoc[]
 
 == Recent Changes
 :leveloffset: -1
 
 include::sections/recent_changes.adoc[]
+
+:leveloffset: +1
 
 === Student/Faculty Resource Page
 
@@ -50,7 +53,6 @@ include::sections/recent_changes.adoc[]
 ** Implemented using https://pages.github.com[GitHub Pages]
 ** Accessible on the web https://pwmercy.github.io/resources/[here]
 
-:leveloffset: +1
 
 == Hardware
 
@@ -124,11 +126,20 @@ include::sections/recordingstudios.adoc[tag=recstudiocomputers]
 * 3D Printer
 ** MakerBot Replicator+
 
+:leveloffset: +1
+
+include::sections/brightsign.adoc[]
+
+:leveloffset: -1
+
 == Software
 === Renewal calendar
 
 === License servers
-** http://172.31.48.93:22352[Reason]
+** http://172.31.48.93:22352[Reason] (deprecated)
+
+IMPORTANT: As of Reason 12, multi-license not possible. Machines are individually authorized. 
+
 ** http://172.31.48.93:5054/home.asp[ZBrush]
 ** Keyshot
 ** http://172.31.48.94:30304/#/[VRay]
@@ -199,6 +210,8 @@ include::deployment_checklists.adoc[tag=checklists]
 
 ** https://github.com/scriptingosx/diskspace[diskspace]
 
+
+
 === Signing packages
 :leveloffset: +3
 
@@ -235,6 +248,12 @@ Auto downloads Apple Sound Library to local machine or server.
 ** http://172.31.48.93:8081/maps[KeyServer]
 *** Heat maps
 
+=== Desktop Central
+
+:leveloffset: +2
+include::sections/Desktop_Central_agent.adoc[]
+
+:leveloffset: -1
 
 == Many servers/many services
 ** Synology

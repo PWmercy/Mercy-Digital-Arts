@@ -2,8 +2,8 @@
 :author_email: pwhite@mercy.edu
 :revdate: August 15, 2020
 
-_This document began as notes for a presentation given on Feb 19, 2020_
+_This document began as notes for a presentation given to CATA faculty on Feb 19, 2020_.
 
 This will be expanded, updated and changed over time. Keep checking back. Suggestions welcome.
 
-IMPORTANT: Some links in this document are private and only available when on Dobbs Ferry campus.
+IMPORTANT: Some links in this document are private and only available on Dobbs Ferry wired network.
