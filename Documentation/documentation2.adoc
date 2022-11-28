@@ -136,9 +136,13 @@ include::sections/brightsign.adoc[]
 === Renewal calendar
 
 === License servers
-** http://172.31.48.93:22352[Reason] (deprecated)
+** http://172.31.48.93:22352[Reason] (license server deprecated, see below)
 
-IMPORTANT: As of Reason 12, multi-license not possible. Machines are individually authorized. 
+*** As of Reason 12, network multi-license not possible. Machines are individually authorized.
+
+*** Login to ReasonStudios online account
+
+IMPORTANT: Local authorization still requires that CodeMeter be installed.
 
 ** http://172.31.48.93:5054/home.asp[ZBrush]
 ** Keyshot
