@@ -136,13 +136,8 @@ include::sections/brightsign.adoc[]
 === Renewal calendar
 
 === License servers
-** http://172.31.48.93:22352[Reason] (license server deprecated, see below)
 
-*** As of Reason 12, network multi-license not possible. Machines are individually authorized.
-
-*** Login to ReasonStudios online account
-
-IMPORTANT: Local authorization still requires that CodeMeter be installed.
+** http://172.31.48.93:22352[Reason] (license server deprecated, see <<_software_reason, Reason>>)
 
 ** http://172.31.48.93:5054/home.asp[ZBrush]
 ** Keyshot
@@ -183,7 +178,14 @@ IMPORTANT: Local authorization still requires that CodeMeter be installed.
 
 ==== For Music Production+Recording Arts
 ** Pro Tools
+[#_software_reason]
 ** Reason
+*** As of Reason 12, network multi-license not available. Machines are individually authorized.
+
+*** Login to ReasonStudios online account
+
+IMPORTANT: Local authorization still requires that CodeMeter be installed.
+
 ***   Multi-license
 ****  Codemeter
 *** Additional Content
