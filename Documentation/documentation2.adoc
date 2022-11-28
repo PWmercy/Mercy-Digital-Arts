@@ -177,7 +177,9 @@ include::sections/brightsign.adoc[]
 ---
 
 ==== For Music Production+Recording Arts
+
 ** Pro Tools
+
 [#_software_reason]
 ** Reason
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
