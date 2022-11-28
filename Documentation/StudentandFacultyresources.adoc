@@ -2,7 +2,7 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-// :revdate: September 7, 2021
+:revdate: September 7, 2021
 :revnumber: 2.0
 
 :toc: left

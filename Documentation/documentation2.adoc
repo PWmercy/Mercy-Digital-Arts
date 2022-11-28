@@ -137,7 +137,7 @@ include::sections/brightsign.adoc[]
 
 === License servers
 
-** http://172.31.48.93:22352[Reason] (license server deprecated, see <<_software_reason, Reason>>)
+** http://172.31.48.93:22352[Reason] (license server deprecated, see <<_software_reason, Reason>> under Software)
 
 ** http://172.31.48.93:5054/home.asp[ZBrush]
 ** Keyshot
