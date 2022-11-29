@@ -153,9 +153,14 @@ include::sections/brightsign.adoc[]
 
 ==== For Design+Animation
 ** Adobe Creative Cloud
+
+*** Licenses and install packages managed on Adobe admin console (currently administered by pwhite&#064;mercy.edu)
+
+**** mercy.edu IDs are federated with Adobe (see https://helpx.adobe.com/enterprise/using/identity.html[Identity Overview]).
+
 *** Updates
 
-**** User can update from Creative Cloud App
+**** User can update from Creative Cloud App (this is an Adobe pkg setting)
 
 **** Admin can update remotely using https://helpx.adobe.com/enterprise/using/using-remote-update-manager.html[Remote Update Manager]
 
