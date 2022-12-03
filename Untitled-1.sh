@@ -1,6 +1,6 @@
 #!/bin/bash
 
-add_two_num(){
+add_three_num(){
     local sum=$(($1+$2+$3))
     echo sum of $1 and $2 and $3 is $sum
 }
