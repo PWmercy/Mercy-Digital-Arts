@@ -189,12 +189,12 @@ include::sections/brightsign.adoc[]
 ** Reason
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
-*** Login to ReasonStudios online account
+*** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
 
 IMPORTANT: Local authorization still requires that https://www.wibu.com/us/support/user/downloads-user-software.html[[green]*CodeMeter*] be installed.
 
-***   Multi-license
-****  Codemeter
+***   [line-through]#Multi-license#
+****  [line-through]#Codemeter#
 *** Additional Content
 **** Script for relocating content
 ** Logic Pro
