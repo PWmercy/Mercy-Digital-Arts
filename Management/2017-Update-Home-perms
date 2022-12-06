@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 20170911
-# With all students using AD to log in to lab Macs, must change permissions and rename existing OD Home folders and
-# create folders for new, AD-only accounts
+# With all students using AD to log in to lab Macs, must change permissions and rename existing OD Home folders
+# and create folders for new, AD-only accounts
 
 # CD to Digiarts-Home-folders
 cd '/Users/admin/Desktop/TestPermsFix'
