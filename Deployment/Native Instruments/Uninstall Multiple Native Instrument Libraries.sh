@@ -10,12 +10,6 @@
 # echo "What is the name of the product?"
 
 declare -a StringArray=(
-   "Abbey Road 50s Drummer"
-   "Abbey Road 60s Drummer"
-   "Abbey Road 70s Drummer"
-   "Abbey Road 80s Drummer"
-   "Abbey Road Modern Drummer"
-   "Abbey Road Vintage Drummer"
    "Action Strings"
    "Arkhis"
    "Blocks Base"
@@ -63,8 +57,6 @@ declare -a StringArray=(
    "Session Guitarist - Strummed Acoustic"
    "Session Strings Pro"
    "Session Strings 2"
-   "Session Strings Pro 2"
-   "Session Horns Pro"
    "Signal"
    "Stradivari Cello"
    "Stradivari Violin"
