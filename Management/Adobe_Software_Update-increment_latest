@@ -1,5 +1,10 @@
+#!/bin/bash
+
 # Command to download latest updates to Adobe Update Server repository (incremental)
 # Parameters shown are specific to Digital Arts server setup
+# To be run on machine with Adobe Software server
+
+# 202212 NOTE: Not used for a while. Update server not currently set up.
 
 #### Updated 4/2018 ######
 sudo  /Library/Application\ Support/Adobe/OOBE/PDApp/CCP/utilities/AUSST/AdobeUpdateServerSetupTool --root=/Volumes/ServerHD/adobeupdates_repo
