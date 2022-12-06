@@ -191,7 +191,7 @@ include::sections/brightsign.adoc[]
 
 *** Login to ReasonStudios online account
 
-IMPORTANT: Local authorization still requires that CodeMeter be installed.
+IMPORTANT: Local authorization still requires that https://www.wibu.com/us/support/user/downloads-user-software.html[[green]*CodeMeter*] be installed.
 
 ***   Multi-license
 ****  Codemeter
