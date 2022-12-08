@@ -8,7 +8,7 @@
 ##### Which product? #####
 
 echo "What is the name of the product?"
-read prodname
+read -r prodname
 
 ##### Application Files #####
 
