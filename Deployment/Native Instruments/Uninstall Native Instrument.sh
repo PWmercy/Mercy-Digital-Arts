@@ -38,8 +38,7 @@ rm -R "/Library/Application Support/Native Instruments/Service Center/$prodname.
 # "/Users/*Your User Name*/Library/Application Support/Native Instruments/$prodname
 # # (folder)
 
-# Note: the User Library folder is hidden. To access it, click on Go in the menu bar and press down the Alt key. You'll now find the Library entry in the menu:
-# User_Library3_2.gif
+# Note: the User Library folder is hidden. To access it, click on Go in the menu bar and press down the Alt/Option key. You'll now find the Library entry in the menu:
 
 # It is necessary to restart your computer after deleting the above-mentioned files to make the changes permanent.
 
