@@ -21,7 +21,7 @@ Description:	Victory Hall outside 208 +
 Model:	HD222 +
 Unique ID:	77D65H000225
 
-http://172.31.90.15/index.html[Web link]
+http://172.31.90.15/index.html[Web link to device]
 
 ==== Victory Hall 210 (Drawing studio)
 
