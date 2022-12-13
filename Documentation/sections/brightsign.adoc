@@ -6,9 +6,9 @@
 
 :!toc:
 
-== BrightSign Digital Signage Media Players
+== BrightSign Digital Signage
 
-=== PresentationFiles Location
+=== Presentation Files Location
 
 `catanasha.digiarts.mercy/Tech-Support/Brightsign`
 
@@ -16,15 +16,12 @@
 
 ==== Outside Victory Hall 208 (in hallway)
 
-
 Name:	Vic-208-Hall +
 Description:	Victory Hall outside 208 +
 Model:	HD222 +
 Unique ID:	77D65H000225
 
 http://172.31.90.15/index.html[Web link]
-
-
 
 ==== Victory Hall 210 (Drawing studio)
 
