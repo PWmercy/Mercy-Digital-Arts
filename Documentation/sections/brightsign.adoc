@@ -2,30 +2,41 @@
 :author_email: pwhite@mercy.edu
 :revdate: November 21, 2022
 
-== Brightsign Display Devices
+:icons: font
 
-=== File Location
+:!toc:
+
+== BrightSign Digital Signage Media Players
+
+=== PresentationFiles Location
+
+`catanasha.digiarts.mercy/Tech-Support/Brightsign`
 
 === Devices
 
 ==== Outside Victory Hall 208 (in hallway)
 
----
 
 Name:	Vic-208-Hall +
 Description:	Victory Hall outside 208 +
 Model:	HD222 +
 Unique ID:	77D65H000225
 
----
+http://172.31.90.15/index.html[Web link]
 
-==== Outside Victory Hall 210 (Drawing studio)
 
----
+
+==== Victory Hall 210 (Drawing studio)
 
 Name: +
-Description:	Victory Hall outside 210 +
+Description:	Victory Hall 210+
 Model: +
-Unique ID:	
+Unique ID:
+
+As of 12/13/2022, this device is not connected to the wired network and is not reachable.
+
+Use its microSD card to update presentation.
 
 ---
+
+
