@@ -32,7 +32,7 @@ Unique ID:
 
 As of 12/13/2022, this device is not connected to the wired network and is not reachable.
 
-Use its microSD card to update presentation.
+Use BrightAuthor to update presentation on its microSD card.
 
 ---
 
