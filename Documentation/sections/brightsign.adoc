@@ -26,7 +26,7 @@ http://172.31.90.15/index.html[Web link to device]
 ==== Victory Hall 210 (Drawing studio)
 
 Name: +
-Description:	Victory Hall 210+
+Description:	Victory Hall 210 +
 Model: +
 Unique ID:
 
