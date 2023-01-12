@@ -88,7 +88,7 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 * General information on accessing files <<labs.adoc#_accessing_files,here>>.
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EgZdAQXJkKNLlL9r0MOfGiIBiVKZb7Kj0CuvMJfOg5ck9w?e=ZlrRDl[here].
+** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Eo_oTuLoaWBEvzL7pkuz8RoBXYfD2cg5sugwZJujkXSs8A?e=qQpDKI[here].
 
 TIP: Use your full Mercy email to log in.
 
