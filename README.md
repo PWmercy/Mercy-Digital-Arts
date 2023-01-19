@@ -1,7 +1,7 @@
 # Mercy-Digital-Arts  
 Digital Arts Labs Support  
 
-This repository contains various scripts and documents which support the management of computer labs for Mercy College's *Design+Animation* and *Music Production+Recording Arts* departments.
+This repository contains various scripts and documents which support the management of computer labs for Mercy College's *Design+Animation* and *Music Production+Recording Arts* programs.
 
 pwhite@mercy.edu
 
