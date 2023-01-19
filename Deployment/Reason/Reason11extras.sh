@@ -22,10 +22,11 @@ then
     fi
     # Then create symbolic link in local Music folder (to central Library folder)
     ln -s  "/Library/Application Support/Propellerhead Software/Propellerhead Content" "/Users/$USER/Music/Propellerhead Content"
-    # chown root:admin for /Library/Application Support folder
+    # chown root:admin for /Library/Application Support folder:
     # chown -R root:admin "/Library/Application Support/Propellerhead Software/Propellerhead Content"
     # chmod -R go+rx "/Library/Application Support/Propellerhead Software/Propellerhead Content"
 
 else echo "Content not found in main library."
 
 fi
+
