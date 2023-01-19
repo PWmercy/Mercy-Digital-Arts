@@ -1,43 +1,57 @@
 #!/bin/sh
-## postinstall
-
-# EDITS 202202 by pwhite@mercy.edu
-# Some items were renamed and fall under Avid Link
-# Purpose: 1) Avoid requirement for admin password when helper tool installs.
-#          2) Remove avid link and avid cloud
-
-# Based on script for Pro Tools 12 found on Slack #musicsupport
-
-# Uninstall Avid Application Manager
 
 # Bye bye Avid Application Manager
-rm -rf "/Applications/Avid/Application Manager/AvidApplicationManager.app"
-launchctl unload -F "/Library/LaunchAgents/com.avidlink.plist"
-launchctl unload -F "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
-launchctl unload -F "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
+#launchctl unload -F "/Library/LaunchAgents/#com.avid.ApplicationManager.plist"
+#killall AvidApplicationManager
+#killall AvidAppManHelper
+#rm -rf "/Applications/Avid/Application Manager"
+#rm -rf "/Library/Application Support/Avid/AppManager"
+#rm -rf "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
+#pkgutil --forget com.avid.AppManagerHelpercomponent.pkg
+#pkgutil --forget com.avid.AppManagercomponent.pkg
 
+# Bye bye Application Manager Uninstaller
+#rm -rf "/Applications/Avid_Uninstallers/Application Manager"
+#pkgutil --forget com.avid.ApplicationManager.Uninstaller.pkg
+
+# Bye bye Avid ALink
+launchctl unload -F "/Library/LaunchAgents/com.avid.avidlink.plist"
 killall AvidLink
-rm -rf "/Applications/Avid/Avid Link"
+#killall AvidAppManHelper
 rm -rf "/Applications/Avid/Application Manager"
-rm -rf "/Library/Application Support/Avid/AvidLink"
-rm -rf "/Library/LaunchAgents/com.avid.ApplicationManager.plist"
+rm -rf "/Applications/Avid/Avid Link"
+rm -rf "/Library/Application Support/Avid/Avid Link"
 rm -rf "/Library/LaunchAgents/com.avid.avidlink.plist"
-rm -rf "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
-rm -rf "/Library/Application Support/Avid/Cloud Client Services"
-rm -rf "/Library/LaunchAgents/com.avid.transport.client.plist"
-
-pkgutil --forget com.avid.installer.osx.ProToolsApplicationAppMan
-pkgutil --forget com.avid.cloudservices.pkg
 pkgutil --forget com.avid.AvidLink.component.pkg
+pkgutil --forget com.avid.tmp.AppMan.pkg
 
-	# Bye bye Application Manager Uninstaller
-	rm -rf "/Applications/Avid_Uninstallers/Avid Link/Avid Link Uninstaller.app"
-	rm -rf "/Applications/Avid_Uninstallers/Cloud Client Services Uninstaller.app"
-	rm -rf "/Applications/Avid_Uninstallers"
-	pkgutil --forget com.avid.AvidLink.uninstaller.pkg
-	pkgutil --forget com.avid.CloudClientServicesUninstaller
+# Bye bye Application Link Uninstaller
+rm -rf "/Applications/Avid_Uninstallers/Avid Link"
+pkgutil --forget com.avid.AvidLink.uninstaller.pkg
 
-#!/bin/bash
+# Bye bye Avid Cloud MachServices
+/Applications/Avid_Uninstallers//Cloud\ Client\ Services\ Uninstaller.app/Contents/Resources/./preuninstall
+rm -rf "/Applications/Avid_Uninstallers"
+rm -rf "/Library/LaunchAgents/com.avid.CloudClientServices.plist"
+rm -rf "/Library/LaunchAgents/com.avid.transport.client.plist"
+pkgutil --forget com.avid.cloudservices.pkg
+pkgutil --forget com.avid.CloudClientServicesUninstaller
+
+# Bye Bye Facebook 360 Plugins
+rm -rf "/Applications/FB360 Spatial Workstation"
+rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/FB360-Control-ambiX.aaxplugin"
+rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/FB360-Converter-ambiX.aaxplugin"
+rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/FB360-Mix-Loudness-ambiX.aaxplugin"
+rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/FB360-Spatialiser-ambiX.aaxplugin"
+rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/FB360-Stereo-Loudness-ambiX.aaxplugin"
+rm -rf "/tmp/UIAssets"
+rm -rf "/usr/local/lib/libFB360-PluginShell-ambiX.dylib"
+pkgutil --forget com.fb.audio360.aax
+pkgutil --forget com.fb.audio360.pttemplate
+pkgutil --forget com.fb.audio360.shell
+pkgutil --forget com.fb.audio360.doc
+pkgutil --forget com.fb.audio360.UI
+pkgutil --forget com.fb.audio360.uninstaller
 
 # Set content paths for AIR Instruments
 
@@ -48,10 +62,8 @@ pkgutil --forget com.avid.AvidLink.component.pkg
 /bin/chmod 644 /Library/Preferences/com.airmusictech.Mini\ Grand.plist
 /bin/chmod 644 /Library/Preferences/com.airmusictech.Xpand\!2.plist
 
-######
-## This part installs a privileged helper that would otherwise ask for
-## admin privileges when Pro Tools is launched for the first time.
-######
+# This part installs a privileged helper that would otherwise ask for admin privileges when Pro Tools is launched for the first time.
+# It checks that Pro Tools has already been installed and will not run if it hasn't.
 
 # Copy the com.avid.bsd.ShoeTool Helper Tool
 PHT_SHOETOOL="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
@@ -60,7 +72,7 @@ PHT_SHOETOOL="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
 /usr/sbin/chown root:wheel $PHT_SHOETOOL
 /bin/chmod 544 $PHT_SHOETOOL
 
-# Create the Launch Daemon Plist for com.avid.bsd.ShoeTool
+# Create the Launch Deamon Plist for com.avid.bsd.ShoeTool
 PLIST="/Library/LaunchDaemons/com.avid.bsd.shoetoolv120.plist"
 FULL_PATH="/Library/PrivilegedHelperTools/com.avid.bsd.shoetoolv120"
 
@@ -85,8 +97,8 @@ mkdir -p "/Library/Application Support/Avid/Audio/Plug-Ins (Unused)"
 chmod a+w "/Library/Application Support/Avid/Audio/Plug-Ins"
 chmod a+w "/Library/Application Support/Avid/Audio/Plug-Ins (Unused)"
 
-mkdir "/Users/Shared/Pro Tools"
-mkdir "/Users/Shared/AvidVideoEngine"
+mkdir /Users/Shared/Pro\ Tools
+mkdir /Users/Shared/AvidVideoEngine
 
 chown -R root:wheel /Users/Shared/Pro\ Tools
 chmod -R a+rw /Users/Shared/Pro\ Tools

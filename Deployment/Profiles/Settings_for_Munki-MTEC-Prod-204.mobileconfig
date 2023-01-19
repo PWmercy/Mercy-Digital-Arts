@@ -31,7 +31,7 @@
 								<key>PackageVerificationMode</key>
 								<string>hash</string>
 								<key>SoftwareRepoURL</key>
-								<string>http://munki5.digiarts.mercy/munki_repo</string>
+								<string>http://munki.digiarts.mercy/</string>
 								<key>SuppressAutoInstall</key>
 								<false/>
 								<key>SuppressStopButtonOnInstall</key>
