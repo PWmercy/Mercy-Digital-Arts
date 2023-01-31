@@ -25,6 +25,7 @@ rm -rf "/Library/LaunchAgents/com.avid.avidlink.plist"
 pkgutil --forget com.avid.AvidLink.component.pkg
 pkgutil --forget com.avid.tmp.AppMan.pkg
 
+
 # Bye bye Application Link Uninstaller
 rm -rf "/Applications/Avid_Uninstallers/Avid Link"
 pkgutil --forget com.avid.AvidLink.uninstaller.pkg
