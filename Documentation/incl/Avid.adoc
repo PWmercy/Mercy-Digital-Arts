@@ -16,7 +16,10 @@ See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-err
 .[green]*Click for Solution*
 [%collapsible]
 ====
-. Open ilok License Manager
+
+**Video instructions https://munki6.digiarts.mercy:8090/Video_Help/Connect_to_Pro_Tools_license_1.mp4[here]**
+
+. Open ilok License Manager - you do _not_ need to Sign In
 
 . Choose File...Preferences
 
@@ -27,4 +30,5 @@ See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-err
 . Click gear button below the server to the right of the minus sign
 
 .. Choose **Connect**
+
 ====
