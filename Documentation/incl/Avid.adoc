@@ -19,7 +19,9 @@ See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-err
 
 **Video instructions https://munki6.digiarts.mercy:8090/Video_Help/Connect_to_Pro_Tools_license_1.mp4[here]**
 
-. Open ilok License Manager - you do _not_ need to Sign In
+. Open ilok License Manager - you do _not_ need to Sign In - it can be found at +
++
+`/Applications/iLok License Manager`
 
 . Choose File...Preferences
 
