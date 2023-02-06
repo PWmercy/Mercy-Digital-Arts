@@ -283,7 +283,14 @@ include::sections/Desktop_Central_agent.adoc[]
 ** http://172.31.48.124:5000[Docker]
 
 
-== Admin Resources
+= Admin Resources
+
+* Apple
+** https://school.apple.com[Apple School Manager]
+** https://appleseed.apple.com/sp/welcome[Apple Software Customer Seed]
+
+NOTE: Both use asm@mercy.edu account
+
 * MacAdmins
 ** https://macadmins.slack.com/[Slack channel]
 ** https://www.youtube.com/user/psumacconf[YouTube MacAdmins Conference channel]
