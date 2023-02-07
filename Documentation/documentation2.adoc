@@ -147,7 +147,7 @@ include::sections/brightsign.adoc[]
 
 === Standard Software
 ==== For All
-** Microsoft Suite
+** Microsoft Suite (also see <<#_deploy_mau, Microsoft Autoupdate>>)
 ** Standard apps from Apple App Store
 ** VLC
 
@@ -223,7 +223,10 @@ include::deployment_checklists.adoc[tag=checklists]
 
 ** https://github.com/scriptingosx/diskspace[diskspace]
 
-
+** Microsoft
+[#_deploy_mau]
+*** https://www.kevinmcox.com/2021/10/microsoft-now-provides-curated-deferral-channels-for-autoupdate/[Microsoft Autoupdate profile settings]
+**** Custom deferrals, etc.
 
 === Signing packages
 :leveloffset: +3
@@ -234,7 +237,7 @@ include::sections/signing_pkg.adoc[]
 
 === Apple updates
 
-* Reposado/Margarita
+* [line-through]#Reposado/Margarita#
 
 CAUTION: MacOS 11 killed this off.
 
@@ -246,7 +249,7 @@ Auto downloads Apple Sound Library to local machine or server.
 
 ** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 server run by MDS.
 
-==== Synology
+=== Synology
 
 * Package Center
 
