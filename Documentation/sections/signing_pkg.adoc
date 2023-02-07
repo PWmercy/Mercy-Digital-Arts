@@ -29,3 +29,7 @@ productsign: adding certificate "Apple Root CA"
 productsign: Wrote signed product archive to /Users/sdeveloper/Downloads/munkitools_signed-3.2.0.3476.pkg`
 
 . Verify that the signed package is located at the destination you specified.
+
+== Sign profiles (and other objects)
+
+`/usr/bin/security cms -S -N "<common name of certificate>" -i <input path to unsigned profile> -o <output path for signed profile>`
