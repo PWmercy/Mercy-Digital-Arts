@@ -7,7 +7,7 @@
 # 2019FA - All AD users are now in MERCY domain, so no longer special user name
 # for instructors
 
-# As of 2018SP, no longer using ACLs because we are not limiting access to class
+# As of 2018SP, no longer using ACLs because we are not limiting access to class folders
 
 # This script reads a path and a data file, creates the folder structure for each class
 # (main folder and 4 sub-folders), then sets permissions
@@ -39,10 +39,10 @@ while read -r instructor classNumber
 
 do
 
-  echo "HELLO"
   echo "$classNumber"
   echo "$instructor"
-  ADinstructor="MERCY\\$instructor"
+  # Add AD Domain 
+  ADinstructor="MERCY\\$instructor" 
   echo "$ADinstructor"
   class=$(echo "$classNumber" | cut -d"-" -f1) #Strip characters after number, leaving e.g. MUSI103DFA
   echo "$class"
@@ -76,15 +76,14 @@ do
   dir="$class-$folder"
   echo "$dir"
   mkdir "$dir"
-  echo "$dir"
-  # Others to Write Only --> dropbox
+  # Others to Write Only --> create a "dropbox"
   chmod o-r+w "$dir"
 
   folder="Instructor-only"
   dir="$class-$folder"
   echo "$dir"
   mkdir "$dir"
-  # Remove class ACL so only Instructor can open
+  # Remove read and write so only Instructor can open
   chmod o-rw "$dir"
 
   folder="Collaboration"
@@ -92,9 +91,11 @@ do
   echo "$dir"
   mkdir "$dir"
   # R/W for Others
-  chmod o+rw "$dir"
+  chmod o+rwx "$dir"
 
+# Return to main Class folder directory
   cd ..
+
 chown -R "$ADinstructor" "$classNumber"
 chgrp -R administrators "$classNumber"
 chmod u+rwx "$classNumber"
