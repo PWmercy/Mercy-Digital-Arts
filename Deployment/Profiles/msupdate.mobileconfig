@@ -40,9 +40,9 @@
             <key>UpdateCheckFrequency</key>
             <integer>360</integer>
             <key>ChannelName</key>
-            <string>Current Channel</string>
+            <string>Custom</string>
             <key>ManifestServer</key>
-            <string>https://officecdnmac.microsoft.com/pr/Defer.3/</string>
+            <string>https://officecdnmac.microsoft.com/pr/Defer.14/</string>
             <key>UpdateCache</key>
             <string>https://mau.example.net/cache/</string>
             <key>AcknowledgedDataCollectionPolicy</key>
