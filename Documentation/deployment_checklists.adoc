@@ -46,9 +46,9 @@ include::incl/variables.adoc[]
 
 * [ ] Auto-enroll
 
-* Add to groups
+* Add to groups in MDM
 [%interactive]
-** [ ] Munki
+** [ ] Munki profile groups
 ** [ ] Refresh Room number group
 * [ ] Run Network script - https://172.31.48.94:8090/Scripts[download]
 
