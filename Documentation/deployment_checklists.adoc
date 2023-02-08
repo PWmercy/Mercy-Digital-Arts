@@ -55,14 +55,14 @@ include::incl/variables.adoc[]
 === MPRA
 ==== Pro Tools
 [%interactive]
-* [ ] Falcon Libraries
+* [ ] [line-through]#Falcon Libraries#
 ** [ ] Copy to folder `/Library/Application Support/UVISoundBanks/`
 ** [ ] Permissions on Libraries
 *** `chmod -R a+rx`
 
 ==== Reason
 [%interactive]
-* [ ] Copy Outset Script for Reason to `/usr/local/outset/login-once`
+* [ ] Copy https://github.com/PWmercy/Mercy-Digital-Arts/blob/de8098ca6d7bdc65c41e5fec80d5a2ad101c3a5f/Deployment/Reason/Reason11extras.sh[Outset Script] for Reason to `/usr/local/outset/login-once`
 * [ ] Copy Reason Content to `/Library/Application Support/Propellerhead Software/Propellerhead Content`
 ** [ ] Permissions on Libraries
 *** `chmod a+rx`
