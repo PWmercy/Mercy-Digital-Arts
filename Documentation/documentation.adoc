@@ -65,6 +65,7 @@ anchor:bookmark-c[]Use a cross reference to link to this location.
 
 See <<bookmark-a>> to learn how to write paragraphs.
 See <<bookmark-d>> to go to elsewhere.
+See <<bookmark-b>> to go to elsewhere.
 
 :sectnums:
 :sectnumlevels: 2
@@ -163,7 +164,8 @@ Also see <<Hardware>>
 Here are some.
 
 [[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
-
+See <<bookmark-b>> to go to elsewhere.
+See <<bookmark-c>> to go to elsewhere.
 
 [index]
 == Index
