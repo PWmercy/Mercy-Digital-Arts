@@ -106,10 +106,10 @@ done
 # your script.
 echo "All the cool kids hang out in the Mac Admins Slack. Go buy some merch."
 
-#Final dialog for user. I always present my closing dialog with an & so my 
-# script closes 
-"$dialogPath" --title "Thank you for doing your part!" \
---message  "" \
---icon "$dialogIcon" \
---centericon \
---alignment center
+# #Final dialog for user. I always present my closing dialog with an & so my 
+# # script closes 
+# "$dialogPath" --title "Thank you for doing your part!" \
+# --message  "" \
+# --icon "$dialogIcon" \
+# --centericon \
+# --alignment center
