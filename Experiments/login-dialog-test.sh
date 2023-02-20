@@ -13,8 +13,8 @@ dialogPath=/usr/local/bin/dialog
 # Set the options we'll use for the dialog window
 #################
 
-dialogTitle="Don't forget to log out before you leave class!"
-dialogMessage="Log out **completely** before you leave class"
+dialogTitle="Don't forget to log out before you leave!"
+dialogMessage="Log out **completely** before you leave"
 dialogIcon="SF=display.trianglebadge.exclamationmark color1=blue color2=yellow"
 dialogButton1="I won't forget."
 
@@ -30,14 +30,20 @@ dialogButton1="I won't forget."
 --title "$dialogTitle" \
 --message "$dialogMessage" \
 --button1text "$dialogButton1" \
---autoplay 5 \
---image https://www.howtogeek.com/wp-content/uploads/2017/03/mac-login-screen-type-user.png \
+--autoplay 3 \
+--image "/usr/local/share/swiftdialogimgs/proper_login.png" \
 --imagecaption "You're not done until you see this screen." \
 --image "/usr/local/share/swiftdialogimgs/save.png" \
 --imagecaption "Unsaved files prevent programs from quitting." \
 --image "/usr/local/share/swiftdialogimgs/interrupted_logout.png" \
---imagecaption "Running programs prevent logout." \
---infobox "## _QUIT_ programs fully.  \n ### Save or _discard_ open files  \n## _WAIT_ for login screen."
+--imagecaption "Running programs prevent logout from completing." \
+--image "/usr/local/share/swiftdialogimgs/logged-in-locked.png" \
+--imagecaption "When you leave, the next user can't log in." \
+--infobox "## _QUIT_ programs fully.  \n ### Save or _discard_ open files  \n ## _WAIT_ for login screen."
+
+# ########################
+# Following from original source. Not currently in use.
+# ########################
 
 # Capture the exit code of the previous dialog command. This informs us of 
 # what the user did.
