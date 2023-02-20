@@ -26,7 +26,7 @@
 
 [red]*Problem*:: ShoeTool error
 
-.*Click for ShoeTool error message*
+.[red]*Click for ShoeTool error message*
 [%collapsible]
 ====
 `An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly.`
