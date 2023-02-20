@@ -1,16 +1,5 @@
 ==== Pro Tools errors
 
-[red]*Problem*::
-
-ShoeTool error +
-`#_An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly._#`
-
-.[green]*Click for Solution*
-[%collapsible]
-====
-See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[Avid Support page]
-====
-
 [red]*Problem*:: Can't get Pro Tools license in lab
 
 .[green]*Click for Solution*
@@ -33,4 +22,18 @@ See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-err
 
 .. Choose **Connect**
 
+====
+
+[red]*Problem*:: ShoeTool error
+
+.*Click for ShoeTool error message*
+[%collapsible]
+====
+`An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly.`
+====
+
+.[green]*Click for Solution*
+[%collapsible]
+====
+See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[Avid Support page]
 ====
