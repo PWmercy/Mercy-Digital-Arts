@@ -12,3 +12,4 @@ Thumbs.db
 Deployment/Reason/Reason Content pkg/
 Management/Munki site_default/Munki_banners.psd
 .vscode/
+Deployment/Profiles/msupdate-signed.mobileconfig
