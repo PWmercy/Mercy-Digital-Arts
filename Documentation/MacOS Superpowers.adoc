@@ -1,0 +1,31 @@
+= MacOS Superpowers
+
+== Paths
+
+`/Library` vs. `~/Library` vs. `/System/Library`
+
+== Basic Terminal
+
+* Cut and paste commands into Terminal
+
+* Drag and Drop file for path
+
+== Finder
+
+* Type to search in Finder
+
+* Aliases
+** Create incl shortcut
+** Find original
+* Copy and paste files
+
+* Permissions
+
+== Mouse Settings
+Right-Click
+
+== Stupid Mac Tracks
+
+
+== Spaces
+
