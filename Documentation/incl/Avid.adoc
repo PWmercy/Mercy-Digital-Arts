@@ -8,9 +8,11 @@
 
 **Video of these steps https://munki6.digiarts.mercy:8090/Video_Help/Connect_to_Pro_Tools_license_1.mp4[here]**
 
-. Open ilok License Manager - you do _not_ need to Sign In - it can be found at +
+. Open ilok License Manager - it can be found at +
 +
 `/Applications/iLok License Manager`
+
+NOTE: You do _**not**_ need to Sign In to iLok
 
 . Choose File...Preferences
 
