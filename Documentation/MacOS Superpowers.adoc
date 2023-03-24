@@ -1,3 +1,6 @@
+:icons: font
+
+
 = MacOS Superpowers
 
 == Paths
@@ -6,6 +9,8 @@
 ** `~/Library folder` hidden
 
 == Basic Terminal
+
+WARNING: Use caution when entering commands in the terminal
 
 * Cut and paste commands into Terminal
 
@@ -21,7 +26,6 @@
 * Copy and paste files
 
 * Permissions
-
 
 == Mouse Settings
 * Right-Click vs. CTRL-Click
