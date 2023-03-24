@@ -2,7 +2,8 @@
 
 == Paths
 
-`/Library` vs. `~/Library` vs. `/System/Library`
+* `/Library` vs. `~/Library` vs. `/System/Library`
+** `~/Library folder` hidden
 
 == Basic Terminal
 
@@ -21,8 +22,9 @@
 
 * Permissions
 
+
 == Mouse Settings
-Right-Click
+* Right-Click vs. CTRL-Click
 
 == Stupid Mac Tracks
 
