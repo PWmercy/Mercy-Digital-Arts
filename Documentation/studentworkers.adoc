@@ -9,4 +9,4 @@ Last updated {docdate}
 
 https://pwmercy.github.io/resources/#_get_help[Return to main resource page]
 
-image:media/2022FA-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
+image:media/2023SP-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
