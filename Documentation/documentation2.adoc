@@ -213,7 +213,7 @@ include::deployment_checklists.adoc[tag=checklists]
 
 :leveloffset: -3
 
-=== Deployment tools
+=== Tools
 ** Munki
 *** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
 *** Customization and Branding
