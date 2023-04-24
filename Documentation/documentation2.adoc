@@ -184,6 +184,9 @@ include::sections/brightsign.adoc[]
 ==== For Music Production+Recording Arts
 
 ** Pro Tools
+*** Post install script removes Avid Application manager and updates ShoeTool, removing the request for admin password on first-run
+
+IMPORTANT: App manager installer must be marked as optional in Munki or Pro Tools will keep reinstalling the update
 
 [#_software_reason]
 ** Reason
