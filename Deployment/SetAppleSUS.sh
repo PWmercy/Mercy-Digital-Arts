@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##### DEPRECATED ######
 # As of 201809
 # Through High Sierra
 
