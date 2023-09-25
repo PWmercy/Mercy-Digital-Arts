@@ -105,7 +105,7 @@ NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 ** M1
 * Mac Minis
 ** Intel
-** M1
+** Apple Silicon
 
 === Recording Studios
 :leveloffset: +1
@@ -177,7 +177,7 @@ include::sections/brightsign.adoc[]
 ** Houdini
 ** Nuke
 ** Vray
-** https://www.pipelinefx.com[Qube] Render Farm
+** [line-through]https://www.pipelinefx.com[Qube] Render Farm
 
 ---
 
@@ -305,3 +305,5 @@ NOTE: Both use asm@mercy.edu account
 ** https://www.youtube.com/user/psumacconf[YouTube MacAdmins Conference channel]
 
 * https://scriptingosx.com[Scripting OS X]
+
+* https://www.production-expert.com/production-expert-1/macos-sonoma-compatibility-the-ultimate-pro-audio-guide?utm_source=convertkit&utm_medium=email&utm_campaign=macOS+Sonoma+Compatibility+-+The+Ultimate+Pro+Audio+Guide%20-%2011811810[Sonoma Compatibility (2023)]

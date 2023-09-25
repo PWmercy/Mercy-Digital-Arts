@@ -1,0 +1,25 @@
+:doctitle: How to: Xcode setup
+
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+
+:icons: font
+
+:!toc:
+
+from https://www.jamf.com/blog/managed-xcode-deployment/[JAMF Blog]
+
+## select Xcode
+`xcode-select -s "/Applications/Xcode.app"`
+
+## accept license
+`xcodebuild -license accept`
+
+## install additional components
+`xcodebuild -runFirstLaunch`
+
+## add everyone (every local account) to developer group
+`dseditgroup -o edit -a everyone -t group _developer`
+
+## enable dev tools security
+`DevToolsSecurity -enable`

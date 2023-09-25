@@ -2,8 +2,8 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 7, 2021
-:revnumber: 2.0
+:revdate: September 7, 2023
+:revnumber: 2023.2
 
 :toc: left
 :toc-levels: 2
@@ -88,11 +88,13 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 * General information on accessing files <<labs.adoc#_accessing_files,here>>.
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/Eo_oTuLoaWBEvzL7pkuz8RoBXYfD2cg5sugwZJujkXSs8A?e=qQpDKI[here].
+** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EksbO4RhjQ9Gj8ZQYkzAEbEBauQIZlKC0LZH1CGczeAIGA?e=0qz0B7[here].
 
 TIP: Use your full Mercy email to log in.
 
-** Once you have connected to this OneDrive shared folder, the folder should appear in your own OneDrive in _Shared with me_.
+TIP: Bookmark this link in your browser for quick access.
+
+** Once you have connected to this OneDrive shared folder, the folder should appear in your own OneDrive in _Shared_.
 
 [.thumb]
 .OneDrive share
@@ -216,7 +218,7 @@ include::scheduler.adoc[tag=newaccount]
 
 ==== Ableton Live Suite including Max For Live
 
-* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 90 days.
+* Register for the https://www.ableton.com/en/trial/[Ableton Trial here].  The trial is good for 30 days.
 
 ==== Native Instruments
 
@@ -237,24 +239,17 @@ include::scheduler.adoc[tag=newaccount]
 ** Requires free account
 * Final Cut Pro (Mac-only)
 ** 90 Day free trial https://www.apple.com/final-cut-pro/trial/[here]
-* Headphone Mixing
-** _Sonarworks_ has been kind enough to provide free codes that will last for their Sonarworks Reference 4 Studio Edition software.
-. You should receive an email with a code directly from Sonarworks. If you haven't, email sstauff&#064;mercy.edu
-. https://www.sonarworks.com/reference/downloads[Download] the Sonarworks Reference plug-in.
-. Launch Reference 4 Installer
-*** In the installer click the left side -- _Reference 4 Studio Edition_
-*** You'll see _Got An Activation Key? Activate License_. Paste the code you were sent.
-*** You can use any email you like.
+
 * https://labs.spitfireaudio.com/#category=&search=&new=true[Spitfire Labs] free software instruments, made by musicians and sampling experts in London.
 ** Custom plug-in compatible with any DAW.
-* https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-generator/pendulate[Pendulate]
-* https://www.pianobook.co.uk/[​Pianobook]
+* https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-generator/pendulate[Pendulate] (synth)
+* https://www.pianobook.co.uk/[​Pianobook] (community-submitted samples)
 * https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-discover[Spitfire BBC Discover]
 * https://www.decentsamples.com/product/decent-sampler-plugin/[Decent Sampler]
 * https://www.amplesound.net/en/pro-pd.asp?id=19​[Ample Bass P II Lite]
 * https://www.amplesound.net/en/pro-pd.asp?id=7[Ample Guitar M II Lite]
-* https://valhalladsp.com/shop/reverb/valhalla-supermassive/Valhalla[Supermassive]
-* https://polyversemusic.com/products/wider/Polyverse[Wider]
+* https://valhalladsp.com/shop/reverb/valhalla-supermassive/[Supermassive] (delay and reverb)
+* https://polyversemusic.com/products/wider/[Wider]
 * https://www.meldaproduction.com[Melda]
 
 === Books

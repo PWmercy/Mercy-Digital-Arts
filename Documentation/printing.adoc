@@ -5,11 +5,12 @@
 * Printing to the correct paper tray.
 
 ****
-IMPORTANT: The Automatic paper feed setting often doesn't work as expected, so additional steps should be take when preparing to print.
+IMPORTANT: The Automatic paper feed setting often doesn't work as expected, so additional steps should be taken when preparing to print. Trying choosing the specific paper tray instead.
 ****
 
 
 
 * Printing from Adobe applications
+** Adobe software has its own print settings, separate from the standard Mac settings. You may need to experiment to get the settings you want.
 
 // end::printing[]
