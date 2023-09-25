@@ -10,6 +10,7 @@ cd "$docs_folder" || exit
 /usr/local/bin/asciidoctor wacom.adoc
 /usr/local/bin/asciidoctor studentworkers.adoc
 /usr/local/bin/asciidoctor documentation2.adoc
+/usr/local/bin/asciidoctor Scheduler_policies.adoc
 
 
 mv StudentandFacultyresources.html "$web_folder"/index.html
@@ -17,6 +18,7 @@ mv labs.html "$web_folder"/labs.html
 mv wacom.html "$web_folder"/wacom.html
 mv studentworkers.html "$web_folder"/studentworkers.html
 mv documentation2.html "$web_folder"/documentation2.html
+mv Scheduler_policies.html "$web_folder"/Scheduler_policies.html
 
 cd "$web_folder" || exit
 
