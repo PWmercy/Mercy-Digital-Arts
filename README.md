@@ -5,7 +5,7 @@ This repository contains various scripts and documents which support the managem
 
 pwhite@mercy.edu
 
-[**Mercy College**](http://www.mercy.edu)  
+[**Mercy University**](http://www.mercy.edu)  
 School of Liberal Arts  
 [Design+Animation](https://www.mercy.edu/academics/programs/design-animation)  
 [Music Production+Recording Arts](https://www.mercy.edu/academics/programs/bs-music-production)  
