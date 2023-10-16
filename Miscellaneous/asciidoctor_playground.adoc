@@ -297,7 +297,8 @@ She spells her name with an "`h`", as in Sara[red]**h**.
 
 
 
-/ A single-line comment
+//  A single-line comment
+
 last revision {revdate}
 
 question? email {author_email}
