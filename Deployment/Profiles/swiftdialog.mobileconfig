@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>PayloadContent</key>
+   <array>
+      <dict>
+         <key>PayloadDisplayName</key>
+         <string>Notifications Payload</string>
+         <key>PayloadIdentifier</key>
+         <string>449B1259-E631-4051-ADCE-9532B813ADDC</string>
+         <key>PayloadOrganization</key>
+         <string>Mercy University Digital Arts</string>
+         <key>PayloadType</key>
+         <string>com.apple.notificationsettings</string>
+         <key>PayloadUUID</key>
+         <string>12EA8FDA-B204-4AD0-802C-C980615F0BA5</string>
+         <key>PayloadVersion</key>
+         <integer>1</integer>
+         <key>NotificationSettings</key>
+         <array>
+            <dict>
+               <key>AlertType</key>
+               <integer>1</integer>
+               <key>BadgesEnabled</key>
+               <true/>
+               <key>BundleIdentifier</key>
+               <string>au.bartreardon.dialog</string>
+               <key>CriticalAlertEnabled</key>
+               <false/>
+               <key>NotificationsEnabled</key>
+               <true/>
+               <key>ShowInLockScreen</key>
+               <true/>
+               <key>ShowInNotificationCenter</key>
+               <true/>
+               <key>SoundsEnabled</key>
+               <true/>
+            </dict>
+            <dict>
+               <key>AlertType</key>
+               <integer>1</integer>
+               <key>BadgesEnabled</key>
+               <true/>
+               <key>BundleIdentifier</key>
+               <string>au.csiro.dialog</string>
+               <key>CriticalAlertEnabled</key>
+               <false/>
+               <key>NotificationsEnabled</key>
+               <true/>
+               <key>ShowInLockScreen</key>
+               <true/>
+               <key>ShowInNotificationCenter</key>
+               <true/>
+               <key>SoundsEnabled</key>
+               <true/>
+            </dict>
+         </array>
+      </dict>
+   </array>
+</dict>
+</plist>
