@@ -98,6 +98,22 @@ Graduates of the Music Production and Recording Arts Program have access to Vict
 
 ## Studio Booking Policies
 
+---
+[.text-center]
+*Studio Operating Hours* +
+(Victory Hall Building) +
+ +
+*Monday* through *Friday* +
+09:30am -- 11:00pm
+ +
+*Saturday* +
+10:00am -- 11:00pm
+ +
+*Sunday* +
+CLOSED
+
+---
+
 WARNING: The use of the facilities for personal projects is a privilege granted by the Music Production and Recording Arts Program. +
  +
  The MPRA Program reserves the right to cancel or interrupt sessions without prior notice in the event of weather, a lack of staffing, or other emergencies. Every reasonable effort will be made to reschedule these sessions, when possible.
@@ -130,17 +146,6 @@ In order to reserve studio time, you must book it several days ahead of the sess
 * Booking sessions for others is prohibited.
 
 WARNING: If you are more than 15 minutes late for your booked session, you forfeit your booked time.
-
----
-[.text-center]
-*Studio Operating Hours* (Victory Hall Building) +
-*Monday* through *Friday* +
-09:30am -- 11:00pm
- +
-*Saturdays* +
-10:00am -- 11:00pm
-
----
 
 * Be ready to leave before closing time.
 ** To do this, you will need to end your session 10–15 minutes early to allow enough time to clean up your session, back up files, etc.
