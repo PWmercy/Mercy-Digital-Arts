@@ -1,0 +1,21 @@
+Installing and Updating Software
+
+// tag::install_update[]
+
+* You will be asked for an administrator password in order to install or update most software on lab computers. Users are not permitted to update or install software in this way.
+
+NOTE: Software installation and updates are managed centrally. This is for many reasons, including consistency, security, compatibility, testing.
+
+* For convenience, some software can be installed by students or faculty.
+
+There are three methods, depending on the software.
+
+*Adobe Creative Cloud*
+
+The Adobe Creative Cloud applications include Photoshop, Illustrator
+
+
+*Self-Service app*
+
+
+*Managed Software Update app*
