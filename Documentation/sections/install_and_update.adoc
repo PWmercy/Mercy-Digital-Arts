@@ -1,3 +1,5 @@
+include::../incl/variables.adoc[]
+
 Installing and Updating Software
 
 // tag::install_update[]
@@ -8,6 +10,9 @@ NOTE: Software installation and updates are managed centrally. This is for many 
 
 * For convenience, some software can be installed by students or faculty.
 
+NOTE: You can request that additional optional software be made available to you. Email {techmgr_email}.
+
+
 There are three methods, depending on the software.
 
 *Adobe Creative Cloud*
@@ -17,5 +22,9 @@ The Adobe Creative Cloud applications include Photoshop, Illustrator
 
 *Self-Service app*
 
+Located in the Dock at the bottom of the Mac desktop, it can also be found in the Applications folder. It has an Mercy Mavericks icon.
+
 
 *Managed Software Update app*
+
+Located in the Applications folder
