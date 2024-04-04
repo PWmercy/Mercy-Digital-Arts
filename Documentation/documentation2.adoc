@@ -164,6 +164,8 @@ include::sections/brightsign.adoc[]
 
 **** Admin can update remotely using https://helpx.adobe.com/enterprise/using/using-remote-update-manager.html[Remote Update Manager]
 
+**** Admin can remove apps from command line using https://helpx.adobe.com/enterprise/using/uninstall-creative-cloud-products.html[Adobe uninstall tool]
+
 ** Maya
 ** Substance Painter
 *** Now part of Adobe Creative Cloud
@@ -177,7 +179,7 @@ include::sections/brightsign.adoc[]
 ** Houdini
 ** Nuke
 ** Vray
-** [line-through]https://www.pipelinefx.com[Qube] Render Farm
+** [line-through]*https://www.pipelinefx.com[Qube] Render Farm*
 
 ---
 
@@ -306,4 +308,4 @@ NOTE: Both use asm@mercy.edu account
 
 * https://scriptingosx.com[Scripting OS X]
 
-* https://www.production-expert.com/production-expert-1/macos-sonoma-compatibility-the-ultimate-pro-audio-guide?utm_source=convertkit&utm_medium=email&utm_campaign=macOS+Sonoma+Compatibility+-+The+Ultimate+Pro+Audio+Guide%20-%2011811810[Sonoma Compatibility (2023)]
+* https://www.production-expert.com/production-expert-1/macos-ventura-compatibility-the-ultimate-pro-audio-guide[Ventura Compatibility (2024)]

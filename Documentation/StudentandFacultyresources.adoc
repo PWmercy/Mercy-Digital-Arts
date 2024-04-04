@@ -63,6 +63,8 @@ NOTE: Although listed as a Music Production class, this Zoom room is for Design+
 * There is always someone available to help during lab hours
 ** <<studentworkers.adoc#,Student Worker schedule>>
 
+NOTE: You can also request tutoring sessions.
+
 * Call [green]*icon:phone[]{nbsp}914-674-7767* (or dial [green]*icon:phone[]{nbsp}7767* from wall phone in lab)
 
 ==== IT Help Desk
@@ -82,13 +84,17 @@ include::incl/maxon.adoc[]
 
 IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
-
 === Files on campus server
 
 * General information on accessing files <<labs.adoc#_accessing_files,here>>.
 
+==== Accessing class files when outside of labs
+
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
-** Files added or changed in the lab will be there when you get home and vice-versa. Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EksbO4RhjQ9Gj8ZQYkzAEbEBauQIZlKC0LZH1CGczeAIGA?e=0qz0B7[here].
+
+* Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EksbO4RhjQ9Gj8ZQYkzAEbEBauQIZlKC0LZH1CGczeAIGA[here] (Updated 2/1/2024).
+
+** Files added or changed in the lab will be there when you get home and vice-versa.
 
 TIP: Use your full Mercy email to log in.
 
@@ -105,16 +111,22 @@ image:media/onedrive_shared_with_me.png[OneDrive, 50%]
 
 .Personal Folder (including My-Stuff)
 [NOTE]
-Your private folder (with your login name) is *not* on the cloud drive, but can be made available in an emergency by request. +
- +
-Email _{author_email}_ +
+Your private folder (with your login name) is *not* on the cloud drive, but can be made available in an emergency by request. Email _{author_email}_ +
  +
 (You should always back up your work to your own OneDrive space and to thumb drives or hard drives, so this should ONLY be needed in an emergency.) +
 
 
-WARNING: Always *keep backup copies of your files*.
+WARNING: Always *make backup copies of your files*. +
+ + 
+Keep backups in more than one location – USB stick, OneDrive or other cloud service, etc.
 
 === Software
+
+==== Installing and Updating software
+
+IMPORTANT: This section is a work-in-progress
+
+include::sections/install_and_update.adoc[tag=install_update]
 
 ==== Microsoft Office
 
@@ -148,7 +160,7 @@ NOTE: If this login fails, email pwhite@mercy.edu to create your account.
 
 ==== Adobe Creative Cloud
 * All Design+Animation majors receive a [green]*FREE* license to the Creative Cloud Suite.
-** You should receive an email with instructions from Adobe (sent to your mercy.edu email). If you don't receive this email, contact {author_email}
+** You should receive an email with instructions from Adobe (sent to your mercy.edu address). If you don't receive this email, contact {techmgr_email}
 
 * If needed, download and install the Creative Cloud app from https://creativecloud.adobe.com/apps/download/creative-cloud[here].
 
@@ -187,6 +199,9 @@ NOTE: Requires creating a free account.
 * Final Cut Pro (Mac-only)
 ** 90 Day [green]*FREE TRIAL* https://www.apple.com/final-cut-pro/trial/[here]
 
+* Blender (3D Modeling, Sculpting, Animation, Simulation)
+** [green]*FREE* - https://www.blender.org[Info and download] (Mac, Windows, Linux)
+
 === Tablets, Printers and Scanners
 
 ==== Wacom Cintiq Tablets
@@ -201,6 +216,10 @@ include::scanning.adoc[tag=scanning]
 
 include::printing.adoc[tag=printing]
 
+=== Online Video and Podcasts
+
+* https://www.youtube.com/watch?v=B0J27sf9N1Y[Free video tutorial] on Blender (updated for version 4)
+
 == For Music Production+Recording Arts
 
 === Booking time in Recording Studios
@@ -210,6 +229,8 @@ include::printing.adoc[tag=printing]
 * If you don't already have one, create an account
 
 include::scheduler.adoc[tag=newaccount]
+
+* You must abide by all policies for Studio access and scheduling. https://pwmercy.github.io/resources/Studio_and_Lab_policies.html[Read policies here.]
 
 === Software
 ==== Pro Tools
@@ -283,7 +304,7 @@ include::scheduler.adoc[tag=newaccount]
 * https://www.youtube.com/channel/UC0zzmN5qzSBt1GxHQ6N1_mg[Mix Bus TV]
 * https://www.youtube.com/channel/UCJ7QbJQgJSSdd_v-VxdO6Gg[Spitfire Audio]
 * https://attackandreleaseshow.fireside.fm/[Attack and Release Show] Podcast
-* https://www.youtube.com/channel/UCEAAeXdhcR8lsAbIqhyPRWg[Mercy College Music] YouTube channel
+* https://www.youtube.com/channel/UCEAAeXdhcR8lsAbIqhyPRWg[Mercy University Music] YouTube channel
 * https://tapeop.com/[Tape Op]
 * https://www.soundonsound.com/[Sound On Sound]
 * Synapse Audio https://youtu.be/LkQfqj04yyA[Tutorial] on designing sounds in https://www.synapse-audio.com/dune3.html[Dune 3] Soft Synth

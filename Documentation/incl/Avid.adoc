@@ -23,19 +23,4 @@ NOTE: You do _**not**_ need to Sign In to iLok
 . Click gear button below the server to the right of the minus sign
 
 .. Choose **Connect**
-
-====
-
-[red]*Problem*:: ShoeTool error
-
-.[red]*Click for ShoeTool error message*
-[%collapsible]
-====
-`An error occurred installing DigiShoeTool (or ShoeTool). Try running a build with signed components first to get it installed properly.`
-====
-
-.[green]*Click for Solution*
-[%collapsible]
-====
-See this https://avid.secure.force.com/pkb/articles/en_US/troubleshooting/An-error-occurred-installing-DigiShoeTool-Try-running-a-build-with-signed-components-first-to-get-it-installed-properly[Avid Support page]
 ====

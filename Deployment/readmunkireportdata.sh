@@ -10,7 +10,7 @@
 
 # Get local machine Serial
 
-thisSerialNum=`/usr/sbin/system_profiler SPHardwareDataType | grep 'Serial Number (system)' | awk '{print $NF}'`
+thisSerialNum=$(/usr/sbin/system_profiler SPHardwareDataType | grep 'Serial Number (system)' | awk '{print $NF}')
 
 #  "Ser read is $thisSerialNum"
 
@@ -35,12 +35,12 @@ do
     # echo $compName
     if [ "$serNum" = "$thisSerialNum" ]
     then
-        echo $serNum
-        echo $compName
-        echo $field1
-        echo $field2
-        echo $field3
-        echo $field4
+        echo "$serNum"
+        echo "$compName"
+        echo "$field1"
+        echo "$field2"
+        echo "$field3"
+        echo "$field4"
 
         # Restore ARD fields
         $ksDir/kickstart -configure -computerinfo -set1 -1 "$field1"

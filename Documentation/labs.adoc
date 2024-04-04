@@ -144,11 +144,15 @@ This is a folder that is open to all and may be used for group projects and coll
 
 === Files in the Cloud
 
-==== Microsoft OneDrive (and other cloud services)
+==== Microsoft OneDrive (free with Mercy email)
 
-Your Mercy account includes a free large (1TB) Microsoft OneDrive cloud drive. Log in on to OneDrive on the web with your user ID and password (or a OneDrive app on your personal Mac, PC, phone or tablet).
+* Your student Mercy email account includes 100GB of space on a personal cloud drive (Microsoft OneDrive).
 
-IMPORTANT: If you want access to files from anywhere outside the labs, get used to copying to your OneDrive before you leave a workstation.
+* Connect from your Mercy mail web page (or a OneDrive app on your personal Mac, PC, phone or tablet).
+
+* Use your Mercy email credentials to log in.
+
+IMPORTANT: If you want access to files from devices outside the labs, get used to copying to your OneDrive before you leave a workstation.
 
 // ==== ExpanDrive
 

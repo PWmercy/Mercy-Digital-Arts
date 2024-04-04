@@ -1,10 +1,1 @@
-{
-  "title" : "An Important Message",
-  "titlefont" : "colour=red",
-  "icon" : "/Applications/Remote Desktop.app",
-  "hideicon" : 1,
-  "infobutton" : 1,
-  "quitoninfo" : 1,
-  "image" : "https://munki6.digiarts.mercy:8090/imgs/logo.png",
-  "imagecaption" : "Test image 1"
-}
+"title" : "Today's News", "infobutton" : 1, "quitoninfo" : 1, "titlefont" : "colour=red", "icon" : "/Applications/Remote Desktop.app", "hideicon" : 1, "infobutton" : 1,  "quitoninfo" : 1

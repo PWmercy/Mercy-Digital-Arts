@@ -250,7 +250,6 @@ RAM:: Temporarily stores information the CPU uses during operation.
 .Unconstrained quotes
 She spells her name with an "`h`", as in Sara[red]**h**.
 
-
 .Tables
 
 |===
@@ -275,7 +274,7 @@ She spells her name with an "`h`", as in Sara[red]**h**.
 |===
 
 
-[ditaa]
+[block-diag]
 ....
                    +-------------+
                    | Asciidoctor |-------+
@@ -323,7 +322,7 @@ for producing professional documents like DocBook and LaTeX.
 ****
 
 ----
-include::StudentandFacultyresources.adoc[lines=50..60]
+include::../Documentation/StudentandFacultyresources.adoc[lines=50..60]
 ----
 
 [source,xml]

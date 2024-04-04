@@ -1,6 +1,6 @@
 :author: Phil White
 :author_email: pwhite@mercy.edu
-:revdate: August 15, 2020
+:revdate: November 30, 2023
 
 * Redundancy... redundancy... redundancy...footnote:[Testing footnote from included file.]
 ** http://172.31.48.200:5000[Synology High Availability Cluster] (IT has password if needed)
@@ -16,7 +16,6 @@
 * https://github.com/PWmercy/Mercy-Digital-Arts[Github] and https://gist.github.com/PWmercy[Gists]
 ** Repositories for scripts (mostly Bash) and other useful info used for management of lab macs and servers.
 ** Longer code in Github, code snippets and short notes in Gists.
-** Using plugin these can be displayed inside a Wordpress web page
 * New Apple requirements
 ** MDM
 *** https://support.apple.com/guide/mdm/mdm-overview-mdmbf9e668/web[Apple Description]

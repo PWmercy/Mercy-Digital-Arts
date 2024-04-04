@@ -12,7 +12,7 @@
 ## run /usr/local/bin/managed_python3 /usr/local/bin/loopdown/loopdown -h for details
 ## -a = app, -i = install, -m = mandatory -o = optional
 
-/usr/local/bin/managed_python3 /usr/local/loopdown/loopdown -a garageband logicpro --i --pkg-server https://munki6.digiarts.mercy:8090/appleloops_content/loopdown --mandatory --optional
+/usr/local/bin/managed_python3 /usr/local/loopdown/loopdown -a garageband logicpro -i --pkg-server https://munki6.digiarts.mercy:8090/appleloops_content/loopdown --mandatory --optional
 ################################################
 ##### Use sudo if outside of this script #######
 ################################################

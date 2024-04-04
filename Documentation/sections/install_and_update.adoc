@@ -4,27 +4,30 @@ Installing and Updating Software
 
 // tag::install_update[]
 
-* You will be asked for an administrator password in order to install or update most software on lab computers. Users are not permitted to update or install software in this way.
+* If you try to install or update most software on lab computers, you will be asked for an administrator password. Standard user accounts are not permitted to update or install software in this way.
 
 NOTE: Software installation and updates are managed centrally. This is for many reasons, including consistency, security, compatibility, testing.
 
-* For convenience, some software can be installed by students or faculty.
+* As a rule software is automatically updated after it has been tested.
+** If you encounter a situation where you require a later version of software that is installed on a lab machine, email _{techmgr_email}_
 
-NOTE: You can request that additional optional software be made available to you. Email {techmgr_email}.
+* For convenience, some software _can_ be installed by students or faculty without needing admin privileges.
 
+NOTE: You can request that additional optional software be made available to you. If the software is free or the University is otherwise licensed, the software will be reviewed and may be added. Email _{techmgr_email}_. 
 
 There are three methods, depending on the software.
 
 *Adobe Creative Cloud*
 
-The Adobe Creative Cloud applications include Photoshop, Illustrator
+The Adobe Creative Cloud applications include Photoshop, Illustrator, After Effects, Premiere Pro, etc.
+
+NOTE: Students and faculty may install and update these applications as needed.
 
 
-*Self-Service app*
+*Self-Service* image:media/maverick_icon_sm.png[Self-Service, 20%]
 
 Located in the Dock at the bottom of the Mac desktop, it can also be found in the Applications folder. It has an Mercy Mavericks icon.
 
-
-*Managed Software Update app*
+*Managed Software Center* image:media/managed_software_center.png[Managed Software Center, 20%]
 
 Located in the Applications folder

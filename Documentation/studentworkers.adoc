@@ -2,11 +2,11 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: March 24, 2023
-:revnumber: 202303.1
+:revdate: Jan 24, 2024
+:revnumber: 202401.1
 
 Last updated {docdate}
 
 https://pwmercy.github.io/resources/#_get_help[Return to main resource page]
 
-image:media/2023SP-Student_Worker_Schedule.jpg[image, align="center" page="_blank"]
+image:media/2024SP-Stud_Worker_sched.jpg[image, align="center" page="_blank"]

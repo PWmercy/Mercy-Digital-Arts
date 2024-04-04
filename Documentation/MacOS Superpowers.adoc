@@ -37,9 +37,7 @@ WARNING: Use caution when entering commands in the terminal
 
 == Stupid Mac Tracks
 
-
 == Spaces
-
 
 Hot Corners
 

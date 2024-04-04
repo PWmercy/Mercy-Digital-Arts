@@ -9,7 +9,7 @@ Found at [Hexnode](https://www.hexnode.com/blogs/mac-secure-token-everything-it-
 
 `dscl . -read /Users/(username) AuthenticationAuthority`
 
-## Manually generate secure 
+## Manually generate secure token
 
 `sysadminctl -adminUser "ourAdminAccount" -adminPassword "password" -secureTokenOn (username that needs secure token) -password (password of user that needs secure token)`
 

@@ -1,0 +1,56 @@
+:author: Phil White
+:author_email: pwhite@mercy.edu
+:revdate: August 20, 2020
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Contents
+
+:sectnumlevels: 2
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:source-highlighter: pygments
+:pygments-style: emacs
+:icons: font
+
+From https://support.apple.com/en-us/HT210060[Apple Support]
+
+[cols="1,1,1,1,1,1"]
+|===
+|Hosts |Ports |Protocol |OS |Description |Supports proxies
+
+|appldnld.apple.com oiiedkswwwwwwwwww34
+|80	
+|TCP	
+|iOS, iPadOS, and watchOS	
+|iOS, iPadOS, and watchOS updates
+|
+
+|configuration.apple.com	|443	|TCP	|macOS only	|Rosetta 2 updates	|—
+
+|gdmf.apple.com	443	TCP	iOS, iPadOS, tvOS, watchOS, and macOS	Software update catalog	—
+|===
+
+gg.apple.com	443, 80	TCP	iOS, iPadOS, tvOS, watchOS, and macOS	iOS, iPadOS, tvOS, watchOS, and macOS updates	Yes
+gs.apple.com	443, 80	TCP	iOS, iPadOS, tvOS, watchOS, and macOS	iOS, iPadOS, tvOS, watchOS, and macOS updates	Yes
+ig.apple.com	443	TCP	macOS only	macOS updates	Yes
+mesu.apple.com	443, 80	TCP	iOS, iPadOS, tvOS, watchOS, and macOS	Hosts software update catalogs	—
+ns.itunes.apple.com	443	TCP	iOS, iPadOS, and watchOS	 	Yes
+oscdn.apple.com	443, 80	TCP	macOS only	macOS Recovery	—
+osrecovery.apple.com	443, 80	TCP	macOS only	macOS Recovery	—
+skl.apple.com	443	TCP	macOS only	macOS updates	—
+swcdn.apple.com	443, 80	TCP	macOS only	macOS updates	—
+swdist.apple.com	443	TCP	macOS only	macOS updates	—
+swdownload.apple.com	443, 80	TCP	macOS only	macOS updates	Yes
+swscan.apple.com	443	TCP	macOS only	macOS updates	—
+updates-http.cdn-apple.com	80	TCP	iOS, iPadOS, tvOS, and macOS	Software update downloads	—
+updates.cdn-apple.com	443	TCP	iOS, iPadOS, tvOS, and macOS	Software update downloads	—
+xp.apple.com	443	TCP	iOS, iPadOS, tvOS, and macOS	 	Yes
