@@ -120,13 +120,13 @@ WARNING: Always *make backup copies of your files*. +
  + 
 Keep backups in more than one location – USB stick, OneDrive or other cloud service, etc.
 
-=== Software
-
-==== Installing and Updating software
+=== Installing and Updating software in labs
 
 IMPORTANT: This section is a work-in-progress
 
 include::sections/install_and_update.adoc[tag=install_update]
+
+=== Free Software
 
 ==== Microsoft Office
 
@@ -144,6 +144,7 @@ From Adobe: +
 _https://www.adobe.com/express/[Adobe Creative Cloud Express]_ enables you to tell stories and share ideas quickly and beautifully. It lets you create three types of content:
 You can create Pages, Posts, and Videos or use the formats together.
 =====
+
 ** Log in https://express.adobe.com/[here] using your Mercy email and password. Use _Log in with school account_
 
 NOTE: If this login fails, email pwhite@mercy.edu to create your account.

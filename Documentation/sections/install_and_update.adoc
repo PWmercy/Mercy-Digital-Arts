@@ -4,30 +4,34 @@ Installing and Updating Software
 
 // tag::install_update[]
 
-* If you try to install or update most software on lab computers, you will be asked for an administrator password. Standard user accounts are not permitted to update or install software in this way.
+* Installation and updates are managed centrally. This allows time for testing and helps ensure consistency, security, compatibility, licensing.
 
-NOTE: Software installation and updates are managed centrally. This is for many reasons, including consistency, security, compatibility, testing.
+** If you try to install or update most software on lab computers, you will be asked for an administrator password. Standard user accounts are not permitted to update or install software in this way.
 
-* As a rule software is automatically updated after it has been tested.
-** If you encounter a situation where you require a later version of software that is installed on a lab machine, email _{techmgr_email}_
+** As a rule software is automatically updated after it has been tested, so there should be few occasions when you need to use the alternatives below.
 
-* For convenience, some software _can_ be installed by students or faculty without needing admin privileges.
+=====
+Some software _can_ be installed or updated by students or faculty _without_ needing admin privileges.
+=====
 
-NOTE: You can request that additional optional software be made available to you. If the software is free or the University is otherwise licensed, the software will be reviewed and may be added. Email _{techmgr_email}_. 
+There are three methods to do your own installation or update, depending on the software.
 
-There are three methods, depending on the software.
-
-*Adobe Creative Cloud*
+*Adobe Creative Cloud*::
 
 The Adobe Creative Cloud applications include Photoshop, Illustrator, After Effects, Premiere Pro, etc.
 
-NOTE: Students and faculty may install and update these applications as needed.
+* Students and faculty may install and update these applications as needed using the Adobe Creative Cloud app, found in the Applications folder in Adobe Creative Cloud.
+** This is the same app used to log in to your Adobe account.
+** If you are already logged in, there should be an icon in the menu bar, at the top right of the screen.
 
-
-*Self-Service* image:media/maverick_icon_sm.png[Self-Service, 20%]
+*Self-Service* image:media/maverick_icon_sm.png[Self-Service, 10%]::
 
 Located in the Dock at the bottom of the Mac desktop, it can also be found in the Applications folder. It has an Mercy Mavericks icon.
 
-*Managed Software Center* image:media/managed_software_center.png[Managed Software Center, 20%]
+*Managed Software Center* image:media/managed_software_center.png[Managed Software Center, 10%]::
 
-Located in the Applications folder
+Located in the Applications folder, standard and optional software can be installed and updated.
+
+* If you encounter a situation where you require a later version of software than is installed on a lab machine and it is not available using the above methods, email _{techmgr_email}_
+
+* You can request that additional or optional software be made available on lab computers. If the software is free or the University is otherwise licensed, the software will be reviewed and may be added. Email _{techmgr_email}_. 
