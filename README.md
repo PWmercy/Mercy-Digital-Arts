@@ -9,4 +9,4 @@ pwhite@mercy.edu
 School of Liberal Arts  
 [Design+Animation](https://www.mercy.edu/academics/programs/design-animation)  
 [Music Production+Recording Arts](https://www.mercy.edu/academics/programs/bs-music-production)  
-Dobbs Ferry NY  10522  
+Dobbs Ferry NY
