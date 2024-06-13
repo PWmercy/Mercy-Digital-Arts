@@ -178,7 +178,7 @@ IMPORTANT: If you want access to files from devices outside the labs, get used t
 
 :sectnums!:
 
-{resources_page}[Return to main Resources page]
+{resource_page}[Return to main Resources page]
 
 ****
 Contact info:

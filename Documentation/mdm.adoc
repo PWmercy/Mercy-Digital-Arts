@@ -1,0 +1,9 @@
+== Mosyle Fusion
+
+Login https://mybusiness.mosyle.com[here].
+
+AD Integration
+
+Students only - Faculty and staff must be manually added to End Users within Mosyle
+
+Needs refreshing when new students added

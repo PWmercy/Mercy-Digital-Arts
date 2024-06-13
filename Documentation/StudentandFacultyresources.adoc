@@ -47,7 +47,7 @@ TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 === Get Help
 
 ==== Via email
-* Phil White - {author_email}
+* Phil White - {techmgr_email}
 
 ==== Via Zoom image:media/ZoomLogoSM.png[Zoom]
 
@@ -223,7 +223,13 @@ include::printing.adoc[tag=printing]
 
 == For Music Production+Recording Arts
 
-=== Booking time in Recording Studios
+=== Recording Studios
+
+==== Policies
+
+* You must abide by all policies for Studio access and scheduling. https://pwmercy.github.io/resources/Studio_and_Lab_policies.html[Read policies here.]
+
+==== Booking Studio Time
 
 * All time in recording studios must be reserved using our {booked_site}[online scheduler].
 
@@ -231,7 +237,21 @@ include::printing.adoc[tag=printing]
 
 include::scheduler.adoc[tag=newaccount]
 
-* You must abide by all policies for Studio access and scheduling. https://pwmercy.github.io/resources/Studio_and_Lab_policies.html[Read policies here.]
+==== Studio Forms
+
+NOTE: You can fill in PDF forms on your computer. +
+ + 
+ Download the form, then open it using Adobe Acrobat Reader
+
+Click https://www.dropbox.com/scl/fo/glaeflk9uz63jduywzq4c/AOj6j9y2bGsC8_gV5YBonUI?rlkey=eu6nejynll5p3003vilcn7ejk&e=1&dl=0[here] for access to forms and documents used in the studio, including:
+
+* Room layouts
+
+* Gear lists
+
+* Patch bays
+
+* Input/Output 
 
 === Software
 ==== Pro Tools

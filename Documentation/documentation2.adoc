@@ -56,6 +56,8 @@ include::sections/recent_changes.adoc[]
 
 == Hardware
 
+NOTE: The University is on a 5-year replacement cycle for lab computers and faculty/staff computers
+
 === Servers
 
 ==== Synology NAS
@@ -137,13 +139,12 @@ include::sections/brightsign.adoc[]
 
 === License servers
 
-** http://172.31.48.93:22352[Reason] (license server deprecated, see <<_software_reason, Reason>> under Software)
+==== Local
 
-** http://172.31.48.93:5054/home.asp[ZBrush]
-** Keyshot
-** http://172.31.48.94:30304/#/[VRay]
-** Musition (cloud)
-*** Students and Faculty need a Musition Cloud account set up through Blackboard.
+** [Ableton Live]
+** [Pro Tools]
+
+==== Cloud
 
 === Standard Software
 ==== For All
@@ -153,8 +154,8 @@ include::sections/brightsign.adoc[]
 
 ==== For Design+Animation
 ** Adobe Creative Cloud
-
-*** Licenses and install packages managed on Adobe admin console (currently administered by pwhite&#064;mercy.edu)
+*** {adobe_console}[Management Console]
+**** Licenses and install packages managed on Adobe admin console (currently administered by pwhite&#064;mercy.edu)
 
 **** mercy.edu IDs are federated with Adobe (see https://helpx.adobe.com/enterprise/using/identity.html[Identity Overview]).
 
@@ -171,6 +172,7 @@ include::sections/brightsign.adoc[]
 *** Now part of Adobe Creative Cloud
 ** Marvelous Designer
 ** ZBrush
+*** Now part of Maxon suite
 
 ---
 .Not currently in use
@@ -186,12 +188,16 @@ include::sections/brightsign.adoc[]
 ==== For Music Production+Recording Arts
 
 ** Pro Tools
+*** {avid-downloads}[Account and downloads]
 *** Post install script removes Avid Application manager and updates ShoeTool, removing the request for admin password on first-run
 
 IMPORTANT: App manager installer must be marked as optional in Munki or Pro Tools will keep reinstalling the update
 
 [#_software_reason]
 ** Reason
+
+IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it set up and licensing is by log in to Reason account.
+
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
 *** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
@@ -202,13 +208,33 @@ IMPORTANT: Local authorization still requires that https://www.wibu.com/us/suppo
 ****  [line-through]#Codemeter#
 *** Additional Content
 **** Script for relocating content
+
 ** Logic Pro
 ** Ableton Live
+*** {ableton-downloads}[Downloads]
+
 ** Musition
-** Native Instruments Komplete
+** Native Instruments Standard
+*** 
 *** https://docs.google.com/spreadsheets/d/1FuwkqEc7CqMwjRVjgcy2KhJlkVl3jTT3Ze1RsVFvzC4/edit#gid=0[Version comparison]
 
 == Deployment and Maintenance
+
+=== MDM
+
+:leveloffset: +3
+
+include::mdm.adoc[]
+
+:leveloffset: -3
+
+=== Code
+
+:leveloffset: +3
+
+include::code.adoc[]
+
+:leveloffset: -3
 
 === Deployment Checklists
 
@@ -245,21 +271,36 @@ include::sections/signing_pkg.adoc[]
 
 === Apple updates
 
-* [line-through]#Reposado/Margarita#
-
-CAUTION: MacOS 11 killed this off.
-
 ==== Loops for GarageBand and Logic
 
 Auto downloads Apple Sound Library to local machine or server.
 
-* https://github.com/carlashley/appleLoops[Appleloops utility]
+* https://github.com/carlashley/loopdown[Loopdown utility]
+
+** Download to local machine or to server
+** Download from Apple or local server
 
 ** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 server run by MDS.
+
+** Our script located https://github.com/PWmercy/Mercy-Digital-Arts/tree/master/Deployment/Apple_Apps[here on Github]
 
 === Synology
 
 * Package Center
+
+=== Volume Ownership
+
+https://derflounder.wordpress.com/2023/03/10/granting-volume-owner-status-on-apple-silicon-macs/[Rich Trouton article]
+
+=== Login/Background Items
+
+* Login Items Plist
+
+A list populated by Apple of common background items.
+
+https://support.apple.com/en-lamr/guide/deployment/depdca572563/web[Apple documentation]
+
+located at `/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/Resources/attributions.plist`
 
 == Management/Reporting
 
@@ -285,10 +326,9 @@ include::sections/Desktop_Central_agent.adoc[]
 ** Docker
 ** Mac minis
 
-** IT-managed VMs
-*** Booked scheduling system
-**** https://booked.mercy.edu[Web access]
-**** https://www.bookedscheduler.com[Product support]
+
+** Booked scheduling system
+
 
 * Management tools
 ** http://172.31.48.124:5000[Docker]

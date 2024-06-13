@@ -1,5 +1,5 @@
 = Deployment Checklists
-:source-highlighter: rouge
+:source-highlighter: highlight.js
 
 :author: Phil White
 :author_email: pwhite@mercy.edu

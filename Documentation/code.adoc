@@ -1,0 +1,20 @@
+== Code
+
+Github
+Bash code, Documentation
+
+Gists
+
+* Applescriptsf
+
+** Remote Desktop
+*** SSH to selected device
+
+** Visual Studio Code
+*** Github Pages updater
+
+* File Server management
+
+** Class Folders
+
+** Home folders

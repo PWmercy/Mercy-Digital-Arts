@@ -4,7 +4,14 @@
 :pwhite-blackboard: https://mercy.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=_67680_1&cmp_tab_id=_118416_1&mode=view#
 :pwhite-zoom-room: https://mercy.zoom.us/j/99779795744?pwd=WEViT1VEczMxVUUyVGladGF5Vmhkdz09
 :booked_site: https://scheduler.labarchives.com
-:resources_page: https://pwmercy.github.io/resources/
+:resource_page: https://pwmercy.github.io/resources/
 :style_switcher: <script src="https://darshandsoni.com/asciidoctor-skins/switcher.js" type="text/javascript"></script>
 :iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css
 :techmgr_email: pwhite&#064;mercy.edu
+// 
+// Vendor links
+// 
+:adobe_console: https://adminconsole.adobe.com/
+:avid-downloads: https://my.avid.com/products
+:maxon-teams: https://my.maxon.net/teams/
+:ableton-downloads: https://www.ableton.com/en/account/
