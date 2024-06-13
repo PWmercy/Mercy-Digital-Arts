@@ -3,6 +3,12 @@
 # 20200929 Sync github version with CATA-NAS-HA Scripts version
 # 20190828 Update for new Domain, MERCY (STUDENT no longer in use)
 
+## Usage
+## This runs on the Synology NAS (catanasha.digiarts.mercy)
+## NOTE: Running from within /volume/scripts, data file location must be 
+## complete path and is passed in the command
+## /volume1/scripts$ sudo sh make_home_folders.sh /volume1/scripts/data_file.data
+
 # CD to Digiarts-Home-folders
 cd '/volume1/Digiarts-Home-folders'
 
