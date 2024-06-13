@@ -79,8 +79,8 @@ Users' Ableton folder may need to be deleted again
 ==== Logic
 
 * [ ] Profile to prevent download of additional loops
-* [ ] Install AppleLoops script
-** [ ] Run AppleLoops script
+* [ ] Install Loopdown script
+** [ ] Run LoopDown script
 
 === DA
 ==== Zbrush
