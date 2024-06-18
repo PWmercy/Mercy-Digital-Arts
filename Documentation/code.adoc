@@ -1,20 +1,26 @@
 == Code
 
-Github
-Bash code, Documentation
+* https://github.com/PWmercy/Mercy-Digital-Arts[Github]
 
-Gists
+** Bash code, Documentation
 
-* Applescriptsf
+* https://gist.github.com/PWmercy[Gists]
+
+* Applescripts
 
 ** Remote Desktop
 *** SSH to selected device
 
 ** Visual Studio Code
-*** Github Pages updater
+*** https://github.com/PWmercy/Mercy-Digital-Arts/blob/315cc36bef5624127c9ec2455e0846ca9015033b/Management/update_resource_web.sh[Github
+    Pages updater] called by Applescript "Update Resource Page" and resides on local
+    machine
 
-* File Server management
+* File Server management scripts
 
 ** Class Folders
+see: https://github.com/PWmercy/Mercy-Digital-Arts/tree/315cc36bef5624127c9ec2455e0846ca9015033b/Class%20setup/Class%20Folders[Github]
+
 
 ** Home folders
+see: https://github.com/PWmercy/Mercy-Digital-Arts/tree/315cc36bef5624127c9ec2455e0846ca9015033b/Class%20setup/Home%20folders[Github]
