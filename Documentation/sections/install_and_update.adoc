@@ -33,7 +33,8 @@ NOTE: Ignore the login option. You do _not_ need to log in to this app.
 
 *Managed Software Center app* image:media/managed_software_center.png[Managed Software Center, 10%]::
 
-* Located in the Applications folder, standard and optional software can be installed and updated.
+* Located in the Applications folder
+* Standard and optional software can be installed and updated.
 
 ---
 NOTE: If you require a later version of software than is installed on a lab machine and it is _not_ available using the above methods, email _{techmgr_email}_
