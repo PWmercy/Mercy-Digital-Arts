@@ -5,6 +5,9 @@ web_folder="/Users/pwhite/Development/GitHub/TestRepo/Testweb"
 
 cd "$docs_folder" || exit
 
+# Add any file that will go on github pages
+# Asciidoctor defaults to creating html file
+
 /usr/local/bin/asciidoctor StudentandFacultyresources.adoc
 /usr/local/bin/asciidoctor labs.adoc
 /usr/local/bin/asciidoctor wacom.adoc
