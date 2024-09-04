@@ -1,0 +1,41 @@
+:doctitle: MPRA Studio Policies
+
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+:revdate: September 7, 2023
+:revnumber: 2.0
+
+:toc: left
+:toc-levels: 2
+:toc-title: Studio Policies
+
+:icons: font
+:sectnumlevels: 2
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+* Synology Management
+
+File server
+Bash scripts
+Class Folders
+Personal folders
+Permission fix
+
+Backup
+To local disk
+To external synology
+
+
+Cloud sync
+Class-folders
+
+High Availability
+
+UPS

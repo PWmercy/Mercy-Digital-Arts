@@ -16,6 +16,12 @@ networksetup -setdnsservers "Ethernet" 172.31.48.124
 networksetup -listlocations
 networksetup -getcurrentlocation
 
+# Create backup location - point to Main Synology
+networksetup -createlocation "Digiarts DNS2" populate
+networksetup -switchtolocation "Digiarts DNS2"
+networksetup -setdnsservers "Ethernet" 172.31.48.200
+
+
 # To clear DNS setting in Automatic to get to default
 networksetup -switchtolocation "Automatic"
 networksetup -setdnsservers "Ethernet" empty

@@ -2,8 +2,8 @@
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
-:revdate: September 7, 2023
-:revnumber: 2023.2
+:revdate: September 4, 2024
+:revnumber: 2024.1
 
 :toc: left
 :toc-levels: 2
@@ -92,7 +92,9 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 
-* Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EksbO4RhjQ9Gj8ZQYkzAEbEBauQIZlKC0LZH1CGczeAIGA[here] (Updated 2/1/2024).
+* Connect
+  https://mercyedu-my.sharepoint.com/:f:/r/personal/sp_odr_cata_1_mercy_edu/Documents/2024FA-Class-folders-sync?csf=1&web=1&e=QYSs3I[here]
+  (Updated 9/4/2024).
 
 ** Files added or changed in the lab will be there when you get home and vice-versa.
 

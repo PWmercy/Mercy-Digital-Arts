@@ -8,20 +8,23 @@
 // tag::recstudiocomputers[]
 
 === Studio A
-. iMac Pro
+* Mac Studio
+** Acquired 6/2024
 
 === Studio B
-. iMac
+* iMac
 
 === Studio C
-. iMac
+* iMac
 
 === Studio D
-. Mac Mini
+* Mac Mini (Intel)
 
 // end::recstudiocomputers[]
 
 == Other Equipment
-Mixer
+* Mixer
 
-Ethernet audio
+* Hearback System
+** Ethernet audio personal headphone mixer
+

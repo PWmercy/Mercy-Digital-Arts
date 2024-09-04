@@ -89,6 +89,12 @@ NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 ** Web
 *** Munki Repo
 
+:leveloffset: +4
+
+include::synology.adoc[]
+
+:leveloffset: -4
+
 ==== Mac Mini servers
 
 . Mini Server 1 RETIRED
@@ -195,9 +201,13 @@ IMPORTANT: App manager installer must be marked as optional in Munki or Pro Tool
 
 [#_software_reason]
 ** Reason
+<<<<<<< Updated upstream
 
 IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it set up and licensing is by log in to Reason account.
 
+=======
+*** As of 9/2024, Reason is being installed only on Teacher stations for demonstration.
+>>>>>>> Stashed changes
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
 *** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
@@ -205,17 +215,24 @@ IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it
 IMPORTANT: Local authorization still requires that https://www.wibu.com/us/support/user/downloads-user-software.html[[green]*CodeMeter*] be installed.
 
 ***   [line-through]#Multi-license#
-****  [line-through]#Codemeter#
 *** Additional Content
 **** Script for relocating content
 
 ** Logic Pro
+
 ** Ableton Live
+<<<<<<< Updated upstream
 *** {ableton-downloads}[Downloads]
 
 ** Musition
 ** Native Instruments Standard
 *** 
+=======
+
+** Musition
+
+** Native Instruments Komplete
+>>>>>>> Stashed changes
 *** https://docs.google.com/spreadsheets/d/1FuwkqEc7CqMwjRVjgcy2KhJlkVl3jTT3Ze1RsVFvzC4/edit#gid=0[Version comparison]
 
 == Deployment and Maintenance
@@ -273,14 +290,19 @@ include::sections/signing_pkg.adoc[]
 
 ==== Loops for GarageBand and Logic
 
-Auto downloads Apple Sound Library to local machine or server.
+* https://github.com/carlashley/loopdown[Loopdown utility]
+** Auto downloads Apple Sound Library to local machine or server.
 
+<<<<<<< Updated upstream
 * https://github.com/carlashley/loopdown[Loopdown utility]
 
 ** Download to local machine or to server
 ** Download from Apple or local server
 
 ** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 server run by MDS.
+=======
+** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 Http server run via TwoCanoes MDS.
+>>>>>>> Stashed changes
 
 ** Our script located https://github.com/PWmercy/Mercy-Digital-Arts/tree/master/Deployment/Apple_Apps[here on Github]
 
@@ -310,8 +332,8 @@ located at `/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework
 * https://school.apple.com[Apple School Manager]
 * Licensing - each administered differently
 ** Adobe changes
-** http://172.31.48.93:8081/maps[KeyServer]
-*** Heat maps
+** http://172.31.48.93:8081/maps[Sassfras KeyServer] for Ableton Live
+*** NOTE: Sassafras Allsight system provides many other capabilities including graphic Heat maps of classroom/labs
 
 === Desktop Central
 
@@ -325,14 +347,19 @@ include::sections/Desktop_Central_agent.adoc[]
 *** Private DNS
 ** Docker
 ** Mac minis
+*** 
 
+<<<<<<< Updated upstream
 
 ** Booked scheduling system
 
+=======
+** IT-managed VMs
+*** Security Cameras
+>>>>>>> Stashed changes
 
 * Management tools
 ** http://172.31.48.124:5000[Docker]
-
 
 = Admin Resources
 
@@ -348,4 +375,9 @@ NOTE: Both use asm@mercy.edu account
 
 * https://scriptingosx.com[Scripting OS X]
 
+<<<<<<< Updated upstream
 * https://www.production-expert.com/production-expert-1/macos-ventura-compatibility-the-ultimate-pro-audio-guide[Ventura Compatibility (2024)]
+=======
+* https://www.production-expert.com/pro-tools-resources-1[Pro Tools Resources]
+
+>>>>>>> Stashed changes
