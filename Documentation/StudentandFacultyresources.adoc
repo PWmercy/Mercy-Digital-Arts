@@ -92,7 +92,9 @@ IMPORTANT: <<labs.adoc#,Read these>> instructions and policies _first_.
 
 * Class folders from the labs are automatically synchronized with a dedicated OneDrive cloud drive. This allows you to have access when not on campus.
 
-* Connect https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EqDg10-nUThJrvCoBbsgV-EBqIp-t8s30xcwjQdD6HQiJg?e=OCuOtv&xsdata=MDV8MDJ8cHdoaXRlQG1lcmN5LmVkdXw4ZTMxZTk1NGI0YzU0MDc4NjEzMTA4ZGNjZGRhMmRjYXw4ODQwNDc3N2YyNGI0ZTFjYWRhMWJkZTljZGEyMjc1NHwwfDB8NjM4NjExNTg0MTUzNzg5NzI4fFVua25vd258VFdGcGJHWnNiM2Q4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazFoYVd3aUxDSlhWQ0k2TW4wPXwwfHx8&sdata=NHpjeTFUNjJUdVl0bXQxZHlERWlheC9aekVDWFFhdHl6d0dxNUw0Y3JIZz0%3d[here] (Updated 9/5/2024).
+* Connect
+  https://mercyedu-my.sharepoint.com/:f:/g/personal/sp_odr_cata_1_mercy_edu/EqDg10-nUThJrvCoBbsgV-EBqIp-t8s30xcwjQdD6HQiJg?e=OCuOtv[here]  (Updated 9/5/2024).
+
 
   
 
