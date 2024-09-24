@@ -1,5 +1,7 @@
 #!/bin/sh
 
+####### This script is now DEPRECATED #########
+
 #################################################
 ### Reason 10 added extra instruments and refills that by default download into User Library.
 ### At first-run for each user, a download is requested and files are put
