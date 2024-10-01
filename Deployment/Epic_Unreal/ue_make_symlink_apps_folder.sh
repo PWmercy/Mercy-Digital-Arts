@@ -1,3 +1,4 @@
+#!/bin/sh
 ue_symlink='/Applications/Unreal Editor.app'
 
 if [ -d "$ue_symlink" ]; then
