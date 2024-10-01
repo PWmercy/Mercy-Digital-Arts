@@ -53,6 +53,13 @@ include::sections/recent_changes.adoc[]
 ** Implemented using https://pages.github.com[GitHub Pages]
 ** Accessible on the web https://pwmercy.github.io/resources/[here]
 
+NOTE: The page you are reading and the Resource page are currently edited in
+Visual Studio Code.
+An
+https://github.com/PWmercy/Mercy-Digital-Arts/tree/c688e3c95b6cf3bacb9acea2d0b51bcbc8d4cc6b/Management/AppleScript/Code[Applescript],
+which calls a link:++https://github.com/PWmercy/Mercy-Digital-Arts/blob/c688e3c95b6cf3bacb9acea2d0b51bcbc8d4cc6b/Management/update_resource_web.sh++[bash
+script], updates these Github pages.
+
 
 == Hardware
 
@@ -105,6 +112,10 @@ include::synology.adoc[]
 . Mini Server 5
 * Out of service - New HD?
 . Mini Server 6
+* Services
+** Docker Desktop running Munkireport container
+** Munkiadmin
+*** Repo is at smb://catanas2.digiarts.mercy/munki_repo
 
 === Lab Computers
 
@@ -182,11 +193,11 @@ include::sections/brightsign.adoc[]
 
 ---
 .Not currently in use
-** KeyShot
-** Quixel
-** Houdini
-** Nuke
-** Vray
+** [line-through]*KeyShot*
+** Quixel - Quixel Bridge is available as Unreal plugin
+** [line-through]*Houdini*
+** [line-through]*Nuke*
+** [line-through]*Vray*
 ** [line-through]*https://www.pipelinefx.com[Qube] Render Farm*
 
 ---
@@ -201,13 +212,12 @@ IMPORTANT: App manager installer must be marked as optional in Munki or Pro Tool
 
 [#_software_reason]
 ** Reason
-<<<<<<< Updated upstream
 
 IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it set up and licensing is by log in to Reason account.
 
 =======
 *** As of 9/2024, Reason is being installed only on Teacher stations for demonstration.
->>>>>>> Stashed changes
+
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
 *** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
@@ -221,9 +231,7 @@ IMPORTANT: Local authorization still requires that https://www.wibu.com/us/suppo
 ** Logic Pro
 
 ** Ableton Live
-<<<<<<< Updated upstream
 *** {ableton-downloads}[Downloads]
-
 ** Musition
 ** Native Instruments Standard
 *** 
@@ -232,7 +240,6 @@ IMPORTANT: Local authorization still requires that https://www.wibu.com/us/suppo
 ** Musition
 
 ** Native Instruments Komplete
->>>>>>> Stashed changes
 *** https://docs.google.com/spreadsheets/d/1FuwkqEc7CqMwjRVjgcy2KhJlkVl3jTT3Ze1RsVFvzC4/edit#gid=0[Version comparison]
 
 == Deployment and Maintenance
