@@ -60,7 +60,6 @@ https://github.com/PWmercy/Mercy-Digital-Arts/tree/c688e3c95b6cf3bacb9acea2d0b51
 which calls a link:++https://github.com/PWmercy/Mercy-Digital-Arts/blob/c688e3c95b6cf3bacb9acea2d0b51bcbc8d4cc6b/Management/update_resource_web.sh++[bash
 script], updates these Github pages.
 
-
 == Hardware
 
 NOTE: The University is on a 5-year replacement cycle for lab computers and faculty/staff computers
@@ -153,6 +152,8 @@ include::sections/brightsign.adoc[]
 
 == Software
 === Renewal calendar
+** In Microsoft Outlook
+*** Shared with Studio Manager, Program Directors, Department Chair, Administrative Assistant
 
 === License servers
 
@@ -267,22 +268,28 @@ include::deployment_checklists.adoc[tag=checklists]
 :leveloffset: -3
 
 === Tools
+These are used for Managing Macs
+
 ** Munki
-*** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki report]
 *** Customization and Branding
+*** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki
+    report]
+
+** Autopkg
 
 ** https://github.com/chilcote/outset/wiki[outset]
 
 *** run scripts on login, on-demand, etc.
 
-** https://eclecticlight.co/lockrattler-systhist/[Silnite]
-
-** https://github.com/scriptingosx/diskspace[diskspace]
-
 ** Microsoft
 [#_deploy_mau]
 *** https://www.kevinmcox.com/2021/10/microsoft-now-provides-curated-deferral-channels-for-autoupdate/[Microsoft Autoupdate profile settings]
 **** Custom deferrals, etc.
+
+** Other
+*** https://eclecticlight.co/lockrattler-systhist/[Silnite]
+
+*** https://github.com/scriptingosx/diskspace[diskspace]
 
 === Signing packages
 :leveloffset: +3
@@ -293,20 +300,20 @@ include::sections/signing_pkg.adoc[]
 
 === Apple updates
 
-==== Loops for GarageBand and Logic
+==== Loops, etc. for GarageBand and Logic
 
 * https://github.com/carlashley/loopdown[Loopdown utility]
-** Auto downloads Apple Sound Library to local machine or server.
+** Auto downloads Apple sound packages to local machine or server.
 
-* https://github.com/carlashley/loopdown[Loopdown utility]
-
-** Download to local machine or to server
-** Download from Apple or local server
+** Download Apple Loops and Additional _to_ local machine or server
+** Download _from_ Apple or local server
+** Our script is located
+   https://github.com/PWmercy/Mercy-Digital-Arts/tree/master/Deployment/Apple_Apps[here
+   on Github]
 
 =======
-** As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 Http server run via TwoCanoes MDS.
-
-** Our script located https://github.com/PWmercy/Mercy-Digital-Arts/tree/master/Deployment/Apple_Apps[here on Github]
+As of 10/2021, using MacAdmins managed Python (https://github.com/macadmins/python[github link]) and Mac Mini 6 Http server run via TwoCanoes MDS.
+=======
 
 === Synology
 
@@ -329,32 +336,35 @@ located at `/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework
 == Management/Reporting
 
 * https://munki6.digiarts.mercy:8881/[Munki Report]
-* http://license2.digiarts.mercy:8081/software[KeyServer]
 * https://mybusiness.mosyle.com[Mosyle MDM]
 * https://school.apple.com[Apple School Manager]
 * Licensing - each administered differently
-** Adobe changes
-** http://172.31.48.93:8081/maps[Sassfras KeyServer] for Ableton Live
+** http://172.31.48.93:8081[Sassfras KeyServer] for Ableton Live
 *** NOTE: Sassafras Allsight system provides many other capabilities including graphic Heat maps of classroom/labs
+** Adobe licensing
 
 === Desktop Central
 
-:leveloffset: +2
-include::sections/Desktop_Central_agent.adoc[]
+IMPORTANT: Desktop Central is used by Mercy IT for Inventory only at this
+time so should not conflict with MDM
 
-:leveloffset: -1
+Refer to xref:sections/Desktop_Central_agent.adoc#desktop_central[Desktop Central] for deployment information.
 
 == Many servers/many services
-** Synology
-*** Private DNS
+* Synology NAS
+** Private DNS
 ** Docker
-** Mac minis
-*** 
+* Mac minis
+** Docker for Munkireport
+** Sassafras for Ableton license
 
-** Booked scheduling system
+*** HTTP server for Docker
+* Booked scheduling system
+** Cloud-based, managed by LabArchives
 
-* Management tools
-** http://172.31.48.124:5000[Docker]
+== Management tools
+* http://172.31.48.124:5000[Docker] on Synology NAS
+** Currently used for experimenting with Portainer, Wiki, etc.
 
 = Admin Resources
 

@@ -1,4 +1,8 @@
+[[desktop_central]]
+
 ## Installing Mac Agent
+
+Latest install should be acquired from IT
 
 ### Manual Install
 
