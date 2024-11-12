@@ -214,9 +214,6 @@ include::sections/brightsign.adoc[]
 
 IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it set up and licensing is by log in to Reason account.
 
-=======
-*** As of 9/2024, Reason is being installed only on Teacher stations for demonstration.
-
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
 *** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
@@ -233,13 +230,10 @@ IMPORTANT: Local authorization still requires that https://www.wibu.com/us/suppo
 *** {ableton-downloads}[Downloads]
 ** Musition
 ** Native Instruments Standard
-*** 
-=======
-
-** Musition
-
-** Native Instruments Komplete
 *** https://docs.google.com/spreadsheets/d/1FuwkqEc7CqMwjRVjgcy2KhJlkVl3jTT3Ze1RsVFvzC4/edit#gid=0[Version comparison]
+ 
+** Musition
+** Native Instruments Komplete
 
 == Deployment and Maintenance
 
