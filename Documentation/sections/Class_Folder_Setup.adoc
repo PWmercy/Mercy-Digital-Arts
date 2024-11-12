@@ -1,0 +1,3 @@
+Each semester, the following steps are followed.
+
+NOTE: The shell scripts used can likely be extended and improved to avoid the Excel steps and work directly with the data.
