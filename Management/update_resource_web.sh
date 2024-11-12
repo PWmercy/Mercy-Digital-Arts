@@ -14,6 +14,9 @@ cd "$docs_folder" || exit
 /usr/local/bin/asciidoctor studentworkers.adoc
 /usr/local/bin/asciidoctor documentation2.adoc
 /usr/local/bin/asciidoctor Studio_and_Lab_policies.adoc
+/usr/local/bin/asciidoctor sections/Desktop_Central_agent.adoc
+
+
 
 
 mv StudentandFacultyresources.html "$web_folder"/index.html
@@ -22,6 +25,9 @@ mv wacom.html "$web_folder"/wacom.html
 mv studentworkers.html "$web_folder"/studentworkers.html
 mv documentation2.html "$web_folder"/documentation2.html
 mv Studio_and_Lab_policies.html "$web_folder"/Studio_and_Lab_policies.html
+mv sections/Desktop_Central_agent.html "$web_folder"/sections/Desktop_Central_agent.html
+
+
 
 cd "$web_folder" || exit
 
