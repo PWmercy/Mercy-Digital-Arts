@@ -1,0 +1,431 @@
+**Disclaimer**: I'm not the original author of this sheet, but can't recall
+where I found it.
+~If you know the author, please let me know so I give the attribution.~
+
+The original author seems to be Charles Edge, here's the [original
+content](https://krypted.com/mac-security/mac-network-commands-cheat-sheet/),
+as pointed out by @percisely.
+
+
+**Note**: Since this seems to be helpful to some people, I formatted it to
+improve readability of the
+[original](https://gist.githubusercontent.com/jjnilton/add1eeeb3a9616f53e4c/raw/d7561c2ad6ab2b15aa85dafb9613c3c338e7583e/mac%2520network%2520commands%2520terminal).
+Also, note that this is from 2016, many things may have changed, and I don't
+use macOS anymore, so I probably can't help in case of questions, but maybe
+someone else can.
+
+# Mac Network Commands Cheat Sheet
+
+> After writing up the presentation for MacSysAdmin in Sweden, I decided to
+go ahead and throw these into a quick cheat sheet for anyone who’d like to
+have them all in one place.
+Good luck out there, and stay salty.
+
+Get an ip address for en0:
+
+```
+ipconfig getifaddr en0
+```
+
+Same thing, but setting and echoing a variable:
+
+```
+ip=`ipconfig getifaddr en0` ; echo $ip
+```
+
+View the subnet mask of en0:
+
+```
+ipconfig getoption en0 subnet_mask
+```
+
+View the dns server for en0:
+
+```
+ipconfig getoption en0 domain_name_server
+```
+
+Get information about how en0 got its DHCP on:
+
+```
+ipconfig getpacket en1
+```
+
+View some network info:
+
+```
+ifconfig en0
+```
+
+Set en0 to have an IP address of 10.10.10.10 and a subnet mask of
+255.255.255.0:
+
+```
+ifconfig en0 inet 10.10.10.10 netmask 255.255.255.0
+```
+
+Show a list of locations on the computer:
+
+```
+networksetup -listlocations
+```
+
+Obtain the active location the system is using:
+
+```
+networksetup -getcurrentlocation
+```
+
+Create a network location called Work and populate it with information from
+the active network connection:
+
+```
+networksetup -createlocation Work populate
+```
+
+Delete a network location called Work:
+
+```
+networksetup -deletelocation Work
+```
+
+Switch the active location to a location called Work:
+
+```
+networksetup -switchlocation Work
+```
+
+Switch the active location to a location called Work, but also show the GUID
+of that location so we can make scripties with it laters:
+
+```
+scselect Work
+```
+
+List all of the network interfaces on the system:
+
+```
+networksetup -listallnetworkservices
+```
+
+Rename the network service called Ethernet to the word Wired:
+
+```
+networksetup -renamenetworkservice Ethernet Wired
+```
+
+Disable a network interface:
+
+```
+networksetup -setnetworkserviceenabled off
+```
+
+Change the order of your network services:
+
+```
+networksetup -ordernetworkservices “Wi-Fi” “USB Ethernet”
+```
+
+Set the interface called Wi-Fi to obtain it if it isn’t already:
+
+```
+networksetup -setdhcp Wi-Fi
+```
+
+Renew DHCP leases:
+
+```
+ipconfig set en1 BOOTP && ipconfig set en1 DHCP
+ifconfig en1 down && ifconfig en1 up
+```
+
+Renew a dhcp lease in a script:
+
+```
+echo "add State:/Network/Interface/en0/RefreshConfiguration temporary" | sudo scutil
+```
+
+Configure a manual static IP address:
+
+```
+networksetup -setmanual Wi-Fi 10.0.0.2 255.255.255.0 10.0.0.1
+```
+
+Configure the dns servers for a given network interface:
+
+```
+networksetup -setdnsservers Wi-Fi 10.0.0.2 10.0.0.3
+```
+
+Obtain the dns servers used on the Wi-Fi interface:
+
+```
+networksetup -getdnsservers Wi-Fi
+```
+
+Stop the application layer firewall:
+
+```
+launchctl unload /System/Library/LaunchAgents/com.apple.alf.useragent.plistlaunchctl unload /System/Library/LaunchDaemons/com.apple.alf.agent.plist
+```
+
+Start the application layer firewall:
+
+```
+launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plistlaunchctl load /System/Library/LaunchAgents/com.apple.alf.useragent.plist
+```
+
+Allow an app to communicate outside the system through the application layer
+firewall:
+
+```
+socketfilterfw -t“/Applications/FileMaker Pro/FileMaker Pro.app/Contents/MacOS/FileMaker Pro”
+```
+
+See the routing table of a Mac:
+
+```
+netstat -nr
+```
+
+Add a route so that traffic for 10.0.0.0/32 communicates over the 10.0.9.2
+network interface:
+
+```
+route -n add 10.0.0.0/32 10.0.9.2
+```
+Log bonjour traffic at the packet level:
+
+```
+sudo killall -USR2 mDNSResponder
+```
+
+Stop Bonjour:
+
+```
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+```
+
+Start Bonjour:
+
+```
+launchctl load -w /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+```
+
+Put a delay in your pings:
+
+```
+ping -i 5 192.168.210.1
+```
+
+Ping the hostname 5 times and then stop the ping:
+
+```
+ping -c 5 google.com
+```
+
+Flood ping the host:
+
+```
+ping -f localhost
+```
+
+Set the packet size during your ping:
+
+```
+ping -s 100 google.com
+```
+
+Customize the source IP during your ping:
+
+```
+ping -S 10.10.10.11 google.com
+```
+
+View disk performance:
+
+```
+iostat -d disk0
+```
+
+Get information about the airport connection on your system:
+
+```
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -I
+```
+
+Scan the available Wireless networks:
+
+```
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s
+```
+
+Trace the path packets go through:
+
+```
+traceroute google.com
+```
+
+Trace the routes without looking up names:
+
+```
+traceroute -n google.com
+```
+
+Trace a route in debug mode:
+
+```
+traceroute -d google.com
+```
+
+View information on all sockets:
+
+```
+netstat -at
+```
+
+View network information for IPv6:
+
+```
+netstat -lt
+```
+
+View per protocol network statistics:
+
+```
+netstat -s
+```
+
+View the statistics for a specific network protocol:
+
+```
+netstat -p igmp
+```
+
+Show statistics for network interfaces:
+
+```
+netstat -i
+```
+
+View network information as it happens (requires ntop to be installed):
+
+```
+ntop
+```
+
+Scan port 80 of www.google.com
+
+```
+/System/Library/CoreServices/Applications/Network\ Utility.app/Contents/Resources/stroke www.google.com 80 80
+```
+
+Port scan krypted.com stealthily:
+
+```
+nmap -sS -O krypted.com/24
+```
+
+Establish a network connection with www.apple.com:
+
+```
+nc -v www.apple.com 80
+```
+
+Establish a network connection with gateway.push.apple.com over port 2195:
+
+```
+/usr/bin/nc -v -w 15 gateway.push.apple.com 2195
+```
+
+Establish a network connection with feedback.push.apple.com only allowing
+IPv4:
+
+```
+/usr/bin/nc -v -4 feedback.push.apple.com 2196
+```
+
+Setup a network listener on port 2196 for testing:
+
+```
+/usr/bin/nc -l 2196
+```
+
+Capture some packets:
+
+```
+tcpdump -nS
+```
+
+Capture all the packets:
+
+```
+tcpdump -nnvvXS
+```
+
+Capture the packets for a given port:
+
+```
+tcpdump -nnvvXs 548
+```
+
+Capture all the packets for a given port going to a given destination of
+10.0.0.48:
+
+```
+tcpdump -nnvvXs 548 dst 10.0.0.48
+```
+
+Capture the packets as above but dump to a pcap file:
+
+```
+tcpdump -nnvvXs 548 dst 10.0.0.48 -w /tmp/myfile.pcap
+```
+
+Read tcpdump (cap) files and try to make them human readable:
+
+```
+tcpdump -qns 0 -A -r /var/tmp/capture.pcap
+```
+
+What binaries have what ports and in what states are those ports:
+
+```
+lsof -n -i4TCP
+```
+
+Make an alias for looking at what has a listener open, called ports:
+
+```
+alias ports='lsof -n -i4TCP | grep LISTEN'
+```
+
+Report back the name of the system:
+
+```
+hostname
+```
+
+Flush the dns cache:
+
+```
+dscacheutil -flushcache
+```
+
+Clear your arp cache:
+
+```
+arp -ad
+```
+
+View how the Server app interprets your network settings:
+
+```
+serveradmin settings network
+```
+
+Whitelist the IP address 10.10.10.2:
+
+```
+/Applications/Server.app/Contents/ServerRoot/usr/libexec/afctl -w 10.10.10.2
+```
