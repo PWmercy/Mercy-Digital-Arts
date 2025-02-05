@@ -9,14 +9,13 @@
 # Assumes location of content on http server. As of 05/2024, content is on miniserv6, using MDS to run Apache
 
 ## Use macadmin python
-## run
+## for details, run
 ##
 ## /usr/local/bin/managed_python3 /usr/local/bin/loopdown/loopdown -h
 ##
-## for details
-## -a = app, -i = install, -m = mandatory -o = optional
+## -a = app, -i = install, -m = mandatory -o = optional -n =dry run (no downloads)
 
- ################################################
+################################################
 ##### Use sudo if outside of this script #######
 ################################################
 
