@@ -1,0 +1,18 @@
+:author: Phil White
+:author_email: pwhite&#064;mercy.edu
+:revdate: January 24, 2025
+:revnumber: 2.0
+
+Because the M1 iMacs can only support 2 displays, we acquired a DisplayLink compatible hub to accommodate the Wacom, Ektron (projector) and main display.
+This requires https://www.synaptics.com/products/displaylink-graphics/downloads[driver] software.
+
+In addition, we use https://github.com/jakehilborn/displayplacer[displayplacer] to arrange displays.
+An Applescript was written to call this on startup and as needed.
+
+**** Using in Victory-208 for Instructor station to allow 3 monitor on iMac M1
+
+**** Set to run on Login
+
+**** Applescript on Desktop to run as needed
+
+IMPORTANT: As of 1/2025, this was not functioning because DisplayPlacer is very sensitive to any cables being moved or disconnected and ID of the display can change. Wacom tablet has been disconnected for now. If this is to be used, investigate alternative way to identify displays, per DisplayPlacer documentation.

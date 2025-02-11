@@ -1,3 +1,5 @@
+# DEPRECATED
+
 mkdir ~/Library/AutoPkg/RecipeOverrides/NativeInstruments
 python ~/Library/AutoPkg/RecipeRepos/com.github.uoe-macos.autopkg-recipes/Native\ Instruments/native_instruments_helper.py\
                 --template-autopkg-override \

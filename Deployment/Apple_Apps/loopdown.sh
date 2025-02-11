@@ -2,7 +2,6 @@
 
 # Install or update Apple packages for Logic and Garageband (and MainStage if installed)
 
-
 # NOTE this originally used AppleLoops, which was superceded by loopdown (https://github.com/carlashley/loopdown)
 
 # Assumes install and location of loopdown and managed_python https://github.com/macadmins/python

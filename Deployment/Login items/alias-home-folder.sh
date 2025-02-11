@@ -13,5 +13,4 @@ osascript -e 'set theUser to do shell script "whoami"' \
 
 mv "/Users/$USER/Desktop/My-Stuff" "/Users/$USER/Desktop/$aliasName"
 
-
 fi

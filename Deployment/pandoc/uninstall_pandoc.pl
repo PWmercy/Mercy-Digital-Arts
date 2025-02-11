@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+
+# see https://pandoc.org
+
 # Script to remove all files installed by the macOS pandoc installer
 # and unregister the package.  Modified from a script contributed
 # by Daniel T. Staal.

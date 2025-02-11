@@ -2,8 +2,16 @@
 
 Login https://mybusiness.mosyle.com[here].
 
-AD Integration
+AD Integration (MosyleAuth)
 
-Students only - Faculty and staff must be manually added to End Users within Mosyle
+Students only - Faculty and staff must be manually added to End Users within Mosyle.
 
-Needs refreshing when new students added
+See Organization/Integrations/Microsoft Azure AD
+
+IMPORTANT: IT must provide updated Azure group to keep up to date. +
+They may need a reminder each semester.
+
+IT creates groups which are subsets of Azure directory.
+(Including all registered students, e.g., "_MercyConnect_AllReg_20251")
+
+Needs refreshing when new students added.

@@ -2,6 +2,7 @@
 
 # Let's try to give a reminder on login to log out!
 # We'll use "(Swift) dialog"
+# see: https://github.com/swiftDialog/swiftDialog/wiki
 
 #Define dialog path for convenience
 dialogPath=/usr/local/bin/dialog

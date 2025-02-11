@@ -146,11 +146,17 @@ This is a folder that is open to all and may be used for group projects and coll
 
 ==== Microsoft OneDrive (free with Mercy email)
 
-* Your student Mercy email account includes 100GB of space on a personal cloud drive (Microsoft OneDrive).
+* Your student Mercy email account includes 50GB (updated 11/2024) of space on a personal cloud drive (Microsoft OneDrive).
 
 * Connect from your Mercy mail web page (or a OneDrive app on your personal Mac, PC, phone or tablet).
 
 * Use your Mercy email credentials to log in.
+
+* Manage this space carefully so you don't run out.
+** Regularly delete unneeded files and remember to empty the "Recycle Bin"
+** IT Helpdesk will consider providing additional space _only_ if you have
+    followed these regular steps.
+
 
 IMPORTANT: If you want access to files from devices outside the labs, get used to copying to your OneDrive before you leave a workstation.
 

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-chown -R root:admin "/Library/Application Support/Propellerhead Software/Propellerhead Content"
-chmod -R go+rx "/Library/Application Support/Propellerhead Software/Propellerhead Content"

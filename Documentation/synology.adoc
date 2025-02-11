@@ -1,4 +1,4 @@
-:doctitle: MPRA Studio Policies
+:doctitle: Synology Management
 
 :author: Phil White
 :author_email: pwhite&#064;mercy.edu
@@ -7,7 +7,7 @@
 
 :toc: left
 :toc-levels: 2
-:toc-title: Studio Policies
+:toc-title: Synology Management
 
 :icons: font
 :sectnumlevels: 2
@@ -20,22 +20,27 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-* Synology Management
+=== Synology Management
 
-File server
-Bash scripts
-Class Folders
-Personal folders
-Permission fix
+* File server
+* Bash scripts
+** Located at /volume1/scripts
+** Class Folders
+** Personal folders
+** Permission fix
 
-Backup
-To local disk
-To external synology
+* Backup
+** To local disk
+** To external synology
 
+* Cloud sync
+** Class-folders
+** Separate out the Instructor-only folders.
+*** Separate Cloud Sync task
 
-Cloud sync
-Class-folders
+* Quorum server
+** Third synology device
 
-High Availability
+* High Availability
 
-UPS
+* UPS

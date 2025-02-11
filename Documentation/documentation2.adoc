@@ -62,13 +62,13 @@ script], updates these Github pages.
 
 == Hardware
 
-NOTE: The University is on a 5-year replacement cycle for lab computers and faculty/staff computers
+NOTE: The University is on a 5-year replacement cycle for lab computers and faculty/staff computers. Approx. purchase date is entered in Remote Desktop field "Computer Info 4" and as such is available in MunkiReport
 
 === Servers
 
 ==== Synology NAS
 
-NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
+NOTE: CATA NAS 1 and 3 are identical models and are connected as a High Availability Cluster
 
 . CATA NAS 1
 * Synology Model RS3617RPxs
@@ -92,16 +92,17 @@ NOTE: CATA NAS 1 and 3 are connected as a High Availability Cluster
 * Services
 ** Backup
 ** DNS
-** Web
+*** Private DNS for convenient naming of local servers (digiarts.mercy domain)
+** Web server
 *** Munki Repo
 
-:leveloffset: +4
+:leveloffset: +2
 
 include::synology.adoc[]
 
-:leveloffset: -4
+:leveloffset: -2
 
-==== Mac Mini servers
+=== Mac Mini servers
 
 . Mini Server 1 RETIRED
 . Mini Server 2
@@ -121,20 +122,33 @@ include::synology.adoc[]
 * iMacs
 ** Intel
 ** M1
+*** Displaylink
+
+include::howto/displaylink.adoc[]
+
 * Mac Minis
 ** Intel
 ** Apple Silicon
 
 === Recording Studios
-:leveloffset: +1
+:leveloffset: -1
 
 include::sections/recordingstudios.adoc[tag=recstudiocomputers]
+:leveloffset: +1
 
 :leveloffset: -1
 
 === Peripheral devices
 
 * Printers
+** Xerox Phaser 7780 - parts no longer available.
+*** Victory 208
+*** Victory 122
+
+** Xerox Phaser 7760
+*** In hall outside Victory 203
+
+IMPORTANT: The Xerox 7760 does _not_ have a current driver for MacOS - it is running as a shared printer from miniserv2, which remains at MacOS 10.13
 
 * Wacom Tablets
 ** Cintiq 22HD
@@ -159,8 +173,33 @@ include::sections/brightsign.adoc[]
 
 ==== Local
 
-** [Ableton Live]
-** [Pro Tools]
+** Ableton Live
+*** We use Sassafras KeyServer, part of https://www.sassafras.com/solutions/#features[Sassafras AllSight]
+*** Sassafras server currently runs on Mini-Server2 (vh216mc11531srv02 at 172.31.48.93)
+**** The license for Sassafras itself is placed in
+     /Library/KeyServer/KeyServer Data Folder and must be named _**server.lic**_
+
+**** The license for Ableton Live is also placed in this folder. It is named similar to _3452175_sstauff@mercy.edu_11_Suite_25.lic_
++
+IMPORTANT: Check permissions of these files if there are issues
++
+**** A custom install pkg for Sassafras (separate from Ableton setup) can be created from their installation download.
+    See https://gist.github.com/PWmercy/f3a6ebe6fdc115c92b8e6d3555d76442[gist here] (Requires log in to GitHub)
+
+** Pro Tools
+*** iLok License Manager app runs a
+    https://help.ilok.com/server_configure_server.html[license server] on Mac mini
+    server (cata-license3.mercy.local - formerly server6.digiarts.mercy - or vh216mc28394srv06).
+**** Requires iLok dongle plugged into server. Currently using 2nd Gen iLok named "Network" (Ser# 00150556)
+**** Using Apple Remote Desktop or Screen Sharing, connect to vh216mc28394srv06.
+**** Run iLok License Manager and choose Preferences menu item.
+**** Choose Server Admin and make sure it is ON
+
+*** Same iLok License Manager app runs on all MPRA lab Macs (no server).
+**** Although lab clients are set to automatically discover the license server, a video of manual connection steps is
+     https://munki6.digiarts.mercy:8090/Video_Help/Connect_to_Pro_Tools_license_1.mp4[here] (only available on campus wired network).
+
+NOTE: The steps above do _not_ require you to log in to iLok account.
 
 ==== Cloud
 
@@ -173,7 +212,8 @@ include::sections/brightsign.adoc[]
 ==== For Design+Animation
 ** Adobe Creative Cloud
 *** {adobe_console}[Management Console]
-**** Licenses and install packages managed on Adobe admin console (currently administered by pwhite&#064;mercy.edu)
+**** Licenses and install packages managed on Adobe admin console (currently
+     administered by {techmgr_email})
 
 **** mercy.edu IDs are federated with Adobe (see https://helpx.adobe.com/enterprise/using/identity.html[Identity Overview]).
 
@@ -212,11 +252,12 @@ include::sections/brightsign.adoc[]
 [#_software_reason]
 ** Reason
 
-IMPORTANT: Reason is being phased out in the labs. Only teacher stations have it set up and licensing is by log in to Reason account.
+IMPORTANT: Reason has been phased out in the labs. Only teacher stations have it set up. +
+Licensing requires logging in to Reason account.
 
 *** As of Reason 12, network multi-license not available. Machines are individually authorized.
 
-*** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
+**** Login to ReasonStudios online account on target machine, choose an unused license, then __Manage License__, then __Write License__
 
 IMPORTANT: Local authorization still requires that https://www.wibu.com/us/support/user/downloads-user-software.html[[green]*CodeMeter*] be installed.
 
@@ -265,9 +306,15 @@ include::deployment_checklists.adoc[tag=checklists]
 These are used for Managing Macs
 
 ** Munki
-*** Customization and Branding
-*** http://munki5.digiarts.mercy/report/index.php?/show/dashboard/default[Munki
-    report]
+
+*** http://miniserv6.digiarts.mercy:8181/show/dashboard/default[Munkireport]
+*** MunkiAdmin runs on miniserv6 (cata-serv3.mercy.local)
+**** Repository is located at smb://cata-munki2.mercy.local/munki_repo
+
+IMPORTANT: Connection to this share often fails.
+Solution seems to be to go to /Volumes, delete the locked mount(s) and eject the other mount, then rec-nnect
+
+*** Customization and Branding is per Munki documentation
 
 ** Autopkg
 
@@ -334,7 +381,15 @@ located at `/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework
 * https://school.apple.com[Apple School Manager]
 * Licensing - each administered differently
 ** http://172.31.48.93:8081[Sassfras KeyServer] for Ableton Live
+*** Clients are set using 2 settings files (located
+    https://github.com/PWmercy/Mercy-Digital-Arts/tree/master/Deployment/Ableton/AbletonLiveInstallPackage/fakeroot/Library/Preferences/Ableton/Live%2011.0.6[here]
+    on Github)
+**** Library.cfg file sets file locations and the options.txt sets `-LicenseServer` switch which instructs Live to use server.
+
+**** These settings files have been packaged as abletonsetup.pkg and deployed using Munki.
+ 
 *** NOTE: Sassafras Allsight system provides many other capabilities including graphic Heat maps of classroom/labs
+
 ** Adobe licensing
 
 === Desktop Central
@@ -360,7 +415,7 @@ Refer to xref:sections/Desktop_Central_agent.adoc#desktop_central[Desktop Centra
 * http://172.31.48.124:5000[Docker] on Synology NAS
 ** Currently used for experimenting with Portainer, Wiki, etc.
 
-= Admin Resources
+== Admin Resources
 
 * Apple
 ** https://school.apple.com[Apple School Manager]
