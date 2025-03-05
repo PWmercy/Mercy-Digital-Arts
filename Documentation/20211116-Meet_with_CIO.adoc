@@ -55,7 +55,7 @@ endif::[]
 * Logic, Munki, Native Instruments
 ** Reduces Internet traffic
 
-* Adobe local repo available via RUM (not currently in use).
+* Adobe local repo available via Adobe Remote Update Manager (RUM - this option not currently in use).
 
 * MacOS local repo deprecated. No redirection of software update server.
 

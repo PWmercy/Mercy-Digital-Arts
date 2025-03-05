@@ -47,7 +47,7 @@ TIP: Use the [blue]*_Table of Contents_* to jump to numbered sections.
 === Get Help
 
 ==== Via email
-* Phil White - {techmgr_email}
+* TJ OConnor - {techmgr_email}
 
 ==== Via Zoom image:media/ZoomLogoSM.png[Zoom]
 

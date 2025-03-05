@@ -10,7 +10,7 @@
 ### to "/Library/Application Support/Propellerhead Software/Propellerhead Content/"
 ### (This is assumed to have been done before running this script)
 ### Then this script makes a symbolic link in the current User library in Reason's expected location (~/Library/ -->> /Library/)
-### Using outset (https://github.com/chilcote/outset/wiki) and its login-once folder (/usr/local/outset), this should run once for each user.
+### Using outset (https://github.com/macadmins/outset) and its login-once folder (/usr/local/outset), this should run once for each user.
 #################################################
 
 # Check if Propellerhead Content has been moved to central folder
